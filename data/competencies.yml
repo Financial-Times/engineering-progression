@@ -1,0 +1,31 @@
+
+- id: example/1.1-competency
+  expandsOn: null
+  summary: Short summary of the competency
+  description: >
+    Longer description of the competency which has a relatively large number of characters.
+    I'm just rambling now to make this longer. La la la typing is fun.
+  examples:
+    - example 1
+    - example 2
+    - example 3
+  level: junior-to-mid
+  area: leadership
+  domain: null
+
+- id: example/1.2-competency
+  expandsOn: example/1.1-competency
+  summary: Short summary of the competency
+  examples:
+    - example 1
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
+- id: example/1.2-competency
+  expandsOn: null
+  summary: Short summary of the competency
+  examples: []
+  level: junior-to-mid
+  area: technical
+  domain: front-end
