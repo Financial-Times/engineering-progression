@@ -1,0 +1,23 @@
+
+# Default front-matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: o-layout-docs
+
+# Files and directories to exclude from compilation
+exclude:
+  - CNAME
+
+# Jekyll plugins
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+
+# Timezone setting
+timezone: Europe/London
+
+# The GitHub repository, for local development
+repository: Financial-Times/engineering-progression

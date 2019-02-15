@@ -1,2 +1,7 @@
 dist
 node_modules
+
+# This ignored here rather than inside the
+# site directory so that the API pages
+# aren't ignored by Jekyll
+site/api

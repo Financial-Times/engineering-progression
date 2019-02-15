@@ -1,0 +1,21 @@
+
+<footer class="o-layout__footer o-footer-services">
+	<div class="o-footer-services__container">
+		<div class="o-footer-services__wrapper o-footer-services__wrapper--top">
+			<a class="o-footer-services__icon-link o-footer-services__icon-link--github" href="{{site.github.repository_url}}">View project on GitHub</a>
+			<a class="o-footer-services__icon-link o-footer-services__icon-link--slack" href="https://financialtimes.slack.com/messages/{{site.data.contact.slack}}">#{{site.data.contact.slack}}</a>
+			<p class="o-footer-services__content">Get in touch at <a href="mailto:{{site.data.contact.email}}">{{site.data.contact.email}}</a> for help or advice. Feel free to
+				<a class="o-footer-services__content--external"   href='{{site.github.repository_url}}/edit/master/site/{{page.path}}'>suggest an edit to this page</a>.</p>
+		</div>
+	</div>
+	<div class="o-footer-services__container">
+		<div class="o-footer-services__wrapper o-footer-services__wrapper--legal">
+			<div class="o-footer-services__links">
+			<a href="http://help.ft.com/help/legal-privacy/cookies/">Cookies</a>
+			<a href="http://help.ft.com/help/legal-privacy/copyright/copyright-policy/">Copyright</a>
+			<a href="http://help.ft.com/help/legal-privacy/privacy/">Privacy</a>
+			<a href="http://help.ft.com/help/legal-privacy/terms-conditions">Terms & Conditions</a>
+		</div>
+		<p><span>&copy; THE FINANCIAL TIMES LTD {{ site.time | date: '%Y' }}.</span> FT and 'Financial Times' are trademarks of The Financial Times Ltd.</p>
+	</div>
+</footer>
