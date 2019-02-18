@@ -54,3 +54,8 @@ If you wish to make changes to the way the engineering competencies are built/te
   - [`script/validate-competencies-json.js`](script/validate-competencies-json.js): this takes the generated competencies JSON and validates it. It is executed when `make test` is run
   - [`test/schema/schema.json`](test/schema/schema.json): this is the [JSON Schema](https://json-schema.org/) definition that is used to validate the competencies
   - [`.circleci/config.yml`](.circleci/config.yml): this is the CircleCI config, which ensures that tests are run automatically when a new commit is pushed to the repo
+
+
+## Licence
+
+This software is published by the Financial Times under the [MIT licence](http://opensource.org/licenses/MIT).
