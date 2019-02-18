@@ -4,11 +4,9 @@
 	"title": "Competencies",
 	"description": "A list of competencies used to track career progression at the Financial Times",
 	"type": "array",
-	"items": [
-		{
-			"$ref": "#/definitions/competency"
-		}
-	],
+	"items": {
+		"$ref": "#/definitions/competency"
+	},
 	"definitions": {
 		"competency": {
 			"title": "Competency",
