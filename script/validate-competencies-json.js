@@ -1,79 +1,148 @@
 #!/usr/bin/env node
 
 const Ajv = require('ajv');
-const competencies = require('../dist/competencies.json');
+const path = require('path');
 const pointer = require('json-pointer');
+const {readJson} = require('fs-extra');
 const schema = require('../test/schema/schema.json');
 
-outputValidationErrors();
+validateJsonAsCompetencies(path.resolve(__dirname, '..', 'dist', 'competencies.json'));
 
-function outputValidationErrors() {
-	const errors = [...getValidationErrors(), ...getIdErrors()];
-	if (!errors.length) {
-		return console.log('No validation errors found in the competencies');
-	}
-	console.log('There were validation errors found in the competencies:\n');
-	console.log(errors.map(errorToString).join('\n\n') + '\n');
-	process.exitCode = 1;
+/**
+ * Validate a JSON file as if it were an array of competencies, then output the result.
+ *
+ * @param {String} yamlFilePath - the path of a JSON file to validate.
+ * @returns {Promise} Returns a promise that resolves when the JSON has been validated.
+ * @modifies Modifies the process with an exit code, and outputs via console.info/error
+ */
+async function validateJsonAsCompetencies(jsonFilePath) {
+	const competencies = await readJson(jsonFilePath);
+	const errors = getValidationErrors(competencies);
+	outputErrorsToCommandLine(errors);
 }
 
-function getValidationErrors() {
+/**
+ * Get validation errors for a set of competencies.
+ *
+ * @param {Array<Object>} competencies - the array of competencies to validate.
+ * @returns {Array<Object>} Returns an array of objects representing validation errors.
+ */
+function getValidationErrors(competencies) {
+	return [
+		...getSchemaErrors(competencies),
+		...getDuplicateIdErrors(competencies)
+	];
+}
+
+/**
+ * Get JSON Schema validation errors for a set of competencies.
+ *
+ * @param {Array<Object>} competencies - the array of competencies to validate.
+ * @returns {Array<Object>} Returns an array of objects representing schema validation errors.
+ */
+function getSchemaErrors(competencies) {
 	const ajv = new Ajv({
 		allErrors: true,
 		jsonPointers: true
 	});
 	const validate = ajv.compile(schema);
-	return (validate(competencies) ? [] : validate.errors);
+	return (validate(competencies) ? [] : processSchemaErrors(validate.errors, competencies));
 }
 
-function getIdErrors() {
-	const errors = [];
+/**
+ * Get duplicate ID validation errors for a set of competencies.
+ *
+ * @param {Array<Object>} competencies - the array of competencies to validate.
+ * @returns {Array<Object>} Returns an array of objects representing duplicate ID validation errors.
+ */
+function getDuplicateIdErrors(competencies) {
+	// We have to code defensively here, as we're not guaranteed at
+	// this point that the competencies match the schema
 	if (Array.isArray(competencies)) {
-		const ids = competencies
-			.filter(competency => typeof competency === 'object' && competency !== null)
-			.map(competency => competency.id)
-			.filter(competency => Boolean(competency));
-		const duplicates = findDuplicates(ids);
-		if (duplicates.length) {
-			errors.push({
-				dataPath: '',
-				message: 'should contain only unique IDs',
-				duplicateIds: duplicates
+		const foundIds = [];
+		return competencies
+			.filter(competency => (
+				typeof competency === 'object' &&
+				competency !== null &&
+				competency.id &&
+				typeof competency.id === 'string'
+			))
+			.filter(competency => {
+				if (foundIds.includes(competency.id)) {
+					return true;
+				}
+				foundIds.push(competency.id);
+				return false;
 			})
-		}
+			.map(competency => {
+				return {
+					path: '/',
+					value: competency,
+					expected: 'IDs must not be duplicated',
+					received: `"${competency.id}" multiple times`
+				};
+			});
 	}
-	return errors;
+	return [];
 }
 
+/**
+ * Process a set of schema errors, ironing out the formatting ready for output.
+ *
+ * @param {Array<Object>} errors - the array of errors to process.
+ * @param {Array<Object>} competencies - the array of competencies that the errors are for.
+ * @returns {Array<Object>} Returns an array of processed error objects.
+ */
+function processSchemaErrors(errors, competencies) {
+	return errors.map(error => {
+		const processedError = {
+			path: error.dataPath,
+			value: pointer(competencies, error.dataPath),
+			expected: error.message,
+			received: ''
+		};
+		processedError.received = JSON.stringify(processedError.value, null, '\t');
+
+		// Custom formatting for enum properties
+		if (error && error.params && error.params.allowedValues) {
+			processedError.expected += ` (${error.params.allowedValues.join(', ')})`;
+		}
+
+		// Custom formatting for "additional property" errors
+		if (error && error.params && error.params.additionalProperty) {
+			processedError.received = `additional property "${error.params.additionalProperty}"`;
+		}
+
+		return processedError;
+	});
+}
+
+/**
+ * Output an array of errors to the command line.
+ *
+ * @param {Array<Object>} errors - the errors to output.
+ * @returns {Undefined} Returns nothing.
+ * @modifies Modifies the process with an exit code, and outputs via console.info/error
+ */
+function outputErrorsToCommandLine(errors) {
+	if (errors.length) {
+		console.error('There were validation errors found in the competencies:\n');
+		console.error(errors.map(errorToString).join('\n\n') + '\n');
+		process.exitCode = 1;
+	} else {
+		console.info('No validation errors found in the competencies');
+	}
+}
+
+/**
+ * Stringify an error object ready for output.
+ *
+ * @param {Object} error - the error to stringify.
+ * @returns {String} Returns a string representation of an error.
+ */
 function errorToString(error) {
-	const value = pointer(competencies, error.dataPath);
-	let expected = error.message;
-	if (error && error.params && error.params.allowedValues) {
-		expected += ` (${error.params.allowedValues.join(', ')})`;
-	}
-	const valueAsJson = JSON.stringify(value, null, '\t');
-	let received = valueAsJson;
-	if (error && error.params && error.params.additionalProperty) {
-		received = `additional property "${error.params.additionalProperty}"`;
-	}
-	if (error && error.duplicateIds) {
-		received = `duplicate IDs ${error.duplicateIds.join(', ')}`;
-	}
-	return `Error in value at ${error.dataPath}:
-		├── Expected: ${expected}
-		└── Received: ${received}
+	return `Error in value at ${error.path}:
+		├── Expected: ${error.expected}
+		└── Received: ${error.received}
 	`.trim().replace(/\t/g, '');
-}
-
-function findDuplicates(array) {
-	const found = [];
-	const duplicates = [];
-	for (const item of array) {
-		if (!found.includes(item)) {
-			found.push(item);
-		} else if (!duplicates.includes(item)) {
-			duplicates.push(item);
-		}
-	}
-	return duplicates;
 }
