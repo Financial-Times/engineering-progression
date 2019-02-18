@@ -1,25 +1,33 @@
 #!/usr/bin/env node
 
-const fs = require('fs-extra');
+const {outputJson, readFile} = require('fs-extra');
 const path = require('path');
 const YAML = require('yaml');
 
-const dataFolderPath = path.resolve(__dirname, '..', 'data');
-const distFolderPath = path.resolve(__dirname, '..', 'dist');
+parseAndSaveYaml(
+	path.resolve(__dirname, '..', 'data', 'competencies.yml'),
+	path.resolve(__dirname, '..', 'dist', 'competencies.json')
+);
 
-(async () => {
-	const data = await parseCompetenciesYaml();
-	await saveCompetenciesJson(JSON.stringify(data, null, '\t'));
-})();
-
-async function parseCompetenciesYaml() {
-	const yamlFilePath = path.join(dataFolderPath, 'competencies.yml');
-	const yamlFileContent = await fs.readFile(yamlFilePath, 'utf-8');
-	return YAML.parse(yamlFileContent);
+/**
+ * Load and parse a YAML file, then save it as JSON.
+ *
+ * @param {String} yamlFilePath - the path of a YAML file to parse.
+ * @param {String} jsonFilePath - the path of the JSON file to save to.
+ * @returns {Promise} Returns a promise that resolves when the JSON file is saved.
+ */
+async function parseAndSaveYaml(yamlFilePath, jsonFilePath) {
+	return outputJson(jsonFilePath, await parseYamlFile(yamlFilePath), {
+		spaces: '\t'
+	});
 }
 
-async function saveCompetenciesJson(json) {
-	await fs.mkdirp(distFolderPath);
-	const jsonFilePath = path.join(distFolderPath, 'competencies.json');
-	return fs.writeFile(jsonFilePath, json);
+/**
+ * Load and parse a YAML file.
+ *
+ * @param {String} yamlFilePath - the path of a YAML file to parse.
+ * @returns {Promise<*>} Returns a promise that resolves with the parsed YAML.
+ */
+async function parseYamlFile(yamlFilePath) {
+	return YAML.parse(await readFile(yamlFilePath, 'utf-8'));
 }
