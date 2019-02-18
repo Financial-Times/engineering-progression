@@ -6,16 +6,21 @@ Competencies for engineers in the CTO organisation. This project is in Alpha –
   - [Overview](#overview)
   - [Contributing](#contributing)
   - [Building and Testing](#building-and-testing)
+  - [Licence](#licence)
 
 
 ## Overview
 
-TODO make a start on this
+This repository aims to be the one source of truth for Engineering competencies in the CTO organisation of the Financial Times. The data in this repo can have changes made to it via pull requests and GitHub issues, our intention is to have conversations around our career paths in the same place as we talk about our day-to-day work.
+
+We also intend on these competencies being made available in other familiar formats, for example a generated Google Sheet which managers and reports can use to track progress.
 
 
 ## Contributing
 
-TODO short thing and then link
+Anybody working for the Financial Times is welcome to suggest changes via a GitHub issue or pull request. You'll find the competencies in [`data/competencies.yml`](data/competencies.yml), and the GitHub interface is probably the easiest way to edit this.
+
+We have a [full contributing guide here](CONTRIBUTING.md), which outlines the language we use and some of the thinking behind the competencies.
 
 
 ## Building and Testing
