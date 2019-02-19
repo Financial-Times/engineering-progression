@@ -1,17 +1,17 @@
 {
-  "name": "@financial-times/engineering-competencies",
+  "name": "@financial-times/engineering-progression",
   "version": "0.0.0",
   "private": true,
-  "description": "Competencies for engineers in the CTO organisation",
+  "description": "Careers and progression for engineers in the CTO organisation",
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://github.com/Financial-Times/engineering-competencies",
+  "homepage": "https://github.com/Financial-Times/engineering-progression",
   "bugs": {
-    "url": "https://github.com/Financial-Times/engineering-competencies/issues"
+    "url": "https://github.com/Financial-Times/engineering-progression/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Financial-Times/engineering-competencies.git"
+    "url": "https://github.com/Financial-Times/engineering-progression.git"
   },
   "engines": {
     "node": ">=10",

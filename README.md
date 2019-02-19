@@ -1,7 +1,7 @@
 
-# Engineering Competencies
+# Engineering Progression
 
-Competencies for engineers in the CTO organisation. This project is in Alpha – **do not use**.
+Careers and progression for engineers in the CTO organisation. This project is in Alpha – **do not use**.
 
   - [Overview](#overview)
   - [Contributing](#contributing)
@@ -11,9 +11,9 @@ Competencies for engineers in the CTO organisation. This project is in Alpha –
 
 ## Overview
 
-This repository aims to be the one source of truth for Engineering competencies in the CTO organisation of the Financial Times. The data in this repo can have changes made to it via pull requests and GitHub issues, our intention is to have conversations around our career paths in the same place as we talk about our day-to-day work.
+This repository aims to be the one source of truth for Engineering careers and progression in the CTO organisation of the Financial Times. The data in this repo can have changes made to it via pull requests and GitHub issues, our intention is to have conversations around our career paths in the same place as we talk about our day-to-day work.
 
-We also intend on these competencies being made available in other familiar formats, for example a generated Google Sheet which managers and reports can use to track progress.
+We also intend on these career competencies being made available in other familiar formats, for example a generated Google Sheet which managers and reports can use to track progress.
 
 
 ## Contributing
