@@ -1,0 +1,13 @@
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: circleci/ruby:2.4.5-node
+    steps:
+      - checkout
+      - run: echo "No tests"
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test

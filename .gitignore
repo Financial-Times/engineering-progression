@@ -1,0 +1,6 @@
+_site
+.ruby-version
+.sass-cache
+dist
+node_modules
+site
