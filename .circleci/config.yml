@@ -15,6 +15,8 @@ jobs:
       - checkout
       - run: make install
       - run: make build
+      - run: git config --global user.email "origami.support@ft.com"
+      - run: git config --global user.name "origamiserviceuser [bot]";
       - run: make publish-website
 workflows:
   version: 2
