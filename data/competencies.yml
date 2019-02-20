@@ -329,7 +329,7 @@
   domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
-  summary: Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly.
+  summary: Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   examples: []
   description: null
   level: mid-to-senior1
@@ -381,7 +381,7 @@
   domain: null
 
 - id: 152af675-554a-4d0d-afb1-190fca3867b2
-  summary: Chooses the appropriate tool, technology or software for a task.
+  summary: Chooses the appropriate tool, technology or software for a task
   examples:
     - If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change
   description: null
