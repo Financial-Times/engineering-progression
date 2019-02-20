@@ -1,29 +1,29 @@
-version: 2
+version: 2.1
 jobs:
   test:
     docker:
-      - image: circleci/node:10
+      - image: circleci/ruby:2.4.5-node
     steps:
       - checkout
-      - run: npm install
+      - run: make install
       - run: make build
       - run: make test
-  publish:
+  publish-website:
     docker:
-      - image: circleci/node:10
+      - image: circleci/ruby:2.4.5-node
     steps:
       - checkout
-      - run: npm install
+      - run: make install
       - run: make build
-      - run: echo "TODO add publishing"
+      - run: make publish-website
 workflows:
   version: 2
-  test:
+  test-and-publish:
     jobs:
       - test
-      - publish:
+      - publish-website:
           filters:
             tags:
               only: /^v.*/
             branches:
-              ignore: /.*/
+              only: master
