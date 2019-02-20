@@ -88,6 +88,7 @@
 			"required": [
 				"id",
 				"summary",
+				"description",
 				"examples",
 				"level",
 				"area",

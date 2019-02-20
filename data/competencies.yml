@@ -1,28 +1,290 @@
 
-- id: ff83c322-82a0-41eb-b917-155c5343704b
-  summary: Short summary of the competency
-  description: >
-    Longer description of the competency which has a relatively large number of characters.
-    I'm just rambling now to make this longer. La la la typing is fun.
-  examples:
-    - example 1
-    - example 2
-    - example 3
-  level: junior-to-mid
-  area: leadership
-  domain: null
+# Junior to Mid, Technical
 
-- id: 31c72848-542c-49d7-a1e8-0bca708d60dd
-  summary: Short summary of the competency
-  examples:
-    - example 1
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
-- id: b4bca7a3-f2dd-4194-bb62-15e6f0321a81
-  summary: Short summary of the competency
+- id: 4029f7b4-0c42-4867-818b-c03049a07de1
+  summary: Is responsible for and maintains their local development environment
   examples: []
+  description: null
   level: junior-to-mid
   area: technical
-  domain: front-end
+  domain: null
+
+- id: 297576d0-c20c-4498-8d53-b00ef9bbe48b
+  summary: Uses version control to manage development workflow
+  examples:
+    - "Git specific example: clone, branch, add, commit, push, rebase"
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: 574c234d-b52e-4765-b160-bac958e2d207
+  summary: Uses a programming language to make something
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: 4db41452-c2c7-40bf-87b1-a2d8ed6f902a
+  summary: Writes automated unit and end to end tests for features
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: 2385d7ee-64c1-45de-b1d9-18050fba9d44
+  summary: Fixes or updates tests when changing existing code
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: 22c2a49e-4e2e-4a63-a09e-57a0efce7e38
+  summary: Learns and improves independently
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: f66d122f-bd81-4b57-8b4a-78f00a11934c
+  summary: Uses third party code and shared libraries to reuse code
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: b0e285f2-08a3-47c2-a810-30d5258e1863
+  summary: Regularly fixes security issues raised by others/automation in own code
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
+  summary: Regularly and independently debugs and fixes issues in their own code
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: 9b30c5f3-7925-4514-9f31-251b32daf1d3
+  summary: Gets involved in fixing production issues
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: e4cd2032-2974-42ba-ac74-565809069447
+  summary: Uses continuous delivery or build pipelines for automation
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: b24b7fe3-3c4f-4fb0-b2b4-ba8c43806701
+  summary: Uses monitoring (not implement monitoring)
+  examples:
+    - Pingdom, grafana
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+- id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
+  summary: Reasons about technical trade-offs
+  examples:
+    - Weighs up the benefits of making code more abstract vs specific
+  description: null
+  level: junior-to-mid
+  area: technical
+  domain: null
+
+
+# Junior to Mid, Communication
+
+- id: 6a019e95-20ab-4af5-a42a-727274eec0d8
+  summary: Regularly documents code through appropriate methods
+  examples:
+    - READMEs
+    - Commit messages
+    - Line comments
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
+- id: a0429b57-40dd-4f65-87d5-924c8a2a1226
+  summary: Provides feedback on peer’s work
+  examples:
+    - Reviews pull requests and gives actionable empathetic feedback
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
+- id: 458cfd7f-b621-462e-ad7f-90870e1d5cfc
+  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other developers
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
+- id: f6e9efd1-7d55-439b-8f7d-c50829e48879
+  summary: Takes ownership of personal development
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
+- id: d31a91de-ae96-457c-9ac1-3752acf148fa
+  summary: Receives feedback and acts upon it
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
+- id: 79c4ecfd-7085-49c2-8a21-429b4a269c96
+  summary: Regularly gives timely actionable feedback to colleagues
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
+
+# Junior to Mid, Delivery
+
+- id: 6dd9f702-6ee8-46d1-9c4c-9c370d971cb1
+  summary: Works on the most important task
+  examples:
+    - Picks the story from the top of a prioritised backlog rather than picking the one that most interests them
+    - Does not get side-tracked by unnecessary details - “I don’t like these tests so I’m going to re-wite them as part of this ticket”
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: e7f347c1-b478-4289-aa1a-c05da3f972ec
+  summary: Uses user research or data to inform decisions
+  examples:
+    - Attends customer based user research for a feature being worked on
+    - Sets up some guerilla testing with developers for a new bit of tooling
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: a4832222-6d61-4cab-ba45-85eb61c20187
+  summary: Leads on getting well defined tasks from concept to production
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: 0ff46645-7966-42f8-9144-23b6a88743cc
+  summary: Regularly collaborates with team members from other disciplines to deliver features
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: 385be187-5aaa-493b-a663-3b8ec7a04d7f
+  summary: Regularly contributes openly to team meetings and encourages others to do so
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: a0c27510-41d9-4a34-98d9-3b49b0ef8056
+  summary: Regularly communicates the status of work
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: 168c5839-8070-4bb1-a0fa-b26d1267e791
+  summary: Asks for help or clarification on tasks when required
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+- id: 76ec9be3-e63f-4374-9742-cbbc1728549a
+  summary: Suggests process improvements
+  examples:
+    - Asks for stand-ups to help team communication
+    - Suggests using Github Issues to track untracked technical work
+  description: null
+  level: junior-to-mid
+  area: delivery
+  domain: null
+
+
+# Junior to Mid, Leadership
+
+- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
+  summary: Represents the views of self and peers to leaders, stakeholders or product owners
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
+
+- id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
+  summary: Understands how they contribute to the businesses goals
+  examples:
+    - Can explain how what they do affects the wider business - such as “I work on code that enables FT.com customers to log in”
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
+
+- id: 54b8fbbe-4c6d-4042-b9f4-e1db1dcf1dac
+  summary: Has knowledge of at least one other area of the FT outside technology
+  examples:
+    - Can articulate the editorial workflow
+    - Knows what’s important to finance
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
+
+- id: ac489603-aa6f-48a7-b89b-25b97ffdb541
+  summary: Acts with integrity, honesty and accountability
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
+
+- id: 4dc43122-71f1-4fb1-99c8-73aa3a666332
+  summary: Positively contributes to an inclusive team culture
+  examples:
+    - Reminds others that a team members may have child care duties
+    - Draws people working remotely into planning conversations
+    - Tactfully calls out exclusive or alienating behaviors from others
+    - Organises a leaving collection for a colleague
+    - Makes a round of tea for the team
+    - Documents team norms to help new starters
+    - Checks in with team members who appear stressed
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
