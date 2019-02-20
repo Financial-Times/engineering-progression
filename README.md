@@ -53,7 +53,7 @@ make install
 You may have noticed that the competencies data is stored as YAML in this repo. This is useful for editing, but JSON is far easier to process programmatically. Once you've [cloned this repository](https://help.github.com/articles/cloning-a-repository/) locally, you will be able to build the competencies JSON with this command:
 
 ```sh
-make build
+make build-competencies-json
 ```
 
 This will create a `dist` folder in the repo, which will contain a `competencies.json` file. It's important to note that this generated file cannot be used to edit competencies, and will be overridden entirely every time `make build` is run.
@@ -84,7 +84,7 @@ make website
 The local website will not have any API endpoints unless you generate them manually. On CI and in production this can be automated. To build an API endpoints, run the following:
 
 ```sh
-CIRCLE_TAG=v1.0.0 make build
+CIRCLE_TAG=v1.0.0 make build-website-api
 ```
 
 This will generate the API endpoint `/api/v1/competencies.json`. The `v1` in the URL corresponds to the Circle tag that you specify, so if you wanted to create a `v2` endpoint you should specify `CIRCLE_TAG=v2.0.0`.

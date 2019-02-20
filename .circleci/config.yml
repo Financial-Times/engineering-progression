@@ -1,31 +1,112 @@
 version: 2.1
+
+# References for reuse across different jobs
+references:
+
+  # Shared container config for all jobs
+  container_config: &container_config
+    docker:
+      - image: circleci/ruby:2.4.5-node
+
+  # Shared cache configuration (restoring)
+  cache_restore_config: &cache_restore_config
+    restore_cache:
+      keys:
+        - dependency-cache-v4-{{ arch }}-{{ .Branch }}-gem{{ checksum "Gemfile.lock" }}-npm{{ checksum "package-lock.json" }}
+        - dependency-cache-v4-{{ arch }}-{{ .Branch }}-gem{{ checksum "Gemfile.lock" }}
+        - dependency-cache-v4-{{ arch }}-{{ .Branch }}
+        - dependency-cache-v4
+
+  # Shared cache configuration (saving)
+  cache_save_config: &cache_save_config
+    save_cache:
+      key: dependency-cache-v4-{{ arch }}-{{ .Branch }}-gem{{ checksum "Gemfile.lock" }}-npm{{ checksum "package-lock.json" }}
+      paths:
+        - node_modules
+        - vendor/bundle
+
+  # Shared installation command
+  install_config: &install_config
+    run:
+      name: Install all dependencies
+      command: make install
+
+# Actual CI jobs
 jobs:
+
+  # Test job, which runs validates data
   test:
-    docker:
-      - image: circleci/ruby:2.4.5-node
+    <<: *container_config
     steps:
       - checkout
-      - run: make install
-      - run: make build
-      - run: make test
+      - *cache_restore_config
+      - *install_config
+      - *cache_save_config
+      - run:
+          name: Run the tests
+          command: make test
+
+  # Publish the Jekyll website
   publish-website:
-    docker:
-      - image: circleci/ruby:2.4.5-node
+    <<: *container_config
     steps:
       - checkout
-      - run: make install
-      - run: make build
-      - run: git config --global user.email "origami.support@ft.com"
-      - run: git config --global user.name "origamiserviceuser [bot]";
-      - run: make publish-website
+      - *cache_restore_config
+      - *install_config
+      - *cache_save_config
+      - run:
+          name: Configure Git
+          command: |
+            git config --global user.email "origami.support@ft.com"
+            git config --global user.name "origamiserviceuser [bot]"
+      - run:
+          name: Build and publish the website
+          command: make publish-website
+
+  # Deploy competency data to a different format after a release
+  deploy:
+    <<: *container_config
+    steps:
+      - checkout
+      - *cache_restore_config
+      - *install_config
+      - *cache_save_config
+      - run:
+          name: TODO
+          command: echo "TODO add deploys, e.g. Google Sheets"
+
+# Workflows
 workflows:
   version: 2
-  test-and-publish:
+  test-publish-deploy:
     jobs:
-      - test
-      - publish-website:
+
+      # Run tests against any branch that is not the
+      # GitHub Pages branch
+      - test:
           filters:
-            tags:
-              only: /^v.*/
+            branches:
+              ignore: gh-pages
+
+      # Publish the Jekyll website only on commits to
+      # the master branch, or a tag which is a valid
+      # semantic version
+      - publish-website:
+          requires:
+            - test
+          filters:
             branches:
               only: master
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+([-+].+)?/
+
+      # Deploy competency data to a different format
+      # only on a tag which is a valid semantic version
+      - deploy:
+          requires:
+            - publish-website
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+([-+].+)?/
