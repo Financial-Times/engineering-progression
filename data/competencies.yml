@@ -288,3 +288,290 @@
   level: junior-to-mid
   area: leadership
   domain: null
+
+
+# Mid to Senior 1, Technical
+
+- id: 2c1289fe-3bf9-476b-981b-8af2d345d76a
+  summary: Implements observability and monitoring when building a solution
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 1391dba0-974b-4035-85fb-be3096658b59
+  summary: Evaluates third-party software to use in projects
+  examples:
+    - Can choose between similar Node libraries evaluating code quality, ease of integration, future maintenance, and security concerns
+    - May be involved in evaluating paid-for third party supplier code
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 07715459-0423-4507-bdf1-fc397507eec7
+  summary: Leads on fixing production issues
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 1d096180-c331-459e-9dbf-4d8db12ac885
+  summary: Understands the security attack vectors for their area of technology and mitigates against them
+  examples:
+    - Uses Snyk.io on projects
+    - Sanitises user input to mitigate against XSS attacks
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
+  summary: Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly.
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 5e9295a7-753a-4530-9d25-8deac9118cbe
+  summary: Takes responsibility for code quality by keeping the quality high and encouraging others in the team to do the same
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: a021bb76-9190-4059-b4c5-285f4f240169
+  summary: Independently debugs bugs regardless of origin
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 3a87302b-c85f-49f6-9e7a-a4989e717fba
+  summary: Builds software or services considering resilience, performance and failure modes
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: fb1bde13-3411-44d2-9589-de3b4cc618f5
+  summary: Debugs and fixes complex issues
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 5df15bf0-4274-4238-a213-2ace5a840eb9
+  summary: Keeps up with industry trends
+  examples:
+    - Attends meet-ups or conferences
+    - Reads blog posts about technology
+    - Follows industry leaders on twitter
+    - Shares industry relevant content/links with team members that may be interested
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+- id: 152af675-554a-4d0d-afb1-190fca3867b2
+  summary: Chooses the appropriate tool, technology or software for a task.
+  examples:
+    - If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
+
+# Mid to Senior 1, Communication
+
+- id: ca4c343e-7adf-4dda-a9c4-71f190ec2722
+  summary: Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
+
+- id: b02459b3-9d11-4436-99cd-0ab037501d76
+  summary: Provides feedback for complex features
+  examples:
+    - Gives detailed empathetic feedback in pull requests
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
+
+- id: 82a8460f-8664-4837-9899-04a74ff5be6f
+  summary: Has worked with in or with another team
+  examples:
+    - Has done a three month secondment with Operations and Reliability
+    - Has done a bootcamp with another team
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
+
+- id: efc4ba84-9188-40cf-97c8-b61da4b163e3
+  summary: Communicates technical concepts to non-technical people clearly
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
+
+- id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
+  summary: Runs meetings with clear agendas and outcomes
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
+
+- id: 37fa54f8-b81e-40d9-b35e-a3e139b872a3
+  summary: Shares knowledge with others internally
+  examples:
+    - Gives a workshop on Git
+    - Pairs on a feature with a more junior colleague
+    - Runs a regular 101 session for the rest of the business
+    - More informal knowledge sharing through mentorship
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
+
+
+# Mid to Senior 1, Delivery
+
+- id: c6bcfbd3-550f-4902-8c9a-bd6e9c77d67b
+  summary: Prioritises technical work for the team (usually with others)
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: 0cba7c1c-23c8-4618-b286-d98125cd7f5c
+  summary: Translates requirements into deliverable units of work
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: 850dda3f-df42-4187-a72b-aed1023b7abd
+  summary: Communicates team/work's status upwards to a Principal or Technical Director
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
+  summary: Does not unnecessarily duplicate work of other teams
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: 7aeb8fec-9bd0-4929-981d-584654bc954f
+  summary: Moves blockers to enable more junior engineers to work
+  examples:
+    - Reviews pull requests
+    - Suggests someone to talk to eg “[X] knows the most about [technology Y], you could ask them”
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: c0d81832-8fe9-485c-8847-25763255a1b3
+  summary: Tackles simple cross team technical issues
+  examples:
+    - Notices a tool used by lots of teams has broken, identifies the problem and fixes
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: d8651fc0-059b-4c11-929f-e07803f9f8bf
+  summary: Understands and considers other teams' needs
+  examples:
+    - Attends cross team meetings
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+- id: 787be828-9a7f-4998-9bc6-a8b06f2d77de
+  summary: Improves flow of delivery
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
+
+# Mid to Senior 1, Leadership
+
+- id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
+  summary: Demonstrates awareness of how their work (or team) relates to the rest of the FT
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
+- id: f34273e2-3d81-4bde-8c23-0217e71b3536
+  summary: Influences a community of practice
+  examples:
+    - Is an active member of a Guild
+    - "Answers questions in the #engineering Slack channel"
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
+- id: 0777c050-8008-4e17-a437-f8de0be3bd55
+  summary: Is an ambassador for their team across FT technology and colleagues in the rest of the business
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
+- id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
+  summary: Has responsibility for others’ development through mentoring or line management
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
+- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
+  summary: Contributes to hiring process
+  examples:
+    - Participates in hiring panels or technical interviews
+    - Attends recruitment events
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
+- id: 2c9171a0-8935-41fa-809e-08c311538eac
+  summary: Shows Technical leadership
+  examples:
+    - Is a tech lead
+    - Runs, or is on the organising team for a Guild
+    - Leads on large features or stories
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
