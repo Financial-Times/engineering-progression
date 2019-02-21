@@ -72,8 +72,8 @@ jobs:
       - *install_config
       - *cache_save_config
       - run:
-          name: TODO
-          command: echo "TODO add deploys, e.g. Google Sheets"
+          name: Deploy to Google Sheets
+          command: make deploy-google-sheets
 
 # Workflows
 workflows:
