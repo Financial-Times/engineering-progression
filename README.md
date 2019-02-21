@@ -106,7 +106,8 @@ If you wish to make changes to the way the engineering competencies are built/te
   - [`Makefile`](Makefile): this contains the `make` tasks used to build and test the competencies
   - [`script/build-competencies-json.js`](script/build-competencies-json.js): this takes the competencies YAML and produces JSON. It is executed when `make build` is run
   - [`script/validate-competencies-json.js`](script/validate-competencies-json.js): this takes the generated competencies JSON and validates it. It is executed when `make test` is run
-  - [`test/schema/schema.json`](test/schema/schema.json): this is the [JSON Schema](https://json-schema.org/) definition that is used to validate the competencies
+  - [`test/schema/competencies.json`](test/schema/competencies.json): this is the [JSON Schema](https://json-schema.org/) definition that is used to validate the competencies
+  - [`test/schema/levels.json`](test/schema/levels.json): this is the [JSON Schema](https://json-schema.org/) definition that is used to validate the competency levels
   - [`.circleci/config.yml`](.circleci/config.yml): this is the CircleCI config, which ensures that tests are run automatically when a new commit is pushed to the repo
 
 
