@@ -35,7 +35,7 @@ TASK_DONE = echo "✓ $@ done"
 all: install build test
 install: install-ruby-gems install-node-modules
 build: build-competencies-json build-website
-test: build validate-competencies-json
+test: validate-competencies-json
 
 
 # Installation tasks
@@ -50,7 +50,12 @@ endif
 
 # Install ruby gems
 install-ruby-gems: install-bundler
-	@bundle install
+ifdef CI
+	@bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
+	@bundle package
+else
+	@bundle check || bundle install
+endif
 	@$(TASK_DONE)
 
 # Install node modules
@@ -77,21 +82,21 @@ endif
 
 # Build the competencies website
 build-website: build-website-api
-	@jekyll build $(JEKYLL_OPTIONS)
+	@bundle exec jekyll build $(JEKYLL_OPTIONS)
 	@$(TASK_DONE)
 
 # Build and serve the website for local development.
 # Simpler naming is for ease of local development,
 # this is not used in the build pipeline
 website:
-	@jekyll serve --watch --livereload $(JEKYLL_OPTIONS)
+	@bundle exec jekyll serve --watch --livereload $(JEKYLL_OPTIONS)
 
 
 # Test tasks
 # ----------
 
 # Validate the competencies JSON
-validate-competencies-json:
+validate-competencies-json: build-competencies-json
 	@./script/validate-competencies-json.js
 	@$(TASK_DONE)
 
