@@ -1,5 +1,6 @@
 _site
 .bundle
+.env*
 .ruby-version
 .sass-cache
 dist
