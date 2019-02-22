@@ -1,5 +1,7 @@
+.bundle
 dist
 node_modules
+vendor
 
 # This ignored here rather than inside the
 # site directory so that the API pages
