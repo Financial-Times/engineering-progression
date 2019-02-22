@@ -22,7 +22,7 @@ deployGoogleSheets({
 	// This is the ID of a spreadsheet to edit. There are a couple of things to note:
 	//   1. The spreadsheet must be shared with the Google API user who matches the given credentials (you can find this information in LastPass)
 	//   2. The spreadsheet will be completely overwritten by this script
-	spreadsheetId: '1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00'
+	spreadsheetId: process.env.GOOGLE_SHEET_ID
 
 });
 
