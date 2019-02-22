@@ -4,9 +4,16 @@ const {outputJson, readFile} = require('fs-extra');
 const path = require('path');
 const YAML = require('yaml');
 
+// Save the competencies JSON
 parseAndSaveYaml(
 	path.resolve(__dirname, '..', 'data', 'competencies.yml'),
 	path.resolve(__dirname, '..', 'dist', 'competencies.json')
+);
+
+// Save the competency levels JSON
+parseAndSaveYaml(
+	path.resolve(__dirname, '..', 'data', 'levels.yml'),
+	path.resolve(__dirname, '..', 'dist', 'levels.json')
 );
 
 /**
