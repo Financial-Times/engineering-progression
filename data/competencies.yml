@@ -248,9 +248,8 @@
   domain: null
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
-  summary: Understands how they contribute to the businesses goals
-  examples:
-    - Can explain how what they do affects the wider business - such as “I work on code that enables FT.com customers to log in”
+  summary: Knows who their project's stakeholders are
+  examples: []
   description: null
   level: junior-to-mid
   area: leadership
@@ -522,7 +521,7 @@
 # Mid to Senior 1, Leadership
 
 - id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
-  summary: Demonstrates awareness of how their work (or team) relates to the rest of the FT
+  summary: Presents aspects of their work to stakeholders
   examples: []
   description: null
   level: mid-to-senior1
@@ -738,3 +737,11 @@
   level: senior1-to-senior2
   area: leadership
   domain: null
+
+  - id: aef1f1b9-8660-99f0-99c3-dac244bb1239
+    summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
+    examples: []
+    description: null
+    level: senior1-to-senior2
+    area: leadership
+    domain: null
