@@ -18,7 +18,7 @@
 					"description": "A unique identifier for the competency",
 					"type": "string",
 					"minLength": 2,
-					"pattern": "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-4{1}[a-fA-F0-9]{3}-[89abAB]{1}[a-fA-F0-9]{3}-[a-fA-F0-9]{12}"
+					"pattern": "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[1-5]{1}[a-fA-F0-9]{3}-[89abAB]{1}[a-fA-F0-9]{3}-[a-fA-F0-9]{12}"
 				},
 				"summary": {
 					"title": "Summary",
