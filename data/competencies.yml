@@ -518,6 +518,13 @@
   area: delivery
   domain: null
 
+- id: 7ccc5fac-5da2-451e-8043-af2fd880fcf9
+  summary: Manages, prioritises and communicates own workload
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
 
 # Mid to Senior 1, Leadership
 
@@ -667,14 +674,6 @@
 
 - id: 83b06961-6462-4500-8ff5-9381f7de8dc5
   summary: Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: delivery
-  domain: null
-
-- id: 7ccc5fac-5da2-451e-8043-af2fd880fcf9
-  summary: Manages, prioritises and communicates workload
   examples: []
   description: null
   level: senior1-to-senior2
