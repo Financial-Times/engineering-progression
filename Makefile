@@ -149,6 +149,14 @@ endif
 	@$(TASK_DONE)
 
 
+# Deploy tasks
+# ------------
+
+deploy-google-sheets: build-competencies-json
+	@./script/deploy-google-sheets.js
+	@$(TASK_DONE)
+
+
 # Housekeeping tasks
 # ------------------
 
