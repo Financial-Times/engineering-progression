@@ -693,7 +693,8 @@
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
   summary: Presents the teams work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
-  examples: ["Presents at the Technology All Hands"]
+  examples:
+    - Presents at the Technology All Hands
   description: null
   level: senior1-to-senior2
   area: leadership
