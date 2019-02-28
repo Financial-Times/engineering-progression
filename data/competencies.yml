@@ -67,7 +67,7 @@
   domain: null
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
-  summary: Regularly and independently debugs and fixes issues in their own code
+  summary: Regularly and independently debugs and fixes bugs in their own code
   examples: []
   description: null
   level: junior-to-mid
@@ -348,8 +348,9 @@
   domain: null
 
 - id: a021bb76-9190-4059-b4c5-285f4f240169
-  summary: Independently debugs bugs regardless of origin
-  examples: []
+  summary: Regularly and independently debugs and fixes bugs regardless of origin
+  examples:
+    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -615,7 +616,7 @@
   domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
-  summary: Debugs and fixes complex issues at speed
+  summary: Debugs and fixes complex bugs at speed
   examples: []
   description: null
   level: senior1-to-senior2
