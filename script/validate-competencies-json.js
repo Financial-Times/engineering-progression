@@ -7,6 +7,11 @@ const {readJson} = require('fs-extra');
 const competenciesSchema = require('../test/schema/competencies.json');
 const levelsSchema = require('../test/schema/levels.json');
 
+process.on('unhandledRejection', error => {
+	console.error(error.stack);
+	process.exitCode = 1;
+});
+
 validateJsonFiles([
 	{
 		path: path.resolve(__dirname, '..', 'dist', 'competencies.json'),
