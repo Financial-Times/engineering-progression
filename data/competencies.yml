@@ -293,6 +293,16 @@
   area: leadership
   domain: null
 
+- id: 3d8a92de-b293-4300-b12f-a1902f0a22f0
+  summary: Shares knowledge with peers informally
+  examples:
+    - Pairs on a feature with a more junior colleague
+    - Helps onboard a new hire, acting as their go-to person for questions
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
+
 
 # Mid to Senior 1, Technical
 
@@ -419,18 +429,6 @@
 - id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
   summary: Runs meetings with clear agendas and outcomes
   examples: []
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
-
-- id: 37fa54f8-b81e-40d9-b35e-a3e139b872a3
-  summary: Shares knowledge with others internally
-  examples:
-    - Gives a workshop on Git
-    - Pairs on a feature with a more junior colleague
-    - Runs a regular 101 session for the rest of the business
-    - More informal knowledge sharing through mentorship
   description: null
   level: mid-to-senior1
   area: communication
@@ -582,6 +580,17 @@
   area: leadership
   domain: null
 
+- id: 37fa54f8-b81e-40d9-b35e-a3e139b872a3
+  summary: Shares knowledge with others internally
+  examples:
+    - Gives a workshop on Git
+    - Runs a regular 101 session for the rest of the business
+    - More informal knowledge sharing through mentorship
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
@@ -708,9 +717,8 @@
   domain: null
 
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
-  summary: Runs education/learning sessions around skills
-  examples:
-    - E.g. integration 101
+  summary: Identifies knowledge gaps within the team and gives training to address gaps
+  examples: []
   description: null
   level: senior1-to-senior2
   area: leadership
