@@ -114,7 +114,7 @@
 - id: 6a019e95-20ab-4af5-a42a-727274eec0d8
   summary: Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code
   examples:
-    - Writes README's with the appropriate level of detail for getting the project set up
+    - Writes READMEs with the appropriate level of detail for getting the project set up
     - Documents common issues with the codebase in a troubleshooting section in the README
     - Finds some documentation they are reading is out of date so opens a Pull Request to improve it
     - Good commit messages that explain why a change was made
