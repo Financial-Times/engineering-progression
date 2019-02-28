@@ -754,10 +754,10 @@
   area: leadership
   domain: null
 
-  - id: aef1f1b9-8660-99f0-99c3-dac244bb1239
-    summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
-    examples: []
-    description: null
-    level: senior1-to-senior2
-    area: leadership
-    domain: null
+- id: 45780158-375a-421b-a89a-97d32e61cdba
+  summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
+  examples: []
+  description: null
+  level: senior1-to-senior2
+  area: leadership
+  domain: null

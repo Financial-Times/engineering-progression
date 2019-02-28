@@ -4,6 +4,11 @@ const {outputJson, readFile} = require('fs-extra');
 const path = require('path');
 const YAML = require('yaml');
 
+process.on('unhandledRejection', error => {
+	console.error(error.stack);
+	process.exitCode = 1;
+});
+
 // Save the competencies JSON
 parseAndSaveYaml(
 	path.resolve(__dirname, '..', 'data', 'competencies.yml'),

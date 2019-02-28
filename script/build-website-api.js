@@ -6,6 +6,11 @@ const levels = require('../dist/levels.json');
 const path = require('path');
 const semver = require('semver');
 
+process.on('unhandledRejection', error => {
+	console.error(error.stack);
+	process.exitCode = 1;
+});
+
 buildWebsiteApi({
 	tag: process.env.CIRCLE_TAG,
 	apiPath: path.resolve(__dirname, '..', 'site', 'api'),
