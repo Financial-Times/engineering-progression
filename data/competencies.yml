@@ -434,17 +434,6 @@
   area: communication
   domain: null
 
-- id: 37fa54f8-b81e-40d9-b35e-a3e139b872a3
-  summary: Shares knowledge with others internally
-  examples:
-    - Gives a workshop on Git
-    - Runs a regular 101 session for the rest of the business
-    - More informal knowledge sharing through mentorship
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
-
 - id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
   summary: Contributes to hiring process
   examples:
