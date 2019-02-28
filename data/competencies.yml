@@ -100,9 +100,10 @@
   domain: null
 
 - id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
-  summary: Reasons about technical trade-offs
+  summary: Reasons about technical trade-offs within their own code
   examples:
     - Weighs up the benefits of making code more abstract vs specific
+    - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
   description: null
   level: junior-to-mid
   area: technical
@@ -330,8 +331,9 @@
   domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
-  summary: Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly
-  examples: []
+  summary: Manages technical trade-offs in the team's projects
+  examples:
+    - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   description: null
   level: mid-to-senior1
   area: technical
@@ -448,6 +450,15 @@
   area: communication
   domain: null
 
+- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
+  summary: Contributes to hiring process
+  examples:
+    - Participates in hiring panels or technical interviews
+    - Attends recruitment events
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
 
 # Mid to Senior 1, Delivery
 
@@ -565,16 +576,6 @@
   area: leadership
   domain: null
 
-- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
-  summary: Contributes to hiring process
-  examples:
-    - Participates in hiring panels or technical interviews
-    - Attends recruitment events
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
 - id: 2c9171a0-8935-41fa-809e-08c311538eac
   summary: Shows Technical leadership
   examples:
@@ -597,8 +598,9 @@
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
-  summary: Makes pragmatic decisions about technical debt, can predict when something is worth cleaning up now at the cost of delivery speed
-  examples: []
+  summary: Makes pragmatic decisions about technical trade-offs
+  examples:
+    - Can predict and explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
   level: senior1-to-senior2
   area: technical
@@ -663,6 +665,13 @@
   area: communication
   domain: null
 
+- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
+  summary: Leads hiring process for new Engineers
+  examples: []
+  description: null
+  level: senior1-to-senior2
+  area: communication
+  domain: null
 
 # Senior 1 to Senior 2, Delivery
 
@@ -713,14 +722,6 @@
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
   summary: Takes ownership of ensuring an inclusive team culture
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
-- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
-  summary: Leads hiring process for new Engineers
   examples: []
   description: null
   level: senior1-to-senior2
