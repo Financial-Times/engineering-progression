@@ -241,7 +241,7 @@
 # Junior to Mid, Leadership
 
 - id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Represents the views of self and peers to leaders, stakeholders or product owners
+  summary: Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.
   examples: []
   description: null
   level: junior-to-mid
@@ -586,6 +586,13 @@
   area: leadership
   domain: null
 
+- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
+  summary: Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
 
 # Senior 1 to Senior 2, Technical
 
@@ -688,8 +695,9 @@
 # Senior 1 to Senior 2, Leadership
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
-  summary: Promotes the work of team and reports to a broad audience
-  examples: []
+  summary: Presents the teams work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  examples:
+    - Presents at the Technology All Hands
   description: null
   level: senior1-to-senior2
   area: leadership
