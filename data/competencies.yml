@@ -450,6 +450,15 @@
   area: communication
   domain: null
 
+- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
+  summary: Contributes to hiring process
+  examples:
+    - Participates in hiring panels or technical interviews
+    - Attends recruitment events
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
 
 # Mid to Senior 1, Delivery
 
@@ -567,16 +576,6 @@
   area: leadership
   domain: null
 
-- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
-  summary: Contributes to hiring process
-  examples:
-    - Participates in hiring panels or technical interviews
-    - Attends recruitment events
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
 - id: 2c9171a0-8935-41fa-809e-08c311538eac
   summary: Shows Technical leadership
   examples:
@@ -666,6 +665,13 @@
   area: communication
   domain: null
 
+- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
+  summary: Leads hiring process for new Engineers
+  examples: []
+  description: null
+  level: senior1-to-senior2
+  area: communication
+  domain: null
 
 # Senior 1 to Senior 2, Delivery
 
@@ -716,14 +722,6 @@
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
   summary: Takes ownership of ensuring an inclusive team culture
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
-- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
-  summary: Leads hiring process for new Engineers
   examples: []
   description: null
   level: senior1-to-senior2
