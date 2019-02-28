@@ -187,8 +187,9 @@
   domain: null
 
 - id: a4832222-6d61-4cab-ba45-85eb61c20187
-  summary: Leads on getting well defined tasks from concept to production
-  examples: []
+  summary: Leads on getting well defined tasks from backlog to production
+  examples:
+    - Turns a user story into a technical implementation in production
   description: null
   level: junior-to-mid
   area: delivery
@@ -240,7 +241,7 @@
 # Junior to Mid, Leadership
 
 - id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Represents the views of self and peers to leaders, stakeholders or product owners
+  summary: Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.
   examples: []
   description: null
   level: junior-to-mid
@@ -450,8 +451,9 @@
   domain: null
 
 - id: 0cba7c1c-23c8-4618-b286-d98125cd7f5c
-  summary: Translates requirements into deliverable units of work
-  examples: []
+  summary: Breaks down large complex technical proposals into discrete tasks
+  examples:
+    - Creates the user stories for the ticket with a delivery lead
   description: null
   level: mid-to-senior1
   area: delivery
@@ -575,6 +577,13 @@
   area: leadership
   domain: null
 
+- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
+  summary: Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
 
 # Senior 1 to Senior 2, Technical
 
@@ -657,7 +666,7 @@
   domain: null
 
 - id: 877d7313-d6de-44ae-80b4-5ed094ddf39a
-  summary: Breaks down large complex problems into discrete steps
+  summary: Takes a stakeholder problem, investigates to understand it and a proposes solution
   examples: []
   description: null
   level: senior1-to-senior2
@@ -676,8 +685,9 @@
 # Senior 1 to Senior 2, Leadership
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
-  summary: Promotes the work of team and reports to a broad audience
-  examples: []
+  summary: Presents the teams work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  examples:
+    - Presents at the Technology All Hands
   description: null
   level: senior1-to-senior2
   area: leadership
