@@ -67,7 +67,7 @@
   domain: null
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
-  summary: Regularly and independently debugs and fixes issues in their own code
+  summary: Regularly and independently debugs and fixes bugs in their own code
   examples: []
   description: null
   level: junior-to-mid
@@ -100,9 +100,10 @@
   domain: null
 
 - id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
-  summary: Reasons about technical trade-offs
+  summary: Reasons about technical trade-offs within their own code
   examples:
     - Weighs up the benefits of making code more abstract vs specific
+    - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
   description: null
   level: junior-to-mid
   area: technical
@@ -187,8 +188,9 @@
   domain: null
 
 - id: a4832222-6d61-4cab-ba45-85eb61c20187
-  summary: Leads on getting well defined tasks from concept to production
-  examples: []
+  summary: Leads on getting well defined tasks from backlog to production
+  examples:
+    - Turns a user story into a technical implementation in production
   description: null
   level: junior-to-mid
   area: delivery
@@ -240,7 +242,7 @@
 # Junior to Mid, Leadership
 
 - id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Represents the views of self and peers to leaders, stakeholders or product owners
+  summary: Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.
   examples: []
   description: null
   level: junior-to-mid
@@ -248,9 +250,8 @@
   domain: null
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
-  summary: Understands how they contribute to the businesses goals
-  examples:
-    - Can explain how what they do affects the wider business - such as “I work on code that enables FT.com customers to log in”
+  summary: Knows who their project's stakeholders are
+  examples: []
   description: null
   level: junior-to-mid
   area: leadership
@@ -329,8 +330,9 @@
   domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
-  summary: Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly
-  examples: []
+  summary: Manages technical trade-offs in the team's projects
+  examples:
+    - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   description: null
   level: mid-to-senior1
   area: technical
@@ -345,8 +347,9 @@
   domain: null
 
 - id: a021bb76-9190-4059-b4c5-285f4f240169
-  summary: Independently debugs bugs regardless of origin
-  examples: []
+  summary: Regularly and independently debugs and fixes bugs regardless of origin
+  examples:
+    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -400,15 +403,6 @@
   area: communication
   domain: null
 
-- id: b02459b3-9d11-4436-99cd-0ab037501d76
-  summary: Provides feedback for complex features
-  examples:
-    - Gives detailed empathetic feedback in pull requests
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
-
 - id: 82a8460f-8664-4837-9899-04a74ff5be6f
   summary: Has worked with in or with another team
   examples:
@@ -447,6 +441,15 @@
   area: communication
   domain: null
 
+- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
+  summary: Contributes to hiring process
+  examples:
+    - Participates in hiring panels or technical interviews
+    - Attends recruitment events
+  description: null
+  level: mid-to-senior1
+  area: communication
+  domain: null
 
 # Mid to Senior 1, Delivery
 
@@ -459,8 +462,9 @@
   domain: null
 
 - id: 0cba7c1c-23c8-4618-b286-d98125cd7f5c
-  summary: Translates requirements into deliverable units of work
-  examples: []
+  summary: Breaks down large complex technical proposals into discrete tasks
+  examples:
+    - Creates the user stories for the ticket with a delivery lead
   description: null
   level: mid-to-senior1
   area: delivery
@@ -531,7 +535,7 @@
 # Mid to Senior 1, Leadership
 
 - id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
-  summary: Demonstrates awareness of how their work (or team) relates to the rest of the FT
+  summary: Presents aspects of their work to stakeholders
   examples: []
   description: null
   level: mid-to-senior1
@@ -564,16 +568,6 @@
   area: leadership
   domain: null
 
-- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
-  summary: Contributes to hiring process
-  examples:
-    - Participates in hiring panels or technical interviews
-    - Attends recruitment events
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
 - id: 2c9171a0-8935-41fa-809e-08c311538eac
   summary: Shows Technical leadership
   examples:
@@ -585,12 +579,20 @@
   area: leadership
   domain: null
 
+- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
+  summary: Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
 
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
-  summary: Makes pragmatic decisions about technical debt, can predict when something is worth cleaning up now at the cost of delivery speed
-  examples: []
+  summary: Makes pragmatic decisions about technical trade-offs
+  examples:
+    - Can predict and explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
   level: senior1-to-senior2
   area: technical
@@ -605,7 +607,7 @@
   domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
-  summary: Debugs and fixes complex issues at speed
+  summary: Debugs and fixes complex bugs at speed
   examples: []
   description: null
   level: senior1-to-senior2
@@ -655,6 +657,13 @@
   area: communication
   domain: null
 
+- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
+  summary: Leads hiring process for new Engineers
+  examples: []
+  description: null
+  level: senior1-to-senior2
+  area: communication
+  domain: null
 
 # Senior 1 to Senior 2, Delivery
 
@@ -667,7 +676,7 @@
   domain: null
 
 - id: 877d7313-d6de-44ae-80b4-5ed094ddf39a
-  summary: Breaks down large complex problems into discrete steps
+  summary: Takes a stakeholder problem, investigates to understand it and a proposes solution
   examples: []
   description: null
   level: senior1-to-senior2
@@ -694,8 +703,9 @@
 # Senior 1 to Senior 2, Leadership
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
-  summary: Promotes the work of team and reports to a broad audience
-  examples: []
+  summary: Presents the teams work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  examples:
+    - Presents at the Technology All Hands
   description: null
   level: senior1-to-senior2
   area: leadership
@@ -712,14 +722,6 @@
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
   summary: Takes ownership of ensuring an inclusive team culture
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
-- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
-  summary: Leads hiring process for new Engineers
   examples: []
   description: null
   level: senior1-to-senior2
@@ -747,3 +749,11 @@
   level: senior1-to-senior2
   area: leadership
   domain: null
+
+  - id: aef1f1b9-8660-99f0-99c3-dac244bb1239
+    summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
+    examples: []
+    description: null
+    level: senior1-to-senior2
+    area: leadership
+    domain: null
