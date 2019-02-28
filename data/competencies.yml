@@ -229,10 +229,10 @@
   domain: null
 
 - id: 76ec9be3-e63f-4374-9742-cbbc1728549a
-  summary: Suggests process improvements
+  summary: Participates in delivery process
   examples:
-    - Asks for stand-ups to help team communication
-    - Suggests using Github Issues to track untracked technical work
+    - Moves tickets to done column when they are complete
+    - Goes to stand-ups and communicates progress
   description: null
   level: junior-to-mid
   area: delivery
@@ -515,8 +515,9 @@
   domain: null
 
 - id: 787be828-9a7f-4998-9bc6-a8b06f2d77de
-  summary: Improves flow of delivery
-  examples: []
+  summary: Improves delivery process and encourages others to do the same
+  examples:
+    - Updates the scrum process to fit the changing needs of the team
   description: null
   level: mid-to-senior1
   area: delivery
@@ -685,6 +686,15 @@
 - id: 83b06961-6462-4500-8ff5-9381f7de8dc5
   summary: Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them
   examples: []
+  description: null
+  level: senior1-to-senior2
+  area: delivery
+  domain: null
+
+- id: 983dd8411-940d-4aa8-9ba6-add04510a7da
+  summary: Is accountable for the delivery of the team
+  examples:
+    - Helps delivery lead write progress reports
   description: null
   level: senior1-to-senior2
   area: delivery
