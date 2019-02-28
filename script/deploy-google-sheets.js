@@ -6,6 +6,11 @@ const path = require('path');
 const semver = require('semver');
 const uuid = require('uuid').v4;
 
+process.on('unhandledRejection', error => {
+	console.error(error.stack);
+	process.exitCode = 1;
+});
+
 if (!process.env.CIRCLE_TAG || !semver.valid(process.env.CIRCLE_TAG)) {
 	process.exitCode = 1;
 	return console.error('Error: CIRCLE_TAG environment variable must be set to a valid semver version');
