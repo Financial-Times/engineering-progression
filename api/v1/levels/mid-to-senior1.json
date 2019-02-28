@@ -47,8 +47,10 @@
 		},
 		{
 			"id": "0d01eb2a-eed0-499b-8510-a72fd656ada4",
-			"summary": "Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly",
-			"examples": [],
+			"summary": "Manages technical trade-offs in the team's projects",
+			"examples": [
+				"Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -65,8 +67,10 @@
 		},
 		{
 			"id": "a021bb76-9190-4059-b4c5-285f4f240169",
-			"summary": "Independently debugs bugs regardless of origin",
-			"examples": [],
+			"summary": "Regularly and independently debugs and fixes bugs regardless of origin",
+			"examples": [
+				"Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -116,26 +120,6 @@
 			"domain": null
 		},
 		{
-			"id": "ca4c343e-7adf-4dda-a9c4-71f190ec2722",
-			"summary": "Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code",
-			"examples": [],
-			"description": null,
-			"level": "mid-to-senior1",
-			"area": "communication",
-			"domain": null
-		},
-		{
-			"id": "b02459b3-9d11-4436-99cd-0ab037501d76",
-			"summary": "Provides feedback for complex features",
-			"examples": [
-				"Gives detailed empathetic feedback in pull requests"
-			],
-			"description": null,
-			"level": "mid-to-senior1",
-			"area": "communication",
-			"domain": null
-		},
-		{
 			"id": "82a8460f-8664-4837-9899-04a74ff5be6f",
 			"summary": "Has worked with in or with another team",
 			"examples": [
@@ -166,13 +150,11 @@
 			"domain": null
 		},
 		{
-			"id": "37fa54f8-b81e-40d9-b35e-a3e139b872a3",
-			"summary": "Shares knowledge with others internally",
+			"id": "7cf4de83-f8e0-4311-ba1b-a9233c659520",
+			"summary": "Contributes to hiring process",
 			"examples": [
-				"Gives a workshop on Git",
-				"Pairs on a feature with a more junior colleague",
-				"Runs a regular 101 session for the rest of the business",
-				"More informal knowledge sharing through mentorship"
+				"Participates in hiring panels or technical interviews",
+				"Attends recruitment events"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -190,8 +172,10 @@
 		},
 		{
 			"id": "0cba7c1c-23c8-4618-b286-d98125cd7f5c",
-			"summary": "Translates requirements into deliverable units of work",
-			"examples": [],
+			"summary": "Breaks down large complex technical proposals into discrete tasks",
+			"examples": [
+				"Creates the user stories for the ticket with a delivery lead"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -251,7 +235,18 @@
 		},
 		{
 			"id": "787be828-9a7f-4998-9bc6-a8b06f2d77de",
-			"summary": "Improves flow of delivery",
+			"summary": "Improves delivery process and encourages others to do the same",
+			"examples": [
+				"Updates the scrum process to fit the changing needs of the team"
+			],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "7ccc5fac-5da2-451e-8043-af2fd880fcf9",
+			"summary": "Manages, prioritises and communicates own workload",
 			"examples": [],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -260,7 +255,7 @@
 		},
 		{
 			"id": "c0cf9ac1-a25f-44ed-818e-ba0895dc5e02",
-			"summary": "Demonstrates awareness of how their work (or team) relates to the rest of the FT",
+			"summary": "Presents aspects of their work to stakeholders",
 			"examples": [],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -298,11 +293,12 @@
 			"domain": null
 		},
 		{
-			"id": "7cf4de83-f8e0-4311-ba1b-a9233c659520",
-			"summary": "Contributes to hiring process",
+			"id": "2c9171a0-8935-41fa-809e-08c311538eac",
+			"summary": "Shows Technical leadership",
 			"examples": [
-				"Participates in hiring panels or technical interviews",
-				"Attends recruitment events"
+				"Is a tech lead",
+				"Runs, or is on the organising team for a Guild",
+				"Leads on large features or stories"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -310,12 +306,21 @@
 			"domain": null
 		},
 		{
-			"id": "2c9171a0-8935-41fa-809e-08c311538eac",
-			"summary": "Shows Technical leadership",
+			"id": "11d32a45-ea1e-411f-a810-12a4f0b8ddb9",
+			"summary": "Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.",
+			"examples": [],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "37fa54f8-b81e-40d9-b35e-a3e139b872a3",
+			"summary": "Shares knowledge with others internally",
 			"examples": [
-				"Is a tech lead",
-				"Runs, or is on the organising team for a Guild",
-				"Leads on large features or stories"
+				"Gives a workshop on Git",
+				"Runs a regular 101 session for the rest of the business",
+				"More informal knowledge sharing through mentorship"
 			],
 			"description": null,
 			"level": "mid-to-senior1",

@@ -79,7 +79,7 @@
 		},
 		{
 			"id": "e566bfce-9390-47ea-9e46-f1db25ae9cc0",
-			"summary": "Regularly and independently debugs and fixes issues in their own code",
+			"summary": "Regularly and independently debugs and fixes bugs in their own code",
 			"examples": [],
 			"description": null,
 			"level": "junior-to-mid",
@@ -117,9 +117,10 @@
 		},
 		{
 			"id": "09066401-3dab-499f-a91f-dbbf5e19bdd8",
-			"summary": "Reasons about technical trade-offs",
+			"summary": "Reasons about technical trade-offs within their own code",
 			"examples": [
-				"Weighs up the benefits of making code more abstract vs specific"
+				"Weighs up the benefits of making code more abstract vs specific",
+				"Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse"
 			],
 			"description": null,
 			"level": "junior-to-mid",
@@ -128,11 +129,14 @@
 		},
 		{
 			"id": "6a019e95-20ab-4af5-a42a-727274eec0d8",
-			"summary": "Regularly documents code through appropriate methods",
+			"summary": "Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code",
 			"examples": [
-				"READMEs",
-				"Commit messages",
-				"Line comments"
+				"Writes READMEs with the appropriate level of detail for getting the project set up",
+				"Documents common issues with the codebase in a troubleshooting section in the README",
+				"Finds some documentation they are reading is out of date so opens a Pull Request to improve it",
+				"Good commit messages that explain why a change was made",
+				"Puts line comments around any 'magic' bits of code",
+				"Writes and updates runbooks for services they work on"
 			],
 			"description": null,
 			"level": "junior-to-mid",
@@ -212,8 +216,10 @@
 		},
 		{
 			"id": "a4832222-6d61-4cab-ba45-85eb61c20187",
-			"summary": "Leads on getting well defined tasks from concept to production",
-			"examples": [],
+			"summary": "Leads on getting well defined tasks from backlog to production",
+			"examples": [
+				"Turns a user story into a technical implementation in production"
+			],
 			"description": null,
 			"level": "junior-to-mid",
 			"area": "delivery",
@@ -257,10 +263,10 @@
 		},
 		{
 			"id": "76ec9be3-e63f-4374-9742-cbbc1728549a",
-			"summary": "Suggests process improvements",
+			"summary": "Participates in delivery process",
 			"examples": [
-				"Asks for stand-ups to help team communication",
-				"Suggests using Github Issues to track untracked technical work"
+				"Moves tickets to done column when they are complete",
+				"Goes to stand-ups and communicates progress"
 			],
 			"description": null,
 			"level": "junior-to-mid",
@@ -269,7 +275,7 @@
 		},
 		{
 			"id": "88c876aa-fce5-414b-b0c0-b1b7602beea8",
-			"summary": "Represents the views of self and peers to leaders, stakeholders or product owners",
+			"summary": "Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.",
 			"examples": [],
 			"description": null,
 			"level": "junior-to-mid",
@@ -278,10 +284,8 @@
 		},
 		{
 			"id": "c9cf0d0e-2695-479c-97ef-4457ae36aeb6",
-			"summary": "Understands how they contribute to the businesses goals",
-			"examples": [
-				"Can explain how what they do affects the wider business - such as “I work on code that enables FT.com customers to log in”"
-			],
+			"summary": "Knows who their project's stakeholders are",
+			"examples": [],
 			"description": null,
 			"level": "junior-to-mid",
 			"area": "leadership",
@@ -319,6 +323,18 @@
 				"Makes a round of tea for the team",
 				"Documents team norms to help new starters",
 				"Checks in with team members who appear stressed"
+			],
+			"description": null,
+			"level": "junior-to-mid",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "3d8a92de-b293-4300-b12f-a1902f0a22f0",
+			"summary": "Shares knowledge with peers informally",
+			"examples": [
+				"Pairs on a feature with a more junior colleague",
+				"Helps onboard a new hire, acting as their go-to person for questions"
 			],
 			"description": null,
 			"level": "junior-to-mid",
