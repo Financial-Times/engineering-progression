@@ -112,11 +112,14 @@
 # Junior to Mid, Communication
 
 - id: 6a019e95-20ab-4af5-a42a-727274eec0d8
-  summary: Regularly documents code through appropriate methods
+  summary: Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code
   examples:
-    - READMEs
-    - Commit messages
-    - Line comments
+    - Writes README's with the appropriate level of detail for getting the project set up
+    - Documents common issues with the codebase in a troubleshooting section in the README
+    - Finds some documentation they are reading is out of date so opens a Pull Request to improve it
+    - Good commit messages that explain why a change was made
+    - Puts line comments around any 'magic' bits of code
+    - Writes and updates runbooks for services they work on
   description: null
   level: junior-to-mid
   area: communication
@@ -391,14 +394,6 @@
 
 
 # Mid to Senior 1, Communication
-
-- id: ca4c343e-7adf-4dda-a9c4-71f190ec2722
-  summary: Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code
-  examples: []
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
 
 - id: b02459b3-9d11-4436-99cd-0ab037501d76
   summary: Provides feedback for complex features
