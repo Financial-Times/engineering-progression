@@ -519,6 +519,14 @@
   area: delivery
   domain: null
 
+- id: 7ccc5fac-5da2-451e-8043-af2fd880fcf9
+  summary: Manages, prioritises and communicates own workload
+  examples: []
+  description: null
+  level: mid-to-senior1
+  area: delivery
+  domain: null
+
 
 # Mid to Senior 1, Leadership
 
@@ -674,14 +682,6 @@
   area: delivery
   domain: null
 
-- id: 7ccc5fac-5da2-451e-8043-af2fd880fcf9
-  summary: Manages, prioritises and communicates workload
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: delivery
-  domain: null
-
 - id: 983dd8411-940d-4aa8-9ba6-add04510a7da
   summary: Is accountable for the delivery of the team
   examples:
@@ -690,6 +690,7 @@
   level: senior1-to-senior2
   area: delivery
   domain: null
+
 
 # Senior 1 to Senior 2, Leadership
 
