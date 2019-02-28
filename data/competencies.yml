@@ -67,7 +67,7 @@
   domain: null
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
-  summary: Regularly and independently debugs and fixes issues in their own code
+  summary: Regularly and independently debugs and fixes bugs in their own code
   examples: []
   description: null
   level: junior-to-mid
@@ -232,10 +232,10 @@
   domain: null
 
 - id: 76ec9be3-e63f-4374-9742-cbbc1728549a
-  summary: Suggests process improvements
+  summary: Participates in delivery process
   examples:
-    - Asks for stand-ups to help team communication
-    - Suggests using Github Issues to track untracked technical work
+    - Moves tickets to done column when they are complete
+    - Goes to stand-ups and communicates progress
   description: null
   level: junior-to-mid
   area: delivery
@@ -253,9 +253,8 @@
   domain: null
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
-  summary: Understands how they contribute to the businesses goals
-  examples:
-    - Can explain how what they do affects the wider business - such as “I work on code that enables FT.com customers to log in”
+  summary: Knows who their project's stakeholders are
+  examples: []
   description: null
   level: junior-to-mid
   area: leadership
@@ -351,8 +350,9 @@
   domain: null
 
 - id: a021bb76-9190-4059-b4c5-285f4f240169
-  summary: Independently debugs bugs regardless of origin
-  examples: []
+  summary: Regularly and independently debugs and fixes bugs regardless of origin
+  examples:
+    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -397,15 +397,6 @@
 
 
 # Mid to Senior 1, Communication
-
-- id: b02459b3-9d11-4436-99cd-0ab037501d76
-  summary: Provides feedback for complex features
-  examples:
-    - Gives detailed empathetic feedback in pull requests
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
 
 - id: 82a8460f-8664-4837-9899-04a74ff5be6f
   summary: Has worked with in or with another team
@@ -519,8 +510,9 @@
   domain: null
 
 - id: 787be828-9a7f-4998-9bc6-a8b06f2d77de
-  summary: Improves flow of delivery
-  examples: []
+  summary: Improves delivery process and encourages others to do the same
+  examples:
+    - Updates the scrum process to fit the changing needs of the team
   description: null
   level: mid-to-senior1
   area: delivery
@@ -538,7 +530,7 @@
 # Mid to Senior 1, Leadership
 
 - id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
-  summary: Demonstrates awareness of how their work (or team) relates to the rest of the FT
+  summary: Presents aspects of their work to stakeholders
   examples: []
   description: null
   level: mid-to-senior1
@@ -610,7 +602,7 @@
   domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
-  summary: Debugs and fixes complex issues at speed
+  summary: Debugs and fixes complex bugs at speed
   examples: []
   description: null
   level: senior1-to-senior2
@@ -694,6 +686,15 @@
   area: delivery
   domain: null
 
+- id: 983dd8411-940d-4aa8-9ba6-add04510a7da
+  summary: Is accountable for the delivery of the team
+  examples:
+    - Helps delivery lead write progress reports
+  description: null
+  level: senior1-to-senior2
+  area: delivery
+  domain: null
+
 
 # Senior 1 to Senior 2, Leadership
 
@@ -744,3 +745,11 @@
   level: senior1-to-senior2
   area: leadership
   domain: null
+
+  - id: aef1f1b9-8660-99f0-99c3-dac244bb1239
+    summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
+    examples: []
+    description: null
+    level: senior1-to-senior2
+    area: leadership
+    domain: null
