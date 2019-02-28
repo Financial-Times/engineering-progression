@@ -67,7 +67,7 @@
   domain: null
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
-  summary: Regularly and independently debugs and fixes issues in their own code
+  summary: Regularly and independently debugs and fixes bugs in their own code
   examples: []
   description: null
   level: junior-to-mid
@@ -100,9 +100,10 @@
   domain: null
 
 - id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
-  summary: Reasons about technical trade-offs
+  summary: Reasons about technical trade-offs within their own code
   examples:
     - Weighs up the benefits of making code more abstract vs specific
+    - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
   description: null
   level: junior-to-mid
   area: technical
@@ -249,9 +250,8 @@
   domain: null
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
-  summary: Understands how they contribute to the businesses goals
-  examples:
-    - Can explain how what they do affects the wider business - such as “I work on code that enables FT.com customers to log in”
+  summary: Knows who their project's stakeholders are
+  examples: []
   description: null
   level: junior-to-mid
   area: leadership
@@ -330,8 +330,9 @@
   domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
-  summary: Manages technical debt in projects, understands consequences of technical debt vs the cost of fixing it and acts accordingly
-  examples: []
+  summary: Manages technical trade-offs in the team's projects
+  examples:
+    - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   description: null
   level: mid-to-senior1
   area: technical
@@ -346,8 +347,9 @@
   domain: null
 
 - id: a021bb76-9190-4059-b4c5-285f4f240169
-  summary: Independently debugs bugs regardless of origin
-  examples: []
+  summary: Regularly and independently debugs and fixes bugs regardless of origin
+  examples:
+    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -396,15 +398,6 @@
 - id: ca4c343e-7adf-4dda-a9c4-71f190ec2722
   summary: Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code
   examples: []
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
-
-- id: b02459b3-9d11-4436-99cd-0ab037501d76
-  summary: Provides feedback for complex features
-  examples:
-    - Gives detailed empathetic feedback in pull requests
   description: null
   level: mid-to-senior1
   area: communication
@@ -542,7 +535,7 @@
 # Mid to Senior 1, Leadership
 
 - id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
-  summary: Demonstrates awareness of how their work (or team) relates to the rest of the FT
+  summary: Presents aspects of their work to stakeholders
   examples: []
   description: null
   level: mid-to-senior1
@@ -597,8 +590,9 @@
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
-  summary: Makes pragmatic decisions about technical debt, can predict when something is worth cleaning up now at the cost of delivery speed
-  examples: []
+  summary: Makes pragmatic decisions about technical trade-offs
+  examples:
+    - Can predict and explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
   level: senior1-to-senior2
   area: technical
@@ -613,7 +607,7 @@
   domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
-  summary: Debugs and fixes complex issues at speed
+  summary: Debugs and fixes complex bugs at speed
   examples: []
   description: null
   level: senior1-to-senior2
@@ -756,3 +750,11 @@
   level: senior1-to-senior2
   area: leadership
   domain: null
+
+  - id: aef1f1b9-8660-99f0-99c3-dac244bb1239
+    summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
+    examples: []
+    description: null
+    level: senior1-to-senior2
+    area: leadership
+    domain: null
