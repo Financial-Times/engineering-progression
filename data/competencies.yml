@@ -1,7 +1,7 @@
 
 # Junior to Mid, Technical
 
-- id: 4029f7b4-0c42-4867-818b-c03049a07de1
+- id: j-m.tech.development-environment
   summary: Is responsible for and maintains their local development environment
   examples: []
   description: null
@@ -9,7 +9,7 @@
   area: technical
   domain: null
 
-- id: 297576d0-c20c-4498-8d53-b00ef9bbe48b
+- id: j-m.tech.version-control
   summary: Uses version control to manage development workflow
   examples:
     - "Git specific example: clone, branch, add, commit, push, rebase"
@@ -18,7 +18,7 @@
   area: technical
   domain: null
 
-- id: 574c234d-b52e-4765-b160-bac958e2d207
+- id: j-m.tech.programming
   summary: Uses a programming language to make something
   examples: []
   description: null
@@ -26,7 +26,7 @@
   area: technical
   domain: null
 
-- id: 4db41452-c2c7-40bf-87b1-a2d8ed6f902a
+- id: j-m.tech.testing-tdd
   summary: Writes automated unit and end to end tests for features
   examples: []
   description: null
@@ -34,7 +34,7 @@
   area: technical
   domain: null
 
-- id: 2385d7ee-64c1-45de-b1d9-18050fba9d44
+- id: j-m.tech.testing-maintenance
   summary: Fixes or updates tests when changing existing code
   examples: []
   description: null
@@ -42,7 +42,7 @@
   area: technical
   domain: null
 
-- id: 22c2a49e-4e2e-4a63-a09e-57a0efce7e38
+- id: j-m.tech.independent-learning
   summary: Learns and improves independently
   examples: []
   description: null
@@ -50,7 +50,7 @@
   area: technical
   domain: null
 
-- id: f66d122f-bd81-4b57-8b4a-78f00a11934c
+- id: j-m.tech.code-reuse
   summary: Uses third party code and shared libraries to reuse code
   examples: []
   description: null
@@ -58,7 +58,7 @@
   area: technical
   domain: null
 
-- id: b0e285f2-08a3-47c2-a810-30d5258e1863
+- id: j-m.tech.security
   summary: Regularly fixes security issues raised by others/automation in own code
   examples: []
   description: null
@@ -66,7 +66,7 @@
   area: technical
   domain: null
 
-- id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
+- id: j-m.tech.debugging
   summary: Regularly and independently debugs and fixes bugs in their own code
   examples: []
   description: null
@@ -74,7 +74,7 @@
   area: technical
   domain: null
 
-- id: 9b30c5f3-7925-4514-9f31-251b32daf1d3
+- id: j-m.tech.operations
   summary: Gets involved in fixing production issues
   examples: []
   description: null
@@ -82,7 +82,7 @@
   area: technical
   domain: null
 
-- id: e4cd2032-2974-42ba-ac74-565809069447
+- id: j-m.tech.deployment
   summary: Uses continuous delivery or build pipelines for automation
   examples: []
   description: null
@@ -90,7 +90,7 @@
   area: technical
   domain: null
 
-- id: b24b7fe3-3c4f-4fb0-b2b4-ba8c43806701
+- id: j-m.tech.observability
   summary: Uses monitoring (not implement monitoring)
   examples:
     - Pingdom, grafana
@@ -99,7 +99,7 @@
   area: technical
   domain: null
 
-- id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
+- id: j-m.tech.trade-offs
   summary: Reasons about technical trade-offs within their own code
   examples:
     - Weighs up the benefits of making code more abstract vs specific
@@ -112,7 +112,7 @@
 
 # Junior to Mid, Communication
 
-- id: 6a019e95-20ab-4af5-a42a-727274eec0d8
+- id: j-m-
   summary: Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code
   examples:
     - Writes READMEs with the appropriate level of detail for getting the project set up
@@ -126,7 +126,7 @@
   area: communication
   domain: null
 
-- id: a0429b57-40dd-4f65-87d5-924c8a2a1226
+- id: j-m-
   summary: Provides feedback on peer’s work
   examples:
     - Reviews pull requests and gives actionable empathetic feedback
@@ -135,7 +135,7 @@
   area: communication
   domain: null
 
-- id: 458cfd7f-b621-462e-ad7f-90870e1d5cfc
+- id: j-m-
   summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other developers
   examples: []
   description: null
@@ -143,7 +143,7 @@
   area: communication
   domain: null
 
-- id: f6e9efd1-7d55-439b-8f7d-c50829e48879
+- id: j-m-
   summary: Takes ownership of personal development
   examples: []
   description: null
@@ -151,7 +151,7 @@
   area: communication
   domain: null
 
-- id: d31a91de-ae96-457c-9ac1-3752acf148fa
+- id: j-m-
   summary: Receives feedback and acts upon it
   examples: []
   description: null
@@ -159,7 +159,7 @@
   area: communication
   domain: null
 
-- id: 79c4ecfd-7085-49c2-8a21-429b4a269c96
+- id: j-m-
   summary: Regularly gives timely actionable feedback to colleagues
   examples: []
   description: null
@@ -170,7 +170,7 @@
 
 # Junior to Mid, Delivery
 
-- id: 6dd9f702-6ee8-46d1-9c4c-9c370d971cb1
+- id: j-m-
   summary: Works on the most important task
   examples:
     - Picks the story from the top of a prioritised backlog rather than picking the one that most interests them
@@ -180,7 +180,7 @@
   area: delivery
   domain: null
 
-- id: e7f347c1-b478-4289-aa1a-c05da3f972ec
+- id: j-m-
   summary: Uses user research or data to inform decisions
   examples:
     - Attends customer based user research for a feature being worked on
@@ -190,7 +190,7 @@
   area: delivery
   domain: null
 
-- id: a4832222-6d61-4cab-ba45-85eb61c20187
+- id: j-m-
   summary: Leads on getting well defined tasks from backlog to production
   examples:
     - Turns a user story into a technical implementation in production
@@ -199,7 +199,7 @@
   area: delivery
   domain: null
 
-- id: 0ff46645-7966-42f8-9144-23b6a88743cc
+- id: j-m-
   summary: Regularly collaborates with team members from other disciplines to deliver features
   examples: []
   description: null
@@ -207,7 +207,7 @@
   area: delivery
   domain: null
 
-- id: 385be187-5aaa-493b-a663-3b8ec7a04d7f
+- id: j-m-
   summary: Regularly contributes openly to team meetings and encourages others to do so
   examples: []
   description: null
@@ -215,7 +215,7 @@
   area: delivery
   domain: null
 
-- id: a0c27510-41d9-4a34-98d9-3b49b0ef8056
+- id: j-m-
   summary: Regularly communicates the status of work
   examples: []
   description: null
@@ -223,7 +223,7 @@
   area: delivery
   domain: null
 
-- id: 168c5839-8070-4bb1-a0fa-b26d1267e791
+- id: j-m-
   summary: Asks for help or clarification on tasks when required
   examples: []
   description: null
@@ -231,7 +231,7 @@
   area: delivery
   domain: null
 
-- id: 76ec9be3-e63f-4374-9742-cbbc1728549a
+- id: j-m-
   summary: Participates in delivery process
   examples:
     - Moves tickets to done column when they are complete
@@ -244,7 +244,7 @@
 
 # Junior to Mid, Leadership
 
-- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
+- id: j-m-
   summary: Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.
   examples: []
   description: null
@@ -252,7 +252,7 @@
   area: leadership
   domain: null
 
-- id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
+- id: j-m-
   summary: Knows who their project's stakeholders are
   examples: []
   description: null
@@ -260,7 +260,7 @@
   area: leadership
   domain: null
 
-- id: 54b8fbbe-4c6d-4042-b9f4-e1db1dcf1dac
+- id: j-m-
   summary: Has knowledge of at least one other area of the FT outside technology
   examples:
     - Can articulate the editorial workflow
@@ -270,7 +270,7 @@
   area: leadership
   domain: null
 
-- id: ac489603-aa6f-48a7-b89b-25b97ffdb541
+- id: j-m-
   summary: Acts with integrity, honesty and accountability
   examples: []
   description: null
@@ -278,7 +278,7 @@
   area: leadership
   domain: null
 
-- id: 4dc43122-71f1-4fb1-99c8-73aa3a666332
+- id: j-m-
   summary: Positively contributes to an inclusive team culture
   examples:
     - Reminds others that a team members may have child care duties
@@ -293,7 +293,7 @@
   area: leadership
   domain: null
 
-- id: 3d8a92de-b293-4300-b12f-a1902f0a22f0
+- id: j-m-
   summary: Shares knowledge with peers informally
   examples:
     - Pairs on a feature with a more junior colleague
@@ -306,7 +306,21 @@
 
 # Mid to Senior 1, Technical
 
-- id: 2c1289fe-3bf9-476b-981b-8af2d345d76a
+tech.development-environment
+tech.version-control
+tech.programming
+tech.testing-tdd
+tech.testing-maintenance
+tech.independent-learning
+
+tech.
+tech.debugging
+
+tech.deployment
+
+tech.
+
+- id: m-s1.tech.observability
   summary: Implements observability and monitoring when building a solution
   examples: []
   description: null
@@ -314,7 +328,7 @@
   area: technical
   domain: null
 
-- id: 1391dba0-974b-4035-85fb-be3096658b59
+- id: m-s1.code-reuse
   summary: Evaluates third-party software to use in projects
   examples:
     - Can choose between similar Node libraries evaluating code quality, ease of integration, future maintenance, and security concerns
@@ -324,7 +338,7 @@
   area: technical
   domain: null
 
-- id: 07715459-0423-4507-bdf1-fc397507eec7
+- id: m-s1.operations
   summary: Leads on fixing production issues
   examples: []
   description: null
@@ -332,7 +346,7 @@
   area: technical
   domain: null
 
-- id: 1d096180-c331-459e-9dbf-4d8db12ac885
+- id: m-s1.security
   summary: Understands the security attack vectors for their area of technology and mitigates against them
   examples:
     - Uses Snyk.io on projects
@@ -342,7 +356,7 @@
   area: technical
   domain: null
 
-- id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
+- id: m-s1.trade-offs
   summary: Manages technical trade-offs in the team's projects
   examples:
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
@@ -351,7 +365,7 @@
   area: technical
   domain: null
 
-- id: 5e9295a7-753a-4530-9d25-8deac9118cbe
+- id: m-s1.programming
   summary: Takes responsibility for code quality by keeping the quality high and encouraging others in the team to do the same
   examples: []
   description: null
@@ -359,7 +373,7 @@
   area: technical
   domain: null
 
-- id: a021bb76-9190-4059-b4c5-285f4f240169
+- id: m-s1.debugging
   summary: Regularly and independently debugs and fixes bugs regardless of origin
   examples:
     - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
@@ -368,7 +382,7 @@
   area: technical
   domain: null
 
-- id: 3a87302b-c85f-49f6-9e7a-a4989e717fba
+- id: m-s1.architecture
   summary: Builds software or services considering resilience, performance and failure modes
   examples: []
   description: null
@@ -376,7 +390,7 @@
   area: technical
   domain: null
 
-- id: fb1bde13-3411-44d2-9589-de3b4cc618f5
+- id: m-s1.
   summary: Debugs and fixes complex issues
   examples: []
   description: null
@@ -384,7 +398,7 @@
   area: technical
   domain: null
 
-- id: 5df15bf0-4274-4238-a213-2ace5a840eb9
+- id: m-s1.independent-learning
   summary: Keeps up with industry trends
   examples:
     - Attends meet-ups or conferences
@@ -396,7 +410,7 @@
   area: technical
   domain: null
 
-- id: 152af675-554a-4d0d-afb1-190fca3867b2
+- id: m-s1.
   summary: Chooses the appropriate tool, technology or software for a task
   examples:
     - If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change
@@ -408,7 +422,7 @@
 
 # Mid to Senior 1, Communication
 
-- id: 82a8460f-8664-4837-9899-04a74ff5be6f
+- id: m-s1.
   summary: Has worked with in or with another team
   examples:
     - Has done a three month secondment with Operations and Reliability
@@ -418,7 +432,7 @@
   area: communication
   domain: null
 
-- id: efc4ba84-9188-40cf-97c8-b61da4b163e3
+- id: m-s1.
   summary: Communicates technical concepts to non-technical people clearly
   examples: []
   description: null
@@ -426,7 +440,7 @@
   area: communication
   domain: null
 
-- id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
+- id: m-s1.
   summary: Runs meetings with clear agendas and outcomes
   examples: []
   description: null
@@ -434,7 +448,7 @@
   area: communication
   domain: null
 
-- id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
+- id: m-s1.
   summary: Contributes to hiring process
   examples:
     - Participates in hiring panels or technical interviews
@@ -446,7 +460,7 @@
 
 # Mid to Senior 1, Delivery
 
-- id: c6bcfbd3-550f-4902-8c9a-bd6e9c77d67b
+- id: m-s1.
   summary: Prioritises technical work for the team (usually with others)
   examples: []
   description: null
@@ -454,7 +468,7 @@
   area: delivery
   domain: null
 
-- id: 0cba7c1c-23c8-4618-b286-d98125cd7f5c
+- id: m-s1.
   summary: Breaks down large complex technical proposals into discrete tasks
   examples:
     - Creates the user stories for the ticket with a delivery lead
@@ -463,7 +477,7 @@
   area: delivery
   domain: null
 
-- id: 850dda3f-df42-4187-a72b-aed1023b7abd
+- id: m-s1.
   summary: Communicates team/work's status upwards to a Principal or Technical Director
   examples: []
   description: null
@@ -471,7 +485,7 @@
   area: delivery
   domain: null
 
-- id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
+- id: m-s1.
   summary: Does not unnecessarily duplicate work of other teams
   examples: []
   description: null
@@ -479,7 +493,7 @@
   area: delivery
   domain: null
 
-- id: 7aeb8fec-9bd0-4929-981d-584654bc954f
+- id: m-s1.
   summary: Moves blockers to enable more junior engineers to work
   examples:
     - Reviews pull requests
@@ -489,7 +503,7 @@
   area: delivery
   domain: null
 
-- id: c0d81832-8fe9-485c-8847-25763255a1b3
+- id: m-s1.
   summary: Tackles simple cross team technical issues
   examples:
     - Notices a tool used by lots of teams has broken, identifies the problem and fixes
@@ -498,7 +512,7 @@
   area: delivery
   domain: null
 
-- id: d8651fc0-059b-4c11-929f-e07803f9f8bf
+- id: m-s1.
   summary: Understands and considers other teams' needs
   examples:
     - Attends cross team meetings
@@ -507,7 +521,7 @@
   area: delivery
   domain: null
 
-- id: 787be828-9a7f-4998-9bc6-a8b06f2d77de
+- id: m-s1.
   summary: Improves delivery process and encourages others to do the same
   examples:
     - Updates the scrum process to fit the changing needs of the team
@@ -516,7 +530,7 @@
   area: delivery
   domain: null
 
-- id: 7ccc5fac-5da2-451e-8043-af2fd880fcf9
+- id: m-s1.
   summary: Manages, prioritises and communicates own workload
   examples: []
   description: null
@@ -527,7 +541,7 @@
 
 # Mid to Senior 1, Leadership
 
-- id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
+- id: m-s1.
   summary: Presents aspects of their work to stakeholders
   examples: []
   description: null
@@ -535,7 +549,7 @@
   area: leadership
   domain: null
 
-- id: f34273e2-3d81-4bde-8c23-0217e71b3536
+- id: m-s1.
   summary: Influences a community of practice
   examples:
     - Is an active member of a Guild
@@ -545,7 +559,7 @@
   area: leadership
   domain: null
 
-- id: 0777c050-8008-4e17-a437-f8de0be3bd55
+- id: m-s1.
   summary: Is an ambassador for their team across FT technology and colleagues in the rest of the business
   examples: []
   description: null
@@ -553,7 +567,7 @@
   area: leadership
   domain: null
 
-- id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
+- id: m-s1.
   summary: Has responsibility for others’ development through mentoring or line management
   examples: []
   description: null
@@ -561,7 +575,7 @@
   area: leadership
   domain: null
 
-- id: 2c9171a0-8935-41fa-809e-08c311538eac
+- id: m-s1.
   summary: Shows Technical leadership
   examples:
     - Is a tech lead
@@ -572,7 +586,7 @@
   area: leadership
   domain: null
 
-- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
+- id: m-s1.
   summary: Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
   examples: []
   description: null
@@ -580,7 +594,7 @@
   area: leadership
   domain: null
 
-- id: 37fa54f8-b81e-40d9-b35e-a3e139b872a3
+- id: m-s1.
   summary: Shares knowledge with others internally
   examples:
     - Gives a workshop on Git
@@ -593,7 +607,7 @@
 
 # Senior 1 to Senior 2, Technical
 
-- id: 97ac147f-1b61-43c4-b677-dbb837ba092b
+- id: s1-s2-
   summary: Makes pragmatic decisions about technical trade-offs
   examples:
     - Can predict and explain when something is worth refactoring even when it will impact the speed of delivery
@@ -602,7 +616,7 @@
   area: technical
   domain: null
 
-- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
+- id: s1-s2-
   summary: Considers wider tech strategy when coming up with technical solutions
   examples: []
   description: null
@@ -610,7 +624,7 @@
   area: technical
   domain: null
 
-- id: d6e3e7d1-1a53-444d-80ad-0240775a028d
+- id: s1-s2-
   summary: Debugs and fixes complex bugs at speed
   examples: []
   description: null
@@ -618,7 +632,7 @@
   area: technical
   domain: null
 
-- id: a8571c7f-296d-47ab-acad-d1b90b5a9391
+- id: s1-s2-
   summary: Finds technical problems outside of immediate team and identifies ways to improve them
   examples: []
   description: null
@@ -626,7 +640,7 @@
   area: technical
   domain: null
 
-- id: 7b2bacf1-ba46-464d-94e3-dc6f7c5edeb0
+- id: s1-s2-
   summary: Translates difficult business requirements into technical designs with stakeholders
   examples: []
   description: null
@@ -634,7 +648,7 @@
   area: technical
   domain: null
 
-- id: f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0
+- id: s1-s2-
   summary: Is the go-to person for a technology or system
   examples: []
   description: null
@@ -645,7 +659,7 @@
 
 # Senior 1 to Senior 2, Communication
 
-- id: fc563518-e1e9-4cc4-8f44-3b034a471231
+- id: s1-s2-
   summary: Works cross-team to join up technical gaps
   examples: []
   description: null
@@ -653,7 +667,7 @@
   area: communication
   domain: null
 
-- id: f7045590-960d-4a08-b2d6-db6dcff463d6
+- id: s1-s2-
   summary: When working on a complex problem, is able to break down technical considerations clearly for stakeholders
   examples: []
   description: null
@@ -661,7 +675,7 @@
   area: communication
   domain: null
 
-- id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
+- id: s1-s2-
   summary: Leads hiring process for new Engineers
   examples: []
   description: null
@@ -671,7 +685,7 @@
 
 # Senior 1 to Senior 2, Delivery
 
-- id: 9e692d93-569d-4eed-8c83-6a76692ee647
+- id: s1-s2-
   summary: Works with other teams to deliver shared outcomes
   examples: []
   description: null
@@ -679,7 +693,7 @@
   area: delivery
   domain: null
 
-- id: 877d7313-d6de-44ae-80b4-5ed094ddf39a
+- id: s1-s2-
   summary: Takes a stakeholder problem, investigates to understand it and a proposes solution
   examples: []
   description: null
@@ -687,7 +701,7 @@
   area: delivery
   domain: null
 
-- id: 83b06961-6462-4500-8ff5-9381f7de8dc5
+- id: s1-s2-
   summary: Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them
   examples: []
   description: null
@@ -695,7 +709,7 @@
   area: delivery
   domain: null
 
-- id: 983dd8411-940d-4aa8-9ba6-add04510a7da
+- id: s1-s2-
   summary: Is accountable for the delivery of the team
   examples:
     - Helps delivery lead write progress reports
@@ -707,7 +721,7 @@
 
 # Senior 1 to Senior 2, Leadership
 
-- id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
+- id: s1-s2-
   summary: Presents the teams work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
   examples:
     - Presents at the Technology All Hands
@@ -716,7 +730,7 @@
   area: leadership
   domain: null
 
-- id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
+- id: s1-s2-
   summary: Identifies knowledge gaps within the team and gives training to address gaps
   examples: []
   description: null
@@ -724,7 +738,7 @@
   area: leadership
   domain: null
 
-- id: de580f8a-633d-43bb-b970-9b2987e07b86
+- id: s1-s2-
   summary: Takes ownership of ensuring an inclusive team culture
   examples: []
   description: null
@@ -732,7 +746,7 @@
   area: leadership
   domain: null
 
-- id: 7e613602-fda1-43dc-94ca-83e17b24f42c
+- id: s1-s2-
   summary: Contributes to the personal development of more junior people in their team
   examples:
     - Pairs with more junior team members
@@ -743,7 +757,7 @@
   area: leadership
   domain: null
 
-- id: 1ee4d2b9-8160-42e0-a763-f45703abc6d5
+- id: s1-s2-
   summary: Helps resolve disagreements healthily
   examples:
     - Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from developers on a solution to a problem
@@ -754,7 +768,7 @@
   area: leadership
   domain: null
 
-- id: 45780158-375a-421b-a89a-97d32e61cdba
+- id: s1-s2-
   summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
   examples: []
   description: null
