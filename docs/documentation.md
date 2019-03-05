@@ -15,8 +15,8 @@ The Markdown documentation across this repo is designed to be viewed through the
 
   - `README.md`: the purposes of this file are:
     1. Introduce new users to the repo and website
-	2. Guide users to the different formats that the competencies live as (e.g. spreadsheet and YAML)
-	3. Give a brief explanation of how somebody can contribute to the repo, guiding them to the other documentation pages
+  2. Guide users to the different formats that the competencies live as (e.g. spreadsheet and YAML)
+  3. Give a brief explanation of how somebody can contribute to the repo, guiding them to the other documentation pages
 
   - `CONTRIBUTING.md`: This file is used to point users to the more specific contributing guides that live under `docs`
 
