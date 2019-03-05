@@ -1,0 +1,66 @@
+
+# Contributing: The Repository
+
+This repository is the one source of truth for engineering careers and progression, and as such it's important that the code is maintained. It's also important that issues and pull requests are responded to quickly. This guide is for people who want to help with these tasks.
+
+  - [Local Development Environment](#local-development-environment)
+  - [Issues and Pull Requests](#issues-and-pull-requests)
+  - [Releases and Versioning](#releases-and-versioning)
+    - [Major Versions](#major-versions)
+	- [Minor Versions](#minor-versions)
+	- [Patch Versions](#patch-versions)
+  - [Tooling](#tooling)
+
+
+## Local Development Environment
+
+To be able to help maintain the repository, it's useful to have it cloned locally and to be able to quickly and easily run any of the associated scripts. We maintain a  [Local Development guide](local-development.md) to get you set up.
+
+
+## Issues and Pull Requests
+
+You can help contribute to the maintenance of the repository by responding to issues and pull requests opened by other people within the FT. Responding can be as little as adding a relevant label, or as large as a full code review.
+
+When responding to issues and pull requests, keep the [tone and language guidelines](language.md) in mind.
+
+
+## Releases and Versioning
+
+We use [Semantic Versioning (SemVer)](https://semver.org/) to version the engineering competencies. The way SemVer is interpreted is slightly different than is outlined on the website above. Releases should only happen if a change has been made to competency data; a change to the documentation or website does not require a release.
+
+We create releases through the GitHub interface, they follow these rules:
+
+  - The tagname must be a valid Semantic Version
+  - The title must be the same Semantic Version repeated
+  - The description must contain a list of all the commits that have made it onto the `master` branch since the last release
+  - If the tagname includes a prerelease, then the release must have the prerelease checkbox checked
+
+### Major Versions
+
+A major version bump must happen when a change to the engineering competencies requires something **new** of an engineer to meet the level above their current one.
+
+For example: if we decide that we now expect Junior Engineers to be able to fold a perfect Origami crane before they can be promoted to a Mid-level Engineer, then this is a major version bump to the competencies.
+
+A major version bump must not be made without consulting the promotions board (process TBC). It's important that an intention to increment the major version is communicated to all engineers that it affects.
+
+Once a major version has been released, it may not be implemented by the promotions board until several promotions rounds _after_ the release date (process TBC).
+
+### Minor Versions
+
+A minor version bump must happen when something is added to help clarify existing competencies, e.g. adding a new example to clarify intent. A minor version bump must also happen if a competency is deleted.
+
+A competency being deleted does **not** count as a major version change because it does not _increase_ the expectations of an engineer at any level.
+
+### Patch Versions
+
+A patch version bump must happen when typos are fixed, or obvious language errors are changed to increase clarity.
+
+
+## Tooling
+
+If you wish to make changes to the way the engineering competencies are built/tested, the website is generated, or the way the tooling works together, you'll need to pay attention to several files:
+
+  - [`Makefile`](../Makefile): this contains the `make` tasks used to build and test the competencies
+  - [`script`](../script): this folder contains scripts that are run from tasks in `Makefile`, for when it would be unmaintainable to store them as inline bash
+  - [`.circleci/config.yml`](../.circleci/config.yml): this is the CircleCI config, which ensures that tests are run automatically when a new commit is pushed to the repo
+  - `package.json`, `package-lock.json`, `Gemfile`, `Gemfile.lock`: these files outline the libraries and tools that this repository relies on

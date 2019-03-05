@@ -1,25 +1,27 @@
 
 # Contributing
 
-Welcome to the contributing guide for the Financial Times engineering competencies. This document outlines how we write competencies and what we expect from you as a contributor.
+Anybody working for the Financial Times is welcome to suggest changes via a GitHub issue or pull request. This short guide is for people who'd like to contribute, and covers some general guidelines.
 
-- [Making Suggestions](#making-suggestions)
-- [Writing Competencies](#writing-competencies)
+  1. As with all digital communcation between Financial Times employees, contributions to this repo are covered by the Financial Times code of conduct. Be respectful to your colleagues.
 
+  2. Issues and Pull Requests are a better place to have discussions than Slack or in-person – they act as documentation for future contributors.
 
-## Making Suggestions
-
-TODO:
-  - Link to [`data/competencies.yml`](data/competencies.yml)
-  - Outline places where people can make suggestions, PR/issue
-  - Mention searching old issues first?
-  - Something about what useful feedback looks like?
+  3. Before opening an issue or Pull Request, do a quick search to see if it's been discussed before.
 
 
-## Writing Competencies
+## How to Contribute
 
-TODO:
-  - Language guidelines from Alice and Mark
-  - Guidelines on the levels
-  - Guidelines on domain-specific competencies
+There are many different ways you can contribute and help make this resource better for everyone:
 
+  - **Contribute to the Engineering Competencies**<br/>
+    The Engineering competencies are used to help identify when an engineer is ready for promotion. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.  [A guide for adding or editing competencies is here](docs/competencies.md).
+
+  - **Contribute to the documentation and website**<br/>
+    It's important that the documentation in this repo and the Engineering Progression website are clear and easy to understand. [Get started maintaining the documentation](docs/documentation.md)
+
+  - **Build your own integration**<br/>
+    The competencies data is available through a JSON API, which means that engineers at the Financial Times can build their own integrations on top of it. [Get started writing your own integrations](docs/integrations.md)
+
+  - **Contribute to the running of this repository**<br/>
+    This repository is the one source of truth for engineering careers and progression, and as such it's important that the code is maintained. It's also important that issues and pull requests are responded to quickly. [Get started contributing to the running of this repo](docs/repository.md)
