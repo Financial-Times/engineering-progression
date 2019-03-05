@@ -1,7 +1,7 @@
 
 # Contributing: Engineering Competencies
 
-The Engineering competencies are used to help identify when an engineer is ready for promotion. Every engineer in the CTO organisation of the Financial Times should be able to have a say in this. This guide is for people who want to make suggestions, edit, and write competencies.
+The Engineering competencies are used to help identify when an engineer is ready for promotion. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.
 
   - [Language Guidelines](#language-guidelines)
   - [Editing on GitHub](#editing-on-github)
@@ -11,18 +11,18 @@ The Engineering competencies are used to help identify when an engineer is ready
 
 ## Language Guidelines
 
-The competencies all follow [tone and language guidelines](language.md), and any editors should keep these in mind.
+The competencies all follow [tone and language guidelines](language.md), any edits or additions should keep to these guidelines.
 
 
 ## Editing on GitHub
 
-Using the GitHub interface is probably the quickest way to get started with making suggestions to the engineering competencies. There are two files in the repository that you'll need to care about:
+Using the GitHub interface is the quickest way to get started with making suggestions to the engineering competencies. There are two files in the repository that you'll need to care about:
 
   - [`data/competencies.yml`](../data/competencies.yml): this is the file which contains all of the competencies data for the different levels. [Suggest edits to this file here](edit/master/data/competencies.yml)
 
   - [`data/levels.yml`](../data/levels.yml): this is the file which contains meta information about the competency levels. [Suggest edits to this file here](edit/master/data/levels.yml)
 
-Once you've committed your changes and opened a pull request, your changes will be tested to make sure that the files are in the correct format. Pay attention to the status of your pull request and use the CircleCI interface to review any errors that there may be
+Once you've committed your changes and opened a pull request, your changes will be automatically tested to make sure that the files are in the correct format. Pay attention to the status of your pull request and use the CircleCI interface to review any errors.
 
 
 ## Editing Locally

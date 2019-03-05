@@ -20,7 +20,7 @@ The Markdown documentation across this repo is designed to be viewed through the
 
   - `CONTRIBUTING.md`: This file is used to point users to the more specific contributing guides that live under `docs`
 
-  - `docs`: This directory contains all of the more specific guides on how to contribute to the engineering progression repo and website. These files link between eachother extensively
+  - `docs`: This directory contains all of the more specific guides on how to contribute to the engineering progression repo and website. 
 
 
 ## Website
