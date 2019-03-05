@@ -4,13 +4,8 @@
 Careers and progression for engineers in the CTO organisation. This project is in Alpha – **do not use**.
 
   - [Overview](#overview)
+  - [Engineering Competencies](#engineering-competencies)
   - [Contributing](#contributing)
-  - [Local Development](#local-development)
-    - [Setup](#setup)
-    - [Building Competencies JSON](#building-competencies-json)
-    - [Building the Website](#building-the-website)
-    - [Running Tests](#running-tests)
-    - [Tooling Changes](#tooling-changes)
   - [Licence](#licence)
 
 
@@ -22,94 +17,30 @@ Keeping this framework in GitHub allows us to document changes and discussions a
 
 This framework can be used in it's raw form (YAML files), but it is also availble via JSON endpoint, which means other things can be built off it (eg a Google Sheet)
 
+## Engineering Competencies
+
+Engineering competencies are used to help identify when an engineer is ready for promotion. There are several ways that you can read through these competencies and track progress:
+
+  - [Track progress with your manager or report via Google Sheets](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit)
+
+  - [Read the engineering competencies as YAML in this repository](data/competencies.yml)
+
+
 ## Contributing
 
-Anybody working for the Financial Times is welcome to suggest changes via a GitHub issue or pull request. You'll find the competencies in [`data/competencies.yml`](data/competencies.yml), and the GitHub interface is probably the easiest way to edit this.
+Anybody working for the Financial Times is welcome to suggest changes via a GitHub issue or pull request. We maintain a [contributing guide](CONTRIBUTING.md) to help people who are interested. There are many different ways you can contribute and help make this resource better for everyone:
 
-We have a [full contributing guide here](CONTRIBUTING.md), which outlines the language we use and some of the thinking behind the competencies.
+  - **Contribute to the Engineering Competencies**<br/>
+The Engineering competencies are used to help identify when an engineer is ready for promotion. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.  [A guide for adding or editing competencies is here](docs/competencies.md).
 
+  - **Contribute to the documentation and website**<br/>
+    It's important that the documentation in this repo and the Engineering Progression website are clear and easy to understand. [Get started maintaining the documentation](docs/documentation.md)
 
-## Local Development
+  - **Build your own integration**<br/>
+    The competencies data is available through a JSON API, which means that engineers at the Financial Times can build their own integrations on top of it. [Get started writing your own integrations](docs/integrations.md)
 
-We've tried to make it as easy as possible to build and test the competencies JSON and website locally. This short guide is intended for when a person would like to:
-
-  1. make broader changes to the competencies, where the GitHub interface may be unwieldy
-  2. make changes to the competencies schema and build process
-
-### Setup
-
-You'll need a few things before you're ready to start running things locally. The things you need before you can do anything else are:
-
-  - [Node.js](https://nodejs.org/en/) version 10 or higher (used to build and test competencies JSON)
-  - [Ruby](https://www.ruby-lang.org/en/) version 2.4 (used to build the website)
-
-Once you have these, you can run the following to install all dependencies:
-
-```sh
-make install
-```
-
-### Building Competencies JSON
-
-You may have noticed that the competencies data is stored as YAML in this repo. This is useful for editing, but JSON is far easier to process programmatically. Once you've [cloned this repository](https://help.github.com/articles/cloning-a-repository/) locally, you will be able to build the competencies JSON with this command:
-
-```sh
-make build-competencies-json
-```
-
-This will create a `dist` folder in the repo, which will contain a `competencies.json` file. It's important to note that this generated file cannot be used to edit competencies, and will be overridden entirely every time `make build` is run.
-
-### Building the Website
-
-The website is built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). Due to the slight complexity of the build pipeline for this project, the structure of the site and the commands used to build it may not be familiar. Here are some differences:
-
-  1. The site source code lives in the `site` folder on the `master` branch, rather than the root of the project or a `gh-pages` branch
-  2. We generate some of the site files based on the competencies JSON, and these files are ignored by Git
-  3. The generated site is output to the `dist/site` folder rather than `_site`
-  4. While there _is_ a `gh-pages` branch on the repository, this should not be edited manually – these files are overwritten by CI
-
-We've created some helper commands which build and run the site locally without you having to think too much about these differences.
-
-Build the website once, creating files in `dist/site` (mostly used by CI):
-
-```sh
-make build-website
-```
-
-Build the website when files change and serve on [localhost:4000](http://localhost:4000/):
-
-```sh
-make website
-```
-
-The local website will not have any API endpoints unless you generate them manually. On CI and in production this can be automated. To build an API endpoints, run the following:
-
-```sh
-CIRCLE_TAG=v1.0.0 make build-website-api
-```
-
-This will generate the API endpoint `/api/v1/competencies.json`. The `v1` in the URL corresponds to the Circle tag that you specify, so if you wanted to create a `v2` endpoint you should specify `CIRCLE_TAG=v2.0.0`.
-
-### Running Tests
-
-We use [JSON Schema](https://json-schema.org/) to test that the competencies YAML is valid, and that no changes to the structure can be made accidentally. These tests are run automatically on CircleCI, but it may be useful for you to test changes locally before pushing. You can do this with:
-
-```sh
-make test
-```
-
-This will first run `make build` for you behind the scenes, and then run the tests against the built JSON. If there are any validation issues, errors are output to the command line and the command will exit with a code of `1`.
-
-### Tooling Changes
-
-If you wish to make changes to the way the engineering competencies are built/tested, you'll need to pay attention to several files:
-
-  - [`Makefile`](Makefile): this contains the `make` tasks used to build and test the competencies
-  - [`script/build-competencies-json.js`](script/build-competencies-json.js): this takes the competencies YAML and produces JSON. It is executed when `make build` is run
-  - [`script/validate-competencies-json.js`](script/validate-competencies-json.js): this takes the generated competencies JSON and validates it. It is executed when `make test` is run
-  - [`test/schema/competencies.json`](test/schema/competencies.json): this is the [JSON Schema](https://json-schema.org/) definition that is used to validate the competencies
-  - [`test/schema/levels.json`](test/schema/levels.json): this is the [JSON Schema](https://json-schema.org/) definition that is used to validate the competency levels
-  - [`.circleci/config.yml`](.circleci/config.yml): this is the CircleCI config, which ensures that tests are run automatically when a new commit is pushed to the repo
+  - **Contribute to the running of this repository**<br/>
+    This repository is the one source of truth for engineering careers and progression, and as such it's important that the code is maintained. It's also important that issues and pull requests are responded to quickly. [Get started contributing to the running of this repo](docs/repository.md)
 
 
 ## Licence
