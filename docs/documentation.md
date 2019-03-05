@@ -42,13 +42,13 @@ This short guide covers some key files and directories which you'll need to know
 
   - Shared HTML includes and page layouts are within `site/_includes` and `site/_layouts`. This is mostly a standard Jekyll thing ([includes](https://jekyllrb.com/docs/includes/), [layouts](https://jekyllrb.com/docs/layouts/)) but we do have a couple of custom layouts defined:
 
-    - `site/_layouts/default.html`: includes boilerplate HTML as well as the wrappers for [o-layout](https://registry.origami.ft.com/components/o-layout), an Origami component which does most of the heavy lifting for the site's styles. This layout is not that useful by itself
+    - `site/_layouts/default.html`: includes boilerplate HTML as well as the wrappers for [o-layout](https://registry.origami.ft.com/components/o-layout), an Origami component which does most of the heavy lifting for the site's styles. This layout is not that useful by itself.
 
-	- `site/_layouts/o-layout-docs.html`: use this layout to render a single documentation page, with a generated sidebar nav and optimised for reading. This can accomodate any Markdown that you specify in your page. This extends `site/_layouts/default.html`
+	- `site/_layouts/o-layout-docs.html`: use this layout to render a single documentation page, with a generated sidebar nav and optimised for reading. This can accomodate any Markdown that you specify in your page. This extends `site/_layouts/default.html`.
 
-	- `site/_layouts/o-layout-landing.html`: use this layout to render a home page layout. This is only really useful with a page that's written as HTML rather than Markdown, as it requires a certain amount of markup. See the site home page for an example. This extends `site/_layouts/default.html`
+	- `site/_layouts/o-layout-landing.html`: use this layout to render a home page layout. This is only really useful with a page that's written as HTML rather than Markdown, as it requires a certain amount of markup. See the site home page for an example. This extends `site/_layouts/default.html`.
 
-  - The API endpoints (found under `site/api` if you're developing locally) are generated automatically. Any changes to files in here will be overwritten. If you need to make changes to the way these files are generated, see `script/build-website-api.js`
+  - The API endpoints (found under `site/api` if you're developing locally) are generated automatically. Any changes to files in here will be overwritten. If you need to make changes to the way these files are generated, see `script/build-website-api.js`.
 
 
 ### Building the Site Locally
