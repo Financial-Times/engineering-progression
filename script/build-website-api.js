@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const competencies = require('../dist/competencies.json');
-const {copyFile, outputJSON} = require('fs-extra');
+const {outputJSON} = require('fs-extra');
 const levels = require('../dist/levels.json');
 const path = require('path');
 const semver = require('semver');
