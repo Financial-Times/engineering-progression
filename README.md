@@ -11,10 +11,11 @@ Careers and progression for engineers in the CTO organisation. This project is i
 
 ## Overview
 
-This repository aims to be the one source of truth for engineering careers and progression in the CTO organisation of the Financial Times. The data in this repo can have changes made to it via pull requests and GitHub issues, our intention is to have conversations around our career paths in the same place as we talk about our day-to-day work.
+This repository is the single source of truth for the competencies and level definitions for Engineering roles in the CTO organisation at the FT.
 
-We also intend on these career competencies being made available in other familiar formats, for example a generated Google Sheet which managers and reports can use to track progress.
+Keeping this framework in GitHub means we can use issues and pull requests to track and discuss changes to the competencies and role descriptions. Storing it in this way also allows us to version it and release any changes.
 
+This framework can be used in its raw form (YAML files), but it is also availble via JSON endpoint, which means other things can be built off it (eg a Google Sheet)
 
 ## Engineering Competencies
 
