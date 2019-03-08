@@ -12,20 +12,13 @@ process.on('unhandledRejection', error => {
 });
 
 buildWebsiteData({
-	tag: process.env.CIRCLE_TAG,
 	dataPath: path.resolve(__dirname, '..', 'site', '_data'),
 	competencies
 });
 
-async function buildWebsiteData({tag, dataPath, competencies}) {
-	if (!tag || !semver.valid(tag)) {
-		process.exitCode = 1;
-		return console.error('Error: CIRCLE_TAG environment variable must be set to a valid semver version');
-	} else {
-		await createCompetenciesData(competencies, dataPath);
-		await createLevelsData(levels, dataPath);
-		await createCompetenciesVersionData(tag, dataPath);
-	}
+async function buildWebsiteData({dataPath, competencies}) {
+	await createCompetenciesData(competencies, dataPath);
+	await createLevelsData(levels, dataPath);
 }
 
 function createCompetenciesData(competencies, dataPath) {
@@ -40,9 +33,4 @@ function createLevelsData(levels, dataPath) {
 	return outputJSON(levelsPath, levels, {
 		spaces: '\t'
 	});
-}
-
-function createCompetenciesVersionData(version, dataPath) {
-	const competenciesVersionPath = path.join(dataPath, 'competencies-version.json');
-	return outputJSON(competenciesVersionPath, version);
 }
