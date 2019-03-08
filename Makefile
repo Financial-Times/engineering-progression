@@ -80,8 +80,15 @@ ifdef CIRCLE_TAG
 endif
 	@$(TASK_DONE)
 
+# Build the competencies website data. This copies
+# built competency data from the main repo into
+# the Jekyll data folder
+build-website-data: build-competencies-json
+	@./script/build-website-data.js
+	@$(TASK_DONE)
+
 # Build the competencies website
-build-website: build-website-api
+build-website: build-website-api build-website-data
 	@bundle exec jekyll build $(JEKYLL_OPTIONS)
 	@$(TASK_DONE)
 
