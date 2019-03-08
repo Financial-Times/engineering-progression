@@ -74,33 +74,223 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			sheetsByTitle[sheet.properties.title] = sheet;
 			return sheetsByTitle;
 		}, {});
+		const overviewSheetId = sheetsByTitle['Overview'].properties.sheetId;
 
-		// Start batching updates to the actual sheet data
+		// Start batching updates to the actual sheet data and format
 		const batchedUpdates = [];
+
+		// Set some formatting rules which apply to all sheets,
+		// mostly cell alignment
+		for (const sheet of sheets) {
+			batchedUpdates.push(createBatchAlignmentUpdate(sheet.properties.sheetId, {
+				horizontalAlignment: 'LEFT',
+				verticalAlignment: 'TOP',
+				wrapStrategy: 'WRAP'
+			}));
+		}
 
 		// Set the data that appears in the overview sheet. This includes some background,
 		// warnings about editing the sheet manually, and links to useful resources
-		batchedUpdates.push(createCellUpdateForBatch(sheetsByTitle['Overview'].properties.sheetId, [
+		batchedUpdates.push(createBatchCellUpdate(overviewSheetId, [
 			['Engineering Progression'],
-			['This is an example spreadsheet for tracking engineering progression. This sheet is generated automatically, any edits you make here will be overwritten.'],
+			['This is an example spreadsheet for tracking engineering progression. This sheet is generated automatically, any edits you make here will be overwritten (including comments).\n\nThis spreadsheet contains sheets for the different levels of engineer, you can use these to track a person\'s progress towards their next promotion. Please make a copy of this spreadsheet to do this.'],
+			[''],
 			['Competencies Version', competenciesVersion],
-			['More Info', 'https://engineering-progression.ft.com/']
+			['More Info', '=HYPERLINK("https://engineering-progression.ft.com/", "Engineering Progression website")'],
+			['Feedback/Questions', '=HYPERLINK("https://github.com/Financial-Times/engineering-progression/issues/new", "Use GitHub issues")']
 		]));
+
+		// Merge the top rows for the overview sheet,
+		// we use this as a header and introduction
+		batchedUpdates.push({
+			mergeCells: {
+				range: {
+					sheetId: overviewSheetId,
+					startRowIndex: 0,
+					endRowIndex: 3,
+					startColumnIndex: 0,
+					endColumnIndex: 2
+				},
+				mergeType: 'MERGE_ROWS'
+			}
+		});
+
+		// Resize the columns for the overview sheet
+		batchedUpdates.push(createBatchColumnResize(overviewSheetId, {
+			startIndex: 0,
+			width: 150
+		}));
+		batchedUpdates.push(createBatchColumnResize(overviewSheetId, {
+			startIndex: 1,
+			width: 300
+		}));
+
+		// Delete additional columns for the overview sheet
+		batchedUpdates.push({
+			deleteDimension: {
+				range: {
+					sheetId: overviewSheetId,
+					dimension: 'COLUMNS',
+					startIndex: 2
+				}
+			}
+		});
+
+		// Bold the main heading for the overview sheet
+		batchedUpdates.push({
+			repeatCell: {
+				range: {
+					sheetId: overviewSheetId,
+					startRowIndex: 0,
+					endRowIndex: 1
+				},
+				cell: {
+					userEnteredFormat: {
+						textFormat: {
+							bold: true,
+							fontSize: 16
+						}
+					}
+				},
+				fields: 'userEnteredFormat(textFormat)'
+			}
+		});
+
+		// Bold the meta information headings for the overview sheet
+		batchedUpdates.push({
+			repeatCell: {
+				range: {
+					sheetId: overviewSheetId,
+					startRowIndex: 3,
+					startColumnIndex: 0,
+					endColumnIndex: 1
+				},
+				cell: {
+					userEnteredFormat: {
+						textFormat: {
+							bold: true
+						}
+					}
+				},
+				fields: 'userEnteredFormat(textFormat)'
+			}
+		});
 
 		// Set the data that appears in each of the competency level sheets. We use the
 		// data that we fetched from the live API for this
 		for (const level of levels) {
-			batchedUpdates.push(createCellUpdateForBatch(sheetsByTitle[level.name].properties.sheetId, [
-				['Area', 'Competency'],
-				...competencies
-					.filter(competency => competency.level === level.id)
-					.map(competency => {
-						return [
-							competency.area,
-							`${competency.summary}\n${competency.examples.map(example => `• ${example}`).join('\n')}`
-						];
-					})
+
+			const sheet = sheetsByTitle[level.name];
+			const sheetId = sheet.properties.sheetId;
+
+			const competenciesForLevel = competencies.filter(competency => competency.level === level.id);
+
+			// Add the actual data for the level
+			batchedUpdates.push(createBatchCellUpdate(sheetId, [
+				['Area', 'Competency', 'Done?', 'Evidence'],
+				...competenciesForLevel.map(competency => {
+					let content = competency.summary;
+					if (competency.examples.length) {
+						content += `, e.g.\n${competency.examples.map(example => `• ${example}`).join('\n')}`;
+					}
+					return [
+						capitalizeFirstLetter(competency.area),
+						content
+					];
+				})
 			]));
+
+			// Set up the checkbox column for the level
+			batchedUpdates.push({
+				repeatCell: {
+					range: {
+						sheetId,
+						startRowIndex: 1,
+						endRowIndex: competenciesForLevel.length + 1,
+						startColumnIndex: 2,
+						endColumnIndex: 3
+					},
+					cell: {
+						dataValidation: {
+							condition: {
+								type: 'BOOLEAN'
+							}
+						},
+						userEnteredFormat: {
+							horizontalAlignment: 'CENTER'
+						}
+					},
+					fields: 'dataValidation,userEnteredFormat(horizontalAlignment)'
+				}
+			});
+
+			// Freeze the header row for the level
+			batchedUpdates.push({
+				updateSheetProperties: {
+					properties: {
+						sheetId,
+						grid_properties: {
+							frozenRowCount: 1
+						}
+					},
+					fields: 'gridProperties.frozenRowCount'
+				}
+			});
+
+			// Resize the columns for the level
+			batchedUpdates.push(createBatchColumnResize(sheetId, {
+				startIndex: 0,
+				width: 100
+			}));
+			batchedUpdates.push(createBatchColumnResize(sheetId, {
+				startIndex: 1,
+				width: 500
+			}));
+			batchedUpdates.push(createBatchColumnResize(sheetId, {
+				startIndex: 2,
+				width: 50
+			}));
+			batchedUpdates.push(createBatchColumnResize(sheetId, {
+				startIndex: 3,
+				width: 500
+			}));
+
+			// Delete additional columns for the level
+			batchedUpdates.push({
+				deleteDimension: {
+					range: {
+						sheetId,
+						dimension: 'COLUMNS',
+						startIndex: 4
+					}
+				}
+			});
+
+			// Format the header cells for the level
+			batchedUpdates.push({
+				repeatCell: {
+					range: {
+						sheetId,
+						startRowIndex: 0,
+						endRowIndex: 1
+					},
+					cell: {
+						userEnteredFormat: {
+							backgroundColor: {
+								// This is a Slate tint from o-colors
+								red: 212 / 255,
+								green: 212 / 255,
+								blue: 214 / 255
+							},
+							textFormat: {
+								bold: true
+							}
+						}
+					},
+					fields: 'userEnteredFormat(backgroundColor,textFormat)'
+				}
+			});
+
 		}
 
 		// Send of the batch update
@@ -224,14 +414,13 @@ async function createRequiredSheets(client, spreadsheet, requiredSheetTitles) {
 }
 
 /**
- * Helper function to create a cell update request from a standard nested array. The Google Sheets
- * request format is very strict and verbose and this simplifies it.
+ * Helper function to create a batch request which sets data for a sheet based on a nested array of rows and columns.
  *
  * @param {String} sheetId - The ID of a single sheet within a spreadsheet.
  * @param {Array<Array<*>>} rows - An array of arrays of values, representing a sheet, rows, and cells.
- * @returns {Object} Returns an `updateCells` batch request based on the provided row data.
+ * @returns {Object} Returns a batch request based on the provided row data.
  */
-function createCellUpdateForBatch(sheetId, rows) {
+function createBatchCellUpdate(sheetId, rows) {
 	return {
 		updateCells: {
 			rows: rows.map(row => {
@@ -242,7 +431,11 @@ function createCellUpdateForBatch(sheetId, rows) {
 							value.stringValue = '';
 						}
 						if (typeof cell === 'string') {
-							value.stringValue = cell;
+							if (cell[0] === '=') {
+								value.formulaValue = cell;
+							} else {
+								value.stringValue = cell;
+							}
 						}
 						return {
 							userEnteredValue: value
@@ -250,7 +443,7 @@ function createCellUpdateForBatch(sheetId, rows) {
 					})
 				};
 			}),
-			fields: '*',
+			fields: 'userEnteredValue',
 			start: {
 				sheetId,
 				rowIndex: 0,
@@ -258,4 +451,70 @@ function createCellUpdateForBatch(sheetId, rows) {
 			}
 		}
 	};
+}
+
+/**
+ * Helper function to create a batch request which sets alignment and wrapping for all cells in a sheet.
+ *
+ * @param {String} sheetId - The ID of a single sheet within a spreadsheet.
+ * @param {Object} options - Alignment and wrapping options.
+ * @param {String} options.horizontalAlignment - The horizontal alignment of all cells (see https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/other#HorizontalAlign).
+ * @param {String} options.verticalAlignment - The vertical alignment of all cells (see https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/other#VerticalAlign).
+ * @param {String} options.wrapStrategy - The wrap strategy of all cells (see https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/cells#wrapstrategy).
+ * @returns {Object} Returns a batch request based on the provided options.
+ */
+function createBatchAlignmentUpdate(sheetId, options) {
+	return {
+		repeatCell: {
+			range: {
+				sheetId,
+				startRowIndex: 0,
+				startColumnIndex: 0
+			},
+			cell: {
+				userEnteredFormat: options
+			},
+			fields: 'userEnteredFormat(horizontalAlignment,verticalAlignment,wrapStrategy)'
+		}
+	};
+}
+
+/**
+ * Helper function to create a batch request which resizes columns in a sheet.
+ *
+ * @param {String} sheetId - The ID of a single sheet within a spreadsheet.
+ * @param {Object} options - Column options.
+ * @param {String} options.startIndex - The column start index (zero-based)
+ * @param {String} options.endIndex - The column end index (defaults to start index + 1, which updates one column)
+ * @param {String} options.width - The pixel width to set the column to
+ * @returns {Object} Returns a batch request based on the provided options.
+ */
+function createBatchColumnResize(sheetId, {endIndex, startIndex, width}) {
+	if (endIndex === undefined) {
+		endIndex = startIndex + 1;
+	}
+	return {
+		updateDimensionProperties: {
+			range: {
+				sheetId,
+				dimension: 'COLUMNS',
+				startIndex,
+				endIndex
+			},
+			properties: {
+				pixelSize: width
+			},
+			fields: 'pixelSize'
+		}
+	};
+}
+
+/**
+ * Capitalise the first letter in a string.
+ *
+ * @param {String} string - The string to capitalise the first letter of
+ * @returns {String} Returns the string with the first letter capitalised
+ */
+function capitalizeFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
 }
