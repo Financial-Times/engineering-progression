@@ -20,7 +20,7 @@ The Markdown documentation across this repo is designed to be viewed through the
 
   - `CONTRIBUTING.md`: This file is used to point users to the more specific contributing guides that live under `docs`
 
-  - `docs`: This directory contains all of the more specific guides on how to contribute to the engineering progression repo and website. 
+  - `docs`: This directory contains all of the more specific guides on how to contribute to the engineering progression repo and website.
 
 
 ## Website
@@ -50,6 +50,7 @@ This short guide covers some key files and directories which you'll need to know
 
   - The API endpoints (found under `site/api` if you're developing locally) are generated automatically. Any changes to files in here will be overwritten. If you need to make changes to the way these files are generated, see `script/build-website-api.js`.
 
+  - The competencies and levels data is generated automatically, so that this data is always pinned at the latest released version on the website. Any changes to files in here will be overwritten. If you need to make changes to the way these files are generated, see `script/build-website-data.js`.
 
 ### Building the Site Locally
 
@@ -69,10 +70,10 @@ Build the website when files change and serve on [localhost:4000](http://localho
 make website
 ```
 
-The local website will not have any API endpoints unless you generate them manually. On CI and in production this is automated, but to build API endpoints manually, run the following:
+The local website will not have any API endpoints or competencies data unless you generate them manually. On CI and in production this is automated, but to build these parts of the site manually, run the following:
 
 ```sh
-CIRCLE_TAG=v1.0.0 make build-website-api
+CIRCLE_TAG=v1.0.0 make build-website-api build-competencies-data
 ```
 
-This will generate all of the API endpoints based on competencies data (e.g. `/api/v1/competencies/all.json`). The `v1` in the URL corresponds to the Circle tag that you specify, so if you wanted to create a `v2` endpoint you should specify `CIRCLE_TAG=v2.0.0`.
+This will generate all of the API endpoints based on competencies data (e.g. `/api/v1/competencies/all.json`). The `v1` in the URL corresponds to the Circle tag that you specify, so if you wanted to create a `v2` endpoint you should specify `CIRCLE_TAG=v2.0.0`. This will also generate Jekyll data files for the competencies and levels, which are used by pages in the site.

@@ -80,8 +80,17 @@ ifdef CIRCLE_TAG
 endif
 	@$(TASK_DONE)
 
+# Build the competencies website data. This copies
+# built competency data from the main repo into
+# the Jekyll data folder
+build-website-data: build-competencies-json
+ifdef CIRCLE_TAG
+	@./script/build-website-data.js
+endif
+	@$(TASK_DONE)
+
 # Build the competencies website
-build-website: build-website-api
+build-website: build-website-api build-website-data
 	@bundle exec jekyll build $(JEKYLL_OPTIONS)
 	@$(TASK_DONE)
 
@@ -129,8 +138,8 @@ publish-website: build-website
 	@git checkout gh-pages
 	@git pull origin gh-pages
 	@git rm -r .
-	@git reset HEAD .circleci .gitignore ./api CNAME
-	@git checkout .circleci .gitignore ./api CNAME
+	@git reset HEAD .circleci .gitignore ./api ./_data/competencies.json ./_data/competencies-version.json ./_data/level.json CNAME
+	@git checkout .circleci .gitignore ./api ./_data/competencies.json ./_data/competencies-version.json ./_data/level.json CNAME
 	@cp -r dist/site/* .
 ifdef CIRCLE_TAG
 	@if [ "$$(git status --porcelain)" != "" ]; then \
