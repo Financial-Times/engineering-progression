@@ -1,7 +1,11 @@
 
 # Engineering Progression
 
-Careers and progression for engineers in the CTO organisation. This project is in Alpha – **do not use**.
+Careers and progression for engineers in the CTO organisation.
+
+:warning: This project is currently in **ALPHA**, please do not use this to guide promotions decisions yet. We'll be publishing a **BETA** in the near future and helping to test this in a promotions round after that.
+
+---
 
   - [Overview](#overview)
   - [Engineering Competencies](#engineering-competencies)
