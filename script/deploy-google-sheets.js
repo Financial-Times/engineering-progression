@@ -65,7 +65,8 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 		console.info(`⏳ Wrangling the sheets into place`);
 		const sheets = await createRequiredSheets(client, spreadsheet, [
 			'Overview',
-			...levels.map(level => level.name)
+			...levels.map(level => level.name),
+			...levels.map(level => `${level.name} (Calculations)`)
 		]);
 		console.info(`✨ All sheets have been wrangled`);
 
@@ -187,6 +188,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 
 			// Add the actual data for the level
 			batchedUpdates.push(createBatchCellUpdate(sheetId, [
+				[''], // Empty cell for chart
 				['Area', 'Competency', 'Done?', 'Evidence'],
 				...competenciesForLevel.map(competency => {
 					let content = competency.summary;
@@ -205,8 +207,8 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 				repeatCell: {
 					range: {
 						sheetId,
-						startRowIndex: 1,
-						endRowIndex: competenciesForLevel.length + 1,
+						startRowIndex: 2,
+						endRowIndex: competenciesForLevel.length + 2,
 						startColumnIndex: 2,
 						endColumnIndex: 3
 					},
@@ -221,19 +223,6 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 						}
 					},
 					fields: 'dataValidation,userEnteredFormat(horizontalAlignment)'
-				}
-			});
-
-			// Freeze the header row for the level
-			batchedUpdates.push({
-				updateSheetProperties: {
-					properties: {
-						sheetId,
-						grid_properties: {
-							frozenRowCount: 1
-						}
-					},
-					fields: 'gridProperties.frozenRowCount'
 				}
 			});
 
@@ -266,13 +255,32 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 				}
 			});
 
+			// Merge and resize the top row for the sheet,
+			// this is where the chart will sit
+			batchedUpdates.push({
+				mergeCells: {
+					range: {
+						sheetId,
+						startRowIndex: 0,
+						endRowIndex: 1,
+						startColumnIndex: 0,
+						endColumnIndex: 4
+					},
+					mergeType: 'MERGE_ROWS'
+				}
+			});
+			batchedUpdates.push(createBatchRowResize(sheetId, {
+				startIndex: 0,
+				height: 200
+			}));
+
 			// Format the header cells for the level
 			batchedUpdates.push({
 				repeatCell: {
 					range: {
 						sheetId,
-						startRowIndex: 0,
-						endRowIndex: 1
+						startRowIndex: 1,
+						endRowIndex: 2
 					},
 					cell: {
 						userEnteredFormat: {
@@ -290,6 +298,171 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 					fields: 'userEnteredFormat(backgroundColor,textFormat)'
 				}
 			});
+
+			// Add formulas to the level calculations sheet
+			const calculationSheetName = `${level.name} (Calculations)`;
+			const calculationSheet = sheetsByTitle[calculationSheetName];
+			const calculationSheetId = calculationSheet.properties.sheetId;
+			batchedUpdates.push(createBatchCellUpdate(calculationSheetId, [
+				[
+					'Technical',
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A1)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A1)),"<>#N/A")`
+				],
+				[
+					'Communication',
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A2)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A2)),"<>#N/A")`
+				],
+				[
+					'Delivery',
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A3)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A3)),"<>#N/A")`
+				],
+				[
+					'Leadership',
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A4)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A4)),"<>#N/A")`
+				]
+			]));
+
+			// Delete additional columns and rows for the calculation sheet
+			batchedUpdates.push({
+				deleteDimension: {
+					range: {
+						sheetId: calculationSheetId,
+						dimension: 'COLUMNS',
+						startIndex: 3
+					}
+				}
+			});
+			batchedUpdates.push({
+				deleteDimension: {
+					range: {
+						sheetId: calculationSheetId,
+						dimension: 'ROWS',
+						startIndex: 4
+					}
+				}
+			});
+
+			// Hide the calculations sheet
+			batchedUpdates.push({
+				updateSheetProperties: {
+					properties: {
+						sheetId: calculationSheetId,
+						hidden: true
+					},
+					fields: 'hidden'
+				}
+			});
+
+			// Create the chart in the level sheet
+			batchedUpdates.push({
+				addChart: {
+					chart: {
+						spec: {
+							// This is the chart definition, we're adding a bar chart with no legend
+							basicChart: {
+								chartType: 'BAR',
+								legendPosition: 'NO_LEGEND',
+								axis: [],
+								domains: [],
+
+								// This is the actual chart data, each of these series uses data
+								// from the calculation sheet
+								series: [
+									{
+										series: {
+											sourceRange: {
+												sources: [
+													{
+														sheetId: calculationSheetId,
+														startRowIndex: 0,
+														endRowIndex: 4,
+														startColumnIndex: 0,
+														endColumnIndex: 1
+													}
+												]
+											}
+										},
+										targetAxis: 'LEFT_AXIS'
+									},
+									{
+										series: {
+											sourceRange: {
+												sources: [
+													{
+														sheetId: calculationSheetId,
+														startRowIndex: 0,
+														endRowIndex: 4,
+														startColumnIndex: 1,
+														endColumnIndex: 2
+													}
+												]
+											}
+										},
+										targetAxis: 'BOTTOM_AXIS',
+										color: {
+											// This is a Teal tint from o-colors. Note: this doesn't
+											// actually work, but this is where the colour will go when
+											// the Google Sheets API supports changing bar colours.
+											red: 61 / 255,
+											green: 145 / 255,
+											blue: 153 / 255,
+											alpha: 1
+										}
+									},
+									{
+										series: {
+											sourceRange: {
+												sources: [
+													{
+														sheetId: calculationSheetId,
+														startRowIndex: 0,
+														endRowIndex: 4,
+														startColumnIndex: 2,
+														endColumnIndex: 3
+													}
+												]
+											}
+										},
+										targetAxis: 'BOTTOM_AXIS',
+										color: {
+											// This is transparent. Note: this doesn't actually work,
+											// but this is where the colour will go when the Google
+											// Sheets API supports changing bar colours.
+											red: 1,
+											green: 1,
+											blue: 1,
+											alpha: 0
+										}
+									}
+								],
+								headerCount: 0,
+								stackedType: 'PERCENT_STACKED'
+							}
+						},
+
+						// Charts in sheets are positioned relative to an anchoring cell. This
+						// position definition anchors the chart in cell A1, with no offset, and
+						// a width/height that matches the cell
+						position: {
+							overlayPosition: {
+								anchorCell: {
+									sheetId,
+									rowIndex: 0,
+									columnIndex: 0
+								},
+								offsetXPixels: 0,
+								offsetYPixels: 0,
+								widthPixels: 1150,
+								heightPixels: 200
+							}
+						}
+					}
+				}
+			})
 
 		}
 
@@ -437,6 +610,9 @@ function createBatchCellUpdate(sheetId, rows) {
 								value.stringValue = cell;
 							}
 						}
+						if (cell === undefined) {
+							return {};
+						}
 						return {
 							userEnteredValue: value
 						};
@@ -503,6 +679,36 @@ function createBatchColumnResize(sheetId, {endIndex, startIndex, width}) {
 			},
 			properties: {
 				pixelSize: width
+			},
+			fields: 'pixelSize'
+		}
+	};
+}
+
+/**
+ * Helper function to create a batch request which resizes rows in a sheet.
+ *
+ * @param {String} sheetId - The ID of a single sheet within a spreadsheet.
+ * @param {Object} options - Row options.
+ * @param {String} options.startIndex - The row start index (zero-based)
+ * @param {String} options.endIndex - The row end index (defaults to start index + 1, which updates one row)
+ * @param {String} options.height - The pixel height to set the row to
+ * @returns {Object} Returns a batch request based on the provided options.
+ */
+function createBatchRowResize(sheetId, {endIndex, startIndex, height}) {
+	if (endIndex === undefined) {
+		endIndex = startIndex + 1;
+	}
+	return {
+		updateDimensionProperties: {
+			range: {
+				sheetId,
+				dimension: 'ROWS',
+				startIndex,
+				endIndex
+			},
+			properties: {
+				pixelSize: height
 			},
 			fields: 'pixelSize'
 		}
