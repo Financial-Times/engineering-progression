@@ -6,27 +6,28 @@ layout: o-layout-docs
 ---
 
 
-<h1>{{page.title}}</h1>
-
-<p><strong>[this page demonstrates how to render competencies data in the site]</strong></p>
+<h1 class="o-layout__linked-heading">{{page.title}}</h1>
 
 {% for level in site.data.levels %}
 
-	<h2>{{level.name}}</h2>
+	<h2 class="o-layout__linked-heading" id="#{{level.id}}">
+    <a href="#{{level.id}}" class="o-layout__linked-heading__link">
+			<span class="o-layout__linked-heading__content">{{level.name}}</span>
+			<span class="o-layout__linked-heading__label">#</span>
+		</a>
+  </h2>
 	<p>{{level.summary}}</p>
 
-	<ul>
+	<ul class="o-layout__unstyled-element competency-list">
 		{% for competency in site.data.competencies %}
 			{% if competency.level == level.id %}
-				<li style="margin-bottom: 20px;">
-					[{{competency.area}}]
-					{{competency.summary}}
-
+				<li class="competency-list-item">
+					<span class='o-labels'>{{competency.area}}</span>&nbsp;{{competency.summary}}
 					{% assign example-count = competency.examples | size %}
 					{% if example-count > 0 %}
-						<ul class="margin-bottom: 0;">
+						<ul class="o-layout__unstyled-element">
 							{% for example in competency.examples %}
-								<li>{{example}}</li>
+								<li><em>{{example}}</em></li>
 							{% endfor %}
 						</ul>
 					{% endif %}
