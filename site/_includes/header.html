@@ -1,13 +1,31 @@
 
-<header class="o-header-services" data-o-component="o-header">
+<header class="o-header-services" data-o-component="o-header-services">
 
-	<div class="o-header-services__top o-header-services__container">
-		<div class="o-header-services__ftlogo"></div>
+	<div class="o-header-services__top">
+		<div class="o-header-services__logo"></div>
 		<div class="o-header-services__title">
-			<h1 class="o-header-services__product-name">
-				<a href="/">Engineering Progression</a>
-			</h1>
+			<a class="o-header-services__product-name" href="/">Engineering Progression</a>
 		</div>
 	</div>
+
+	<nav class="o-header-services__primary-nav" aria-label="primary">
+		<ul class="o-header-services__primary-nav-list">
+			<li>
+				<a href="/" {% if page.url == '/' %}aria-current="true"{% endif %}>
+					Home
+				</a>
+			</li>
+			<li>
+				<a href="/competencies/" {% if page.url == '/competencies/' %}aria-current="true"{% endif %}>
+					Competencies
+				</a>
+			</li>
+			<li>
+				<a href="/docs/api/" {% if page.url == '/docs/api/' %}aria-current="true"{% endif %}>
+					API
+				</a>
+			</li>
+		</ul>
+	</nav>
 
 </header>
