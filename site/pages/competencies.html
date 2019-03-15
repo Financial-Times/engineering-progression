@@ -17,24 +17,32 @@ layout: o-layout-docs
 		</a>
 	</h2>
 	<p>{{level.summary}}</p>
-
-	<ul class="o-layout__unstyled-element competency-list">
-		{% for competency in site.data.competencies %}
-			{% if competency.level == level.id %}
-				<li class="competency-list-item">
-					<span class='o-labels'>{{competency.area}}</span>&nbsp;{{competency.summary}}
-					{% assign example-count = competency.examples | size %}
-					{% if example-count > 0 %}
-						<ul class="o-layout__unstyled-element">
-							{% for example in competency.examples %}
-								<li><em>{{example}}</em></li>
-							{% endfor %}
-						</ul>
+		<table class="o-table  o-table--row-stripes" data-o-component="o-table">
+			<thead>
+	        <tr>
+	            <th scope="col" role="columnheader">Area</th>
+	            <th scope="col" role="columnheader" data-o-table-heading-disable-sort="">Competency</th>
+	 				</tr>
+			</thead>
+			<tbody>
+				{% for competency in site.data.competencies %}
+					{% if competency.level == level.id %}
+					<tr>
+					<td><span class='o-labels'>{{competency.area}}</span></td>
+					<td>{{competency.summary}}
+					  {% assign example-count = competency.examples | size %}
+					  {% if example-count > 0 %}
+						  <ul class="o-layout__unstyled-element">
+							  {% for example in competency.examples %}
+							  	<li><em>{{example}}</em></li>
+							  {% endfor %}
+					  	</ul>
+						{% endif %}
+					</td>
+					</tr>
 					{% endif %}
 
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
-
+				{% endfor %}
+			</tbody>
+		</table>
 {% endfor %}
