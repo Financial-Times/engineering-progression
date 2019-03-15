@@ -27,7 +27,7 @@ The work we do is as a team, and we rely on each other and the input from our us
 
 ### Use the active voice
 
-  - **do**: "We would recommend you do ..."
+  - **do**: "We recommend you do ..."
   - **don't**: "It is recommended you do ..."
 
 The active voice provides clarity, context and responsibility. If we are passive in our writing, we become vague and we distance ourselves from what we are trying to convey. This isn't helpful to our users, who rely on and trust our ability to take responsibility for the work we do.
