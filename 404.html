@@ -37,7 +37,7 @@
 			display: none !important;
 		}
 	</style>
-	<link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-typography@^5.8.0,o-layout@^3.0.0-beta.2,o-header-services@^2.3.4,o-footer-services@^2.0.3,o-syntax-highlight@^1.4.0,o-message@^3.1.0,o-table@^6.9.0,o-labels@^4.2.2&brand=internal" />
+	<link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-typography@^5.8.0,o-layout@^3.0.0-beta.2,o-header-services@^3.2.9,o-footer-services@^2.0.3,o-syntax-highlight@^1.4.0,o-message@^3.1.0,o-table@^6.9.0,o-labels@^4.2.2&brand=internal" />
 	<link rel="stylesheet" href="/css/main.css" />
 
 	<!-- Site links -->
@@ -53,7 +53,7 @@
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(o, s);
 			}
-		}('https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-typography@^5.8.0,o-layout@^3.0.0-beta.2,o-header-services@^2.3.4,o-footer-services@^2.0.3,o-syntax-highlight@^1.4.0,o-message@^3.1.0,o-table@^6.9.0'));
+		}('https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-typography@^5.8.0,o-layout@^3.0.0-beta.2,o-header-services@^3.2.9,o-footer-services@^2.0.3,o-syntax-highlight@^1.4.0,o-message@^3.1.0,o-table@^6.9.0'));
 	</script>
 
 </head>
@@ -75,16 +75,34 @@
 </div>
 
 			
-<header class="o-header-services" data-o-component="o-header">
+<header class="o-header-services" data-o-component="o-header-services">
 
-	<div class="o-header-services__top o-header-services__container">
-		<div class="o-header-services__ftlogo"></div>
+	<div class="o-header-services__top">
+		<div class="o-header-services__logo"></div>
 		<div class="o-header-services__title">
-			<h1 class="o-header-services__product-name">
-				<a href="/">Engineering Progression</a>
-			</h1>
+			<a class="o-header-services__product-name" href="/">Engineering Progression</a>
 		</div>
 	</div>
+
+	<nav class="o-header-services__primary-nav" aria-label="primary">
+		<ul class="o-header-services__primary-nav-list">
+			<li>
+				<a href="/" >
+					Home
+				</a>
+			</li>
+			<li>
+				<a href="/competencies/" >
+					Competencies
+				</a>
+			</li>
+			<li>
+				<a href="/docs/api/" >
+					API
+				</a>
+			</li>
+		</ul>
+	</nav>
 
 </header>
 
