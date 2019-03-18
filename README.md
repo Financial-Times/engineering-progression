@@ -26,6 +26,10 @@ This framework can be used in its raw form (YAML files), but it is also availble
 Engineering competencies are used to help identify when an engineer is ready for promotion. There are several ways that you can read through these competencies and track progress:
 
   - [Track progress with your manager or report via Google Sheets](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit)
+  
+  - [View all competencies on the website](https://engineering-progression.ft.com/competencies/)
+  
+  - [Access competencies data via the JSON API](https://engineering-progression.ft.com/docs/api/)
 
   - [Read the engineering competencies as YAML in this repository](data/competencies.yml)
 
