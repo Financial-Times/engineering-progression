@@ -59,7 +59,7 @@
   domain: null
 
 - id: b0e285f2-08a3-47c2-a810-30d5258e1863
-  summary: Regularly fixes security issues raised by others/automation in own code
+  summary: Regularly fixes security issues raised by others (or raised by automation) in own code?
   examples: []
   description: null
   level: junior-to-mid
