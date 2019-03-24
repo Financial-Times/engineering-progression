@@ -7,7 +7,7 @@ Anybody working for the Financial Times is welcome to suggest changes via a GitH
 
   2. Issues and Pull Requests are a better place to have discussions than Slack or in-person – they act as documentation for future contributors.
 
-  3. Before opening an issue or Pull Request, do a quick search to see if it's been discussed before.
+  3. Before opening an issue or Pull Request, do a quick search to see if it's been discussed before. If you want to raise several points, open a separate issue for each of them &mdash; this will help keep the discussion focused.
 
 
 ## How to Contribute
