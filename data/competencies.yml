@@ -136,7 +136,7 @@
   domain: null
 
 - id: 458cfd7f-b621-462e-ad7f-90870e1d5cfc
-  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other developers
+  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other engineers
   examples: []
   description: null
   level: junior-to-mid
@@ -742,7 +742,7 @@
 - id: 1ee4d2b9-8160-42e0-a763-f45703abc6d5
   summary: Helps resolve disagreements healthily
   examples:
-    - Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from developers on a solution to a problem
+    - Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from engineers on a solution to a problem
     - Encourages team members to speak freely in retrospectives
     - Encourages team members to treat each empathetically
   description: null
