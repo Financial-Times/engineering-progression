@@ -66,7 +66,7 @@
 	},
 	{
 		"id": "b0e285f2-08a3-47c2-a810-30d5258e1863",
-		"summary": "Regularly fixes security issues raised by others/automation in own code",
+		"summary": "Regularly fixes security issues raised by others (or raised by automation) in own code",
 		"examples": [],
 		"description": null,
 		"level": "junior-to-mid",
@@ -162,7 +162,11 @@
 	{
 		"id": "f6e9efd1-7d55-439b-8f7d-c50829e48879",
 		"summary": "Takes ownership of personal development",
-		"examples": [],
+		"examples": [
+			"Finds training course and takes it",
+			"Studies for and attains a technical certification",
+			"Proactively learns how to use a new tool/language feature"
+		],
 		"description": null,
 		"level": "junior-to-mid",
 		"area": "communication",
@@ -203,7 +207,8 @@
 		"summary": "Uses user research or data to inform decisions",
 		"examples": [
 			"Attends customer based user research for a feature being worked on",
-			"Sets up some guerilla testing with developers for a new bit of tooling"
+			"Sets up a testing session with peers for a new bit of tooling",
+			"Finds a common pain point among teammates and proposes/builds a solution for it"
 		],
 		"description": null,
 		"level": "junior-to-mid",
