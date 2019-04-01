@@ -744,14 +744,14 @@
   examples:
     - Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from engineers on a solution to a problem
     - Encourages team members to speak freely in retrospectives
-    - Encourages team members to treat each empathetically
+    - Encourages team members to treat eachother empathetically
   description: null
   level: senior1-to-senior2
   area: leadership
   domain: null
 
 - id: 45780158-375a-421b-a89a-97d32e61cdba
-  summary: Shapes roadmap or priorities (in collaboration Product Owners if they work in a team with that role)
+  summary: Shapes roadmap or priorities (in collaboration with Product Owners if they work in a team with that role)
   examples: []
   description: null
   level: senior1-to-senior2
