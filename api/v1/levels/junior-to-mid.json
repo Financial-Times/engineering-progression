@@ -1,7 +1,7 @@
 {
 	"id": "junior-to-mid",
 	"name": "Junior to Mid",
-	"summary": "Mid level developers should be proficient in the technical systems that they are working on. They should be aware and guided by the wider context of their work. They should take responsibility for their work and own their personal development. They should be working as part of a team to achieve the shared goals of the team.\n",
+	"summary": "Mid level engineers should be proficient in the technical systems that they are working on. They should be aware and guided by the wider context of their work. They should take responsibility for their work and own their personal development. They should be working as part of a team to achieve the shared goals of the team.\n",
 	"competencies": [
 		{
 			"id": "4029f7b4-0c42-4867-818b-c03049a07de1",
@@ -156,7 +156,7 @@
 		},
 		{
 			"id": "458cfd7f-b621-462e-ad7f-90870e1d5cfc",
-			"summary": "Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other developers",
+			"summary": "Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other engineers",
 			"examples": [],
 			"description": null,
 			"level": "junior-to-mid",
