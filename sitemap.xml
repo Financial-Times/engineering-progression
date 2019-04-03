@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/competencies/</loc>
-</url>
-<url>
 <loc>/docs/api/</loc>
 </url>
 <url>
 <loc>/</loc>
+</url>
+<url>
+<loc>/competencies/how-to-use/</loc>
+</url>
+<url>
+<loc>/competencies/</loc>
+</url>
+<url>
+<loc>/competencies/junior-to-mid/</loc>
+</url>
+<url>
+<loc>/competencies/mid-to-senior1/</loc>
+</url>
+<url>
+<loc>/competencies/senior1-to-senior2/</loc>
+</url>
+<url>
+<loc>/competencies/senior2-to-principal/</loc>
 </url>
 </urlset>
