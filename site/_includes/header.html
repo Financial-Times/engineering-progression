@@ -16,7 +16,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="/competencies/" {% if page.url == '/competencies/' %}aria-current="true"{% endif %}>
+				<a href="/competencies/" {% if page.url contains '/competencies/' %}aria-current="true"{% endif %}>
 					Competencies
 				</a>
 			</li>
@@ -27,5 +27,36 @@
 			</li>
 		</ul>
 	</nav>
+
+	{% if page.url contains '/competencies/' %}
+		<nav class="o-header-services__secondary-nav" aria-label="secondary" data-o-header-services-nav="">
+			<div class="o-header-services__secondary-nav-content" data-o-header-services-nav-list="">
+				<ol class="o-header-services__secondary-nav-list o-header-services__secondary-nav-list--ancestors" aria-label="Ancestor sections">
+					<li>
+						<a href="/competencies/" {% if page.url == '/competencies/' %}aria-current="true"{% endif %}>
+							Competencies
+						</a>
+					</li>
+				</ol>
+				<ul class="o-header-services__secondary-nav-list o-header-services__secondary-nav-list--children" aria-label="Child sections">
+					<li>
+						<a href="/competencies/how-to-use/" {% if page.url == '/competencies/how-to-use/' %}aria-current="true"{% endif %}>
+							How to use
+						</a>
+					</li>
+					{% for level in site.data.levels %}
+						<li>
+							{% capture level_url %}/competencies/{{level.id}}/{% endcapture %}
+							<a href="{{level_url}}" {% if page.url == level_url %}aria-current="true"{% endif %}>
+								{{level.name}}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<button class="o-header-services__scroll-button o-header-services__scroll-button--left" title="scroll left" aria-hidden="true" disabled></button>
+			<button class="o-header-services__scroll-button o-header-services__scroll-button--right" title="scroll right" aria-hidden="true" disabled></button>
+		</nav>
+	{% endif %}
 
 </header>

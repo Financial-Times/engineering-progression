@@ -1,0 +1,36 @@
+---
+title: Engineering Competencies
+description: Engineering competencies are used to help identify when an engineer is ready for promotion.
+permalink: /competencies/
+layout: o-layout-landing
+---
+
+
+<div class="o-layout__hero o-layout__hero--muted o-layout-typography">
+
+	<h1>{{page.title}}</h1>
+	<p>
+		Engineering competencies are used to help identify when an engineer is ready for promotion.
+		This section of the site outlines the competencies for each level of engineer. Before reviewing competencies for your level,
+		<a href="/competencies/how-to-use/">read how to use them here</a>.
+	</p>
+
+</div>
+
+<div class="o-layout__main o-layout-typography">
+
+	<div class="o-layout__overview">
+
+		{% for level in site.data.levels %}
+			<div class="o-layout-item">
+				<h2><a href="/competencies/{{level.id}}/">{{level.name}}</a></h2>
+				<p>
+					<span class="level-overview-summary">{{level.summary}}</span>
+					<a href="/competencies/{{level.id}}/">Read all of the {{level.name}} competencies</a>
+				</p>
+			</div>
+		{% endfor %}
+
+	</div>
+
+</div>
