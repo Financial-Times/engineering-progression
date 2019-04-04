@@ -60,7 +60,9 @@
 
 - id: b0e285f2-08a3-47c2-a810-30d5258e1863
   summary: Regularly fixes security issues raised by others (or raised by automation) in own code
-  examples: []
+  examples:
+    - Fixes vulnerabilities in dependencies raised by Snyk
+    - Fixes vulnerabilities raised by the cyber security team
   description: null
   level: junior-to-mid
   area: technical
@@ -495,9 +497,10 @@
   domain: null
 
 - id: d8651fc0-059b-4c11-929f-e07803f9f8bf
-  summary: Understands and considers other teams' needs
+  summary: Actively seeks the views of other teams to help guide work
   examples:
     - Attends cross team meetings
+    - Asks other teams for input and opinions on decisions that affect them
   description: null
   level: mid-to-senior1
   area: delivery
