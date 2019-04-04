@@ -725,18 +725,23 @@
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
   summary: Takes ownership of ensuring an inclusive team culture
-  examples: []
+  examples:
+    - Celebrates good work publicly and encourages the team to do the same
+    - Spots problems between team members and helps to resolve them
+    - Models inclusive behaviour to the rest of the team
   description: null
   level: senior1-to-senior2
   area: leadership
   domain: null
 
 - id: 7e613602-fda1-43dc-94ca-83e17b24f42c
-  summary: Contributes to the personal development of more junior people in their team
+  summary: Contributes to the personal development of more junior people
   examples:
     - Pairs with more junior team members
     - Mentors people
     - Line manages people
+    - Writes blog posts
+    - Gives talks at meet-ups or conferences
   description: null
   level: senior1-to-senior2
   area: leadership
