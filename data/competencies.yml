@@ -495,9 +495,10 @@
   domain: null
 
 - id: d8651fc0-059b-4c11-929f-e07803f9f8bf
-  summary: Understands and considers other teams' needs
+  summary: Actively seeks the views of other teams to help guide work
   examples:
     - Attends cross team meetings
+    - Asks other teams for input and opinions on decisions that affect them
   description: null
   level: mid-to-senior1
   area: delivery
