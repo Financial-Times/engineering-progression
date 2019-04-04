@@ -706,7 +706,9 @@
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
   summary: Presents the team's work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues
   examples:
-    - Presents at the Technology All Hands
+    - Speaks at the Technology All Hands
+    - Writes one-pagers to explain technical descisions
+    - Writes a blog post about an aspect of the team's work
   description: null
   level: senior1-to-senior2
   area: leadership
