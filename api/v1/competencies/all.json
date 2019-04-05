@@ -67,7 +67,10 @@
 	{
 		"id": "b0e285f2-08a3-47c2-a810-30d5258e1863",
 		"summary": "Regularly fixes security issues raised by others (or raised by automation) in own code",
-		"examples": [],
+		"examples": [
+			"Fixes vulnerabilities in dependencies raised by Snyk",
+			"Fixes vulnerabilities raised by the cyber security team"
+		],
 		"description": null,
 		"level": "junior-to-mid",
 		"area": "technical",
@@ -102,7 +105,7 @@
 	},
 	{
 		"id": "b24b7fe3-3c4f-4fb0-b2b4-ba8c43806701",
-		"summary": "Uses monitoring (not implement monitoring)",
+		"summary": "Uses monitoring (but doesn't necessarily implement monitoring)",
 		"examples": [
 			"Pingdom, grafana"
 		],
@@ -125,12 +128,12 @@
 	},
 	{
 		"id": "6a019e95-20ab-4af5-a42a-727274eec0d8",
-		"summary": "Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code",
+		"summary": "Maintains documentation on the systems they work on, making it easy for future engineers to interact with systems and code",
 		"examples": [
 			"Writes READMEs with the appropriate level of detail for getting the project set up",
 			"Documents common issues with the codebase in a troubleshooting section in the README",
 			"Finds some documentation they are reading is out of date so opens a Pull Request to improve it",
-			"Good commit messages that explain why a change was made",
+			"Writes good commit messages that explain why a change was made",
 			"Puts line comments around any 'magic' bits of code",
 			"Writes and updates runbooks for services they work on"
 		],
@@ -163,7 +166,7 @@
 		"id": "f6e9efd1-7d55-439b-8f7d-c50829e48879",
 		"summary": "Takes ownership of personal development",
 		"examples": [
-			"Finds training course and takes it",
+			"Finds a training course and takes it",
 			"Studies for and attains a technical certification",
 			"Proactively learns how to use a new tool/language feature"
 		],
@@ -317,9 +320,9 @@
 		"id": "4dc43122-71f1-4fb1-99c8-73aa3a666332",
 		"summary": "Positively contributes to an inclusive team culture",
 		"examples": [
-			"Reminds others that a team members may have child care duties",
+			"Reminds others that team members may have child care duties",
 			"Draws people working remotely into planning conversations",
-			"Tactfully calls out exclusive or alienating behaviors from others",
+			"Tactfully calls out exclusive or alienating behaviours from others",
 			"Organises a leaving collection for a colleague",
 			"Makes a round of tea for the team",
 			"Documents team norms to help new starters",
@@ -554,9 +557,10 @@
 	},
 	{
 		"id": "d8651fc0-059b-4c11-929f-e07803f9f8bf",
-		"summary": "Understands and considers other teams' needs",
+		"summary": "Actively seeks the views of other teams to help guide work",
 		"examples": [
-			"Attends cross team meetings"
+			"Attends cross team meetings",
+			"Asks other teams for input and opinions on decisions that affect them"
 		],
 		"description": null,
 		"level": "mid-to-senior1",
@@ -624,7 +628,7 @@
 	},
 	{
 		"id": "2c9171a0-8935-41fa-809e-08c311538eac",
-		"summary": "Shows Technical leadership",
+		"summary": "Shows technical leadership",
 		"examples": [
 			"Is a tech lead",
 			"Runs, or is on the organising team for a Guild",
@@ -751,7 +755,7 @@
 	},
 	{
 		"id": "877d7313-d6de-44ae-80b4-5ed094ddf39a",
-		"summary": "Takes a stakeholder problem, investigates to understand it and a proposes solution",
+		"summary": "Takes a stakeholder problem, investigates to understand it and proposes a solution",
 		"examples": [],
 		"description": null,
 		"level": "senior1-to-senior2",
@@ -780,9 +784,11 @@
 	},
 	{
 		"id": "60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9",
-		"summary": "Presents the teams work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues.",
+		"summary": "Presents the team's work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues",
 		"examples": [
-			"Presents at the Technology All Hands"
+			"Speaks at the Technology All Hands",
+			"Writes one-pagers to explain technical descisions",
+			"Writes a blog post about an aspect of the team's work"
 		],
 		"description": null,
 		"level": "senior1-to-senior2",
@@ -801,7 +807,11 @@
 	{
 		"id": "de580f8a-633d-43bb-b970-9b2987e07b86",
 		"summary": "Takes ownership of ensuring an inclusive team culture",
-		"examples": [],
+		"examples": [
+			"Celebrates good work publicly and encourages the team to do the same",
+			"Spots problems between team members and helps to resolve them",
+			"Models inclusive behaviour to the rest of the team"
+		],
 		"description": null,
 		"level": "senior1-to-senior2",
 		"area": "leadership",
@@ -809,11 +819,13 @@
 	},
 	{
 		"id": "7e613602-fda1-43dc-94ca-83e17b24f42c",
-		"summary": "Contributes to the personal development of more junior people in their team",
+		"summary": "Contributes to the personal development of more junior people",
 		"examples": [
 			"Pairs with more junior team members",
 			"Mentors people",
-			"Line manages people"
+			"Line manages people",
+			"Writes blog posts",
+			"Gives talks at meet-ups or conferences"
 		],
 		"description": null,
 		"level": "senior1-to-senior2",
@@ -826,7 +838,7 @@
 		"examples": [
 			"Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from engineers on a solution to a problem",
 			"Encourages team members to speak freely in retrospectives",
-			"Encourages team members to treat eachother empathetically"
+			"Encourages team members to treat each other empathetically"
 		],
 		"description": null,
 		"level": "senior1-to-senior2",

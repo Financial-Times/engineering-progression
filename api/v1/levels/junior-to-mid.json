@@ -71,7 +71,10 @@
 		{
 			"id": "b0e285f2-08a3-47c2-a810-30d5258e1863",
 			"summary": "Regularly fixes security issues raised by others (or raised by automation) in own code",
-			"examples": [],
+			"examples": [
+				"Fixes vulnerabilities in dependencies raised by Snyk",
+				"Fixes vulnerabilities raised by the cyber security team"
+			],
 			"description": null,
 			"level": "junior-to-mid",
 			"area": "technical",
@@ -106,7 +109,7 @@
 		},
 		{
 			"id": "b24b7fe3-3c4f-4fb0-b2b4-ba8c43806701",
-			"summary": "Uses monitoring (not implement monitoring)",
+			"summary": "Uses monitoring (but doesn't necessarily implement monitoring)",
 			"examples": [
 				"Pingdom, grafana"
 			],
@@ -129,12 +132,12 @@
 		},
 		{
 			"id": "6a019e95-20ab-4af5-a42a-727274eec0d8",
-			"summary": "Maintains documentation on the systems they work on, makes it easy for future engineers to interact with systems and code",
+			"summary": "Maintains documentation on the systems they work on, making it easy for future engineers to interact with systems and code",
 			"examples": [
 				"Writes READMEs with the appropriate level of detail for getting the project set up",
 				"Documents common issues with the codebase in a troubleshooting section in the README",
 				"Finds some documentation they are reading is out of date so opens a Pull Request to improve it",
-				"Good commit messages that explain why a change was made",
+				"Writes good commit messages that explain why a change was made",
 				"Puts line comments around any 'magic' bits of code",
 				"Writes and updates runbooks for services they work on"
 			],
@@ -167,7 +170,7 @@
 			"id": "f6e9efd1-7d55-439b-8f7d-c50829e48879",
 			"summary": "Takes ownership of personal development",
 			"examples": [
-				"Finds training course and takes it",
+				"Finds a training course and takes it",
 				"Studies for and attains a technical certification",
 				"Proactively learns how to use a new tool/language feature"
 			],
@@ -321,9 +324,9 @@
 			"id": "4dc43122-71f1-4fb1-99c8-73aa3a666332",
 			"summary": "Positively contributes to an inclusive team culture",
 			"examples": [
-				"Reminds others that a team members may have child care duties",
+				"Reminds others that team members may have child care duties",
 				"Draws people working remotely into planning conversations",
-				"Tactfully calls out exclusive or alienating behaviors from others",
+				"Tactfully calls out exclusive or alienating behaviours from others",
 				"Organises a leaving collection for a colleague",
 				"Makes a round of tea for the team",
 				"Documents team norms to help new starters",
