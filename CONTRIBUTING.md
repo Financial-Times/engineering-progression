@@ -3,7 +3,7 @@
 
 Anybody working for the Financial Times is welcome to suggest changes via a GitHub issue or pull request. This short guide is for people who'd like to contribute, and covers some general guidelines.
 
-  1. As with all digital communcation between Financial Times employees, contributions to this repo are covered by the Financial Times code of conduct. Be respectful to your colleagues.
+  1. As with all digital communication between Financial Times employees, contributions to this repo are covered by the Financial Times code of conduct. Be respectful to your colleagues.
 
   2. Issues and Pull Requests are a better place to have discussions than Slack or in-person – they act as documentation for future contributors.
 
