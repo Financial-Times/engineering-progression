@@ -23,10 +23,16 @@ async function buildWebsiteApi({tag, apiPath, competencies}) {
 		return console.error('Error: CIRCLE_TAG environment variable must be set to a valid semver version');
 	} else {
 		const versionedApiPath = path.join(apiPath, `v${semver.major(tag)}`);
+		await createVersionEndpoint(semver.clean(tag), versionedApiPath);
 		await createCompetenciesEndpoint(competencies, versionedApiPath);
 		await createLevelsEndpoint(levels, versionedApiPath);
 		await createCompetenciesByLevelEndpoints(competencies, levels, versionedApiPath);
 	}
+}
+
+function createVersionEndpoint(version, versionedApiPath) {
+	const versionedEndpointPath = path.join(versionedApiPath, 'version.json');
+	return outputJSON(versionedEndpointPath, version);
 }
 
 function createCompetenciesEndpoint(competencies, versionedApiPath) {
