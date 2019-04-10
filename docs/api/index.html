@@ -181,9 +181,9 @@
 
 <h2 id="endpoints">Endpoints</h2>
 
-<h3 id="get-all-competencies">Get all competencies</h3>
+<h3 id="get-the-api-version">Get the API version</h3>
 
-<p>Get all of the competencies for every level as an array. This endpoint responds with an array of <a href="#entity-competency">Competency entities</a>.</p>
+<p>Get the exact version of the competencies that the API exposes.</p>
 
 <h4 id="request">Request</h4>
 
@@ -197,7 +197,7 @@
 	<tr>
 		<th scope="row">Path</th>
 		<td>
-			<code>/api/v1/competencies/all.json</code>
+			<code>/api/v1/version.json</code>
 		</td>
 	</tr>
 </table>
@@ -226,18 +226,18 @@
 	<tr>
 		<th scope="row">Body</th>
 		<td>
-			Array of <a href="#entity-competency">Competency entities</a>
+			The current semantic version, as a String. E.g. <code>"1.2.3"</code>
 		</td>
 	</tr>
 </table>
 
 <h4 id="example-curl-command">Example <code class="highlighter-rouge">curl</code> command</h4>
 
-<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/competencies/all.json</code></pre>
+<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/version.json</code></pre>
 
-<h3 id="get-all-levels">Get all levels</h3>
+<h3 id="get-all-competencies">Get all competencies</h3>
 
-<p>Get all of the competency levels as an array. This endpoint responds with an array of <a href="#entity-level">Level entities</a>, but these will be returned without the <code class="highlighter-rouge">competencies</code> property.</p>
+<p>Get all of the competencies for every level as an array. This endpoint responds with an array of <a href="#entity-competency">Competency entities</a>.</p>
 
 <h4 id="request-1">Request</h4>
 
@@ -251,7 +251,7 @@
 	<tr>
 		<th scope="row">Path</th>
 		<td>
-			<code>/api/v1/levels/all.json</code>
+			<code>/api/v1/competencies/all.json</code>
 		</td>
 	</tr>
 </table>
@@ -280,18 +280,18 @@
 	<tr>
 		<th scope="row">Body</th>
 		<td>
-			Array of <a href="#entity-level">Level entities</a>
+			Array of <a href="#entity-competency">Competency entities</a>
 		</td>
 	</tr>
 </table>
 
 <h4 id="example-curl-command-1">Example <code class="highlighter-rouge">curl</code> command</h4>
 
-<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/all.json</code></pre>
+<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/competencies/all.json</code></pre>
 
-<h3 id="get-competencies-by-level">Get competencies by level</h3>
+<h3 id="get-all-levels">Get all levels</h3>
 
-<p>Get all of the competencies for a single level, as well as the level information. This endpoint responds with a single <a href="#entity-level">Level entity</a> which includes the  <code class="highlighter-rouge">competencies</code> property.</p>
+<p>Get all of the competency levels as an array. This endpoint responds with an array of <a href="#entity-level">Level entities</a>, but these will be returned without the <code class="highlighter-rouge">competencies</code> property.</p>
 
 <h4 id="request-2">Request</h4>
 
@@ -305,8 +305,7 @@
 	<tr>
 		<th scope="row">Path</th>
 		<td>
-			<code>/api/v1/levels/<var>:level-id</var>.json</code><br />
-			(where <var>:level-id</var> is the unique identifier for a <a href="#entity-level">Level</a>)
+			<code>/api/v1/levels/all.json</code>
 		</td>
 	</tr>
 </table>
@@ -335,12 +334,67 @@
 	<tr>
 		<th scope="row">Body</th>
 		<td>
-			<a href="#entity-level">Level entity</a>
+			Array of <a href="#entity-level">Level entities</a>
 		</td>
 	</tr>
 </table>
 
 <h4 id="example-curl-command-2">Example <code class="highlighter-rouge">curl</code> command</h4>
+
+<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/all.json</code></pre>
+
+<h3 id="get-competencies-by-level">Get competencies by level</h3>
+
+<p>Get all of the competencies for a single level, as well as the level information. This endpoint responds with a single <a href="#entity-level">Level entity</a> which includes the  <code class="highlighter-rouge">competencies</code> property.</p>
+
+<h4 id="request-3">Request</h4>
+
+<table class="o-table o-table--row-headings o-layout__main__single-span" data-o-component="o-table">
+	<tr>
+		<th scope="row">Method</th>
+		<td>
+			<code>GET</code>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Path</th>
+		<td>
+			<code>/api/v1/levels/<var>:level-id</var>.json</code><br />
+			(where <var>:level-id</var> is the unique identifier for a <a href="#entity-level">Level</a>)
+		</td>
+	</tr>
+</table>
+
+<h4 id="response-3">Response</h4>
+
+<table class="o-table o-table--row-headings o-layout__main__single-span" data-o-component="o-table">
+	<tr>
+		<th scope="row">Status</th>
+		<td>
+			<code>200</code> on success
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Headers</th>
+		<td>
+			<dl>
+				<dt>Content-Type</dt>
+				<dd>
+					<code>application/json</code> on success<br />
+					<code>text/html</code> on error
+				</dd>
+			</dl>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Body</th>
+		<td>
+			<a href="#entity-level">Level entity</a>
+		</td>
+	</tr>
+</table>
+
+<h4 id="example-curl-command-3">Example <code class="highlighter-rouge">curl</code> command</h4>
 
 <pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/junior-to-mid.json</code></pre>
 
