@@ -41,7 +41,7 @@ Once you have everything set up locally, you can start to edit the following fil
 We use [JSON Schema](https://json-schema.org/) to test that the competencies YAML is valid, and that no changes to the structure can be made accidentally. These tests are run automatically on CircleCI, but it may be useful for you to test changes locally before pushing. You can do this with:
 
 ```sh
-make test
+make validate-competencies-json
 ```
 
 This will first run `make build` for you behind the scenes, and then run the tests against the built JSON. If there are any validation issues, errors are output to the command line and the command will exit with a code of `1`.
