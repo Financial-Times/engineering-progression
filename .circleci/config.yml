@@ -6,7 +6,7 @@ references:
   # Shared container config for all jobs
   container_config: &container_config
     docker:
-      - image: circleci/ruby:2.4.5-node
+      - image: circleci/ruby:2.4.5-node-browsers
 
   # Shared cache configuration (restoring)
   cache_restore_config: &cache_restore_config
@@ -34,8 +34,8 @@ references:
 # Actual CI jobs
 jobs:
 
-  # Test job, which runs validates data
-  test:
+  # Test job, which runs validates competencies data
+  validate-competencies:
     <<: *container_config
     steps:
       - checkout
@@ -43,8 +43,30 @@ jobs:
       - *install_config
       - *cache_save_config
       - run:
-          name: Run the tests
-          command: make test
+          name: Validate the competencies JSON
+          command: make validate-competencies-json
+
+  # Test job, which runs Pa11y against the website
+  test-website:
+    <<: *container_config
+    steps:
+      - checkout
+      - *cache_restore_config
+      - *install_config
+      - *cache_save_config
+      - run:
+          name: Build the website
+          command: make build-website
+      - run:
+          name: Run the site
+          command: make website
+          background: true
+      - run:
+          name: Wait for site to be ready
+          command: sleep 5
+      - run:
+          name: Run Pa11y tests
+          command: make test-website
 
   # Publish the Jekyll website
   publish-website:
@@ -83,7 +105,13 @@ workflows:
 
       # Run tests against any branch that is not the
       # GitHub Pages branch
-      - test:
+      - validate-competencies:
+          filters:
+            branches:
+              ignore: gh-pages
+            tags:
+              only: /^v[0-9]+\.[0-9]+\.[0-9]+([-+].+)?/
+      - test-website:
           filters:
             branches:
               ignore: gh-pages
@@ -95,7 +123,8 @@ workflows:
       # semantic version
       - publish-website:
           requires:
-            - test
+            - validate-competencies
+            - test-website
           filters:
             branches:
               only: master
