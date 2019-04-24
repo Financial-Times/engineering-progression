@@ -470,9 +470,16 @@
   domain: null
 
 - id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
-  summary: Does not unnecessarily duplicate work of other teams
-  examples: []
-  description: null
+  summary: Where appropriate, builds on other teams' work to solve problems
+  examples:
+    - Uses origami components to style a web page
+    - Records information about technical infrastructure in Biz Ops 
+  description: |
+    It's inefficient for multiple teams to solve the same problems that other teams have already
+    solved in a reusable manner. Engineers should strive to understand where opportunities to
+    reuse existing solutions may already exist. They must demonstrate that they can evaluate - 
+    possibly with the assistance of others - whether the solution can be applied to the use case 
+    under consideration, and collaborate with the other team to integrate with the solution.
   level: mid-to-senior1
   area: delivery
   domain: null
