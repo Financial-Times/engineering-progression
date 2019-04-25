@@ -266,16 +266,6 @@
   area: leadership
   domain: null
 
-- id: 54b8fbbe-4c6d-4042-b9f4-e1db1dcf1dac
-  summary: Has knowledge of at least one other area of the FT outside technology
-  examples:
-    - Can articulate the editorial workflow
-    - Knows what’s important to finance
-  description: null
-  level: junior-to-mid
-  area: leadership
-  domain: null
-
 - id: ac489603-aa6f-48a7-b89b-25b97ffdb541
   summary: Acts with integrity, honesty and accountability
   examples: []
