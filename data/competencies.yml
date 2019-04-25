@@ -606,8 +606,10 @@
   domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
-  summary: Debugs and fixes complex bugs at speed
-  examples: []
+  summary: Debugs and fixes complex bugs efficiently
+  examples:
+    - Investigates a drop in organic traffic from google, makes educated investigations into various aspects of the end to end system, consulting other domain experts along the way and keeping stakeholders aware of progress.
+    - Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements.
   description: null
   level: senior1-to-senior2
   area: technical
