@@ -470,8 +470,10 @@
   domain: null
 
 - id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
-  summary: Does not unnecessarily duplicate work of other teams
-  examples: []
+  summary: Where appropriate, builds on other teams' work to solve problems
+  examples:
+    - Uses origami components to style a web page
+    - Records information about technical infrastructure in Biz Ops 
   description: null
   level: mid-to-senior1
   area: delivery
