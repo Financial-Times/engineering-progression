@@ -420,7 +420,7 @@
 # Mid to Senior 1, Communication
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
-  summary: Communicates technical concepts to non-technical people clearly
+  summary: Communicates technical concepts clearly to less technical people
   examples: []
   description: null
   level: mid-to-senior1
@@ -656,7 +656,7 @@
   domain: null
 
 - id: f7045590-960d-4a08-b2d6-db6dcff463d6
-  summary: When working on a complex problem, is able to break down technical considerations clearly for stakeholders
+  summary: Communicates complex technical concepts clearly to less technical people
   examples: []
   description: null
   level: senior1-to-senior2
