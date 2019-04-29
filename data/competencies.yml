@@ -470,8 +470,10 @@
   domain: null
 
 - id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
-  summary: Does not unnecessarily duplicate work of other teams
-  examples: []
+  summary: Where appropriate, builds on other teams' work to solve problems
+  examples:
+    - Uses origami components to style a web page
+    - Records information about technical infrastructure in Biz Ops 
   description: null
   level: mid-to-senior1
   area: delivery
@@ -510,6 +512,8 @@
   summary: Improves delivery process and encourages others to do the same
   examples:
     - Updates the scrum process to fit the changing needs of the team
+    - Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes
+    - Encourages other engineers to participate in agile team rituals
   description: null
   level: mid-to-senior1
   area: delivery
