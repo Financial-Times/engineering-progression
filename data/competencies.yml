@@ -251,7 +251,7 @@
 # Junior to Mid, Leadership
 
 - id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.
+  summary: Presents their own work clearly to a product owner or tech lead
   examples: []
   description: null
   level: junior-to-mid
@@ -470,8 +470,10 @@
   domain: null
 
 - id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
-  summary: Does not unnecessarily duplicate work of other teams
-  examples: []
+  summary: Where appropriate, builds on other teams' work to solve problems
+  examples:
+    - Uses origami components to style a web page
+    - Records information about technical infrastructure in Biz Ops 
   description: null
   level: mid-to-senior1
   area: delivery
@@ -510,6 +512,8 @@
   summary: Improves delivery process and encourages others to do the same
   examples:
     - Updates the scrum process to fit the changing needs of the team
+    - Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes
+    - Encourages other engineers to participate in agile team rituals
   description: null
   level: mid-to-senior1
   area: delivery
@@ -525,14 +529,6 @@
 
 
 # Mid to Senior 1, Leadership
-
-- id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
-  summary: Presents aspects of their work to stakeholders
-  examples: []
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
 
 - id: f34273e2-3d81-4bde-8c23-0217e71b3536
   summary: Influences a community of practice
@@ -572,7 +568,7 @@
   domain: null
 
 - id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
-  summary: Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  summary: Presents their own work clearly to stakeholders
   examples: []
   description: null
   level: mid-to-senior1
@@ -709,7 +705,7 @@
 # Senior 1 to Senior 2, Leadership
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
-  summary: Presents the team's work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues
+  summary: Presents their team's work to others in the business
   examples:
     - Speaks at the Technology All Hands
     - Writes one-pagers to explain technical descisions
