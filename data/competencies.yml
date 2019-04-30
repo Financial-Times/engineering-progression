@@ -60,7 +60,9 @@
 
 - id: b0e285f2-08a3-47c2-a810-30d5258e1863
   summary: Regularly fixes security issues raised by others (or raised by automation) in own code
-  examples: []
+  examples:
+    - Fixes vulnerabilities in dependencies raised by Snyk
+    - Fixes vulnerabilities raised by the cyber security team
   description: null
   level: junior-to-mid
   area: technical
@@ -177,7 +179,7 @@
   summary: Works on the most important task
   examples:
     - Picks the story from the top of a prioritised backlog rather than picking the one that most interests them
-    - Does not get side-tracked by unnecessary details - “I don’t like these tests so I’m going to re-wite them as part of this ticket”
+    - Does not get side-tracked by unnecessary details - “I don’t like these tests so I’m going to re-write them as part of this ticket”
   description: null
   level: junior-to-mid
   area: delivery
@@ -249,7 +251,7 @@
 # Junior to Mid, Leadership
 
 - id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Presents their work to a product owner or tech lead. Clearly communicates technical concepts to non-technical colleagues.
+  summary: Presents their own work clearly to a product owner or tech lead
   examples: []
   description: null
   level: junior-to-mid
@@ -458,8 +460,10 @@
   domain: null
 
 - id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
-  summary: Does not unnecessarily duplicate work of other teams
-  examples: []
+  summary: Where appropriate, builds on other teams' work to solve problems
+  examples:
+    - Uses origami components to style a web page
+    - Records information about technical infrastructure in Biz Ops 
   description: null
   level: mid-to-senior1
   area: delivery
@@ -485,9 +489,10 @@
   domain: null
 
 - id: d8651fc0-059b-4c11-929f-e07803f9f8bf
-  summary: Understands and considers other teams' needs
+  summary: Actively seeks the views of other teams to help guide work
   examples:
     - Attends cross team meetings
+    - Asks other teams for input and opinions on decisions that affect them
   description: null
   level: mid-to-senior1
   area: delivery
@@ -497,6 +502,8 @@
   summary: Improves delivery process and encourages others to do the same
   examples:
     - Updates the scrum process to fit the changing needs of the team
+    - Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes
+    - Encourages other engineers to participate in agile team rituals
   description: null
   level: mid-to-senior1
   area: delivery
@@ -512,14 +519,6 @@
 
 
 # Mid to Senior 1, Leadership
-
-- id: c0cf9ac1-a25f-44ed-818e-ba0895dc5e02
-  summary: Presents aspects of their work to stakeholders
-  examples: []
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
 
 - id: f34273e2-3d81-4bde-8c23-0217e71b3536
   summary: Influences a community of practice
@@ -559,7 +558,7 @@
   domain: null
 
 - id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
-  summary: Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.
+  summary: Presents their own work clearly to stakeholders
   examples: []
   description: null
   level: mid-to-senior1
@@ -597,8 +596,10 @@
   domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
-  summary: Debugs and fixes complex bugs at speed
-  examples: []
+  summary: Debugs and fixes complex bugs efficiently
+  examples:
+    - Investigates a drop in organic traffic from google, makes educated investigations into various aspects of the end to end system, consulting other domain experts along the way and keeping stakeholders aware of progress.
+    - Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements.
   description: null
   level: senior1-to-senior2
   area: technical
@@ -694,9 +695,11 @@
 # Senior 1 to Senior 2, Leadership
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
-  summary: Presents the team's work beyond their immediate team to stakeholders. Clearly communicates technical concepts to non-technical colleagues
+  summary: Presents their team's work to others in the business
   examples:
-    - Presents at the Technology All Hands
+    - Speaks at the Technology All Hands
+    - Writes one-pagers to explain technical descisions
+    - Writes a blog post about an aspect of the team's work
   description: null
   level: senior1-to-senior2
   area: leadership
@@ -712,18 +715,23 @@
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
   summary: Takes ownership of ensuring an inclusive team culture
-  examples: []
+  examples:
+    - Celebrates good work publicly and encourages the team to do the same
+    - Spots problems between team members and helps to resolve them
+    - Models inclusive behaviour to the rest of the team
   description: null
   level: senior1-to-senior2
   area: leadership
   domain: null
 
 - id: 7e613602-fda1-43dc-94ca-83e17b24f42c
-  summary: Contributes to the personal development of more junior people in their team
+  summary: Contributes to the personal development of more junior people
   examples:
     - Pairs with more junior team members
     - Mentors people
     - Line manages people
+    - Writes blog posts
+    - Gives talks at meet-ups or conferences
   description: null
   level: senior1-to-senior2
   area: leadership

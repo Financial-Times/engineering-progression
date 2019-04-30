@@ -76,6 +76,60 @@ A Level entity represents one of the engineering level boundaries at the FT, e.g
 
 ## Endpoints
 
+### Get the API version
+
+Get the exact version of the competencies that the API exposes.
+
+#### Request
+
+<table class="o-table o-table--row-headings o-layout__main__single-span" data-o-component="o-table">
+	<tr>
+		<th scope="row">Method</th>
+		<td>
+			<code>GET</code>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Path</th>
+		<td>
+			<code>/api/v1/version.json</code>
+		</td>
+	</tr>
+</table>
+
+#### Response
+
+<table class="o-table o-table--row-headings o-layout__main__single-span" data-o-component="o-table">
+	<tr>
+		<th scope="row">Status</th>
+		<td>
+			<code>200</code> on success
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Headers</th>
+		<td>
+			<dl>
+				<dt>Content-Type</dt>
+				<dd>
+					<code>application/json</code> on success<br/>
+					<code>text/html</code> on error
+				</dd>
+			</dl>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Body</th>
+		<td>
+			The current semantic version, as a String. E.g. <code>"1.2.3"</code>
+		</td>
+	</tr>
+</table>
+
+#### Example `curl` command
+
+<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/version.json</code></pre>
+
 ### Get all competencies
 
 Get all of the competencies for every level as an array. This endpoint responds with an array of [Competency entities](#entity-competency).

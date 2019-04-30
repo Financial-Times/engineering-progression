@@ -35,7 +35,7 @@ TASK_DONE = echo "✓ $@ done"
 all: install build test
 install: install-ruby-gems install-node-modules
 build: build-competencies-json build-website
-test: validate-competencies-json
+test: validate-competencies-json test-website
 
 
 # Installation tasks
@@ -105,6 +105,11 @@ website:
 # Validate the competencies JSON
 validate-competencies-json: build-competencies-json
 	@./script/validate-competencies-json.js
+	@$(TASK_DONE)
+
+# Run Pa11y against the website
+test-website:
+	@./node_modules/.bin/pa11y-ci --sitemap http://localhost:4000/sitemap.xml
 	@$(TASK_DONE)
 
 
