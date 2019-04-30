@@ -312,6 +312,19 @@
 
 # Mid to Senior 1, Technical
 
+- id: 272be0d0-6b55-11e9-ae4e-0583f673f115
+  summary: Builds products ensuring they take adequate steps to protect user data
+  examples:
+    - Databases have encryption at rest
+    - Sensitive data is masked or in restricted indexes in Splunk
+    - Data is retained only for as long as it is needed
+    - Dummy/fictional data is used in staging environments and in tests
+    - Suppliers don't get access to data unless they have gone through the Procument Management Aapplication process
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
 - id: 2c1289fe-3bf9-476b-981b-8af2d345d76a
   summary: Implements observability and monitoring when building a solution
   examples: []
@@ -473,7 +486,7 @@
   summary: Where appropriate, builds on other teams' work to solve problems
   examples:
     - Uses origami components to style a web page
-    - Records information about technical infrastructure in Biz Ops 
+    - Records information about technical infrastructure in Biz Ops
   description: null
   level: mid-to-senior1
   area: delivery
