@@ -111,18 +111,6 @@
 			"domain": null
 		},
 		{
-			"id": "82a8460f-8664-4837-9899-04a74ff5be6f",
-			"summary": "Has worked with in or with another team",
-			"examples": [
-				"Has done a three month secondment with Operations and Reliability",
-				"Has done a bootcamp with another team"
-			],
-			"description": null,
-			"level": "mid-to-senior1",
-			"area": "communication",
-			"domain": null
-		},
-		{
 			"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
 			"summary": "Communicates technical concepts to non-technical people clearly",
 			"examples": [],
@@ -183,8 +171,11 @@
 		},
 		{
 			"id": "9e1a0313-f602-4786-97c6-d4d49506f0bb",
-			"summary": "Does not unnecessarily duplicate work of other teams",
-			"examples": [],
+			"summary": "Where appropriate, builds on other teams' work to solve problems",
+			"examples": [
+				"Uses origami components to style a web page",
+				"Records information about technical infrastructure in Biz Ops"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -229,7 +220,9 @@
 			"id": "787be828-9a7f-4998-9bc6-a8b06f2d77de",
 			"summary": "Improves delivery process and encourages others to do the same",
 			"examples": [
-				"Updates the scrum process to fit the changing needs of the team"
+				"Updates the scrum process to fit the changing needs of the team",
+				"Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes",
+				"Encourages other engineers to participate in agile team rituals"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -243,15 +236,6 @@
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
-			"domain": null
-		},
-		{
-			"id": "c0cf9ac1-a25f-44ed-818e-ba0895dc5e02",
-			"summary": "Presents aspects of their work to stakeholders",
-			"examples": [],
-			"description": null,
-			"level": "mid-to-senior1",
-			"area": "leadership",
 			"domain": null
 		},
 		{
@@ -299,7 +283,7 @@
 		},
 		{
 			"id": "11d32a45-ea1e-411f-a810-12a4f0b8ddb9",
-			"summary": "Presents their work to stakeholders. Clearly communicates technical concepts to non-technical colleagues.",
+			"summary": "Presents their own work clearly to stakeholders",
 			"examples": [],
 			"description": null,
 			"level": "mid-to-senior1",
