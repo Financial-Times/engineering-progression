@@ -266,16 +266,6 @@
   area: leadership
   domain: null
 
-- id: 54b8fbbe-4c6d-4042-b9f4-e1db1dcf1dac
-  summary: Has knowledge of at least one other area of the FT outside technology
-  examples:
-    - Can articulate the editorial workflow
-    - Knows what’s important to finance
-  description: null
-  level: junior-to-mid
-  area: leadership
-  domain: null
-
 - id: ac489603-aa6f-48a7-b89b-25b97ffdb541
   summary: Acts with integrity, honesty and accountability
   examples: []
@@ -309,6 +299,16 @@
   area: leadership
   domain: null
 
+- id: 82a8460f-8554-4837-9799-01174ea5be6f
+  summary: Has worked with teams outside of their home group (where home group will be one of Customer Products, FT Core, Internal Products, Operations and Reliability, Enterprise Services and Security, FT Group Products or FT Labs)
+  examples:
+    - Based in Customer Products but collaborated with developers from FT Core to build a new API endpoint for content
+    - Has done a bootcamp with another group
+    - Had done a secondment to Operations and Reliability
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
 
 # Mid to Senior 1, Technical
 
@@ -418,16 +418,6 @@
 
 
 # Mid to Senior 1, Communication
-
-- id: 82a8460f-8664-4837-9899-04a74ff5be6f
-  summary: Has worked with in or with another team
-  examples:
-    - Has done a three month secondment with Operations and Reliability
-    - Has done a bootcamp with another team
-  description: null
-  level: mid-to-senior1
-  area: communication
-  domain: null
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
   summary: Communicates technical concepts to non-technical people clearly
