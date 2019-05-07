@@ -347,9 +347,28 @@
 		"domain": null
 	},
 	{
+		"id": "272be0d0-6b55-11e9-ae4e-0583f673f115",
+		"summary": "Builds products ensuring they take adequate steps to protect user data",
+		"examples": [
+			"Databases have encryption at rest",
+			"Sensitive data is masked or in restricted indexes in Splunk",
+			"Data is retained only for as long as it is needed",
+			"Dummy/fictional data is used in staging environments and in tests",
+			"Suppliers don't get access to data unless they have gone through the Procurement Management Application process"
+		],
+		"description": null,
+		"level": "mid-to-senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
 		"id": "2c1289fe-3bf9-476b-981b-8af2d345d76a",
-		"summary": "Implements observability and monitoring when building a solution",
-		"examples": [],
+		"summary": "Implements appropriate observability and monitoring when building a solution",
+		"examples": [
+			"When adding a new dependency to a system, adds a healthcheck to monitor the dependency's state",
+			"Adds logging that is well-structured and captures useful information about the state of a system",
+			"Builds a Grafana dashboard that visualises normal and abnormal operation of a system"
+		],
 		"description": null,
 		"level": "mid-to-senior1",
 		"area": "technical",
@@ -455,8 +474,11 @@
 	},
 	{
 		"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
-		"summary": "Communicates technical concepts to non-technical people clearly",
-		"examples": [],
+		"summary": "Communicates technical concepts clearly and adapts that communication to the audience",
+		"examples": [
+			"Explains technical concepts to colleagues from other disciplines",
+			"Teaches more junior engineers"
+		],
 		"description": null,
 		"level": "mid-to-senior1",
 		"area": "communication",
@@ -586,7 +608,9 @@
 		"summary": "Influences a community of practice",
 		"examples": [
 			"Is an active member of a Guild",
-			"Answers questions in the #engineering Slack channel"
+			"Answers questions in the #engineering Slack channel",
+			"Gives a tech talk (internally or externally)",
+			"Writes a blog post"
 		],
 		"description": null,
 		"level": "mid-to-senior1",
@@ -659,8 +683,12 @@
 	},
 	{
 		"id": "46c795d8-b684-4401-bf1e-45a31dd689cb",
-		"summary": "Considers wider tech strategy when coming up with technical solutions",
-		"examples": [],
+		"summary": "Considers the technical direction of their group or the wider department when coming up with technical solutions",
+		"examples": [
+			"Understands how their work feeds into their group's tech strategy",
+			"Can articulate and justify the overall cost of their technical solutions",
+			"Follows their group's Engineering Principles when building technical solutions"
+		],
 		"description": null,
 		"level": "senior1-to-senior2",
 		"area": "technical",
@@ -698,8 +726,11 @@
 	},
 	{
 		"id": "f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0",
-		"summary": "Is the go-to person for a technology or system",
-		"examples": [],
+		"summary": "Has a deep understanding and willingness to help others for a particular technology or product",
+		"examples": [
+			"Responds to questions on Slack about a particular technology or product",
+			"Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise"
+		],
 		"description": null,
 		"level": "senior1-to-senior2",
 		"area": "technical",
@@ -716,8 +747,11 @@
 	},
 	{
 		"id": "f7045590-960d-4a08-b2d6-db6dcff463d6",
-		"summary": "When working on a complex problem, is able to break down technical considerations clearly for stakeholders",
-		"examples": [],
+		"summary": "Communicates complex technical concepts clearly and adapts that communication to the audience",
+		"examples": [
+			"Explains complex technical concepts to colleagues from other disciplines",
+			"Teaches more junior engineers"
+		],
 		"description": null,
 		"level": "senior1-to-senior2",
 		"area": "communication",

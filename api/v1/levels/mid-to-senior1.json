@@ -4,9 +4,28 @@
 	"summary": "Senior 1 (S1) engineers are expected to improve the performance of those around them. This could be through additional official responsibilities such as line managing or tech leading, or through unofficial means such as mentoring or regular pairing. S1 engineers should be able to tackle more complicated technical problems, and explain and justify their approaches to their team. We expect S1 engineers to pick up work outside of their delivery team and manage that work effectively against their delivery team’s priorities. S1 engineers require very little oversight beyond high level direction.\n",
 	"competencies": [
 		{
+			"id": "272be0d0-6b55-11e9-ae4e-0583f673f115",
+			"summary": "Builds products ensuring they take adequate steps to protect user data",
+			"examples": [
+				"Databases have encryption at rest",
+				"Sensitive data is masked or in restricted indexes in Splunk",
+				"Data is retained only for as long as it is needed",
+				"Dummy/fictional data is used in staging environments and in tests",
+				"Suppliers don't get access to data unless they have gone through the Procurement Management Application process"
+			],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "technical",
+			"domain": null
+		},
+		{
 			"id": "2c1289fe-3bf9-476b-981b-8af2d345d76a",
-			"summary": "Implements observability and monitoring when building a solution",
-			"examples": [],
+			"summary": "Implements appropriate observability and monitoring when building a solution",
+			"examples": [
+				"When adding a new dependency to a system, adds a healthcheck to monitor the dependency's state",
+				"Adds logging that is well-structured and captures useful information about the state of a system",
+				"Builds a Grafana dashboard that visualises normal and abnormal operation of a system"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -112,8 +131,11 @@
 		},
 		{
 			"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
-			"summary": "Communicates technical concepts to non-technical people clearly",
-			"examples": [],
+			"summary": "Communicates technical concepts clearly and adapts that communication to the audience",
+			"examples": [
+				"Explains technical concepts to colleagues from other disciplines",
+				"Teaches more junior engineers"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "communication",
@@ -243,7 +265,9 @@
 			"summary": "Influences a community of practice",
 			"examples": [
 				"Is an active member of a Guild",
-				"Answers questions in the #engineering Slack channel"
+				"Answers questions in the #engineering Slack channel",
+				"Gives a tech talk (internally or externally)",
+				"Writes a blog post"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
