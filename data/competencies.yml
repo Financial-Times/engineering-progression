@@ -327,7 +327,7 @@
 
 - id: 2c1289fe-3bf9-476b-981b-8af2d345d76a
   summary: Implements appropriate observability and monitoring when building a solution
-  examples: 
+  examples:
     - When adding a new dependency to a system, adds a healthcheck to monitor the dependency's state
     - Adds logging that is well-structured and captures useful information about the state of a system
     - Builds a Grafana dashboard that visualises normal and abnormal operation of a system
@@ -609,10 +609,10 @@
 
 - id: 46c795d8-b684-4401-bf1e-45a31dd689cb
   summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
-  examples: 
+  examples:
     - Understands how their work feeds into their group's tech strategy
     - Can articulate and justify the overall cost of their technical solutions
-    - Follows their group's Engineering Principles when building technical solutions  
+    - Follows their group's Engineering Principles when building technical solutions
   description: null
   level: senior1-to-senior2
   area: technical
@@ -701,6 +701,8 @@
   summary: Is accountable for the delivery of the team (individually or jointly with other people)
   examples:
     - Helps delivery lead write progress reports
+    - Writes a monthly update newsletter for stakeholders about recent releases
+    - Grooms backlog to make sure issues are ready to be picked up
     - Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)
   description: null
   level: senior1-to-senior2
