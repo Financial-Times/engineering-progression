@@ -40,7 +40,7 @@ There are some things that need to happen immediately after a release, which unf
   1. **Create release:**<br/>Create a release on the GitHub repo, following the rules outlined above
   2. **Wait for CI:**<br/>Wait for the CircleCI build to pass, and for all the integrations to deploy
   3. **Update chart colours:**<br/>Update the chart colours in the newly-deployed [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit). There are four bar charts, one for each level, each on a separate sheet. The bar chart colours cannot be updated through the API and so this must be done manually after the deploy. The series "Bar 1" must be set to the colour `#3d9199`. The series "Bar 2" must have no colour (select "None").
-   4. **Reorder spreadsheet tabs:**<br/>The tabs in the [Google spreadsheet] may have switched orderon release. If so, reorder them to be `Overview`, `Junior to Mid`, `Mid to Senior 1`, `Senior 1 to Senior 2`, `Senior 2 to Principal`
+   4. **Reorder spreadsheet tabs:**<br/>The tabs in the [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit) may have switched order on release. If so, reorder them to be `Overview`, `Junior to Mid`, `Mid to Senior 1`, `Senior 1 to Senior 2`, `Senior 2 to Principal`
 
 
 ### Major Versions
