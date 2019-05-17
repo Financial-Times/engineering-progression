@@ -635,7 +635,10 @@
 
 - id: a8571c7f-296d-47ab-acad-d1b90b5a9391
   summary: Finds technical problems outside of immediate team and identifies ways to improve them
-  examples: []
+  examples:
+    - Notices a lot of requests coming in to Ops Cops from Customer Support for an admin task that could be automated. Automates the task and works with the Customer Support team on how to use the new tool
+    - While debugging an issue, traces the bug back to a shared library. Creates a patch for the bug and makes sure it is released.
+    - Spots another team could benefit from using a security feature and helps them implement it
   description: null
   level: senior1-to-senior2
   area: technical
@@ -662,14 +665,6 @@
 
 # Senior 1 to Senior 2, Communication
 
-- id: fc563518-e1e9-4cc4-8f44-3b034a471231
-  summary: Works cross-team to join up technical gaps
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: communication
-  domain: null
-
 - id: f7045590-960d-4a08-b2d6-db6dcff463d6
   summary: Communicates complex technical concepts clearly and adapts that communication to the audience
   examples:
@@ -690,14 +685,6 @@
 
 # Senior 1 to Senior 2, Delivery
 
-- id: 9e692d93-569d-4eed-8c83-6a76692ee647
-  summary: Works with other teams to deliver shared outcomes
-  examples: []
-  description: null
-  level: senior1-to-senior2
-  area: delivery
-  domain: null
-
 - id: 877d7313-d6de-44ae-80b4-5ed094ddf39a
   summary: Takes a stakeholder problem, investigates to understand it and proposes a solution
   examples: []
@@ -708,16 +695,18 @@
 
 - id: 83b06961-6462-4500-8ff5-9381f7de8dc5
   summary: Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them
-  examples: []
+  examples:
+    - Manages the roll out of a new shared tool to multiple code repositories, identifying what work needs to be done, and finding teams to do the work
   description: null
   level: senior1-to-senior2
   area: delivery
   domain: null
 
 - id: 983dd8411-940d-4aa8-9ba6-add04510a7da
-  summary: Is accountable for the delivery of the team
+  summary: Is accountable for the delivery of the team (individually or jointly with other people)
   examples:
     - Helps delivery lead write progress reports
+    - Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)
   description: null
   level: senior1-to-senior2
   area: delivery
