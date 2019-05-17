@@ -706,6 +706,8 @@
   summary: Is accountable for the delivery of the team (individually or jointly with other people)
   examples:
     - Helps delivery lead write progress reports
+    - Writes a monthly update newsletter for stakeholders about recent releases
+    - Grooms backlog to make sure issues are ready to be picked up
     - Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)
   description: null
   level: senior1-to-senior2
