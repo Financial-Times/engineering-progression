@@ -96,6 +96,8 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			['Engineering Progression'],
 			['This is an example spreadsheet for tracking engineering progression. This sheet is generated automatically, any edits you make here will be overwritten (including comments).\n\nThis spreadsheet contains sheets for the different levels of engineer, you can use these to track a person\'s progress towards their next promotion. Please make a copy of this spreadsheet to do this.'],
 			[''],
+			['=HYPERLINK("https://engineering-progression.ft.com/competencies/how-to-use/", "Before tracking your progress, it\'s best to read how to use the competencies.")'],
+			[''],
 			['Competencies Version', competenciesVersion],
 			['More Info', '=HYPERLINK("https://engineering-progression.ft.com/", "Engineering Progression website")'],
 			['Feedback/Questions', '=HYPERLINK("https://github.com/Financial-Times/engineering-progression/issues/new", "Use GitHub issues")']
@@ -108,7 +110,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 				range: {
 					sheetId: overviewSheetId,
 					startRowIndex: 0,
-					endRowIndex: 3,
+					endRowIndex: 5,
 					startColumnIndex: 0,
 					endColumnIndex: 2
 				},
@@ -123,7 +125,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 		}));
 		batchedUpdates.push(createBatchColumnResize(overviewSheetId, {
 			startIndex: 1,
-			width: 300
+			width: 350
 		}));
 
 		// Delete additional columns for the overview sheet
@@ -157,12 +159,31 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			}
 		});
 
-		// Bold the meta information headings for the overview sheet
+		// Bold the "how to use link" for the overview sheet
 		batchedUpdates.push({
 			repeatCell: {
 				range: {
 					sheetId: overviewSheetId,
 					startRowIndex: 3,
+					endRowIndex: 4
+				},
+				cell: {
+					userEnteredFormat: {
+						textFormat: {
+							bold: true
+						}
+					}
+				},
+				fields: 'userEnteredFormat(textFormat)'
+			}
+		});
+
+		// Bold the meta information headings for the overview sheet
+		batchedUpdates.push({
+			repeatCell: {
+				range: {
+					sheetId: overviewSheetId,
+					startRowIndex: 5,
 					startColumnIndex: 0,
 					endColumnIndex: 1
 				},
