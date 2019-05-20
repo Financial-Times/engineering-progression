@@ -557,7 +557,9 @@
 
 - id: 0777c050-8008-4e17-a437-f8de0be3bd55
   summary: Is an ambassador for their team across FT technology and colleagues in the rest of the business
-  examples: []
+  examples:
+    - Positively represents their team in interactions with other people by seeking to understand their perspectives, values and needs
+    - Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)
   description: null
   level: mid-to-senior1
   area: leadership
