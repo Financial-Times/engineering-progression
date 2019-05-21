@@ -51,7 +51,7 @@
   domain: null
 
 - id: f66d122f-bd81-4b57-8b4a-78f00a11934c
-  summary: Uses third party code and shared libraries to reuse code
+  summary: Uses third party code and shared libraries or proprietary software packages to reuse code
   examples: []
   description: null
   level: junior-to-mid
