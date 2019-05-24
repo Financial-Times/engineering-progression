@@ -676,8 +676,12 @@
   domain: null
 
 - id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
-  summary: Leads hiring process for new Engineers
-  examples: []
+  summary: Leads hiring process for new Engineers. This could be all aspects or only part of the process.
+  examples:
+    - Is the lead interviewer on an interview panel
+    - Gathers feedback from the hiring panels and leads wash-up discussion on the candidate
+    - Is accountable for making sure engineers review CV's and tech tests in a timely manner
+    - Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do
   description: null
   level: senior1-to-senior2
   area: communication
