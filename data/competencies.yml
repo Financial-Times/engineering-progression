@@ -19,8 +19,11 @@
   domain: null
 
 - id: 574c234d-b52e-4765-b160-bac958e2d207
-  summary: Uses a programming language to make something
-  examples: []
+  summary: Uses code to make something
+  examples:
+    - Takes a feature from their team backlog and writes the code for that feature
+    - Automates a regular task using Python
+    - Writes a CloudFormation template
   description: null
   level: junior-to-mid
   area: technical
