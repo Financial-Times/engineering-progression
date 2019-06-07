@@ -2,8 +2,10 @@
 # Junior to Mid, Technical
 
 - id: 4029f7b4-0c42-4867-818b-c03049a07de1
-  summary: Is responsible for and maintains their local development environment
-  examples: []
+  summary: Is responsible for and maintains their computer and local development environment
+  examples:
+    - Keeps local tools up to date
+    - Follows instructions to get software projects running locally
   description: null
   level: junior-to-mid
   area: technical
@@ -19,8 +21,11 @@
   domain: null
 
 - id: 574c234d-b52e-4765-b160-bac958e2d207
-  summary: Uses a programming language to make something
-  examples: []
+  summary: Uses code to make something
+  examples:
+    - Takes a feature from their team backlog and writes the code for that feature
+    - Automates a regular task using Python
+    - Writes a CloudFormation template
   description: null
   level: junior-to-mid
   area: technical
