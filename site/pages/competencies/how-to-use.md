@@ -28,7 +28,7 @@ Each competency has a summary which is designed to prompt a yes/no response. For
 
 In order to be promoted, an engineer must specify which competencies they are meeting for a level. We don't expect that _every_ engineer will meet _all_ of the competencies, but the promotions board will consider all of the competencies when making a decision. Domain-specific competencies that don't apply to an engineer's role or specialism will not be considered as part of a promotions case.
 
-Engineers are expected to provide evidence that they are are meeting a competency when it comes to writing a promotions case. We expect a sentence or two, and an engineer's line manager should be ready to provide further detail if necessary. It's fine to use the same evidence for more multiple competencies. Evidence must also be provided for competencies that are not being met to explain why they have not or cannot be met.
+Engineers are expected to provide evidence that they are meeting a competency when it comes to writing a promotions case. We expect a sentence or two, and an engineer's line manager should be ready to provide further detail if necessary. It's fine to use the same evidence for more multiple competencies. Evidence must also be provided for competencies that are not being met to explain why they have not or cannot be met.
 
 An example of how you might provide evidence for met and unmet competencies:
 
