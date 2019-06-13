@@ -210,6 +210,7 @@
   summary: Leads on getting well defined tasks from backlog to production
   examples:
     - Turns a user story into a technical implementation in production
+    - Raises blockers in timely way
   description: null
   level: junior-to-mid
   area: delivery
