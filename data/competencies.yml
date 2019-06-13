@@ -168,7 +168,7 @@
   summary: Receives feedback and acts upon it
   examples:
     - Implements requested changes on a pull request
-    - Responds to comments on a Google documentation
+    - Responds to comments on a Google document
     - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   description: null
   level: junior-to-mid
