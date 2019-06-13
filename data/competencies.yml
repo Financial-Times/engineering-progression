@@ -82,8 +82,11 @@
   domain: null
 
 - id: 9b30c5f3-7925-4514-9f31-251b32daf1d3
-  summary: Gets involved in fixing production issues
-  examples: []
+  summary: Gets involved in fixing live incidents in production
+  examples:
+    - Notices that an AWS region is down so fails over to another region
+    - Responds to alerts for services in production by investigating errors and beginning remedial action
+    - Works as home teams' "ops cop", liaising with Operations and Reliability to restore a service 
   description: null
   level: junior-to-mid
   area: technical
@@ -174,7 +177,9 @@
 
 - id: 79c4ecfd-7085-49c2-8a21-429b4a269c96
   summary: Regularly gives timely actionable feedback to colleagues
-  examples: []
+  examples:
+    - Emails positive feedback to a colleague's line manager, after the colleague was especially helpful.
+    - Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly.
   description: null
   level: junior-to-mid
   area: communication
