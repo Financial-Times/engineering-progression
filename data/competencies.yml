@@ -94,7 +94,12 @@
 
 - id: e4cd2032-2974-42ba-ac74-565809069447
   summary: Uses continuous delivery or build pipelines for automation
-  examples: []
+  examples:
+    - Sees their build is failing and finds out why using the CircleCI or Jenkins interface
+    - Restarts broken builds
+    - Makes config changes in CircleCI
+    - Adds a build status badge to their project
+    - Promotes an app from staging to production in Heroku
   description: null
   level: junior-to-mid
   area: technical
@@ -210,6 +215,7 @@
   summary: Leads on getting well defined tasks from backlog to production
   examples:
     - Turns a user story into a technical implementation in production
+    - Raises blockers in timely way
   description: null
   level: junior-to-mid
   area: delivery
