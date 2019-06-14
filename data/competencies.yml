@@ -171,7 +171,10 @@
 
 - id: d31a91de-ae96-457c-9ac1-3752acf148fa
   summary: Receives feedback and acts upon it
-  examples: []
+  examples:
+    - Implements requested changes on a pull request
+    - Responds to comments on a Google document
+    - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   description: null
   level: junior-to-mid
   area: communication
