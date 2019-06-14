@@ -94,7 +94,12 @@
 
 - id: e4cd2032-2974-42ba-ac74-565809069447
   summary: Uses continuous delivery or build pipelines for automation
-  examples: []
+  examples:
+    - Sees their build is failing and finds out why using the CircleCI or Jenkins interface
+    - Restarts broken builds
+    - Makes config changes in CircleCI
+    - Adds a build status badge to their project
+    - Promotes an app from staging to production in Heroku
   description: null
   level: junior-to-mid
   area: technical
@@ -166,7 +171,10 @@
 
 - id: d31a91de-ae96-457c-9ac1-3752acf148fa
   summary: Receives feedback and acts upon it
-  examples: []
+  examples:
+    - Implements requested changes on a pull request
+    - Responds to comments on a Google document
+    - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   description: null
   level: junior-to-mid
   area: communication
@@ -315,6 +323,8 @@
     - Based in Customer Products but collaborated with developers from FT Core to build a new API endpoint for content
     - Has done a bootcamp with another group
     - Had done a secondment to Operations and Reliability
+    - Works in the Interactive Graphics team and collaborates with someone from Editorial on a project
+    - Works in Internal Products and collaborates with the Origami team on a new feature in a component
   description: null
   level: junior-to-mid
   area: leadership
