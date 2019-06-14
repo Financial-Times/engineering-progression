@@ -2,8 +2,10 @@
 # Junior to Mid, Technical
 
 - id: 4029f7b4-0c42-4867-818b-c03049a07de1
-  summary: Is responsible for and maintains their local development environment
-  examples: []
+  summary: Is responsible for and maintains their computer and local development environment
+  examples:
+    - Keeps local tools up to date
+    - Follows instructions to get software projects running locally
   description: null
   level: junior-to-mid
   area: technical
@@ -19,8 +21,11 @@
   domain: null
 
 - id: 574c234d-b52e-4765-b160-bac958e2d207
-  summary: Uses a programming language to make something
-  examples: []
+  summary: Uses code to make something
+  examples:
+    - Takes a feature from their team backlog and writes the code for that feature
+    - Automates a regular task using Python
+    - Writes a CloudFormation template
   description: null
   level: junior-to-mid
   area: technical
@@ -77,8 +82,11 @@
   domain: null
 
 - id: 9b30c5f3-7925-4514-9f31-251b32daf1d3
-  summary: Gets involved in fixing production issues
-  examples: []
+  summary: Gets involved in fixing live incidents in production
+  examples:
+    - Notices that an AWS region is down so fails over to another region
+    - Responds to alerts for services in production by investigating errors and beginning remedial action
+    - Works as home teams' "ops cop", liaising with Operations and Reliability to restore a service
   description: null
   level: junior-to-mid
   area: technical
@@ -86,7 +94,12 @@
 
 - id: e4cd2032-2974-42ba-ac74-565809069447
   summary: Uses continuous delivery or build pipelines for automation
-  examples: []
+  examples:
+    - Sees their build is failing and finds out why using the CircleCI or Jenkins interface
+    - Restarts broken builds
+    - Makes config changes in CircleCI
+    - Adds a build status badge to their project
+    - Promotes an app from staging to production in Heroku
   description: null
   level: junior-to-mid
   area: technical
@@ -158,7 +171,10 @@
 
 - id: d31a91de-ae96-457c-9ac1-3752acf148fa
   summary: Receives feedback and acts upon it
-  examples: []
+  examples:
+    - Implements requested changes on a pull request
+    - Responds to comments on a Google document
+    - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   description: null
   level: junior-to-mid
   area: communication
@@ -166,7 +182,9 @@
 
 - id: 79c4ecfd-7085-49c2-8a21-429b4a269c96
   summary: Regularly gives timely actionable feedback to colleagues
-  examples: []
+  examples:
+    - Emails positive feedback to a colleague's line manager, after the colleague was especially helpful.
+    - Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly.
   description: null
   level: junior-to-mid
   area: communication
@@ -200,6 +218,7 @@
   summary: Leads on getting well defined tasks from backlog to production
   examples:
     - Turns a user story into a technical implementation in production
+    - Raises blockers in timely way
   description: null
   level: junior-to-mid
   area: delivery
@@ -304,6 +323,8 @@
     - Based in Customer Products but collaborated with developers from FT Core to build a new API endpoint for content
     - Has done a bootcamp with another group
     - Had done a secondment to Operations and Reliability
+    - Works in the Interactive Graphics team and collaborates with someone from Editorial on a project
+    - Works in Internal Products and collaborates with the Origami team on a new feature in a component
   description: null
   level: junior-to-mid
   area: leadership
@@ -391,7 +412,9 @@
 
 - id: 3a87302b-c85f-49f6-9e7a-a4989e717fba
   summary: Builds software or services considering resilience, performance and failure modes
-  examples: []
+  examples:
+    - Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services
+    - Adds healthchecks to a system that detect different ways in which it can fail
   description: null
   level: mid-to-senior1
   area: technical
@@ -418,6 +441,17 @@
   area: technical
   domain: null
 
+- id: fd3e5d38-add3-4394-bd53-666482e422f2
+  summary: Builds and works with systems involving multiple, independent technical parts
+  examples:
+    - Adds data sources to or optimises performance of a data pipeline
+    - Publishes a new origami component that uses other components
+    - Implements a CDN / gateway that routes to a suite of underlying microservices
+    - Designs and implements a build pipeline
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
 
 # Mid to Senior 1, Communication
 
@@ -426,6 +460,7 @@
   examples:
     - Explains technical concepts to colleagues from other disciplines
     - Teaches more junior engineers
+    - Creates diagrams to document how the different parts of complex systems interact
   description: null
   level: mid-to-senior1
   area: communication
