@@ -98,7 +98,10 @@
 		{
 			"id": "3a87302b-c85f-49f6-9e7a-a4989e717fba",
 			"summary": "Builds software or services considering resilience, performance and failure modes",
-			"examples": [],
+			"examples": [
+				"Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services",
+				"Adds healthchecks to a system that detect different ways in which it can fail"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -130,11 +133,26 @@
 			"domain": null
 		},
 		{
+			"id": "fd3e5d38-add3-4394-bd53-666482e422f2",
+			"summary": "Builds and works with systems involving multiple, independent technical parts",
+			"examples": [
+				"Adds data sources to or optimises performance of a data pipeline",
+				"Publishes a new origami component that uses other components",
+				"Implements a CDN / gateway that routes to a suite of underlying microservices",
+				"Designs and implements a build pipeline"
+			],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "technical",
+			"domain": null
+		},
+		{
 			"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
 			"summary": "Communicates technical concepts clearly and adapts that communication to the audience",
 			"examples": [
 				"Explains technical concepts to colleagues from other disciplines",
-				"Teaches more junior engineers"
+				"Teaches more junior engineers",
+				"Creates diagrams to document how the different parts of complex systems interact"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -282,7 +300,10 @@
 		{
 			"id": "0777c050-8008-4e17-a437-f8de0be3bd55",
 			"summary": "Is an ambassador for their team across FT technology and colleagues in the rest of the business",
-			"examples": [],
+			"examples": [
+				"Positively represents their team in interactions with other people by seeking to understand their perspectives, values and needs",
+				"Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
