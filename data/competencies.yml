@@ -369,8 +369,8 @@
 - id: 07715459-0423-4507-bdf1-fc397507eec7
   summary: Leads on fixing production issues
   examples: 
-    - Takes action proactively when an incident is reported on a system they support and resolves it satisfactorily
-    - Responds to critical issues raised in #ft-tech-incidents taking the innitiative to fix them and reports back
+    - Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily
+    - Responds to critical issues raised in `#ft-tech-incidents` taking the initiative to fix them and reports back
   description: null
   level: mid-to-senior1
   area: technical
