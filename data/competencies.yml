@@ -370,7 +370,7 @@
   summary: Leads on fixing live incidents in production
   examples: 
     - Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily
-    - Responds to critical issues raised in `#ft-tech-incidents` taking the initiative to fix them and reports back
+    - "Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
   description: null
   level: mid-to-senior1
   area: technical
