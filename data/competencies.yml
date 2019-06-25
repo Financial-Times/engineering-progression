@@ -470,8 +470,10 @@
   domain: null
 
 - id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
-  summary: Runs meetings with clear agendas and outcomes
-  examples: []
+  summary: Facilitates productive discussions with clear outcomes
+  examples: 
+    - Runs meetings with clear agendas and outcomes
+    - Obtains wide feedback on technical proposals and takes ownership of seeing it through
   description: null
   level: mid-to-senior1
   area: communication
