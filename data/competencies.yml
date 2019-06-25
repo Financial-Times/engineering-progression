@@ -145,6 +145,8 @@
   summary: Provides feedback on peer’s work
   examples:
     - Reviews pull requests and gives actionable empathetic feedback
+    - Recognises when a more senior colleague has not given enough detail in an explanation, and asks for clarification
+    - Gives realtime feedback in mob programming sessions
   description: null
   level: junior-to-mid
   area: communication
