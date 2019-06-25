@@ -638,7 +638,7 @@
   examples:
     - Can articulate why the overhead of using a third party system is worth it for their project
     - Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team
-    - Contributes to buy vs. build vs. blend discussions impacting their project
+    - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
   description: null
   level: senior1-to-senior2
   area: technical
