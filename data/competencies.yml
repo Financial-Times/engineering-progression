@@ -546,7 +546,7 @@
 - id: c0d81832-8fe9-485c-8847-25763255a1b3
   summary: Tackles simple cross team technical issues
   examples:
-    - Notices a tool used by lots of teams has broken, identifies the problem and fixes
+    - Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)
   description: null
   level: mid-to-senior1
   area: delivery
