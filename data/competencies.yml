@@ -466,6 +466,7 @@
     - Explains technical concepts to colleagues from other disciplines
     - Teaches more junior engineers
     - Creates diagrams to document how the different parts of complex systems interact
+    - Presents their own work clearly to stakeholders
   description: null
   level: mid-to-senior1
   area: communication
@@ -621,14 +622,6 @@
     - Is a tech lead
     - Runs, or is on the organising team for a Guild
     - Leads on large features or stories
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
-- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
-  summary: Presents their own work clearly to stakeholders
-  examples: []
   description: null
   level: mid-to-senior1
   area: leadership
