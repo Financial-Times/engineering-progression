@@ -337,7 +337,7 @@
 # Mid to Senior 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
-  summary: Builds products ensuring they take adequate steps to protect user data
+  summary: Builds products ensuring they take adequate steps to protect sensitive data
   examples:
     - Databases have encryption at rest
     - Sensitive data is masked or in restricted indexes in Splunk
@@ -385,6 +385,9 @@
   examples:
     - Uses Snyk.io on projects
     - Sanitises user input to mitigate against XSS attacks
+    - Applies security patches to an operating system
+    - Protecting public API endpoints
+    - Articulates security risks/benefits when evaluating third party software
   description: null
   level: mid-to-senior1
   area: technical
@@ -393,6 +396,8 @@
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
   summary: Manages technical trade-offs in the team's projects
   examples:
+    - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   description: null
   level: mid-to-senior1
@@ -421,7 +426,7 @@
 - id: a021bb76-9190-4059-b4c5-285f4f240169
   summary: Regularly and independently debugs and fixes bugs regardless of origin
   examples:
-    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
+    - Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -528,7 +533,7 @@
   summary: Where appropriate, builds on other teams' work to solve problems
   examples:
     - Uses origami components to style a web page
-    - Records information about technical infrastructure in Biz Ops
+    - Uses Biz Ops as a source of system data rather than creating a new system registry
   description: null
   level: mid-to-senior1
   area: delivery
@@ -547,7 +552,7 @@
 - id: c0d81832-8fe9-485c-8847-25763255a1b3
   summary: Tackles simple cross team technical issues
   examples:
-    - Notices a tool used by lots of teams has broken, identifies the problem and fixes
+    - Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)
   description: null
   level: mid-to-senior1
   area: delivery
@@ -609,8 +614,11 @@
   domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
-  summary: Has responsibility for others’ development through mentoring or line management
-  examples: []
+  summary: Has responsibility for others’ professional development
+  examples: 
+    - Is a line manager or mentor
+    - Is a designated buddy to a new starter
+    - Regularly meets up with more junior peers to provide guidance
   description: null
   level: mid-to-senior1
   area: leadership
@@ -653,7 +661,7 @@
   summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
   examples:
     - Understands how their work feeds into their group's tech strategy
-    - Can articulate and justify the overall cost of their technical solutions
+    - Can articulate and justify the total cost of ownership of their technical solutions
     - Follows their group's Engineering Principles when building technical solutions
   description: null
   level: senior1-to-senior2
@@ -690,7 +698,7 @@
   domain: null
 
 - id: f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0
-  summary: Has a deep understanding and willingness to help others for a particular technology or product
+  summary: Has a deep understanding of, and helps others understand, a particular technology or product
   examples:
     - Responds to questions on Slack about a particular technology or product
     - Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise
