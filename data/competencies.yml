@@ -337,7 +337,7 @@
 # Mid to Senior 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
-  summary: Builds products ensuring they take adequate steps to protect user data
+  summary: Builds products ensuring they take adequate steps to protect sensitive data
   examples:
     - Databases have encryption at rest
     - Sensitive data is masked or in restricted indexes in Splunk
