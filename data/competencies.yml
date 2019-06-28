@@ -697,7 +697,7 @@
   domain: null
 
 - id: f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0
-  summary: Has a deep understanding and willingness to help others for a particular technology or product
+  summary: Has a deep understanding of, and helps others understand, a particular technology or product
   examples:
     - Responds to questions on Slack about a particular technology or product
     - Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise
