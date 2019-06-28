@@ -115,7 +115,7 @@
   domain: null
 
 - id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
-  summary: Reasons about technical trade-offs within their own code
+  summary: Makes pragmatic decisions about technical trade-offs within their own code
   examples:
     - Weighs up the benefits of making code more abstract vs specific
     - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
@@ -145,6 +145,8 @@
   summary: Provides feedback on peer’s work
   examples:
     - Reviews pull requests and gives actionable empathetic feedback
+    - Recognises when a more senior colleague has not given enough detail in an explanation, and asks for clarification
+    - Gives realtime feedback in mob programming sessions
   description: null
   level: junior-to-mid
   area: communication
@@ -164,6 +166,8 @@
     - Finds a training course and takes it
     - Studies for and attains a technical certification
     - Proactively learns how to use a new tool/language feature
+    - Attends meet-ups or conferences
+    - Reads blog posts about technology
   description: null
   level: junior-to-mid
   area: communication
@@ -312,6 +316,7 @@
   examples:
     - Pairs on a feature with a more junior colleague
     - Helps onboard a new hire, acting as their go-to person for questions
+    - Comes back from a conference and shares their learnings with others
   description: null
   level: junior-to-mid
   area: leadership
@@ -333,7 +338,7 @@
 # Mid to Senior 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
-  summary: Builds products ensuring they take adequate steps to protect user data
+  summary: Builds products ensuring they take adequate steps to protect sensitive data
   examples:
     - Databases have encryption at rest
     - Sensitive data is masked or in restricted indexes in Splunk
@@ -381,23 +386,40 @@
   examples:
     - Uses Snyk.io on projects
     - Sanitises user input to mitigate against XSS attacks
+    - Applies security patches to an operating system
+    - Protecting public API endpoints
+    - Articulates security risks/benefits when evaluating third party software
   description: null
   level: mid-to-senior1
   area: technical
   domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
-  summary: Manages technical trade-offs in the team's projects
+  summary: Makes pragmatic decisions about technical trade-offs within their project
   examples:
+    - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
+    - Can explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
   level: mid-to-senior1
   area: technical
   domain: null
 
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbe
-  summary: Takes responsibility for code quality by keeping the quality high and encouraging others in the team to do the same
-  examples: []
+  summary: Delivers high quality code and solutions
+  examples:
+    - Implements tooling to enforce high standards
+    - Refactors solutions to improve clarity and maintainability
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+  
+- id: 5e9295a7-753a-4530-9d25-8deac9118cbf
+  summary: Encourages others to delivery high quality code and solutions
+  examples: 
+    - Reviews pull requests fairly & critically in such away that team members produce better code
   description: null
   level: mid-to-senior1
   area: technical
@@ -406,7 +428,7 @@
 - id: a021bb76-9190-4059-b4c5-285f4f240169
   summary: Regularly and independently debugs and fixes bugs regardless of origin
   examples:
-    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
+    - Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -417,18 +439,6 @@
   examples:
     - Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services
     - Adds healthchecks to a system that detect different ways in which it can fail
-  description: null
-  level: mid-to-senior1
-  area: technical
-  domain: null
-
-- id: 5df15bf0-4274-4238-a213-2ace5a840eb9
-  summary: Keeps up with industry trends
-  examples:
-    - Attends meet-ups or conferences
-    - Reads blog posts about technology
-    - Follows industry leaders on twitter
-    - Shares industry relevant content/links with team members that may be interested
   description: null
   level: mid-to-senior1
   area: technical
@@ -463,14 +473,17 @@
     - Explains technical concepts to colleagues from other disciplines
     - Teaches more junior engineers
     - Creates diagrams to document how the different parts of complex systems interact
+    - Presents their own work clearly to stakeholders
   description: null
   level: mid-to-senior1
   area: communication
   domain: null
 
 - id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
-  summary: Runs meetings with clear agendas and outcomes
-  examples: []
+  summary: Facilitates productive discussions with clear outcomes
+  examples: 
+    - Runs meetings with clear agendas and outcomes
+    - Obtains wide feedback on technical proposals and takes ownership of seeing it through
   description: null
   level: mid-to-senior1
   area: communication
@@ -522,7 +535,7 @@
   summary: Where appropriate, builds on other teams' work to solve problems
   examples:
     - Uses origami components to style a web page
-    - Records information about technical infrastructure in Biz Ops
+    - Uses Biz Ops as a source of system data rather than creating a new system registry
   description: null
   level: mid-to-senior1
   area: delivery
@@ -541,7 +554,7 @@
 - id: c0d81832-8fe9-485c-8847-25763255a1b3
   summary: Tackles simple cross team technical issues
   examples:
-    - Notices a tool used by lots of teams has broken, identifies the problem and fixes
+    - Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)
   description: null
   level: mid-to-senior1
   area: delivery
@@ -586,6 +599,7 @@
     - "Answers questions in the #engineering Slack channel"
     - Gives a tech talk (internally or externally)
     - Writes a blog post
+    - Shares industry relevant content/links with team members that may be interested
   description: null
   level: mid-to-senior1
   area: leadership
@@ -602,8 +616,11 @@
   domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
-  summary: Has responsibility for others’ development through mentoring or line management
-  examples: []
+  summary: Has responsibility for others’ professional development
+  examples: 
+    - Is a line manager or mentor
+    - Is a designated buddy to a new starter
+    - Regularly meets up with more junior peers to provide guidance
   description: null
   level: mid-to-senior1
   area: leadership
@@ -615,14 +632,6 @@
     - Is a tech lead
     - Runs, or is on the organising team for a Guild
     - Leads on large features or stories
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
-- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
-  summary: Presents their own work clearly to stakeholders
-  examples: []
   description: null
   level: mid-to-senior1
   area: leadership
@@ -642,9 +651,11 @@
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
-  summary: Makes pragmatic decisions about technical trade-offs
+  summary: Makes pragmatic decisions about technical trade-offs beyond their project
   examples:
-    - Can predict and explain when something is worth refactoring even when it will impact the speed of delivery
+    - Can articulate why the overhead of using a third party system is worth it for their project
+    - Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team
+    - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
   description: null
   level: senior1-to-senior2
   area: technical
@@ -654,7 +665,7 @@
   summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
   examples:
     - Understands how their work feeds into their group's tech strategy
-    - Can articulate and justify the overall cost of their technical solutions
+    - Can articulate and justify the total cost of ownership of their technical solutions
     - Follows their group's Engineering Principles when building technical solutions
   description: null
   level: senior1-to-senior2
@@ -691,7 +702,7 @@
   domain: null
 
 - id: f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0
-  summary: Has a deep understanding and willingness to help others for a particular technology or product
+  summary: Has a deep understanding of, and helps others understand, a particular technology or product
   examples:
     - Responds to questions on Slack about a particular technology or product
     - Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise
@@ -765,7 +776,7 @@
   summary: Presents their team's work to others in the business
   examples:
     - Speaks at the Technology All Hands
-    - Writes one-pagers to explain technical descisions
+    - Writes one-pagers to explain technical decisions
     - Writes a blog post about an aspect of the team's work
   description: null
   level: senior1-to-senior2
