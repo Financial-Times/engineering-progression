@@ -316,6 +316,7 @@
   examples:
     - Pairs on a feature with a more junior colleague
     - Helps onboard a new hire, acting as their go-to person for questions
+    - Comes back from a conference and shares their learnings with others
   description: null
   level: junior-to-mid
   area: leadership
@@ -337,7 +338,7 @@
 # Mid to Senior 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
-  summary: Builds products ensuring they take adequate steps to protect user data
+  summary: Builds products ensuring they take adequate steps to protect sensitive data
   examples:
     - Databases have encryption at rest
     - Sensitive data is masked or in restricted indexes in Splunk
@@ -385,6 +386,9 @@
   examples:
     - Uses Snyk.io on projects
     - Sanitises user input to mitigate against XSS attacks
+    - Applies security patches to an operating system
+    - Protecting public API endpoints
+    - Articulates security risks/benefits when evaluating third party software
   description: null
   level: mid-to-senior1
   area: technical
@@ -393,6 +397,8 @@
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
   summary: Makes pragmatic decisions about technical trade-offs within their project
   examples:
+    - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
     - Can explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
@@ -422,7 +428,7 @@
 - id: a021bb76-9190-4059-b4c5-285f4f240169
   summary: Regularly and independently debugs and fixes bugs regardless of origin
   examples:
-    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
+    - Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
@@ -467,6 +473,7 @@
     - Explains technical concepts to colleagues from other disciplines
     - Teaches more junior engineers
     - Creates diagrams to document how the different parts of complex systems interact
+    - Presents their own work clearly to stakeholders
   description: null
   level: mid-to-senior1
   area: communication
@@ -547,7 +554,7 @@
 - id: c0d81832-8fe9-485c-8847-25763255a1b3
   summary: Tackles simple cross team technical issues
   examples:
-    - Notices a tool used by lots of teams has broken, identifies the problem and fixes
+    - Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)
   description: null
   level: mid-to-senior1
   area: delivery
@@ -609,8 +616,11 @@
   domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
-  summary: Has responsibility for others’ development through mentoring or line management
-  examples: []
+  summary: Has responsibility for others’ professional development
+  examples: 
+    - Is a line manager or mentor
+    - Is a designated buddy to a new starter
+    - Regularly meets up with more junior peers to provide guidance
   description: null
   level: mid-to-senior1
   area: leadership
@@ -622,14 +632,6 @@
     - Is a tech lead
     - Runs, or is on the organising team for a Guild
     - Leads on large features or stories
-  description: null
-  level: mid-to-senior1
-  area: leadership
-  domain: null
-
-- id: 11d32a45-ea1e-411f-a810-12a4f0b8ddb9
-  summary: Presents their own work clearly to stakeholders
-  examples: []
   description: null
   level: mid-to-senior1
   area: leadership
