@@ -115,7 +115,7 @@
   domain: null
 
 - id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
-  summary: Reasons about technical trade-offs within their own code
+  summary: Makes pragmatic decisions about technical trade-offs within their own code
   examples:
     - Weighs up the benefits of making code more abstract vs specific
     - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
@@ -395,11 +395,12 @@
   domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
-  summary: Manages technical trade-offs in the team's projects
+  summary: Makes pragmatic decisions about technical trade-offs within their project
   examples:
     - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
     - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
+    - Can explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
   level: mid-to-senior1
   area: technical
@@ -650,9 +651,11 @@
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
-  summary: Makes pragmatic decisions about technical trade-offs
+  summary: Makes pragmatic decisions about technical trade-offs beyond their project
   examples:
-    - Can predict and explain when something is worth refactoring even when it will impact the speed of delivery
+    - Can articulate why the overhead of using a third party system is worth it for their project
+    - Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team
+    - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
   description: null
   level: senior1-to-senior2
   area: technical
