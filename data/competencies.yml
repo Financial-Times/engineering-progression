@@ -530,7 +530,7 @@
   summary: Where appropriate, builds on other teams' work to solve problems
   examples:
     - Uses origami components to style a web page
-    - Records information about technical infrastructure in Biz Ops
+    - Uses Biz Ops as a source of system data rather than creating a new system registry
   description: null
   level: mid-to-senior1
   area: delivery
