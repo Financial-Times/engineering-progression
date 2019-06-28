@@ -337,7 +337,7 @@
 # Mid to Senior 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
-  summary: Builds products ensuring they take adequate steps to protect user data
+  summary: Builds products ensuring they take adequate steps to protect sensitive data
   examples:
     - Databases have encryption at rest
     - Sensitive data is masked or in restricted indexes in Splunk
@@ -385,6 +385,9 @@
   examples:
     - Uses Snyk.io on projects
     - Sanitises user input to mitigate against XSS attacks
+    - Applies security patches to an operating system
+    - Protecting public API endpoints
+    - Articulates security risks/benefits when evaluating third party software
   description: null
   level: mid-to-senior1
   area: technical
@@ -393,6 +396,8 @@
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
   summary: Manages technical trade-offs in the team's projects
   examples:
+    - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   description: null
   level: mid-to-senior1
