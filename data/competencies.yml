@@ -385,6 +385,9 @@
   examples:
     - Uses Snyk.io on projects
     - Sanitises user input to mitigate against XSS attacks
+    - Applies security patches to an operating system
+    - Protecting public API endpoints
+    - Articulates security risks/benefits when evaluating third party software
   description: null
   level: mid-to-senior1
   area: technical
