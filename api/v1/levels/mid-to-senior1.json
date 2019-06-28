@@ -5,7 +5,7 @@
 	"competencies": [
 		{
 			"id": "272be0d0-6b55-11e9-ae4e-0583f673f115",
-			"summary": "Builds products ensuring they take adequate steps to protect user data",
+			"summary": "Builds products ensuring they take adequate steps to protect sensitive data",
 			"examples": [
 				"Databases have encryption at rest",
 				"Sensitive data is masked or in restricted indexes in Splunk",
@@ -45,8 +45,11 @@
 		},
 		{
 			"id": "07715459-0423-4507-bdf1-fc397507eec7",
-			"summary": "Leads on fixing production issues",
-			"examples": [],
+			"summary": "Leads on fixing live incidents in production",
+			"examples": [
+				"Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily",
+				"Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -57,7 +60,10 @@
 			"summary": "Understands the security attack vectors for their area of technology and mitigates against them",
 			"examples": [
 				"Uses Snyk.io on projects",
-				"Sanitises user input to mitigate against XSS attacks"
+				"Sanitises user input to mitigate against XSS attacks",
+				"Applies security patches to an operating system",
+				"Protecting public API endpoints",
+				"Articulates security risks/benefits when evaluating third party software"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -66,9 +72,12 @@
 		},
 		{
 			"id": "0d01eb2a-eed0-499b-8510-a72fd656ada4",
-			"summary": "Manages technical trade-offs in the team's projects",
+			"summary": "Makes pragmatic decisions about technical trade-offs within their project",
 			"examples": [
-				"Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly"
+				"Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value",
+				"When pressed for time, focuses on ensuring test coverage of the most critical system functionality",
+				"Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly",
+				"Can explain when something is worth refactoring even when it will impact the speed of delivery"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -77,8 +86,22 @@
 		},
 		{
 			"id": "5e9295a7-753a-4530-9d25-8deac9118cbe",
-			"summary": "Takes responsibility for code quality by keeping the quality high and encouraging others in the team to do the same",
-			"examples": [],
+			"summary": "Delivers high quality code and solutions",
+			"examples": [
+				"Implements tooling to enforce high standards",
+				"Refactors solutions to improve clarity and maintainability"
+			],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "5e9295a7-753a-4530-9d25-8deac9118cbf",
+			"summary": "Encourages others to delivery high quality code and solutions",
+			"examples": [
+				"Reviews pull requests fairly & critically in such away that team members produce better code"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -88,7 +111,7 @@
 			"id": "a021bb76-9190-4059-b4c5-285f4f240169",
 			"summary": "Regularly and independently debugs and fixes bugs regardless of origin",
 			"examples": [
-				"Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally"
+				"Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -101,20 +124,6 @@
 			"examples": [
 				"Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services",
 				"Adds healthchecks to a system that detect different ways in which it can fail"
-			],
-			"description": null,
-			"level": "mid-to-senior1",
-			"area": "technical",
-			"domain": null
-		},
-		{
-			"id": "5df15bf0-4274-4238-a213-2ace5a840eb9",
-			"summary": "Keeps up with industry trends",
-			"examples": [
-				"Attends meet-ups or conferences",
-				"Reads blog posts about technology",
-				"Follows industry leaders on twitter",
-				"Shares industry relevant content/links with team members that may be interested"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -152,7 +161,8 @@
 			"examples": [
 				"Explains technical concepts to colleagues from other disciplines",
 				"Teaches more junior engineers",
-				"Creates diagrams to document how the different parts of complex systems interact"
+				"Creates diagrams to document how the different parts of complex systems interact",
+				"Presents their own work clearly to stakeholders"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -161,8 +171,11 @@
 		},
 		{
 			"id": "ef527eef-b3ed-4e54-9f7c-36b27c81f7f8",
-			"summary": "Runs meetings with clear agendas and outcomes",
-			"examples": [],
+			"summary": "Facilitates productive discussions with clear outcomes",
+			"examples": [
+				"Runs meetings with clear agendas and outcomes",
+				"Obtains wide feedback on technical proposals and takes ownership of seeing it through"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "communication",
@@ -219,7 +232,7 @@
 			"summary": "Where appropriate, builds on other teams' work to solve problems",
 			"examples": [
 				"Uses origami components to style a web page",
-				"Records information about technical infrastructure in Biz Ops"
+				"Uses Biz Ops as a source of system data rather than creating a new system registry"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -242,7 +255,7 @@
 			"id": "c0d81832-8fe9-485c-8847-25763255a1b3",
 			"summary": "Tackles simple cross team technical issues",
 			"examples": [
-				"Notices a tool used by lots of teams has broken, identifies the problem and fixes"
+				"Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -290,7 +303,8 @@
 				"Is an active member of a Guild",
 				"Answers questions in the #engineering Slack channel",
 				"Gives a tech talk (internally or externally)",
-				"Writes a blog post"
+				"Writes a blog post",
+				"Shares industry relevant content/links with team members that may be interested"
 			],
 			"description": null,
 			"level": "mid-to-senior1",
@@ -311,8 +325,12 @@
 		},
 		{
 			"id": "5e7b6a79-c553-4852-a5eb-97a6550f59da",
-			"summary": "Has responsibility for others’ development through mentoring or line management",
-			"examples": [],
+			"summary": "Has responsibility for others’ professional development",
+			"examples": [
+				"Is a line manager or mentor",
+				"Is a designated buddy to a new starter",
+				"Regularly meets up with more junior peers to provide guidance"
+			],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
@@ -326,15 +344,6 @@
 				"Runs, or is on the organising team for a Guild",
 				"Leads on large features or stories"
 			],
-			"description": null,
-			"level": "mid-to-senior1",
-			"area": "leadership",
-			"domain": null
-		},
-		{
-			"id": "11d32a45-ea1e-411f-a810-12a4f0b8ddb9",
-			"summary": "Presents their own work clearly to stakeholders",
-			"examples": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",

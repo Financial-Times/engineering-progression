@@ -137,7 +137,7 @@
 		},
 		{
 			"id": "09066401-3dab-499f-a91f-dbbf5e19bdd8",
-			"summary": "Reasons about technical trade-offs within their own code",
+			"summary": "Makes pragmatic decisions about technical trade-offs within their own code",
 			"examples": [
 				"Weighs up the benefits of making code more abstract vs specific",
 				"Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse"
@@ -167,7 +167,9 @@
 			"id": "a0429b57-40dd-4f65-87d5-924c8a2a1226",
 			"summary": "Provides feedback on peer’s work",
 			"examples": [
-				"Reviews pull requests and gives actionable empathetic feedback"
+				"Reviews pull requests and gives actionable empathetic feedback",
+				"Recognises when a more senior colleague has not given enough detail in an explanation, and asks for clarification",
+				"Gives realtime feedback in mob programming sessions"
 			],
 			"description": null,
 			"level": "junior-to-mid",
@@ -189,7 +191,9 @@
 			"examples": [
 				"Finds a training course and takes it",
 				"Studies for and attains a technical certification",
-				"Proactively learns how to use a new tool/language feature"
+				"Proactively learns how to use a new tool/language feature",
+				"Attends meet-ups or conferences",
+				"Reads blog posts about technology"
 			],
 			"description": null,
 			"level": "junior-to-mid",
@@ -354,7 +358,8 @@
 			"summary": "Shares knowledge with peers informally",
 			"examples": [
 				"Pairs on a feature with a more junior colleague",
-				"Helps onboard a new hire, acting as their go-to person for questions"
+				"Helps onboard a new hire, acting as their go-to person for questions",
+				"Comes back from a conference and shares their learnings with others"
 			],
 			"description": null,
 			"level": "junior-to-mid",
