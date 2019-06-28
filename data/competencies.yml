@@ -421,7 +421,7 @@
 - id: a021bb76-9190-4059-b4c5-285f4f240169
   summary: Regularly and independently debugs and fixes bugs regardless of origin
   examples:
-    - Picks up and debugs an urgent issue comes in to the team, despite having not written the code originally
+    - Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally
   description: null
   level: mid-to-senior1
   area: technical
