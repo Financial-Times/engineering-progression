@@ -393,6 +393,8 @@
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
   summary: Manages technical trade-offs in the team's projects
   examples:
+    - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
   description: null
   level: mid-to-senior1
