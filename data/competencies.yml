@@ -608,8 +608,11 @@
   domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
-  summary: Has responsibility for others’ development through mentoring or line management
-  examples: []
+  summary: Has responsibility for others’ professional development
+  examples: 
+    - Is a line manager or mentor
+    - Is a designated buddy to a new starter
+    - Regularly meets up with more junior peers to provide guidance
   description: null
   level: mid-to-senior1
   area: leadership
