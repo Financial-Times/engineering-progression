@@ -373,7 +373,7 @@
 
 - id: 07715459-0423-4507-bdf1-fc397507eec7
   summary: Leads on fixing live incidents in production
-  examples: 
+  examples:
     - Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily
     - "Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
   description: null
@@ -398,7 +398,7 @@
   summary: Makes pragmatic decisions about technical trade-offs within their project
   examples:
     - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
-    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
     - Can explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
@@ -415,10 +415,10 @@
   level: mid-to-senior1
   area: technical
   domain: null
-  
+
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbf
   summary: Encourages others to delivery high quality code and solutions
-  examples: 
+  examples:
     - Reviews pull requests fairly & critically in such away that team members produce better code
   description: null
   level: mid-to-senior1
@@ -481,7 +481,7 @@
 
 - id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
   summary: Facilitates productive discussions with clear outcomes
-  examples: 
+  examples:
     - Runs meetings with clear agendas and outcomes
     - Obtains wide feedback on technical proposals and takes ownership of seeing it through
   description: null
@@ -617,7 +617,7 @@
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
   summary: Has responsibility for others’ professional development
-  examples: 
+  examples:
     - Is a line manager or mentor
     - Is a designated buddy to a new starter
     - Regularly meets up with more junior peers to provide guidance
@@ -785,7 +785,9 @@
 
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
   summary: Identifies knowledge gaps within the team and gives training to address gaps
-  examples: []
+  examples:
+    - Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.
+    - Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area.
   description: null
   level: senior1-to-senior2
   area: leadership
