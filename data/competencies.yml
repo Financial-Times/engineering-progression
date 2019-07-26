@@ -194,6 +194,14 @@
   area: communication
   domain: null
 
+- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
+  summary: Presents their own work clearly to a product owner or tech lead
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
 
 # Junior to Mid, Delivery
 
@@ -272,14 +280,6 @@
 
 
 # Junior to Mid, Leadership
-
-- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Presents their own work clearly to a product owner or tech lead
-  examples: []
-  description: null
-  level: junior-to-mid
-  area: leadership
-  domain: null
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
   summary: Knows who their project's stakeholders are
