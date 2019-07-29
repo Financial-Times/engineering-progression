@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: Join the engineering competencies working group
-permalink: /docs/join-the-working-group
+permalink: /docs/join-the-working-group/
 layout: o-layout-docs
 ---
 
