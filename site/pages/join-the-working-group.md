@@ -14,6 +14,7 @@ The engineering competencies have been planned, written and rolled out by a work
 - [Laura Carvajal](https://people-finder.in.ft.com/search?name=laura%20carvajal) - Principal Engineer, Internal Products
 - [Rowan Manning](https://people-finder.in.ft.com/search?name=Rowan%20Manning) - Principal Engineer, Origami
 - [Rhys Evans](https://people-finder.in.ft.com/search?name=rhys%20evans) - Principal Engineer, Reliability Engineering
+- [Tom Kennedy](https://people-finder.in.ft.com/search?name=Tom%20Kennedy) - Project Support Administrator
 
 
 We are all Principal Engineers (or equivalent), are all based in London and are more representative of web + nodejs teams at the FT than other disciplines (though we have tried to be conscious of our biases when writing the competencies).
@@ -35,5 +36,6 @@ At present the commitment is one hour-long meeting per week, with a variable amo
 - Contribute to writing and coordinating communications to FT tech. This can involve
   - writing paragraphs for the Tech Director (JK) and Chief Product & Information Officer (Cait) newsletters
   - updating information on the website
+  - writing blog posts on the FT product and tech medium
 - Helping to run workshops to gather feedback from engineers (we expect less of this from now on, but it may be the case that we need to in order to gather more feedback as we refine the competencies)
 - (Optional) Iterate on the methods we have for presenting and interacting with the competencies (e.g currently we have this website, a spreadsheet and an API, but more tools could be created)
