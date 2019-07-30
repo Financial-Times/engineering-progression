@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Join the working group
 description: Join the engineering competencies working group
 permalink: /docs/join-the-working-group/
 layout: o-layout-docs
