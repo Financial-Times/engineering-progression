@@ -194,6 +194,14 @@
   area: communication
   domain: null
 
+- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
+  summary: Presents their own work clearly to a product owner or tech lead
+  examples: []
+  description: null
+  level: junior-to-mid
+  area: communication
+  domain: null
+
 
 # Junior to Mid, Delivery
 
@@ -272,14 +280,6 @@
 
 
 # Junior to Mid, Leadership
-
-- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Presents their own work clearly to a product owner or tech lead
-  examples: []
-  description: null
-  level: junior-to-mid
-  area: leadership
-  domain: null
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
   summary: Knows who their project's stakeholders are
@@ -373,7 +373,7 @@
 
 - id: 07715459-0423-4507-bdf1-fc397507eec7
   summary: Leads on fixing live incidents in production
-  examples: 
+  examples:
     - Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily
     - "Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
   description: null
@@ -398,7 +398,7 @@
   summary: Makes pragmatic decisions about technical trade-offs within their project
   examples:
     - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
-    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality 
+    - When pressed for time, focuses on ensuring test coverage of the most critical system functionality
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
     - Can explain when something is worth refactoring even when it will impact the speed of delivery
   description: null
@@ -415,10 +415,10 @@
   level: mid-to-senior1
   area: technical
   domain: null
-  
+
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbf
   summary: Encourages others to delivery high quality code and solutions
-  examples: 
+  examples:
     - Reviews pull requests fairly & critically in such away that team members produce better code
   description: null
   level: mid-to-senior1
@@ -470,9 +470,9 @@
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
   summary: Communicates technical concepts clearly and adapts that communication to the audience
   examples:
-    - Explains technical concepts to colleagues from other disciplines
+    - Explains their work in standups knowing which technical details to leave out to make the message meaningful to everyone in the room
     - Teaches more junior engineers
-    - Creates diagrams to document how the different parts of complex systems interact
+    - Creates diagrams to document how the different parts of systems interact
     - Presents their own work clearly to stakeholders
   description: null
   level: mid-to-senior1
@@ -481,7 +481,7 @@
 
 - id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
   summary: Facilitates productive discussions with clear outcomes
-  examples: 
+  examples:
     - Runs meetings with clear agendas and outcomes
     - Obtains wide feedback on technical proposals and takes ownership of seeing it through
   description: null
@@ -617,7 +617,7 @@
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
   summary: Has responsibility for others’ professional development
-  examples: 
+  examples:
     - Is a line manager or mentor
     - Is a designated buddy to a new starter
     - Regularly meets up with more junior peers to provide guidance
@@ -717,8 +717,8 @@
 - id: f7045590-960d-4a08-b2d6-db6dcff463d6
   summary: Communicates complex technical concepts clearly and adapts that communication to the audience
   examples:
-    - Explains complex technical concepts to colleagues from other disciplines
-    - Teaches more junior engineers
+    - Articulates to a product owner how one third-party technical solution is better than another
+    - Explains to a stakeholder how a technical incident in a system impacted the business
   description: null
   level: senior1-to-senior2
   area: communication
@@ -735,6 +735,18 @@
   level: senior1-to-senior2
   area: communication
   domain: null
+
+- id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
+  summary: Presents their team's work to others in the business
+  examples:
+    - Speaks at the Technology All Hands
+    - Writes one-pagers to explain technical decisions
+    - Writes a blog post about an aspect of the team's work
+  description: null
+  level: senior1-to-senior2
+  area: communication
+  domain: null
+
 
 # Senior 1 to Senior 2, Delivery
 
@@ -772,17 +784,6 @@
 
 # Senior 1 to Senior 2, Leadership
 
-- id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
-  summary: Presents their team's work to others in the business
-  examples:
-    - Speaks at the Technology All Hands
-    - Writes one-pagers to explain technical decisions
-    - Writes a blog post about an aspect of the team's work
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
   summary: Identifies knowledge gaps within the team and gives training to address gaps
   examples: []
@@ -792,7 +793,7 @@
   domain: null
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
-  summary: Takes ownership of ensuring an inclusive team culture
+  summary: Actively fosters of ensuring an inclusive team culture
   examples:
     - Celebrates good work publicly and encourages the team to do the same
     - Spots problems between team members and helps to resolve them

@@ -3,7 +3,7 @@
 
 Careers and progression for engineers in the CTO organisation.
 
-:warning: This project is currently in **ALPHA**, please do not use this to guide promotions decisions yet. We'll be publishing a **BETA** in the near future and helping to test this in a promotions round after that.
+:info: This project is currently in **BETA**. You may use this to guide promotions decisions from September 2019.
 
 ---
 
