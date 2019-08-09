@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: FAQ on the FT's engineering competencies
-permalink: /docs/faq
+permalink: /docs/faq/
 layout: o-layout-docs
 ---
 
