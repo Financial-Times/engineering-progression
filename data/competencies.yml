@@ -790,7 +790,9 @@
 
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
   summary: Identifies knowledge gaps within the team and gives training to address gaps
-  examples: []
+  examples:
+    - Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.
+    - Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area.
   description: null
   level: senior1-to-senior2
   area: leadership
