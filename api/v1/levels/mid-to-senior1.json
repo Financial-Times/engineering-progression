@@ -159,9 +159,9 @@
 			"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
 			"summary": "Communicates technical concepts clearly and adapts that communication to the audience",
 			"examples": [
-				"Explains technical concepts to colleagues from other disciplines",
+				"Explains their work in standups knowing which technical details to leave out to make the message meaningful to everyone in the room",
 				"Teaches more junior engineers",
-				"Creates diagrams to document how the different parts of complex systems interact",
+				"Creates diagrams to document how the different parts of systems interact",
 				"Presents their own work clearly to stakeholders"
 			],
 			"description": null,

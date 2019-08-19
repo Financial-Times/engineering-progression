@@ -68,8 +68,13 @@
 		},
 		{
 			"id": "f66d122f-bd81-4b57-8b4a-78f00a11934c",
-			"summary": "Uses third party code and shared libraries to reuse code",
-			"examples": [],
+			"summary": "Reuses existing code",
+			"examples": [
+				"Uses a python package in project",
+				"Uses a node package in project",
+				"Integrates with proprietary software packages",
+				"Uses Origami"
+			],
 			"description": null,
 			"level": "junior-to-mid",
 			"area": "technical",
@@ -226,6 +231,15 @@
 			"domain": null
 		},
 		{
+			"id": "88c876aa-fce5-414b-b0c0-b1b7602beea8",
+			"summary": "Presents their own work clearly to a product owner or tech lead",
+			"examples": [],
+			"description": null,
+			"level": "junior-to-mid",
+			"area": "communication",
+			"domain": null
+		},
+		{
 			"id": "6dd9f702-6ee8-46d1-9c4c-9c370d971cb1",
 			"summary": "Works on the most important task",
 			"examples": [
@@ -308,15 +322,6 @@
 			"description": null,
 			"level": "junior-to-mid",
 			"area": "delivery",
-			"domain": null
-		},
-		{
-			"id": "88c876aa-fce5-414b-b0c0-b1b7602beea8",
-			"summary": "Presents their own work clearly to a product owner or tech lead",
-			"examples": [],
-			"description": null,
-			"level": "junior-to-mid",
-			"area": "leadership",
 			"domain": null
 		},
 		{
