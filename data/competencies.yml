@@ -715,6 +715,16 @@
   area: technical
   domain: null
 
+- id: f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0
+  summary: Shapes the technical direction for the wider group or tech department.
+  examples:
+    - Takes a proposal to the Technical Governance Group
+    - Contributes to technical strategy work
+    - Successfully leads the group-wide adoption of a particular technology
+  description: null
+  level: senior1-to-senior2
+  area: technical
+  domain: null
 
 # Senior 1 to Senior 2, Communication
 
