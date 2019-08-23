@@ -469,6 +469,17 @@
   area: technical
   domain: null
 
+- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
+  summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
+  examples:
+    - Understands how their work feeds into their group's tech strategy
+    - Can articulate and justify the total cost of ownership of their technical solutions
+    - Follows their group's Engineering Principles when building technical solutions
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
 # Mid to Senior 1, Communication
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
@@ -660,17 +671,6 @@
     - Can articulate why the overhead of using a third party system is worth it for their project
     - Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team
     - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
-  description: null
-  level: senior1-to-senior2
-  area: technical
-  domain: null
-
-- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
-  summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
-  examples:
-    - Understands how their work feeds into their group's tech strategy
-    - Can articulate and justify the total cost of ownership of their technical solutions
-    - Follows their group's Engineering Principles when building technical solutions
   description: null
   level: senior1-to-senior2
   area: technical
