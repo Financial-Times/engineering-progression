@@ -56,8 +56,12 @@
   domain: null
 
 - id: f66d122f-bd81-4b57-8b4a-78f00a11934c
-  summary: Uses third party code and shared libraries to reuse code
-  examples: []
+  summary: Reuses existing code
+  examples:
+    - Uses a python package in project
+    - Uses a node package in project
+    - Integrates with proprietary software packages
+    - Uses Origami
   description: null
   level: junior-to-mid
   area: technical
@@ -470,9 +474,9 @@
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
   summary: Communicates technical concepts clearly and adapts that communication to the audience
   examples:
-    - Explains technical concepts to colleagues from other disciplines
+    - Explains their work in standups knowing which technical details to leave out to make the message meaningful to everyone in the room
     - Teaches more junior engineers
-    - Creates diagrams to document how the different parts of complex systems interact
+    - Creates diagrams to document how the different parts of systems interact
     - Presents their own work clearly to stakeholders
   description: null
   level: mid-to-senior1
@@ -717,8 +721,8 @@
 - id: f7045590-960d-4a08-b2d6-db6dcff463d6
   summary: Communicates complex technical concepts clearly and adapts that communication to the audience
   examples:
-    - Explains complex technical concepts to colleagues from other disciplines
-    - Teaches more junior engineers
+    - Articulates to a product owner how one third-party technical solution is better than another
+    - Explains to a stakeholder how a technical incident in a system impacted the business
   description: null
   level: senior1-to-senior2
   area: communication
@@ -786,7 +790,9 @@
 
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
   summary: Identifies knowledge gaps within the team and gives training to address gaps
-  examples: []
+  examples:
+    - Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.
+    - Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area.
   description: null
   level: senior1-to-senior2
   area: leadership
