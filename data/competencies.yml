@@ -469,6 +469,17 @@
   area: technical
   domain: null
 
+- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
+  summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
+  examples:
+    - Understands how their work feeds into their group's tech strategy
+    - Can articulate and justify the total cost of ownership of their technical solutions
+    - Follows their group's Engineering Principles when building technical solutions
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
 # Mid to Senior 1, Communication
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
@@ -665,17 +676,6 @@
   area: technical
   domain: null
 
-- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
-  summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
-  examples:
-    - Understands how their work feeds into their group's tech strategy
-    - Can articulate and justify the total cost of ownership of their technical solutions
-    - Follows their group's Engineering Principles when building technical solutions
-  description: null
-  level: senior1-to-senior2
-  area: technical
-  domain: null
-
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
   summary: Debugs and fixes complex bugs efficiently
   examples:
@@ -715,6 +715,16 @@
   area: technical
   domain: null
 
+- id: 73ac4fe5-059b-4fd2-b2d6-52d6a79e11d9
+  summary: Shapes the technical direction for the wider group or tech department.
+  examples:
+    - Takes a proposal to the Technical Governance Group
+    - Contributes to technical strategy work
+    - Successfully leads the group-wide adoption of a particular technology
+  description: null
+  level: senior1-to-senior2
+  area: technical
+  domain: null
 
 # Senior 1 to Senior 2, Communication
 
