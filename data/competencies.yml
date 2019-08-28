@@ -631,11 +631,14 @@
   domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
-  summary: Has responsibility for others’ professional development
+  summary: Contributes to the personal development of more junior people
   examples:
     - Is a line manager or mentor
     - Is a designated buddy to a new starter
     - Regularly meets up with more junior peers to provide guidance
+    - Pairs with more junior team members
+    - Writes blog posts to share knowledge
+    - Gives talks at meet-ups or conferences to share knowledge
   description: null
   level: mid-to-senior1
   area: leadership
@@ -814,19 +817,6 @@
     - Celebrates good work publicly and encourages the team to do the same
     - Spots problems between team members and helps to resolve them
     - Models inclusive behaviour to the rest of the team
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
-- id: 7e613602-fda1-43dc-94ca-83e17b24f42c
-  summary: Contributes to the personal development of more junior people
-  examples:
-    - Pairs with more junior team members
-    - Mentors people
-    - Line manages people
-    - Writes blog posts
-    - Gives talks at meet-ups or conferences
   description: null
   level: senior1-to-senior2
   area: leadership
