@@ -469,6 +469,17 @@
   area: technical
   domain: null
 
+- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
+  summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
+  examples:
+    - Understands how their work feeds into their group's tech strategy
+    - Can articulate and justify the total cost of ownership of their technical solutions
+    - Follows their group's Engineering Principles when building technical solutions
+  description: null
+  level: mid-to-senior1
+  area: technical
+  domain: null
+
 # Mid to Senior 1, Communication
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
@@ -620,11 +631,14 @@
   domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
-  summary: Has responsibility for others’ professional development
+  summary: Contributes to the personal development of more junior people
   examples:
     - Is a line manager or mentor
     - Is a designated buddy to a new starter
     - Regularly meets up with more junior peers to provide guidance
+    - Pairs with more junior team members
+    - Writes blog posts to share knowledge
+    - Gives talks at meet-ups or conferences to share knowledge
   description: null
   level: mid-to-senior1
   area: leadership
@@ -660,17 +674,6 @@
     - Can articulate why the overhead of using a third party system is worth it for their project
     - Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team
     - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
-  description: null
-  level: senior1-to-senior2
-  area: technical
-  domain: null
-
-- id: 46c795d8-b684-4401-bf1e-45a31dd689cb
-  summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
-  examples:
-    - Understands how their work feeds into their group's tech strategy
-    - Can articulate and justify the total cost of ownership of their technical solutions
-    - Follows their group's Engineering Principles when building technical solutions
   description: null
   level: senior1-to-senior2
   area: technical
@@ -715,6 +718,16 @@
   area: technical
   domain: null
 
+- id: 73ac4fe5-059b-4fd2-b2d6-52d6a79e11d9
+  summary: Shapes the technical direction for the wider group or tech department.
+  examples:
+    - Takes a proposal to the Technical Governance Group
+    - Contributes to technical strategy work
+    - Successfully leads the group-wide adoption of a particular technology
+  description: null
+  level: senior1-to-senior2
+  area: technical
+  domain: null
 
 # Senior 1 to Senior 2, Communication
 
@@ -804,19 +817,6 @@
     - Celebrates good work publicly and encourages the team to do the same
     - Spots problems between team members and helps to resolve them
     - Models inclusive behaviour to the rest of the team
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
-- id: 7e613602-fda1-43dc-94ca-83e17b24f42c
-  summary: Contributes to the personal development of more junior people
-  examples:
-    - Pairs with more junior team members
-    - Mentors people
-    - Line manages people
-    - Writes blog posts
-    - Gives talks at meet-ups or conferences
   description: null
   level: senior1-to-senior2
   area: leadership
