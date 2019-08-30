@@ -3,22 +3,41 @@
 ---
 @charset "utf-8";
 
-// Competency list styles (for individual level pages)
-.competency-list {
-	list-style: none;
-	padding-left: 0;
-	margin-top: 0;
-	margin-bottom: 1em;
+// General print styles
+.print-only {
+	display: none;
 }
-.competency-list__competency {
-	margin-bottom: 1em;
+@media print {
+	.print-only {
+		display: block;
+	}
+	.screen-only {
+		display: none;
+	}
+	@page {
+		size: portrait;
+	}
+	.o-layout {
+		display: block;
+	}
+	.o-layout__header,
+	.o-layout__footer,
+	.o-layout__sidebar {
+		display: none;
+	}
 }
-.competency-list__summary {
-	margin: 0;
-	font-weight: 500;
+
+// Competency table styles (for print CSS)
+.competency-table__evidence {
+	display: none;
+	@media print {
+		display: table-cell;
+		width: 30%;
+	}
 }
-.competency-list__examples {
+.competency-table__examples {
 	margin-bottom: 0;
+	margin-top: .5em;
 	list-style: disc;
 	font-style: italic;
 }
