@@ -156,6 +156,19 @@
 			"domain": null
 		},
 		{
+			"id": "46c795d8-b684-4401-bf1e-45a31dd689cb",
+			"summary": "Considers the technical direction of their group or the wider department when coming up with technical solutions",
+			"examples": [
+				"Understands how their work feeds into their group's tech strategy",
+				"Can articulate and justify the total cost of ownership of their technical solutions",
+				"Follows their group's Engineering Principles when building technical solutions"
+			],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "technical",
+			"domain": null
+		},
+		{
 			"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
 			"summary": "Communicates technical concepts clearly and adapts that communication to the audience",
 			"examples": [
@@ -313,7 +326,7 @@
 		},
 		{
 			"id": "0777c050-8008-4e17-a437-f8de0be3bd55",
-			"summary": "Is an ambassador for their team across FT technology and colleagues in the rest of the business",
+			"summary": "Is an ambassador for their team across FT technology",
 			"examples": [
 				"Positively represents their team in interactions with other people by seeking to understand their perspectives, values and needs",
 				"Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)"
@@ -325,11 +338,14 @@
 		},
 		{
 			"id": "5e7b6a79-c553-4852-a5eb-97a6550f59da",
-			"summary": "Has responsibility for others’ professional development",
+			"summary": "Contributes to the personal development of more junior people",
 			"examples": [
 				"Is a line manager or mentor",
 				"Is a designated buddy to a new starter",
-				"Regularly meets up with more junior peers to provide guidance"
+				"Regularly meets up with more junior peers to provide guidance",
+				"Pairs with more junior team members",
+				"Writes blog posts to share knowledge",
+				"Gives talks at meet-ups or conferences to share knowledge"
 			],
 			"description": null,
 			"level": "mid-to-senior1",

@@ -17,19 +17,6 @@
 			"domain": null
 		},
 		{
-			"id": "46c795d8-b684-4401-bf1e-45a31dd689cb",
-			"summary": "Considers the technical direction of their group or the wider department when coming up with technical solutions",
-			"examples": [
-				"Understands how their work feeds into their group's tech strategy",
-				"Can articulate and justify the total cost of ownership of their technical solutions",
-				"Follows their group's Engineering Principles when building technical solutions"
-			],
-			"description": null,
-			"level": "senior1-to-senior2",
-			"area": "technical",
-			"domain": null
-		},
-		{
 			"id": "d6e3e7d1-1a53-444d-80ad-0240775a028d",
 			"summary": "Debugs and fixes complex bugs efficiently",
 			"examples": [
@@ -69,6 +56,19 @@
 			"examples": [
 				"Responds to questions on Slack about a particular technology or product",
 				"Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise"
+			],
+			"description": null,
+			"level": "senior1-to-senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "73ac4fe5-059b-4fd2-b2d6-52d6a79e11d9",
+			"summary": "Shapes the technical direction for the wider group or tech department.",
+			"examples": [
+				"Takes a proposal to the Technical Governance Group",
+				"Contributes to technical strategy work",
+				"Successfully leads the group-wide adoption of a particular technology"
 			],
 			"description": null,
 			"level": "senior1-to-senior2",
@@ -164,26 +164,11 @@
 		},
 		{
 			"id": "de580f8a-633d-43bb-b970-9b2987e07b86",
-			"summary": "Actively fosters of ensuring an inclusive team culture",
+			"summary": "Actively fosters an inclusive team culture",
 			"examples": [
 				"Celebrates good work publicly and encourages the team to do the same",
 				"Spots problems between team members and helps to resolve them",
 				"Models inclusive behaviour to the rest of the team"
-			],
-			"description": null,
-			"level": "senior1-to-senior2",
-			"area": "leadership",
-			"domain": null
-		},
-		{
-			"id": "7e613602-fda1-43dc-94ca-83e17b24f42c",
-			"summary": "Contributes to the personal development of more junior people",
-			"examples": [
-				"Pairs with more junior team members",
-				"Mentors people",
-				"Line manages people",
-				"Writes blog posts",
-				"Gives talks at meet-ups or conferences"
 			],
 			"description": null,
 			"level": "senior1-to-senior2",
@@ -205,7 +190,7 @@
 		},
 		{
 			"id": "45780158-375a-421b-a89a-97d32e61cdba",
-			"summary": "Shapes roadmap or priorities (in collaboration with Product Owners if they work in a team with that role)",
+			"summary": "Shapes the medium to long term priorities of their team - Finds commonalities between small feature ideas in order to form them into larger, coherent technical challenges for the team - Champions turning things off into order to have capacity to work on new things - Argues for and forms a feature team to tackle a shared problem with other areas of the business - Writes a realistic roadmap in collaboration with a product owner and delivery lead",
 			"examples": [],
 			"description": null,
 			"level": "senior1-to-senior2",
