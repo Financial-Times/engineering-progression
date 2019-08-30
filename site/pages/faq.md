@@ -43,3 +43,15 @@ or some other significant change occurs in a technology group's circumstances.
 Post Beta, we do aim to include competencies for Principal Engineers within
 the FT engineering competencies, to act as a guide for recruiting managers and
 existing Senior 2 Engineers.
+
+## Do I need to meet competencies from earlier levels?
+
+Yes. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level. Though you are not tested for earlier levels when going for a promotion.
+
+Assuming that competencies from earlier levels are met means that we do not need to duplicate competencies across different levels.
+
+This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
+
+## Do I need to provide evidence for all of the examples in a competency?
+
+No. Examples are illustrative, and it's possible to meet a competency in a different way. This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
