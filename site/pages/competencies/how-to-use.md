@@ -22,6 +22,8 @@ Each level represents the work needed to be promoted from one role into another,
 
 So, for example, a Junior Engineer should be working towards the competencies at the "Junior to Mid" level.
 
+When putting forward an engineer for a promotion, you are expected to provide evidence that you're meeting the competencies for the new level. We also expect engineers to be meeting competencies from the levels _before_ their current one, but we do not require evidence of this in a promotions round.
+
 ## Competencies
 
 Each competency has a summary which is designed to prompt a yes/no response. For each competency, an engineer should feel able to answer either _"yes, I'm meeting this competency"_, or _"no, I'm not meeting this competency yet"_.
