@@ -242,7 +242,10 @@
 
 - id: 0ff46645-7966-42f8-9144-23b6a88743cc
   summary: Regularly collaborates with team members from other disciplines to deliver features
-  examples: []
+  examples:
+    - Pairs with the designer who worked on visuals or wire-frames for a feature
+    - Sits with their product owner to discuss some edge-cases in a feature
+    - Helps to debug a cross-browser issue with a tester
   description: null
   level: junior-to-mid
   area: delivery
