@@ -47,14 +47,6 @@
   area: technical
   domain: null
 
-- id: 22c2a49e-4e2e-4a63-a09e-57a0efce7e38
-  summary: Learns and improves independently
-  examples: []
-  description: null
-  level: junior-to-mid
-  area: technical
-  domain: null
-
 - id: f66d122f-bd81-4b57-8b4a-78f00a11934c
   summary: Reuses existing code
   examples:
@@ -164,19 +156,6 @@
     - Adds links to the pages that are affected by a bug
     - Writes steps to reproduce an issue that they've found
     - Adds screenshots to a ticket to help explain a display bug
-  description: null
-  level: junior-to-mid
-  area: communication
-  domain: null
-
-- id: f6e9efd1-7d55-439b-8f7d-c50829e48879
-  summary: Takes ownership of personal development
-  examples:
-    - Finds a training course and takes it
-    - Studies for and attains a technical certification
-    - Proactively learns how to use a new tool/language feature
-    - Attends meet-ups or conferences
-    - Reads blog posts about technology
   description: null
   level: junior-to-mid
   area: communication
@@ -345,6 +324,20 @@
     - Had done a secondment to Operations and Reliability
     - Works in the Interactive Graphics team and collaborates with someone from Editorial on a project
     - Works in Internal Products and collaborates with the Origami team on a new feature in a component
+  description: null
+  level: junior-to-mid
+  area: leadership
+  domain: null
+  
+- id: 22c2a49e-4e2e-4a63-a09e-57a0efce7e38
+  summary: Takes ownership of their personal development
+  examples:
+    - Sees some code that they don't understand, and researches how it works
+    - Proactively learns how to use a new tool/language feature
+    - Reads blog posts about technology
+    - Studies for and attains a technical certification
+    - Finds a training course and takes it
+    - Attends meet-ups or conferences
   description: null
   level: junior-to-mid
   area: leadership
