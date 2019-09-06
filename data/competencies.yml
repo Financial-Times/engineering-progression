@@ -159,8 +159,11 @@
   domain: null
 
 - id: 458cfd7f-b621-462e-ad7f-90870e1d5cfc
-  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other engineers
-  examples: []
+  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be picked up by other engineers
+  examples:
+    - Adds links to the pages that are affected by a bug
+    - Writes steps to reproduce an issue that they've found
+    - Adds screenshots to a ticket to help explain a display bug
   description: null
   level: junior-to-mid
   area: communication
