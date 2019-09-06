@@ -71,7 +71,9 @@
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
   summary: Regularly and independently debugs and fixes bugs in their own code
-  examples: []
+  examples:
+    - Fixes broken tests caused by changes in their code
+    - Uses logging or a debugger to find the root cause when a new feature is not working as expected
   description: null
   level: junior-to-mid
   area: technical
@@ -149,8 +151,11 @@
   domain: null
 
 - id: 458cfd7f-b621-462e-ad7f-90870e1d5cfc
-  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other engineers
-  examples: []
+  summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be picked up by other engineers
+  examples:
+    - Adds links to the pages that are affected by a bug
+    - Writes steps to reproduce an issue that they've found
+    - Adds screenshots to a ticket to help explain a display bug
   description: null
   level: junior-to-mid
   area: communication
@@ -179,7 +184,10 @@
 
 - id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
   summary: Presents their own work clearly to a product owner or tech lead
-  examples: []
+  examples:
+    - Talks about their progress in standup without going into deep technical detail
+    - Explains their approach to a technical problem to their tech lead
+    - Gives a live demo of a feature that they worked on to their team
   description: null
   level: junior-to-mid
   area: communication
@@ -192,7 +200,7 @@
   summary: Works on the most important task
   examples:
     - Picks the story from the top of a prioritised backlog rather than picking the one that most interests them
-    - Does not get side-tracked by unnecessary details - “I don’t like these tests so I’m going to re-write them as part of this ticket”
+    - Creates tickets to capture non-trivial tech debt, rather than getting side-tracked by things not needed to complete the current task
   description: null
   level: junior-to-mid
   area: delivery
