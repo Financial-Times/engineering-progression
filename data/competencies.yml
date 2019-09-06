@@ -79,7 +79,9 @@
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
   summary: Regularly and independently debugs and fixes bugs in their own code
-  examples: []
+  examples:
+    - Fixes broken tests caused by changes in their code
+    - Uses logging or a debugger to find the root cause when a new feature is not working as expected
   description: null
   level: junior-to-mid
   area: technical
