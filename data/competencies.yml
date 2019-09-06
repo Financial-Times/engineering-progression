@@ -82,7 +82,6 @@
   examples:
     - Fixes broken tests caused by changes in their code
     - Uses logging or a debugger to find the root cause when a new feature is not working as expected
-    - Uses a linter or editor features to find a typo in a variable name
   description: null
   level: junior-to-mid
   area: technical
