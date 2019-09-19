@@ -6,37 +6,64 @@
 
 		<p>{{level.summary}}</p>
 
-		<p>
+		<!--
+		We repeat the paragraph here because one is not optimised for printing
+		and the other is (e.g. labelling the engineering progression link as a URL).
+		People viewing on a screen or using assistive tech will not see or hear the
+		second paragraph
+		-->
+		<p class="screen-only">
 			<em>The competencies for {{level.name}} are outlined below. Before reviewing them, it is helpful to
 			<a href="/competencies/how-to-use/">review how to use these competencies</a>.</em>
 		</p>
+		<p class="print-only" aria-hidden="true">
+			<em>The competencies for {{level.name}} are outlined below. You can find more information on using these
+			competences on the Engineering Progression website: <a href="https://engineering-progression.ft.com/">https://engineering-progression.ft.com/</a>.</em>
+		</p>
 
-		{% for area in areas %}
-			{% assign area_lower_case = area | downcase %}
-
-			<h2 id="{{area_lower_case}}">{{area}}</h2>
-
-			<ul class="o-layout__unstyled-element competency-list">
-				{% for competency in site.data.competencies %}
-					{% if competency.level == level.id and competency.area == area_lower_case %}
-						<li class="competency-list__competency">
-							{% assign example-count = competency.examples | size %}
-							<p class="o-layout__unstyled-element competency-list__summary">
-								{{competency.summary}}{% if example-count > 0 %}, e.g.{% endif %}
-							</p>
-							{% if example-count > 0 %}
-								<ul class="o-layout__unstyled-element competency-list__examples">
-									{% for example in competency.examples %}
-										<li>{{example}}</li>
-									{% endfor %}
-								</ul>
+		<div class="o-layout__main__full-span">
+			<table class="o-table o-table--horizontal-lines competency-table" data-o-component="o-table">
+				<thead>
+					<tr>
+						<th scope="col" role="columnheader">Area</th>
+						<th scope="col" role="columnheader">Competency</th>
+						<th scope="col" role="columnheader" class="competency-table__evidence" aria-hidden="true">Evidence / Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for area in areas %}
+						{% assign area_lower_case = area | downcase %}
+						{% for competency in site.data.competencies %}
+							{% if competency.level == level.id and competency.area == area_lower_case %}
+								<tr>
+									{% assign example-count = competency.examples | size %}
+									<td>{{area}}</td>
+									<td>
+										{{competency.summary}}{% if example-count > 0 %}, e.g.{% endif %}
+										{% if example-count > 0 %}
+											<ul class="o-layout__unstyled-element competency-table__examples">
+												{% for example in competency.examples %}
+													<li>{{example}}</li>
+												{% endfor %}
+											</ul>
+										{% endif %}
+									</td>
+									<!--
+									This additional column is hidden by default, but is visible when
+									the page is printed. The inner div is used to set a minimum height
+									for evidence columns because `min-height` does not work on table
+									rows or cells
+									-->
+									<td class="competency-table__evidence" aria-hidden="true">
+										<div class="competency-table__evidence-inner"></div>
+									</td>
+								</tr>
 							{% endif %}
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-
-		{% endfor %}
+						{% endfor %}
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
 
 	{% endif %}
 {% endfor %}
