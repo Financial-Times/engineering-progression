@@ -1,4 +1,6 @@
 
 # Working group contact details
 email: engineering-progression@ft.com
-slack: engineer-progression
+slack:
+  name: engineering-progression-framework
+  url: https://app.slack.com/client/T025C95MN/CGQ1XSNBB
