@@ -15,7 +15,7 @@
 		display: none;
 	}
 	@page {
-		size: portrait;
+		size: landscape;
 	}
 	.o-layout {
 		display: block;
@@ -32,7 +32,12 @@
 	display: none;
 	@media print {
 		display: table-cell;
-		width: 30%;
+		width: 40%;
+	}
+}
+.competency-table__evidence-inner {
+	@media print {
+		min-height: 5em;
 	}
 }
 .competency-table__examples {
