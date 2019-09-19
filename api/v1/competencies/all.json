@@ -54,15 +54,6 @@
 		"domain": null
 	},
 	{
-		"id": "22c2a49e-4e2e-4a63-a09e-57a0efce7e38",
-		"summary": "Learns and improves independently",
-		"examples": [],
-		"description": null,
-		"level": "junior-to-mid",
-		"area": "technical",
-		"domain": null
-	},
-	{
 		"id": "f66d122f-bd81-4b57-8b4a-78f00a11934c",
 		"summary": "Reuses existing code",
 		"examples": [
@@ -91,7 +82,10 @@
 	{
 		"id": "e566bfce-9390-47ea-9e46-f1db25ae9cc0",
 		"summary": "Regularly and independently debugs and fixes bugs in their own code",
-		"examples": [],
+		"examples": [
+			"Fixes broken tests caused by changes in their code",
+			"Uses logging or a debugger to find the root cause when a new feature is not working as expected"
+		],
 		"description": null,
 		"level": "junior-to-mid",
 		"area": "technical",
@@ -179,22 +173,11 @@
 	},
 	{
 		"id": "458cfd7f-b621-462e-ad7f-90870e1d5cfc",
-		"summary": "Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be easily picked up by other engineers",
-		"examples": [],
-		"description": null,
-		"level": "junior-to-mid",
-		"area": "communication",
-		"domain": null
-	},
-	{
-		"id": "f6e9efd1-7d55-439b-8f7d-c50829e48879",
-		"summary": "Takes ownership of personal development",
+		"summary": "Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be picked up by other engineers",
 		"examples": [
-			"Finds a training course and takes it",
-			"Studies for and attains a technical certification",
-			"Proactively learns how to use a new tool/language feature",
-			"Attends meet-ups or conferences",
-			"Reads blog posts about technology"
+			"Adds links to the pages that are affected by a bug",
+			"Writes steps to reproduce an issue that they've found",
+			"Adds screenshots to a ticket to help explain a display bug"
 		],
 		"description": null,
 		"level": "junior-to-mid",
@@ -229,7 +212,11 @@
 	{
 		"id": "88c876aa-fce5-414b-b0c0-b1b7602beea8",
 		"summary": "Presents their own work clearly to a product owner or tech lead",
-		"examples": [],
+		"examples": [
+			"Talks about their progress in standup without going into deep technical detail",
+			"Explains their approach to a technical problem to their tech lead",
+			"Gives a live demo of a feature that they worked on to their team"
+		],
 		"description": null,
 		"level": "junior-to-mid",
 		"area": "communication",
@@ -240,7 +227,7 @@
 		"summary": "Works on the most important task",
 		"examples": [
 			"Picks the story from the top of a prioritised backlog rather than picking the one that most interests them",
-			"Does not get side-tracked by unnecessary details - “I don’t like these tests so I’m going to re-write them as part of this ticket”"
+			"Creates tickets to capture non-trivial tech debt, rather than getting side-tracked by things not needed to complete the current task"
 		],
 		"description": null,
 		"level": "junior-to-mid",
@@ -275,7 +262,11 @@
 	{
 		"id": "0ff46645-7966-42f8-9144-23b6a88743cc",
 		"summary": "Regularly collaborates with team members from other disciplines to deliver features",
-		"examples": [],
+		"examples": [
+			"Pairs with the designer who worked on visuals or wire-frames for a feature",
+			"Sits with their product owner to discuss some edge-cases in a feature",
+			"Helps to debug a cross-browser issue with a tester"
+		],
 		"description": null,
 		"level": "junior-to-mid",
 		"area": "delivery",
@@ -376,6 +367,22 @@
 			"Had done a secondment to Operations and Reliability",
 			"Works in the Interactive Graphics team and collaborates with someone from Editorial on a project",
 			"Works in Internal Products and collaborates with the Origami team on a new feature in a component"
+		],
+		"description": null,
+		"level": "junior-to-mid",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "22c2a49e-4e2e-4a63-a09e-57a0efce7e38",
+		"summary": "Takes ownership of their personal development",
+		"examples": [
+			"Sees some code that they don't understand, and researches how it works",
+			"Proactively learns how to use a new tool/language feature",
+			"Reads blog posts about technology",
+			"Studies for and attains a technical certification",
+			"Finds a training course and takes it",
+			"Attends meet-ups or conferences"
 		],
 		"description": null,
 		"level": "junior-to-mid",
@@ -944,8 +951,13 @@
 	},
 	{
 		"id": "45780158-375a-421b-a89a-97d32e61cdba",
-		"summary": "Shapes the medium to long term priorities of their team - Finds commonalities between small feature ideas in order to form them into larger, coherent technical challenges for the team - Champions turning things off into order to have capacity to work on new things - Argues for and forms a feature team to tackle a shared problem with other areas of the business - Writes a realistic roadmap in collaboration with a product owner and delivery lead",
-		"examples": [],
+		"summary": "Shapes the medium to long term priorities of their team",
+		"examples": [
+			"Finds commonalities between small feature ideas in order to form them into larger, coherent technical challenges for the team",
+			"Champions turning things off into order to have capacity to work on new things",
+			"Argues for and forms a feature team to tackle a shared problem with other areas of the business",
+			"Writes a realistic roadmap in collaboration with a product owner and delivery lead"
+		],
 		"description": null,
 		"level": "senior1-to-senior2",
 		"area": "leadership",
