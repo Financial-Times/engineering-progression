@@ -64,6 +64,7 @@
   examples:
     - Fixes vulnerabilities in dependencies raised by Snyk
     - Fixes vulnerabilities raised by the cyber security team
+    - Doesn't introduce vulnerabilities outlined in the OWASP top 10
   description: null
   level: junior-to-mid
   area: technical
