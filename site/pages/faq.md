@@ -55,3 +55,18 @@ This is covered in the ["how to use the competencies" guide](/competencies/how-t
 ## Do I need to provide evidence for all of the examples in a competency?
 
 No. Examples are illustrative, and it's possible to meet a competency in a different way. This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
+
+## Who does this framework apply to?
+
+People that report in to the CTO should use this framework. There are some people in the CTO organisation who are exempt at present as their jobs were sufficiently different to the rest of the CTO team that we felt they should not be included. 
+
+Excluded teams are:
+
+* Global Service Desk
+* Operations teams in O&R
+* Cyber Security risk and compliance
+* Digital print team
+* Finance systems
+* Salesforce admins
+
+Engineers at the FT that do not report in the the CTO may also find this framework useful and are free to use it.  
