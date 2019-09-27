@@ -35,7 +35,7 @@
 						{% assign area_lower_case = area | downcase %}
 						{% for competency in site.data.competencies %}
 							{% if competency.level == level.id and competency.area == area_lower_case %}
-								<tr>
+								<tr id="{{competency.id}}">
 									{% assign example-count = competency.examples | size %}
 									<td>{{area}}</td>
 									<td>
