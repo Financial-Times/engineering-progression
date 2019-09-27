@@ -9,8 +9,8 @@ layout: o-layout-docs
 
 ## Is there an individual contributor route?
 
-There is no separate individual contributor route to promotion, but the aim 
-is to have a single set of competencies that are flexible enough to allow for 
+There is no separate individual contributor route to promotion, but the aim
+is to have a single set of competencies that are flexible enough to allow for
 a variety of ways that an engineer can demonstrate seniority.
 
 A key idea here is that the more senior you are as an engineer, the more you
@@ -36,8 +36,8 @@ for that role will be.
 
 There is no specific cap on the number of Principals; it is governed by open roles
 and decisions about the organisation’s structure. To advance to Principal Engineer
-either a position needs to become vacant, or a new Principal Engineer role must be 
-created, typically when forming a new team, significantly expanding an existing one, 
+either a position needs to become vacant, or a new Principal Engineer role must be
+created, typically when forming a new team, significantly expanding an existing one,
 or some other significant change occurs in a technology group's circumstances.
 
 Post Beta, we do aim to include competencies for Principal Engineers within
@@ -58,7 +58,7 @@ No. Examples are illustrative, and it's possible to meet a competency in a diffe
 
 ## Who does this framework apply to?
 
-People that report in to the CTO should use this framework. There are some people in the CTO organisation who are exempt at present as their jobs were sufficiently different to the rest of the CTO team that we felt they should not be included. 
+People that report in to the CTO should use this framework. There are some people in the CTO organisation who are exempt at present as their jobs were sufficiently different to the rest of the CTO team that we felt they should not be included.
 
 Excluded teams are:
 
@@ -69,4 +69,8 @@ Excluded teams are:
 * Finance systems
 * Salesforce admins
 
-Engineers at the FT that do not report in the the CTO may also find this framework useful and are free to use it.  
+Engineers at the FT that do not report in the the CTO may also find this framework useful and are free to use it.
+
+## Are competencies weighted / are some competencies more important than others?
+
+No, competencies are not weighted. Meeting one competency over another is not an indication that one engineer is closer to promotion than another engineer.
