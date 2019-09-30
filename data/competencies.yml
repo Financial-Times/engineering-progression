@@ -417,7 +417,6 @@
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbe
   summary: Delivers high quality code and solutions
   examples:
-    - Implements tooling to enforce high standards
     - Refactors solutions to improve clarity and maintainability
   description: null
   level: mid-to-senior1
@@ -427,6 +426,7 @@
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbf
   summary: Encourages others to deliver high quality code and solutions
   examples:
+    - Implements tooling to enforce high standards
     - Reviews pull requests fairly & critically in such away that team members produce better code
   description: null
   level: mid-to-senior1
