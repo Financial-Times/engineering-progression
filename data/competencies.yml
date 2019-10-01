@@ -393,7 +393,7 @@
     - Applies security patches to an operating system
     - Protecting public API endpoints
     - Articulates security risks/benefits when evaluating third party software
-    - Uses Fastly WAF to protect from malicious requests.
+    - Uses Fastly WAF to protect from malicious requests
   description: null
   level: mid-to-senior1
   area: technical
