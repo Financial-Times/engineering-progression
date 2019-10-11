@@ -59,10 +59,11 @@
   domain: null
 
 - id: b0e285f2-08a3-47c2-a810-30d5258e1863
-  summary: Regularly fixes security issues raised by others (or raised by automation) in own code
+  summary: Maintains the security of the systems they work on
   examples:
     - Fixes vulnerabilities in dependencies raised by Snyk
     - Fixes vulnerabilities raised by the cyber security team
+    - Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10
   description: null
   level: junior-to-mid
   area: technical
