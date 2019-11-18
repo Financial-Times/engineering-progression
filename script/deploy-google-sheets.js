@@ -210,7 +210,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			// Add the actual data for the level
 			batchedUpdates.push(createBatchCellUpdate(sheetId, [
 				[''], // Empty cell for chart
-				['Area', 'Competency', 'Done?', 'Evidence'],
+				['Area', 'Competency', 'Evidence'],
 				...competenciesForLevel.map(competency => {
 					let content = competency.summary;
 					if (competency.examples.length) {
@@ -223,30 +223,6 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 				})
 			]));
 
-			// Set up the checkbox column for the level
-			batchedUpdates.push({
-				repeatCell: {
-					range: {
-						sheetId,
-						startRowIndex: 2,
-						endRowIndex: competenciesForLevel.length + 2,
-						startColumnIndex: 2,
-						endColumnIndex: 3
-					},
-					cell: {
-						dataValidation: {
-							condition: {
-								type: 'BOOLEAN'
-							}
-						},
-						userEnteredFormat: {
-							horizontalAlignment: 'CENTER'
-						}
-					},
-					fields: 'dataValidation,userEnteredFormat(horizontalAlignment)'
-				}
-			});
-
 			// Resize the columns for the level
 			batchedUpdates.push(createBatchColumnResize(sheetId, {
 				startIndex: 0,
@@ -258,10 +234,6 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			}));
 			batchedUpdates.push(createBatchColumnResize(sheetId, {
 				startIndex: 2,
-				width: 50
-			}));
-			batchedUpdates.push(createBatchColumnResize(sheetId, {
-				startIndex: 3,
 				width: 500
 			}));
 
@@ -271,7 +243,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 					range: {
 						sheetId,
 						dimension: 'COLUMNS',
-						startIndex: 4
+						startIndex: 3
 					}
 				}
 			});
@@ -285,7 +257,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 						startRowIndex: 0,
 						endRowIndex: 1,
 						startColumnIndex: 0,
-						endColumnIndex: 4
+						endColumnIndex: 3
 					},
 					mergeType: 'MERGE_ROWS'
 				}
@@ -327,23 +299,23 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			batchedUpdates.push(createBatchCellUpdate(calculationSheetId, [
 				[
 					'Technical',
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A1)),"<>#N/A")`,
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A1)),"<>#N/A")`
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT(ISBLANK('${level.name}'!C3:C)),'${level.name}'!A3:A=A1)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,ISBLANK('${level.name}'!C3:C),'${level.name}'!A3:A=A1)),"<>#N/A")`
 				],
 				[
 					'Communication',
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A2)),"<>#N/A")`,
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A2)),"<>#N/A")`
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT(ISBLANK('${level.name}'!C3:C)),'${level.name}'!A3:A=A2)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,ISBLANK('${level.name}'!C3:C),'${level.name}'!A3:A=A2)),"<>#N/A")`
 				],
 				[
 					'Delivery',
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A3)),"<>#N/A")`,
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A3)),"<>#N/A")`
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT(ISBLANK('${level.name}'!C3:C)),'${level.name}'!A3:A=A3)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,ISBLANK('${level.name}'!C3:C),'${level.name}'!A3:A=A3)),"<>#N/A")`
 				],
 				[
 					'Leadership',
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,'${level.name}'!C3:C=TRUE,'${level.name}'!A3:A=A4)),"<>#N/A")`,
-					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT('${level.name}'!C3:C=TRUE),'${level.name}'!A3:A=A4)),"<>#N/A")`
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,NOT(ISBLANK('${level.name}'!C3:C)),'${level.name}'!A3:A=A4)),"<>#N/A")`,
+					`=SUMIF(ROWS(FILTER('${level.name}'!C3:C,ISBLANK('${level.name}'!C3:C),'${level.name}'!A3:A=A4)),"<>#N/A")`
 				]
 			]));
 
@@ -477,7 +449,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 								},
 								offsetXPixels: 0,
 								offsetYPixels: 0,
-								widthPixels: 1150,
+								widthPixels: 1100,
 								heightPixels: 200
 							}
 						}
