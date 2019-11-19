@@ -8,7 +8,7 @@ layout: o-layout-docs
 
 # {{page.title}}
 
-Engineering competencies are used to help identify when an engineer is ready for promotion. We divide competencies into levels.
+Engineering competencies are used to help identify when an engineer is ready for promotion. Competencies are _one_ part of the promotions process for engineers at the FT, meeting most or all of them indicates that an engineer may be ready for promotion. We divide competencies into levels for different seniorities.
 
 ## Levels
 
@@ -28,7 +28,7 @@ When putting forward an engineer for a promotion, you are expected to provide ev
 
 Each competency has a summary which is designed to prompt a yes/no response. For each competency, an engineer should feel able to answer either _"yes, I'm meeting this competency"_, or _"no, I'm not meeting this competency yet"_.
 
-In order to be promoted, an engineer must specify which competencies they are meeting for a level. We don't expect that _every_ engineer will meet _all_ of the competencies, but the promotions board will consider all of the competencies when making a decision. Domain-specific competencies that don't apply to an engineer's role or specialism will not be considered as part of a promotions case.
+As part of a promotions process, an engineer must specify which competencies they are meeting for a level. We don't expect that _every_ engineer will meet _all_ of the competencies, but the promotions board will consider all of the competencies as part of the decision-making process. Domain-specific competencies that don't apply to an engineer's role or specialism will not be considered as part of a promotions case.
 
 Engineers are expected to provide evidence that they are meeting a competency when it comes to writing a promotions case. We expect a sentence or two, and an engineer's line manager should be ready to provide further detail if necessary. It's fine to use the same evidence for multiple competencies. Evidence must also be provided for competencies that are not being met to explain why they have not or cannot be met.
 
@@ -37,7 +37,7 @@ An example of how you might provide evidence for met and unmet competencies:
 <table class="o-table o-layout__main__single-span" data-o-component="o-table">
 	<tr>
 		<th>Competency</th>
-		<th>Done?</th>
+		<th>Meeting?</th>
 		<th>Evidence</th>
 	</tr>
 	<tr>
