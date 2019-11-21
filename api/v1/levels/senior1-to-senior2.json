@@ -43,7 +43,7 @@
 		},
 		{
 			"id": "7b2bacf1-ba46-464d-94e3-dc6f7c5edeb0",
-			"summary": "Translates difficult business requirements into technical designs with stakeholders",
+			"summary": "Translates difficult business requirements into technical designs",
 			"examples": [],
 			"description": null,
 			"level": "senior1-to-senior2",
@@ -107,7 +107,9 @@
 			"examples": [
 				"Speaks at the Technology All Hands",
 				"Writes one-pagers to explain technical decisions",
-				"Writes a blog post about an aspect of the team's work"
+				"Writes a blog post about an aspect of the team's work",
+				"Writes a monthly update newsletter for stakeholders about recent releases",
+				"Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)"
 			],
 			"description": null,
 			"level": "senior1-to-senior2",
@@ -140,10 +142,10 @@
 			"id": "983dd8411-940d-4aa8-9ba6-add04510a7da",
 			"summary": "Is accountable for the delivery of the team (individually or jointly with other people)",
 			"examples": [
-				"Helps delivery lead write progress reports",
-				"Writes a monthly update newsletter for stakeholders about recent releases",
+				"Works with their delivery lead to plan upcoming work",
 				"Grooms backlog to make sure issues are ready to be picked up",
-				"Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)"
+				"Writes measurable team OKRs, aligned with the goals of their Group",
+				"Proactively unblocks others in their team"
 			],
 			"description": null,
 			"level": "senior1-to-senior2",
