@@ -37,9 +37,12 @@
 							{% if competency.level == level.id and competency.area == area_lower_case %}
 								<tr id="{{competency.id}}">
 									{% assign example-count = competency.examples | size %}
+									{% assign supporting-url-count = competency.supportingUrls | size %}
 									<td>{{area}}</td>
 									<td>
-										{{competency.summary}}{% if example-count > 0 %}, e.g.{% endif %}
+										<p class="o-layout__unstyled-element competency-table__paragraph">
+											{{competency.summary}}{% if example-count > 0 %}, e.g.{% endif %}
+										</p>
 										{% if example-count > 0 %}
 											<ul class="o-layout__unstyled-element competency-table__examples">
 												{% for example in competency.examples %}
@@ -47,6 +50,17 @@
 												{% endfor %}
 											</ul>
 										{% endif %}
+										{% if supporting-url-count > 0 %}
+											<p class="o-layout__unstyled-element competency-table__paragraph">Supporting URLs:</p>
+											<ul class="o-layout__unstyled-element competency-table__supporting-urls">
+												{% for supportingUrl in competency.supportingUrls %}
+													<li>
+														<a href="{{supportingUrl.url}}">{{supportingUrl.label}}</a>
+													</li>
+												{% endfor %}
+											</ul>
+										{% endif %}
+
 									</td>
 									<!--
 									This additional column is hidden by default, but is visible when
