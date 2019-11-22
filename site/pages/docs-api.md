@@ -30,6 +30,16 @@ A Competency entity represents a single engineering competency, they look like t
 	// supporting examples
 	"examples": [String],
 
+	// An array of URLs which support understanding of how the
+	// competency might be met. This array may be empty,
+	// indicating that there are no supporting URLs
+	"supportingUrls": [
+		{
+			"label": String,
+			"url": String
+		}
+	],
+
 	// A longer description of the competency. This may be null
 	// if the competency has no description
 	"description": String,

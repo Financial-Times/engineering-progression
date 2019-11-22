@@ -58,6 +58,14 @@ module.exports = {
 						minLength: 5
 					}
 				},
+				supportingUrls: {
+					title: 'Supporting URLs',
+					description: 'Any URLs which are useful in helping to understand a competency',
+					type: 'array',
+					items: {
+						$ref: '#/definitions/supportingUrl'
+					}
+				},
 				level: {
 					title: 'Level',
 					description: 'The level that this competency applies to',
@@ -94,9 +102,35 @@ module.exports = {
 				'summary',
 				'description',
 				'examples',
+				'supportingUrls',
 				'level',
 				'area',
 				'domain'
+			],
+			additionalProperties: false
+		},
+		supportingUrl: {
+			title: 'Supporting URL',
+			description: 'A URL which is useful in helping to understand a competency',
+			type: 'object',
+			properties: {
+				label: {
+					title: 'Label',
+					description: 'A label which identifies the link',
+					type: 'string',
+					minLength: 2
+				},
+				url: {
+					title: 'URL',
+					description: 'The URL which supports the competency',
+					type: 'string',
+					minLength: 5,
+					pattern: '^https?:\/\/'
+				}
+			},
+			required: [
+				'label',
+				'url'
 			],
 			additionalProperties: false
 		}
