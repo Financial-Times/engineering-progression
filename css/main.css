@@ -5,12 +5,17 @@
   @page { size: landscape; }
   .o-layout { display: block; }
   .o-layout__header, .o-layout__footer, .o-layout__sidebar { display: none; } }
+.competency-table__paragraph { margin: 0; }
+.competency-table__paragraph:not(:first-child) { margin-top: .5em; }
+
 .competency-table__evidence { display: none; }
 @media print { .competency-table__evidence { display: table-cell; width: 40%; } }
 
 @media print { .competency-table__evidence-inner { min-height: 5em; } }
 
-.competency-table__examples { margin-bottom: 0; margin-top: .5em; list-style: disc; font-style: italic; }
+.competency-table__examples, .competency-table__supporting-urls { margin-bottom: 0; margin-top: .5em; list-style: disc; }
+
+.competency-table__examples { font-style: italic; }
 
 .level-overview-summary { display: block; max-height: 7em; overflow: hidden; position: relative; }
 .level-overview-summary:after { content: ""; display: block; width: 100%; height: 5.6em; position: absolute; bottom: 0; background: linear-gradient(0deg, #fff 0, rgba(255, 255, 255, 0) 100%); }
