@@ -21,6 +21,12 @@ parseAndSaveYaml(
 	path.resolve(__dirname, '..', 'dist', 'levels.json')
 );
 
+// Save the competency domains JSON
+parseAndSaveYaml(
+	path.resolve(__dirname, '..', 'data', 'domains.yml'),
+	path.resolve(__dirname, '..', 'dist', 'domains.json')
+);
+
 /**
  * Load and parse a YAML file, then save it as JSON.
  *

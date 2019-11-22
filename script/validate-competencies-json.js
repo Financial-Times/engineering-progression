@@ -4,8 +4,6 @@ const Ajv = require('ajv');
 const path = require('path');
 const pointer = require('json-pointer');
 const {readJson} = require('fs-extra');
-const competenciesSchema = require('../test/schema/competencies.json');
-const levelsSchema = require('../test/schema/levels.json');
 
 process.on('unhandledRejection', error => {
 	console.error(error.stack);
@@ -14,12 +12,16 @@ process.on('unhandledRejection', error => {
 
 validateJsonFiles([
 	{
-		path: path.resolve(__dirname, '..', 'dist', 'competencies.json'),
-		schema: competenciesSchema
+		path: path.resolve(__dirname, '..', 'dist', 'levels.json'),
+		schema: path.resolve(__dirname, '..', 'test', 'schema', 'levels')
 	},
 	{
-		path: path.resolve(__dirname, '..', 'dist', 'levels.json'),
-		schema: levelsSchema
+		path: path.resolve(__dirname, '..', 'dist', 'domains.json'),
+		schema: path.resolve(__dirname, '..', 'test', 'schema', 'domains')
+	},
+	{
+		path: path.resolve(__dirname, '..', 'dist', 'competencies.json'),
+		schema: path.resolve(__dirname, '..', 'test', 'schema', 'competencies')
 	}
 ]);
 
@@ -33,9 +35,18 @@ validateJsonFiles([
 async function validateJsonFiles(configurations) {
 	let errors = [];
 	for (const configuration of configurations) {
-		errors = errors.concat(
-			await validateJsonFileUsingSchema(configuration.path, configuration.schema)
-		);
+		try {
+			errors = errors.concat(
+				await validateJsonFileUsingSchema(configuration.path, require(configuration.schema))
+			);
+		} catch (error) {
+			errors.push({
+				path: '',
+				filePath: configuration.schema,
+				expected: 'No errors in loading',
+				received: error.message
+			});
+		}
 	}
 	outputErrorsToCommandLine(errors);
 }
