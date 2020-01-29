@@ -85,7 +85,7 @@ These guidelines apply to writing engineering competencies, and expand on the ge
 
 ### Consider whether the competency is demonstrable
 
-When an engineer is ready for promotion, they are expected to provide evidence of the competencies that apply to their domain. It is important that each competency is demonstrably done:
+When an engineer discusses their career progression with their manager, they should be able to agree whether a competency is fulfilled. It is important that each competency is demonstrable:
 
   - **bad**: "Can write tests"
   - **good**: "Writes tests"

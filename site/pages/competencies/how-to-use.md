@@ -5,14 +5,15 @@ permalink: /competencies/how-to-use/
 layout: o-layout-docs
 ---
 
-
 # {{page.title}}
 
-Engineering competencies are used to help identify when an engineer is ready for promotion. Competencies are _one_ part of the promotions process for engineers at the FT, meeting most or all of them indicates that an engineer may be ready for promotion. We divide competencies into levels for different seniorities.
+Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. They define what an engineer is expected to be doing at a particular level. They are not a checklist, but a way to indicate what areas they may need to improve in. We also expect engineers to be meeting competencies from the levels _before_ their current one.
+
+We divide competencies into levels for different seniorities.
 
 ## Levels
 
-Each level represents the work needed to be promoted from one role into another, so the name of each level contains two different job titles:
+Each level represents the expectations and responsibilities that change from one level into another, so the name of each level contains two different job titles:
 
 <ul>
 {% for level in site.data.levels %}
@@ -20,19 +21,11 @@ Each level represents the work needed to be promoted from one role into another,
 {% endfor %}
 </ul>
 
-So, for example, a Junior Engineer should be working towards the competencies at the "Junior to Mid" level.
-
-When putting forward an engineer for a promotion, you are expected to provide evidence that you're meeting the competencies for the new level. We also expect engineers to be meeting competencies from the levels _before_ their current one, but we do not require evidence of this in a promotions round.
+So, for example, a Junior Engineer should be considering the competencies at the "Junior to Mid" level.
 
 ## Competencies
 
-Each competency has a summary which is designed to prompt a yes/no response. For each competency, an engineer should feel able to answer either _"yes, I'm meeting this competency"_, or _"no, I'm not meeting this competency yet"_.
-
-As part of a promotions process, an engineer must specify which competencies they are meeting for a level. We don't expect that _every_ engineer will meet _all_ of the competencies, but the promotions board will consider all of the competencies as part of the decision-making process. Domain-specific competencies that don't apply to an engineer's role or specialism will not be considered as part of a promotions case.
-
-Engineers are expected to provide evidence that they are meeting a competency when it comes to writing a promotions case. We expect a sentence or two, and an engineer's line manager should be ready to provide further detail if necessary. It's fine to use the same evidence for multiple competencies. Evidence must also be provided for competencies that are not being met to explain why they have not or cannot be met.
-
-An example of how you might provide evidence for met and unmet competencies:
+Each competency has a summary which is designed to prompt a yes/no response. For each competency, an engineer should feel able to answer either _"yes, I'm meeting this competency"_, or _"no, I'm not meeting this competency, yet"_. An engineer and their line manager should keep a record of evidence for meeting each competency, for example:
 
 <table class="o-table o-layout__main__single-span" data-o-component="o-table">
 	<tr>
