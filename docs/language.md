@@ -78,7 +78,7 @@ In language, it presents itself as wording like "lame", "crazy", "blind", "dumb"
 
 These guidelines apply to writing engineering competencies, and expand on the general guidelines above.
 
-### Keep grammar and puncuation consistent
+### Keep grammar and punctuation consistent
 
   - Competency summaries **must** start with a capital letter
   - Competency summaries **must not** end with a full stop
