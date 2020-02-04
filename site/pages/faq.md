@@ -9,7 +9,7 @@ layout: o-layout-docs
 
 ## Is there an individual contributor route?
 
-There is no separate individual contributor route to promotion, but the aim
+There is no separate individual contributor route for progression, but the aim
 is to have a single set of competencies that are flexible enough to allow for
 a variety of ways that an engineer can demonstrate seniority.
 
@@ -28,9 +28,7 @@ that you are having a positive impact on others' work in other ways.
 ## There are no competencies for Principal Engineer. Why is this?
 
 The Product & Technology Executive/Technology Leadership Group made a decision
-in 2018: Principal roles and beyond must have a position open and advertised.
-The promotions board therefore plays no role in deciding who becomes a
-Principal Engineer, so there are no competencies defined at this stage. The
+in 2018: Principal roles and beyond must have a position open and advertised. The
 recruiting manager for each Principal Engineer role defines what the criteria
 for that role will be.
 
@@ -46,7 +44,7 @@ existing Senior 2 Engineers.
 
 ## Do I need to meet competencies from earlier levels?
 
-Yes. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level. Though you are not tested for earlier levels when going for a promotion.
+Yes. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level.
 
 Assuming that competencies from earlier levels are met means that we do not need to duplicate competencies across different levels.
 
@@ -73,4 +71,4 @@ Engineers at the FT that do not report in the the CTO may also find this framewo
 
 ## Are competencies weighted / are some competencies more important than others?
 
-No, competencies are not weighted. Meeting one competency over another is not an indication that one engineer is closer to promotion than another engineer.
+No, competencies are not weighted. No competency is more important than any other for an engineer's progression.

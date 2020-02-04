@@ -46,11 +46,9 @@ There are some things that need to happen immediately after a release, which unf
 
 A major version bump must happen when a change to the engineering competencies requires something **new** of an engineer to meet the level above their current one.
 
-For example: if we decide that we now expect Junior Engineers to be able to fold a perfect Origami crane before they can be promoted to a Mid-level Engineer, then this is a major version bump to the competencies.
+For example: if we decide that we now expect Mid-level Engineers to be able to fold a perfect Origami crane, then this is a major version bump to the competencies.
 
-A major version bump must not be made without consulting the promotions board (process TBC). It's important that an intention to increment the major version is communicated to all engineers that it affects.
-
-Once a major version has been released, it may not be implemented by the promotions board until several promotions rounds _after_ the release date (process TBC).
+It's important that an intention to increment the major version is communicated to everybody it affects, including engineers, line managers and people who may consider the competencies when making promotion decisions. A major version change should also be coordinated around the timing of promotion rounds.
 
 ### Minor Versions
 

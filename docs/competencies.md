@@ -1,7 +1,7 @@
 
 # Contributing: Engineering Competencies
 
-The Engineering competencies are used to help identify when an engineer is ready for promotion. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.
+The Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.
 
   - [Language Guidelines](#language-guidelines)
   - [Editing on GitHub](#editing-on-github)

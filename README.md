@@ -3,7 +3,7 @@
 
 Careers and progression for engineers in the CTO organisation.
 
-:info: This project is currently in **BETA**. You may use this to guide promotions decisions from September 2019.
+:info: This project is currently in **BETA**.
 
 ---
 
@@ -22,7 +22,7 @@ This framework can be used in its raw form (YAML files), but it is also availabl
 
 ## Engineering Competencies
 
-Engineering competencies are used to help identify when an engineer is ready for promotion. There are several ways that you can read through these competencies and track progress:
+Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. There are several ways that you can read through these competencies and track progress:
 
   - [Track progress with your manager or report via Google Sheets](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit)
 
@@ -37,7 +37,7 @@ Engineering competencies are used to help identify when an engineer is ready for
 Anybody working for the Financial Times is welcome to suggest changes via a GitHub issue or pull request. We maintain a [contributing guide](CONTRIBUTING.md) to help people who are interested. There are many different ways you can contribute and help make this resource better for everyone:
 
   - **Contribute to the Engineering Competencies**<br/>
-The Engineering competencies are used to help identify when an engineer is ready for promotion. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.  [A guide for adding or editing competencies is here](docs/competencies.md).
+    Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.  [A guide for adding or editing competencies is here](docs/competencies.md).
 
   - **Contribute to the documentation and website**<br/>
     It's important that the documentation in this repo and the Engineering Progression website is clear and easy to understand. [Get started maintaining the documentation](docs/documentation.md)
