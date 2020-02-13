@@ -25,8 +25,9 @@
   summary: Uses code to make something
   examples:
     - Takes a feature from their team backlog and writes the code for that feature
-    - Automates a regular task using Python
+    - Automates a regular task using Python or Powershell
     - Writes a CloudFormation template
+    - Writes Lambda functions
   supportingUrls: []
   description: null
   level: junior-to-mid
@@ -58,6 +59,7 @@
     - Uses a node package in project
     - Integrates with proprietary software packages
     - Uses Origami
+    - Uses existing policies for SCCM or JamF
   supportingUrls: []
   description: null
   level: junior-to-mid
@@ -70,6 +72,10 @@
     - Fixes vulnerabilities in dependencies raised by Snyk
     - Fixes vulnerabilities raised by the cyber security team
     - Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10
+    - EUC Endpoint or Server Patching. 
+    - Maintains Anti-Virus.ervices 
+    - Active Directory Group Policy Review and Hardening
+    - Improves the SRS score
   supportingUrls:
     - label: Open Web Application Security Project
       url: https://www.owasp.org/
@@ -147,6 +153,7 @@
     - Writes good commit messages that explain why a change was made
     - Puts line comments around any 'magic' bits of code
     - Writes and updates runbooks for services they work on
+    - Updates BizOps entries
   supportingUrls: []
   description: null
   level: junior-to-mid
@@ -377,7 +384,7 @@
 # Mid to Senior 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
-  summary: Builds products ensuring they take adequate steps to protect sensitive data
+  summary: Builds products ensuring they take adequate steps to protect data
   examples:
     - Databases have encryption at rest
     - Sensitive data is masked or in restricted indexes in Splunk
@@ -407,6 +414,7 @@
   examples:
     - Can choose between similar Node libraries evaluating code quality, ease of integration, future maintenance, and security concerns
     - May be involved in evaluating paid-for third party supplier code
+    - Runs proof of concept demo to team or stakeholders
   supportingUrls: []
   description: null
   level: mid-to-senior1
@@ -418,6 +426,7 @@
   examples:
     - Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily
     - "Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
+    - Finds root cause of an incident regardless of which team owns the service
   supportingUrls: []
   description: null
   level: mid-to-senior1
@@ -446,6 +455,7 @@
     - When pressed for time, focuses on ensuring test coverage of the most critical system functionality
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
     - Can explain when something is worth refactoring even when it will impact the speed of delivery
+    - knowa when to use an IM user or a role in AWS
   supportingUrls: []
   description: null
   level: mid-to-senior1
@@ -511,6 +521,8 @@
     - Publishes a new origami component that uses other components
     - Implements a CDN / gateway that routes to a suite of underlying microservices
     - Designs and implements a build pipeline
+    - creates/modifies/improves Kubernetes operators
+    - creates/modifies/improves Docker files/images
   supportingUrls: []
   description: null
   level: mid-to-senior1
