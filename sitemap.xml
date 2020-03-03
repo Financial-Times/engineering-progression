@@ -16,9 +16,6 @@
 <loc>/competencies/</loc>
 </url>
 <url>
-<loc>/docs/join-the-working-group/</loc>
-</url>
-<url>
 <loc>/competencies/junior-to-mid/</loc>
 </url>
 <url>
@@ -29,5 +26,8 @@
 </url>
 <url>
 <loc>/competencies/senior2-to-principal/</loc>
+</url>
+<url>
+<loc>/docs/working-group/</loc>
 </url>
 </urlset>
