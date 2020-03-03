@@ -75,7 +75,7 @@
     - Patches EUC endpoints or servers
     - Maintains anti-virus services 
     - Active Directory Group Policy Review and Hardening
-    - Improves the SRS score
+    - Improves the Security Risk Score
   supportingUrls:
     - label: Open Web Application Security Project
       url: https://www.owasp.org/
