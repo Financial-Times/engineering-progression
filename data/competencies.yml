@@ -520,8 +520,8 @@
     - Publishes a new origami component that uses other components
     - Implements a CDN / gateway that routes to a suite of underlying microservices
     - Designs and implements a build pipeline
-    - creates/modifies/improves Kubernetes operators
-    - creates/modifies/improves Docker files/images
+    - Creates, modifies, or improves Kubernetes operators
+    - Creates, modifies, or improves Docker files/images
   supportingUrls: []
   description: null
   level: mid-to-senior1
