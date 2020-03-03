@@ -27,6 +27,7 @@ When a person leaves or is added to the Working Group, you'll need to do the fol
 
   - Add or remove them from the [GitHub team](https://github.com/orgs/Financial-Times/teams/engineering-progression-working-group/members). All members of the Working Group should have the `Maintainer` role
   - Add or remove them from the [Google Group](https://groups.google.com/a/ft.com/forum/#!managemembers/engineering-progression/members/active). All members of the Working Group should have the `Manager` role
+  - Add or remove them from the [Biz-Ops team](https://biz-ops.in.ft.com/Team/engineering-progression-working-group)
   - Add or remove them from the private `engineering-progression-framework-working-group` Slack channel
   - Add or remove them from the Engineering framework catch-up meeting invite
   - Add or remove them from the [Google API Project](https://console.developers.google.com/iam-admin/iam?folder=&organizationId=&project=project-id-6669287427261866663) which contains credentials for the Spreadsheet Updater. All members of the Working Group should have the `Owner` role
