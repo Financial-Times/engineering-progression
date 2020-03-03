@@ -74,7 +74,7 @@
     - Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10
     - Patches EUC endpoints or servers
     - Maintains anti-virus services 
-    - Active Directory Group Policy Review and Hardening
+    - Reviews Active Directory group policies
     - Improves the Security Risk Score
   supportingUrls:
     - label: Open Web Application Security Project
