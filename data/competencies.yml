@@ -72,7 +72,7 @@
     - Fixes vulnerabilities in dependencies raised by Snyk
     - Fixes vulnerabilities raised by the cyber security team
     - Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10
-    - EUC Endpoint or Server Patching. 
+    - Patches EUC endpoints or servers
     - Maintains Anti-Virus.ervices 
     - Active Directory Group Policy Review and Hardening
     - Improves the SRS score
