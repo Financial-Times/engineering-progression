@@ -73,7 +73,7 @@
     - Fixes vulnerabilities raised by the cyber security team
     - Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10
     - Patches EUC endpoints or servers
-    - Maintains Anti-Virus.ervices 
+    - Maintains anti-virus services 
     - Active Directory Group Policy Review and Hardening
     - Improves the SRS score
   supportingUrls:
