@@ -455,7 +455,6 @@
     - When pressed for time, focuses on ensuring test coverage of the most critical system functionality
     - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
     - Can explain when something is worth refactoring even when it will impact the speed of delivery
-    - knows when to use an IM user or a role in AWS
   supportingUrls: []
   description: null
   level: mid-to-senior1
