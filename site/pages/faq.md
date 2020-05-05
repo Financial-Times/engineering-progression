@@ -72,3 +72,7 @@ Engineers at the FT that do not report in the the CTO may also find this framewo
 ## Are competencies weighted / are some competencies more important than others?
 
 No, competencies are not weighted. No competency is more important than any other for an engineer's progression.
+
+## Who is in charge of maintaining the competencies?
+
+A group of engineers from across Product &amp; Technology. See [The Engineering Progression Working Group docs](/docs/working-group/), or check the [GitHub team](https://github.com/orgs/Financial-Times/teams/engineering-progression-working-group/members) for individual members.
