@@ -7,6 +7,12 @@ layout: o-layout-docs
 
 # {{page.title}}
 
+## How is the Engineering Progression framework meant to be used?
+
+Engineering competencies are used to inform conversations about career
+progression between an engineer and their line manager. This is covered
+in the ["how to use the competencies" guide](/competencies/how-to-use).
+
 ## Is there an individual contributor route?
 
 There is no separate individual contributor route for progression, but the aim
