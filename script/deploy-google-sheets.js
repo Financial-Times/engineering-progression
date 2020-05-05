@@ -207,21 +207,71 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 
 			const competenciesForLevel = competencies.filter(competency => competency.level === level.id);
 
-			// Add the actual data for the level
-			batchedUpdates.push(createBatchCellUpdate(sheetId, [
+			const rows = [
 				[''], // Empty cell for chart
-				['Area', 'Competency', 'Evidence'],
-				...competenciesForLevel.map(competency => {
-					let content = competency.summary;
-					if (competency.examples.length) {
-						content += `, e.g.\n${competency.examples.map(example => `• ${example}`).join('\n')}`;
-					}
-					return [
-						capitalizeFirstLetter(competency.area),
-						content
-					];
-				})
-			]));
+				['Area', 'Competency', 'Supporting URLs', 'Evidence'],
+			];
+
+			const merges = []
+
+			let currentRow = 2;
+
+			for(const competency of competenciesForLevel) {
+				let content = competency.summary;
+				if (competency.examples.length) {
+					content += `, e.g.\n${competency.examples.map(example => `• ${example}`).join('\n')}`;
+				}
+
+				const [firstUrl, ...remainingUrls] = competency.supportingUrls;
+				const addedRows = competency.supportingUrls.length || 1;
+
+				rows.push([
+					capitalizeFirstLetter(competency.area),
+					content,
+					firstUrl ? `=HYPERLINK("${firstUrl.url}", "${firstUrl.label}")` : ''
+				]);
+
+				for(const supportingUrl of remainingUrls) {
+					rows.push([
+						'',
+						'',
+						`=HYPERLINK("${supportingUrl.url}", "${supportingUrl.label}")`
+					]);
+				}
+
+				if(addedRows > 1) {
+					merges.push({
+						mergeCells: {
+							range: {
+								sheetId,
+								startRowIndex: currentRow,
+								endRowIndex: currentRow + addedRows,
+								startColumnIndex: 0,
+								endColumnIndex: 2
+							},
+							mergeType: 'MERGE_COLUMNS'
+						}
+					},{
+						mergeCells: {
+							range: {
+								sheetId,
+								startRowIndex: currentRow,
+								endRowIndex: currentRow + addedRows,
+								startColumnIndex: 3,
+								endColumnIndex: 4
+							},
+							mergeType: 'MERGE_COLUMNS'
+						}
+					});
+				}
+
+				currentRow += addedRows;
+			}
+
+			// Add the actual data for the level
+			batchedUpdates.push(createBatchCellUpdate(sheetId, rows));
+			console.log(merges.map(m => m.mergeCells.range))
+			batchedUpdates.push(...merges);
 
 			// Resize the columns for the level
 			batchedUpdates.push(createBatchColumnResize(sheetId, {
@@ -230,11 +280,15 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 			}));
 			batchedUpdates.push(createBatchColumnResize(sheetId, {
 				startIndex: 1,
-				width: 500
+				width: 400
 			}));
 			batchedUpdates.push(createBatchColumnResize(sheetId, {
 				startIndex: 2,
-				width: 500
+				width: 200
+			}));
+			batchedUpdates.push(createBatchColumnResize(sheetId, {
+				startIndex: 3,
+				width: 400
 			}));
 
 			// Delete additional columns for the level
@@ -243,7 +297,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 					range: {
 						sheetId,
 						dimension: 'COLUMNS',
-						startIndex: 3
+						startIndex: 4
 					}
 				}
 			});
@@ -257,7 +311,7 @@ async function deployGoogleSheets({competencies, competenciesVersion, jsonAuthDa
 						startRowIndex: 0,
 						endRowIndex: 1,
 						startColumnIndex: 0,
-						endColumnIndex: 3
+						endColumnIndex: 4
 					},
 					mergeType: 'MERGE_ROWS'
 				}

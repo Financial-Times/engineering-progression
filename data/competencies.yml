@@ -73,6 +73,8 @@
   supportingUrls:
     - label: Open Web Application Security Project
       url: https://www.owasp.org/
+    - label: Another link
+      url: http://www.example.com/
   description: null
   level: junior-to-mid
   area: technical
