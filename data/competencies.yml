@@ -22,11 +22,12 @@
   domain: null
 
 - id: 574c234d-b52e-4765-b160-bac958e2d207
-  summary: Uses code to make something
+  summary: Delivers high quality code and solutions
   examples:
     - Takes a feature from their team backlog and writes the code for that feature
     - Automates a regular task using Python
     - Writes a CloudFormation template
+    - Gets involved in refactoring of code to improve clarity, readability and maintainability. 
   supportingUrls: []
   description: null
   level: junior-to-mid
