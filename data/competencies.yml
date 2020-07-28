@@ -731,6 +731,18 @@
   area: leadership
   domain: null
 
+- id: de580f8a-633d-43bb-b970-9b2987e07b86
+  summary: Actively fosters an inclusive team culture
+  examples:
+    - Celebrates good work publicly and encourages the team to do the same
+    - Spots problems between team members and helps to resolve them
+    - Models inclusive behaviour to the rest of the team
+  supportingUrls: []
+  description: null
+  level: mid-to-senior1
+  area: leadership
+  domain: null
+
 # Senior 1 to Senior 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
@@ -889,18 +901,6 @@
   area: leadership
   domain: null
 
-- id: de580f8a-633d-43bb-b970-9b2987e07b86
-  summary: Actively fosters an inclusive team culture
-  examples:
-    - Celebrates good work publicly and encourages the team to do the same
-    - Spots problems between team members and helps to resolve them
-    - Models inclusive behaviour to the rest of the team
-  supportingUrls: []
-  description: null
-  level: senior1-to-senior2
-  area: leadership
-  domain: null
-
 - id: 1ee4d2b9-8160-42e0-a763-f45703abc6d5
   summary: Helps resolve disagreements healthily
   examples:
@@ -920,6 +920,18 @@
     - Champions turning things off into order to have capacity to work on new things
     - Argues for and forms a feature team to tackle a shared problem with other areas of the business
     - Writes a realistic roadmap in collaboration with a product owner and delivery lead
+  supportingUrls: []
+  description: null
+  level: senior1-to-senior2
+  area: leadership
+  domain: null
+
+
+- id: f173b7e9-1c46-4afd-a659-d264aa173759
+  summary: Contributes to inclusive organisational culture
+  examples:
+    - Membership of internal groups that promote diversity and inclusion (such as FT Embrace, FT Proud, Mental health first aiders)
+    - Organises inclusive social events for groups of teams
   supportingUrls: []
   description: null
   level: senior1-to-senior2
