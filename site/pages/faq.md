@@ -79,6 +79,10 @@ Engineers at the FT that do not report in the the CTO may also find this framewo
 
 No, competencies are not weighted. No competency is more important than any other for an engineer's progression.
 
+## Does work outside of my contracted hours contribute?
+
+No engineer is expected to work outside of their contracted hours to meet any of the competencies.  There may well be activities (e.g. support rota calls, tech talks) that provide evidence, but all of the competencies can be evidenced within working hours.
+
 ## Who is in charge of maintaining the competencies?
 
 A group of engineers from across Product &amp; Technology. See [The Engineering Progression Working Group docs](/docs/working-group/), or check the [GitHub team](https://github.com/orgs/Financial-Times/teams/engineering-progression-working-group/members) for individual members.
