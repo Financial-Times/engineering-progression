@@ -21,6 +21,11 @@
 				</a>
 			</li>
 			<li>
+				<a href="/competencies/how-to-use/" {% if page.url == '/competencies/how-to-use/' %}aria-current="true"{% endif %}>
+					How to use
+				</a>
+			</li>
+			<li>
 				<a href="/docs/api/" {% if page.url == '/docs/api/' %}aria-current="true"{% endif %}>
 					API
 				</a>
@@ -44,11 +49,6 @@
 					</li>
 				</ol>
 				<ul class="o-header-services__secondary-nav-list o-header-services__secondary-nav-list--children" aria-label="Child sections">
-					<li>
-						<a href="/competencies/how-to-use/" {% if page.url == '/competencies/how-to-use/' %}aria-current="true"{% endif %}>
-							How to use
-						</a>
-					</li>
 					{% for level in site.data.levels %}
 						<li>
 							{% capture level_url %}/competencies/{{level.id}}/{% endcapture %}

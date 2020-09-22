@@ -7,6 +7,12 @@ layout: o-layout-docs
 
 # {{page.title}}
 
+## How is the Engineering Progression framework meant to be used?
+
+Engineering competencies are used to inform conversations about career
+progression between an engineer and their line manager. This is covered
+in the ["how to use the competencies" guide](/competencies/how-to-use).
+
 ## Is there an individual contributor route?
 
 There is no separate individual contributor route for progression, but the aim
@@ -72,6 +78,10 @@ Engineers at the FT that do not report in the the CTO may also find this framewo
 ## Are competencies weighted / are some competencies more important than others?
 
 No, competencies are not weighted. No competency is more important than any other for an engineer's progression.
+
+## Does work outside of my contracted hours contribute?
+
+No engineer is expected to work outside of their contracted hours to meet any of the competencies.  There may well be activities (e.g. support rota calls, tech talks) that provide evidence, but all of the competencies can be evidenced within working hours.
 
 ## Who is in charge of maintaining the competencies?
 
