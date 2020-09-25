@@ -11,6 +11,7 @@
 				"Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team",
 				"Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "technical",
@@ -23,6 +24,7 @@
 				"Investigates a drop in organic traffic from google, makes educated investigations into various aspects of the end to end system, consulting other domain experts along the way and keeping stakeholders aware of progress.",
 				"Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements."
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "technical",
@@ -36,6 +38,7 @@
 				"While debugging an issue, traces the bug back to a shared library. Creates a patch for the bug and makes sure it is released.",
 				"Spots another team could benefit from using a security feature and helps them implement it"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "technical",
@@ -45,6 +48,7 @@
 			"id": "7b2bacf1-ba46-464d-94e3-dc6f7c5edeb0",
 			"summary": "Translates difficult business requirements into technical designs",
 			"examples": [],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "technical",
@@ -57,6 +61,7 @@
 				"Responds to questions on Slack about a particular technology or product",
 				"Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "technical",
@@ -70,6 +75,7 @@
 				"Contributes to technical strategy work",
 				"Successfully leads the group-wide adoption of a particular technology"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "technical",
@@ -82,6 +88,7 @@
 				"Articulates to a product owner how one third-party technical solution is better than another",
 				"Explains to a stakeholder how a technical incident in a system impacted the business"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "communication",
@@ -96,6 +103,7 @@
 				"Is accountable for making sure engineers review CV's and tech tests in a timely manner",
 				"Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "communication",
@@ -111,6 +119,7 @@
 				"Writes a monthly update newsletter for stakeholders about recent releases",
 				"Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "communication",
@@ -120,6 +129,7 @@
 			"id": "877d7313-d6de-44ae-80b4-5ed094ddf39a",
 			"summary": "Takes a stakeholder problem, investigates to understand it and proposes a solution",
 			"examples": [],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "delivery",
@@ -133,6 +143,7 @@
 				"Finds a bug in a library that affects multiple teams, fixes the bug and works with teams to make sure everybody is able to upgrade",
 				"Finds a manual process slowing down multiple teams and automates it"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "delivery",
@@ -147,6 +158,7 @@
 				"Writes measurable team OKRs, aligned with the goals of their Group",
 				"Proactively unblocks others in their team"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "delivery",
@@ -159,19 +171,7 @@
 				"Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.",
 				"Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area."
 			],
-			"description": null,
-			"level": "senior1-to-senior2",
-			"area": "leadership",
-			"domain": null
-		},
-		{
-			"id": "de580f8a-633d-43bb-b970-9b2987e07b86",
-			"summary": "Actively fosters an inclusive team culture",
-			"examples": [
-				"Celebrates good work publicly and encourages the team to do the same",
-				"Spots problems between team members and helps to resolve them",
-				"Models inclusive behaviour to the rest of the team"
-			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "leadership",
@@ -185,6 +185,7 @@
 				"Encourages team members to speak freely in retrospectives",
 				"Encourages team members to treat each other empathetically"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "leadership",
@@ -199,6 +200,20 @@
 				"Argues for and forms a feature team to tackle a shared problem with other areas of the business",
 				"Writes a realistic roadmap in collaboration with a product owner and delivery lead"
 			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior1-to-senior2",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "f173b7e9-1c46-4afd-a659-d264aa173759",
+			"summary": "Contributes to inclusive organisational culture",
+			"examples": [
+				"Participates in internal groups that promote diversity and inclusion (such as FT Access, FT Embrace, FT Proud, Mental health first aiders)",
+				"Organises inclusive social events for groups of teams"
+			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "senior1-to-senior2",
 			"area": "leadership",

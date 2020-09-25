@@ -13,6 +13,7 @@
 				"Dummy/fictional data is used in staging environments and in tests",
 				"Suppliers don't get access to data unless they have gone through the Procurement Management Application process"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -26,6 +27,7 @@
 				"Adds logging that is well-structured and captures useful information about the state of a system",
 				"Builds a Grafana dashboard that visualises normal and abnormal operation of a system"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -38,6 +40,7 @@
 				"Can choose between similar Node libraries evaluating code quality, ease of integration, future maintenance, and security concerns",
 				"May be involved in evaluating paid-for third party supplier code"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -50,6 +53,7 @@
 				"Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily",
 				"Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -66,6 +70,7 @@
 				"Articulates security risks/benefits when evaluating third party software",
 				"Uses Fastly WAF to protect from malicious requests"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -80,6 +85,7 @@
 				"Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly",
 				"Can explain when something is worth refactoring even when it will impact the speed of delivery"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -91,6 +97,7 @@
 			"examples": [
 				"Refactors solutions to improve clarity and maintainability"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -103,6 +110,7 @@
 				"Implements tooling to enforce high standards",
 				"Reviews pull requests fairly & critically in such away that team members produce better code"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -114,6 +122,7 @@
 			"examples": [
 				"Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -126,6 +135,7 @@
 				"Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services",
 				"Adds healthchecks to a system that detect different ways in which it can fail"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -137,6 +147,7 @@
 			"examples": [
 				"If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -151,6 +162,7 @@
 				"Implements a CDN / gateway that routes to a suite of underlying microservices",
 				"Designs and implements a build pipeline"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -164,6 +176,7 @@
 				"Can articulate and justify the total cost of ownership of their technical solutions",
 				"Follows their group's Engineering Principles when building technical solutions"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "technical",
@@ -178,6 +191,7 @@
 				"Creates diagrams to document how the different parts of systems interact",
 				"Presents their own work clearly to stakeholders"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "communication",
@@ -190,6 +204,7 @@
 				"Runs meetings with clear agendas and outcomes",
 				"Obtains wide feedback on technical proposals and takes ownership of seeing it through"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "communication",
@@ -207,6 +222,7 @@
 				"Reviews CVs",
 				"Reviews tech tests"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "communication",
@@ -216,6 +232,7 @@
 			"id": "c6bcfbd3-550f-4902-8c9a-bd6e9c77d67b",
 			"summary": "Prioritises technical work for the team (usually with others)",
 			"examples": [],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -227,6 +244,7 @@
 			"examples": [
 				"Creates the user stories for the ticket with a delivery lead"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -236,6 +254,7 @@
 			"id": "850dda3f-df42-4187-a72b-aed1023b7abd",
 			"summary": "Communicates team/work's status upwards to a Principal or Technical Director",
 			"examples": [],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -248,6 +267,7 @@
 				"Uses origami components to style a web page",
 				"Uses Biz Ops as a source of system data rather than creating a new system registry"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -260,6 +280,7 @@
 				"Reviews pull requests",
 				"Suggests someone to talk to eg “[X] knows the most about [technology Y], you could ask them”"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -271,6 +292,7 @@
 			"examples": [
 				"Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -283,6 +305,7 @@
 				"Attends cross team meetings",
 				"Asks other teams for input and opinions on decisions that affect them"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -296,6 +319,7 @@
 				"Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes",
 				"Encourages other engineers to participate in agile team rituals"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -305,6 +329,7 @@
 			"id": "7ccc5fac-5da2-451e-8043-af2fd880fcf9",
 			"summary": "Manages, prioritises and communicates own workload",
 			"examples": [],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "delivery",
@@ -320,6 +345,7 @@
 				"Writes a blog post",
 				"Shares industry relevant content/links with team members that may be interested"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
@@ -332,6 +358,7 @@
 				"Positively represents their team in interactions with other people by seeking to understand their perspectives, values and needs",
 				"Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
@@ -348,6 +375,7 @@
 				"Writes blog posts to share knowledge",
 				"Gives talks at meet-ups or conferences to share knowledge"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
@@ -359,8 +387,9 @@
 			"examples": [
 				"Is a tech lead",
 				"Runs, or is on the organising team for a Guild",
-				"Leads on large features or stories"
+				"Leads on large features, stories or projects"
 			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
@@ -374,6 +403,21 @@
 				"Runs a regular 101 session for the rest of the business",
 				"More informal knowledge sharing through mentorship"
 			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "mid-to-senior1",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "de580f8a-633d-43bb-b970-9b2987e07b86",
+			"summary": "Actively fosters an inclusive team culture",
+			"examples": [
+				"Celebrates good work publicly and encourages the team to do the same",
+				"Spots problems between team members and helps to resolve them or escalate them as appropriate",
+				"Models inclusive behaviour to the rest of the team"
+			],
+			"supportingUrls": [],
 			"description": null,
 			"level": "mid-to-senior1",
 			"area": "leadership",
