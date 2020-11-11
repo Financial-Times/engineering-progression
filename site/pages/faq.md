@@ -64,6 +64,14 @@ For example, the competency "Regularly collaborates with team members from other
 
 In cases where an engineer's current role prevents them from meeting a competency, the engineer's line manager should try to find opportunities for the engineer to do so.
 
+## How do competencies relate to promotions?
+
+Promotion forms ask for evidence of an engineer's readiness for promotion. The competencies are a framework for use by an engineer and their line manager to inform discussions on areas for improvement, the evidence that they compile is likely to be useful in a promotions case.
+
+This provided evidence is not the only thing considered in a promotion case, for example feedback from stakeholders and peers is factored in.
+
+The progression framework is not a check-list: providing evidence for all of the competencies does not guarantee promotion. Similarly if you're unable to provide evidence for some of the competencies then this does not rule out a successful promotion case (see [_Do I need to meet all of the competencies?_](#do-i-need-to-meet-all-of-the-competencies)).
+
 ## Do I need to provide evidence for all of the examples in a competency?
 
 No. Examples are illustrative, and it's possible to meet a competency in a different way. This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
