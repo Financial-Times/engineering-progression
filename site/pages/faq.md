@@ -56,6 +56,14 @@ Assuming that competencies from earlier levels are met means that we do not need
 
 This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
 
+## Do I need to meet all of the competencies?
+
+No. Competencies define what an engineer is expected to be doing at a particular level, and an engineer should be striving to meet as many of them as possible. However sometimes it may not be possible for an engineer to meet certain competencies in their current role.
+
+For example, the competency "Regularly collaborates with team members from other disciplines to deliver features" would be difficult to meet for a person who works on a team which consists of only engineers.
+
+In cases where an engineer's current role prevents them from meeting a competency, the engineer's line manager should try to find opportunities for the engineer to do so.
+
 ## Do I need to provide evidence for all of the examples in a competency?
 
 No. Examples are illustrative, and it's possible to meet a competency in a different way. This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
