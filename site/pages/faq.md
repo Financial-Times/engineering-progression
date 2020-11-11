@@ -50,7 +50,7 @@ existing Senior 2 Engineers.
 
 ## Do I need to meet competencies from earlier levels?
 
-Yes. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level.
+You should be considering them, however we do not ask for evidence on competencies from earlier levels. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level but they do not need to record them in their tracker.
 
 Assuming that competencies from earlier levels are met means that we do not need to duplicate competencies across different levels.
 
