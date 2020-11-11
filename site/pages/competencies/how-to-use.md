@@ -45,6 +45,8 @@ Each competency has a summary which is designed to prompt a yes/no response. For
 	</tr>
 </table>
 
+In the second example the engineer is unable to meet the competency "Leads hiring process for new Engineers" because that opportunity hasn't come up in their current role. This is fine: it's not a requirement for the engineer to be meeting all of the competencies, however this may be an indication to that engineer's line manager that opportunities need to be found or created.
+
 A copy of the <a href="https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit" class="o-typography-link--external">Engineering Progression Tracker (Google Sheet)</a> is useful for keeping track of progress.
 
 ### Domain-specific competencies
