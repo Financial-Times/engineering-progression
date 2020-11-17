@@ -49,10 +49,6 @@ In the second example the engineer is unable to meet the competency "Leads hirin
 
 A copy of the <a href="https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit" class="o-typography-link--external">Engineering Progression Tracker (Google Sheet)</a> is useful for keeping track of progress.
 
-### Domain-specific competencies
-
-Some competencies are domain-specific. This means that the competency is only applicable if an engineer is working in a specific domain. For example, an engineer who builds web pages is expected to know about web accessibility, but we wouldn't expect the same of an engineer who works in operations.
-
 ### Examples
 
 Some competencies have one or more examples. The examples are purely illustrative, and will not apply to everyone. When working towards a competency, an engineer does not need to be meeting any of the examples given if they can provide evidence that they are meeting the competency in another way.
