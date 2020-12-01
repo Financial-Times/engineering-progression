@@ -50,11 +50,27 @@ existing Senior 2 Engineers.
 
 ## Do I need to meet competencies from earlier levels?
 
-Yes. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level.
+You should be considering them, however we do not ask for evidence on competencies from earlier levels. For example we expect our Senior 2 Engineers to still be exhibiting the competencies from the "Mid to Senior 1" level as well as the "Senior 1 to Senior 2" level but they do not need to record them in their tracker.
 
 Assuming that competencies from earlier levels are met means that we do not need to duplicate competencies across different levels.
 
 This is covered in the ["how to use the competencies" guide](/competencies/how-to-use/).
+
+## Do I need to meet all of the competencies?
+
+No. Competencies define what an engineer is expected to be doing at a particular level, and an engineer should be striving to meet as many of them as possible. However sometimes it may not be possible for an engineer to meet certain competencies in their current role.
+
+For example, the competency "Regularly collaborates with team members from other disciplines to deliver features" would be difficult to meet for a person who works on a team which consists of only engineers.
+
+In cases where an engineer's current role prevents them from meeting a competency, the engineer's line manager should try to find opportunities for the engineer to do so.
+
+## How do competencies relate to promotions?
+
+Promotion forms ask for evidence of an engineer's readiness for promotion. The competencies are a framework for use by an engineer and their line manager to inform discussions on areas for improvement, the evidence that they compile is likely to be useful in a promotions case.
+
+This provided evidence is not the only thing considered in a promotion case, for example feedback from stakeholders and peers is factored in.
+
+The progression framework is not a check-list: providing evidence for all of the competencies does not guarantee promotion. Similarly if you're unable to provide evidence for some of the competencies then this does not rule out a successful promotion case (see [_Do I need to meet all of the competencies?_](#do-i-need-to-meet-all-of-the-competencies)).
 
 ## Do I need to provide evidence for all of the examples in a competency?
 

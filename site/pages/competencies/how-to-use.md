@@ -7,7 +7,7 @@ layout: o-layout-docs
 
 # {{page.title}}
 
-Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. They define what an engineer is expected to be doing at a particular level. They are not a checklist, but a way to indicate what areas they may need to improve in. We also expect engineers to be meeting competencies from the levels _before_ their current one.
+Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. They define what an engineer is expected to be doing at a particular level. They are not a checklist, but a way to indicate what areas they may need to improve in.
 
 We divide competencies into levels for different seniorities.
 
@@ -21,7 +21,7 @@ Each level represents the expectations and responsibilities that change from one
 {% endfor %}
 </ul>
 
-So, for example, a Junior Engineer should be considering the competencies at the "Junior to Mid" level.
+So, for example, a Junior Engineer should be considering the competencies at the "Junior to Mid" level. We also expect engineers to be considering whether they're meeting competencies from the levels _before_ their current one, though we don't ask for evidence of this.
 
 ## Competencies
 
@@ -44,6 +44,8 @@ Each competency has a summary which is designed to prompt a yes/no response. For
 		<td>The team has not had to hire new engineers in the last year, and so this competency cannot be met</td>
 	</tr>
 </table>
+
+In the second example the engineer is unable to meet the competency "Leads hiring process for new Engineers" because that opportunity hasn't come up in their current role. This is fine: it's not a requirement for the engineer to be meeting all of the competencies, however this may be an indication to that engineer's line manager that opportunities need to be found or created.
 
 A copy of the <a href="https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit" class="o-typography-link--external">Engineering Progression Tracker (Google Sheet)</a> is useful for keeping track of progress.
 
