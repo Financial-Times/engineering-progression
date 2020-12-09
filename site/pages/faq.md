@@ -44,7 +44,7 @@ either a position needs to become vacant, or a new Principal Engineer role must 
 created, typically when forming a new team, significantly expanding an existing one,
 or some other significant change occurs in a technology group's circumstances.
 
-Post Beta, we do aim to include competencies for Principal Engineers within
+We do aim to include competencies for Principal Engineers within
 the FT engineering competencies, to act as a guide for recruiting managers and
 existing Senior 2 Engineers.
 
