@@ -25,11 +25,9 @@ Members of the working group are responsible for:
 
 ## Process
 
-Now that the competencies have stabilised, the Working Group meets once a week. We discuss any issues that have been opened since the last meeting, as well as planning future work. Tasks are assigned to individuals on a voluntary basis.
+The Working Group meets once every two weeks, and we work to this agenda. If tasks are assigned to individuals then it's on a voluntary basis, and non-critical tasks don't have deadlines. This allows Working Group members to pick things up when it can fit around their regular work.
 
-[The agenda for this meeting is here](https://docs.google.com/document/d/1o2MfeMZjovFva-0BwSbm2UN_06HxxbhWfKPugmkNO1Q/edit) (only accessible to Working Group members).
-
-Outside of this weekly meeting, members do any work they can fit around their normal schedule.
+We follow an agenda for these meetings, make notes, and assign actions in [this document](TODO-agenda-link).
 
 
 ## Change of Membership
