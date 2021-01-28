@@ -12,13 +12,22 @@ The engineering competencies have been planned, written and rolled out by a work
 You can check the [current Working Group members on GitHub](https://github.com/orgs/Financial-Times/teams/engineering-progression-working-group/members).
 
 
+## Responsibilities
+
+Members of the working group are responsible for:
+
+  * Answering questions about the competency framework
+  * Coordinating changes to the competencies, and making sure they meet the [language guidelines](https://github.com/Financial-Times/engineering-progression/blob/master/docs/language.md)
+  * Communicating competency changes to all engineers who use the framework
+  * Working with PTE and TLG if their input is needed on a task
+  * Maintaining the competency framework [repo](https://github.com/orgs/Financial-Times/engineering-progression) and [website](https://engineering-progression.ft.com/), including reviewing pull requests and responding to issues
+
+
 ## Process
 
-Now that the competencies have stabilised, the Working Group meets once a week. We discuss any issues that have been opened since the last meeting, as well as planning future work. Tasks are assigned to individuals on a voluntary basis.
+The Working Group meets once every two weeks, and we work to this agenda. If tasks are assigned to individuals then it's on a voluntary basis, and non-critical tasks don't have deadlines. This allows Working Group members to pick things up when it can fit around their regular work.
 
-[The agenda for this meeting is here](https://docs.google.com/document/d/1o2MfeMZjovFva-0BwSbm2UN_06HxxbhWfKPugmkNO1Q/edit) (only accessible to Working Group members).
-
-Outside of this weekly meeting, members do any work they can fit around their normal schedule.
+We follow an agenda for these meetings, make notes, and assign actions in [this document](https://docs.google.com/document/d/1GHtXdANM6Yq6Xwh_6lHi3mTY-BtRF-0iPcTWFhfAnL4/edit).
 
 
 ## Change of Membership
