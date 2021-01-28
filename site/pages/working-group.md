@@ -27,7 +27,7 @@ Members of the working group are responsible for:
 
 The Working Group meets once every two weeks, and we work to this agenda. If tasks are assigned to individuals then it's on a voluntary basis, and non-critical tasks don't have deadlines. This allows Working Group members to pick things up when it can fit around their regular work.
 
-We follow an agenda for these meetings, make notes, and assign actions in [this document](TODO-agenda-link).
+We follow an agenda for these meetings, make notes, and assign actions in [this document](https://docs.google.com/document/d/1GHtXdANM6Yq6Xwh_6lHi3mTY-BtRF-0iPcTWFhfAnL4/edit).
 
 
 ## Change of Membership
