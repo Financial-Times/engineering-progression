@@ -49,4 +49,4 @@ Anybody working for the Financial Times is welcome to suggest changes via a GitH
 
 ## Licence
 
-This software is published by the Financial Times under the [MIT licence](http://opensource.org/licenses/MIT).
+This software is published by the Financial Times under the [MIT license](http://opensource.org/licenses/MIT).
