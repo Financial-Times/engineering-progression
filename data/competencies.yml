@@ -1,4 +1,4 @@
-# Junior to Mid, Technical
+# Engineer, Technical
 
 - id: 4029f7b4-0c42-4867-818b-c03049a07de1
   summary: Is responsible for and maintains their computer and local development environment
@@ -136,7 +136,7 @@
   area: technical
   domain: null
 
-# Junior to Mid, Communication
+# Engineer, Communication
 
 - id: 6a019e95-20ab-4af5-a42a-727274eec0d8
   summary: Maintains documentation on the systems they work on, making it easy for future engineers to interact with systems and code
@@ -212,7 +212,7 @@
   area: communication
   domain: null
 
-# Junior to Mid, Delivery
+# Engineer, Delivery
 
 - id: 6dd9f702-6ee8-46d1-9c4c-9c370d971cb1
   summary: Works on the most important task
@@ -298,7 +298,7 @@
   area: delivery
   domain: null
 
-# Junior to Mid, Leadership
+# Engineer, Leadership
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
   summary: Knows who their project's stakeholders are
@@ -374,7 +374,7 @@
   area: leadership
   domain: null
 
-# Mid to Senior 1, Technical
+# Senior Engineer 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
   summary: Builds products ensuring they take adequate steps to protect sensitive data
@@ -529,7 +529,7 @@
   area: technical
   domain: null
 
-# Mid to Senior 1, Communication
+# Senior Engineer 1, Communication
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
   summary: Communicates technical concepts clearly and adapts that communication to the audience
@@ -571,7 +571,7 @@
   area: communication
   domain: null
 
-# Mid to Senior 1, Delivery
+# Senior Engineer 1, Delivery
 
 - id: c6bcfbd3-550f-4902-8c9a-bd6e9c77d67b
   summary: Prioritises technical work for the team (usually with others)
@@ -665,7 +665,7 @@
   area: delivery
   domain: null
 
-# Mid to Senior 1, Leadership
+# Senior Engineer 1, Leadership
 
 - id: f34273e2-3d81-4bde-8c23-0217e71b3536
   summary: Influences a community of practice
@@ -743,7 +743,7 @@
   area: leadership
   domain: null
 
-# Senior 1 to Senior 2, Technical
+# Senior Engineer 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
   summary: Makes pragmatic decisions about technical trade-offs beyond their project
@@ -812,7 +812,7 @@
   area: technical
   domain: null
 
-# Senior 1 to Senior 2, Communication
+# Senior Engineer 2, Communication
 
 - id: f7045590-960d-4a08-b2d6-db6dcff463d6
   summary: Communicates complex technical concepts clearly and adapts that communication to the audience
@@ -852,7 +852,7 @@
   area: communication
   domain: null
 
-# Senior 1 to Senior 2, Delivery
+# Senior Engineer 2, Delivery
 
 - id: 877d7313-d6de-44ae-80b4-5ed094ddf39a
   summary: Takes a stakeholder problem, investigates to understand it and proposes a solution
@@ -888,7 +888,7 @@
   area: delivery
   domain: null
 
-# Senior 1 to Senior 2, Leadership
+# Senior Engineer 2, Leadership
 
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
   summary: Identifies knowledge gaps within the team and gives training to address gaps
