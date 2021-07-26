@@ -1,0 +1,22 @@
+[
+	{
+		"id": "engineer",
+		"name": "Engineer",
+		"summary": "Mid level engineers should be proficient in the technical systems that they are working on. They should be aware and guided by the wider context of their work. They should take responsibility for their work and own their personal development. They should be working as part of a team to achieve the shared goals of the team.\n"
+	},
+	{
+		"id": "senior1",
+		"name": "Senior Engineer 1",
+		"summary": "Senior 1 (S1) engineers are expected to improve the performance of those around them. This could be through additional official responsibilities such as line managing or tech leading, or through unofficial means such as mentoring or regular pairing. S1 engineers should be able to tackle more complicated technical problems, and explain and justify their approaches to their team. We expect S1 engineers to pick up work outside of their delivery team and manage that work effectively against their delivery team’s priorities. S1 engineers require very little oversight beyond high level direction.\n"
+	},
+	{
+		"id": "senior2",
+		"name": "Senior Engineer 2",
+		"summary": "The Senior 2 (S2) engineer exhibits leadership and influence well beyond themselves. This influence could be through tech leading, line managing, mentoring, or leading projects outside of their day-to-day work. Senior 2 engineers are good at seeing ill-defined or difficult projects through to completion. They are great at spotting issues and helping their team navigate them. Senior 2 engineers have a deep understanding and willingness to help others for a particular technology or product.\n"
+	},
+	{
+		"id": "principal",
+		"name": "Principal Engineer",
+		"summary": "TODO\n"
+	}
+]

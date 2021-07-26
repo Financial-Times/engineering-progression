@@ -1,0 +1,1066 @@
+[
+	{
+		"id": "4029f7b4-0c42-4867-818b-c03049a07de1",
+		"summary": "Is responsible for and maintains their computer and local development environment",
+		"examples": [
+			"Keeps local tools up to date",
+			"Follows instructions to get software projects running locally"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "297576d0-c20c-4498-8d53-b00ef9bbe48b",
+		"summary": "Uses version control to manage development workflow",
+		"examples": [
+			"Git specific example: clone, branch, add, commit, push, rebase"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "574c234d-b52e-4765-b160-bac958e2d207",
+		"summary": "Uses code to make something",
+		"examples": [
+			"Takes a feature from their team backlog and writes the code for that feature",
+			"Automates a regular task using Python",
+			"Writes a CloudFormation template"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "4db41452-c2c7-40bf-87b1-a2d8ed6f902a",
+		"summary": "Writes automated unit and end to end tests for features",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "2385d7ee-64c1-45de-b1d9-18050fba9d44",
+		"summary": "Fixes or updates tests when changing existing code",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "f66d122f-bd81-4b57-8b4a-78f00a11934c",
+		"summary": "Reuses existing code",
+		"examples": [
+			"Uses a python package in project",
+			"Uses a node package in project",
+			"Integrates with proprietary software packages",
+			"Uses Origami"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "b0e285f2-08a3-47c2-a810-30d5258e1863",
+		"summary": "Maintains the security of the systems they work on",
+		"examples": [
+			"Fixes vulnerabilities in dependencies raised by Snyk",
+			"Fixes vulnerabilities raised by the cyber security team",
+			"Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10"
+		],
+		"supportingUrls": [
+			{
+				"label": "Open Web Application Security Project",
+				"url": "https://www.owasp.org/"
+			}
+		],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "e566bfce-9390-47ea-9e46-f1db25ae9cc0",
+		"summary": "Regularly and independently debugs and fixes bugs in their own code",
+		"examples": [
+			"Fixes broken tests caused by changes in their code",
+			"Uses logging or a debugger to find the root cause when a new feature is not working as expected"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "9b30c5f3-7925-4514-9f31-251b32daf1d3",
+		"summary": "Gets involved in fixing live incidents in production",
+		"examples": [
+			"Notices that an AWS region is down so fails over to another region",
+			"Responds to alerts for services in production by investigating errors and beginning remedial action",
+			"Works as home teams' \"ops cop\", liaising with Operations and Reliability to restore a service"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "e4cd2032-2974-42ba-ac74-565809069447",
+		"summary": "Uses continuous delivery or build pipelines for automation",
+		"examples": [
+			"Sees their build is failing and finds out why using the CircleCI or Jenkins interface",
+			"Restarts broken builds",
+			"Makes config changes in CircleCI",
+			"Adds a build status badge to their project",
+			"Promotes an app from staging to production in Heroku"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "b24b7fe3-3c4f-4fb0-b2b4-ba8c43806701",
+		"summary": "Uses monitoring (but doesn't necessarily implement monitoring)",
+		"examples": [
+			"Pingdom, grafana"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "09066401-3dab-499f-a91f-dbbf5e19bdd8",
+		"summary": "Makes pragmatic decisions about technical trade-offs within their own code",
+		"examples": [
+			"Weighs up the benefits of making code more abstract vs specific",
+			"Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "6a019e95-20ab-4af5-a42a-727274eec0d8",
+		"summary": "Maintains documentation on the systems they work on, making it easy for future engineers to interact with systems and code",
+		"examples": [
+			"Writes READMEs with the appropriate level of detail for getting the project set up",
+			"Documents common issues with the codebase in a troubleshooting section in the README",
+			"Finds some documentation they are reading is out of date so opens a Pull Request to improve it",
+			"Writes good commit messages that explain why a change was made",
+			"Puts line comments around any 'magic' bits of code",
+			"Writes and updates runbooks for services they work on"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "a0429b57-40dd-4f65-87d5-924c8a2a1226",
+		"summary": "Provides feedback on peer’s work",
+		"examples": [
+			"Reviews pull requests and gives actionable empathetic feedback",
+			"Recognises when a more senior colleague has not given enough detail in an explanation, and asks for clarification",
+			"Gives realtime feedback in mob programming sessions"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "458cfd7f-b621-462e-ad7f-90870e1d5cfc",
+		"summary": "Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be picked up by other engineers",
+		"examples": [
+			"Adds links to the pages that are affected by a bug",
+			"Writes steps to reproduce an issue that they've found",
+			"Adds screenshots to a ticket to help explain a display bug"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "d31a91de-ae96-457c-9ac1-3752acf148fa",
+		"summary": "Receives feedback and acts upon it",
+		"examples": [
+			"Implements requested changes on a pull request",
+			"Responds to comments on a Google document",
+			"Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "79c4ecfd-7085-49c2-8a21-429b4a269c96",
+		"summary": "Regularly gives timely actionable feedback to colleagues",
+		"examples": [
+			"Emails positive feedback to a colleague's line manager, after the colleague was especially helpful.",
+			"Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly."
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "88c876aa-fce5-414b-b0c0-b1b7602beea8",
+		"summary": "Presents their own work clearly to a product owner or tech lead",
+		"examples": [
+			"Talks about their progress in standup without going into deep technical detail",
+			"Explains their approach to a technical problem to their tech lead",
+			"Gives a live demo of a feature that they worked on to their team"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "6dd9f702-6ee8-46d1-9c4c-9c370d971cb1",
+		"summary": "Works on the most important task",
+		"examples": [
+			"Picks the story from the top of a prioritised backlog rather than picking the one that most interests them",
+			"Creates tickets to capture non-trivial tech debt, rather than getting side-tracked by things not needed to complete the current task"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "e7f347c1-b478-4289-aa1a-c05da3f972ec",
+		"summary": "Uses user research or data to inform decisions",
+		"examples": [
+			"Attends customer based user research for a feature being worked on",
+			"Sets up a testing session with peers for a new bit of tooling",
+			"Finds a common pain point among teammates and proposes/builds a solution for it"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "a4832222-6d61-4cab-ba45-85eb61c20187",
+		"summary": "Leads on getting well defined tasks from backlog to production",
+		"examples": [
+			"Turns a user story into a technical implementation in production",
+			"Raises blockers in timely way"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "0ff46645-7966-42f8-9144-23b6a88743cc",
+		"summary": "Regularly collaborates with team members from other disciplines to deliver features",
+		"examples": [
+			"Pairs with the designer who worked on visuals or wire-frames for a feature",
+			"Sits with their product owner to discuss some edge-cases in a feature",
+			"Helps to debug a cross-browser issue with a tester"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "385be187-5aaa-493b-a663-3b8ec7a04d7f",
+		"summary": "Regularly contributes openly to team meetings and encourages others to do so",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "a0c27510-41d9-4a34-98d9-3b49b0ef8056",
+		"summary": "Regularly communicates the status of work",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "168c5839-8070-4bb1-a0fa-b26d1267e791",
+		"summary": "Asks for help or clarification on tasks when required",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "76ec9be3-e63f-4374-9742-cbbc1728549a",
+		"summary": "Participates in delivery process",
+		"examples": [
+			"Moves tickets to done column when they are complete",
+			"Goes to stand-ups and communicates progress"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "c9cf0d0e-2695-479c-97ef-4457ae36aeb6",
+		"summary": "Knows who their project's stakeholders are",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "ac489603-aa6f-48a7-b89b-25b97ffdb541",
+		"summary": "Acts with integrity, honesty and accountability",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "4dc43122-71f1-4fb1-99c8-73aa3a666332",
+		"summary": "Positively contributes to an inclusive team culture",
+		"examples": [
+			"Reminds others that team members may have child care duties",
+			"Draws people working remotely into planning conversations",
+			"Tactfully calls out exclusive or alienating behaviours from others",
+			"Organises a leaving collection for a colleague",
+			"Documents team norms to help new starters",
+			"Checks in with team members who appear stressed"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "3d8a92de-b293-4300-b12f-a1902f0a22f0",
+		"summary": "Shares knowledge with peers informally",
+		"examples": [
+			"Pairs on a feature with a more junior colleague",
+			"Helps onboard a new hire, acting as their go-to person for questions",
+			"Comes back from a conference and shares their learnings with others"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "82a8460f-8554-4837-9799-01174ea5be6f",
+		"summary": "Has worked with teams outside of their home group (where home group will be one of Customer Products, FT Core, Internal Products, Operations and Reliability, Enterprise Services and Security, FT Group Products or FT Labs)",
+		"examples": [
+			"Based in Customer Products but collaborated with developers from FT Core to build a new API endpoint for content",
+			"Has done a bootcamp with another group",
+			"Had done a secondment to Operations and Reliability",
+			"Works in the Interactive Graphics team and collaborates with someone from Editorial on a project",
+			"Works in Internal Products and collaborates with the Origami team on a new feature in a component"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "22c2a49e-4e2e-4a63-a09e-57a0efce7e38",
+		"summary": "Takes ownership of their personal development",
+		"examples": [
+			"Sees some code that they don't understand, and researches how it works",
+			"Proactively learns how to use a new tool/language feature",
+			"Reads blog posts about technology",
+			"Studies for and attains a technical certification",
+			"Finds a training course and takes it",
+			"Attends meet-ups or conferences"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "engineer",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "272be0d0-6b55-11e9-ae4e-0583f673f115",
+		"summary": "Builds products ensuring they take adequate steps to protect sensitive data",
+		"examples": [
+			"Databases have encryption at rest",
+			"Sensitive data is masked or in restricted indexes in Splunk",
+			"Data is retained only for as long as it is needed",
+			"Dummy/fictional data is used in staging environments and in tests",
+			"Suppliers don't get access to data unless they have gone through the Procurement Management Application process"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "2c1289fe-3bf9-476b-981b-8af2d345d76a",
+		"summary": "Implements appropriate observability and monitoring when building a solution",
+		"examples": [
+			"When adding a new dependency to a system, adds a healthcheck to monitor the dependency's state",
+			"Adds logging that is well-structured and captures useful information about the state of a system",
+			"Builds a Grafana dashboard that visualises normal and abnormal operation of a system"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "1391dba0-974b-4035-85fb-be3096658b59",
+		"summary": "Evaluates third-party software to use in projects",
+		"examples": [
+			"Can choose between similar Node libraries evaluating code quality, ease of integration, future maintenance, and security concerns",
+			"May be involved in evaluating paid-for third party supplier code"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "07715459-0423-4507-bdf1-fc397507eec7",
+		"summary": "Leads on fixing live incidents in production",
+		"examples": [
+			"Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily",
+			"Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "1d096180-c331-459e-9dbf-4d8db12ac885",
+		"summary": "Understands the security attack vectors for their area of technology and mitigates against them",
+		"examples": [
+			"Uses Snyk.io on projects",
+			"Sanitises user input to mitigate against XSS attacks",
+			"Applies security patches to an operating system",
+			"Protecting public API endpoints",
+			"Articulates security risks/benefits when evaluating third party software",
+			"Uses Fastly WAF to protect from malicious requests"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "0d01eb2a-eed0-499b-8510-a72fd656ada4",
+		"summary": "Makes pragmatic decisions about technical trade-offs within their project",
+		"examples": [
+			"Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value",
+			"When pressed for time, focuses on ensuring test coverage of the most critical system functionality",
+			"Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly",
+			"Can explain when something is worth refactoring even when it will impact the speed of delivery"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "5e9295a7-753a-4530-9d25-8deac9118cbe",
+		"summary": "Delivers high quality code and solutions",
+		"examples": [
+			"Refactors solutions to improve clarity and maintainability"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "5e9295a7-753a-4530-9d25-8deac9118cbf",
+		"summary": "Encourages others to deliver high quality code and solutions",
+		"examples": [
+			"Implements tooling to enforce high standards",
+			"Reviews pull requests fairly & critically in such away that team members produce better code"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "a021bb76-9190-4059-b4c5-285f4f240169",
+		"summary": "Regularly and independently debugs and fixes bugs regardless of origin",
+		"examples": [
+			"Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "3a87302b-c85f-49f6-9e7a-a4989e717fba",
+		"summary": "Builds software or services considering resilience, performance and failure modes",
+		"examples": [
+			"Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services",
+			"Adds healthchecks to a system that detect different ways in which it can fail"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "152af675-554a-4d0d-afb1-190fca3867b2",
+		"summary": "Chooses the appropriate tool, technology or software for a task",
+		"examples": [
+			"If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "fd3e5d38-add3-4394-bd53-666482e422f2",
+		"summary": "Builds and works with systems involving multiple, independent technical parts",
+		"examples": [
+			"Adds data sources to or optimises performance of a data pipeline",
+			"Publishes a new origami component that uses other components",
+			"Implements a CDN / gateway that routes to a suite of underlying microservices",
+			"Designs and implements a build pipeline"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "46c795d8-b684-4401-bf1e-45a31dd689cb",
+		"summary": "Considers the technical direction of their group or the wider department when coming up with technical solutions",
+		"examples": [
+			"Understands how their work feeds into their group's tech strategy",
+			"Can articulate and justify the total cost of ownership of their technical solutions",
+			"Follows their group's Engineering Principles when building technical solutions"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "efc4ba84-9188-40cf-97c8-b61da4b163e3",
+		"summary": "Communicates technical concepts clearly and adapts that communication to the audience",
+		"examples": [
+			"Explains their work in standups knowing which technical details to leave out to make the message meaningful to everyone in the room",
+			"Teaches more junior engineers",
+			"Creates diagrams to document how the different parts of systems interact",
+			"Presents their own work clearly to stakeholders"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "ef527eef-b3ed-4e54-9f7c-36b27c81f7f8",
+		"summary": "Facilitates productive discussions with clear outcomes",
+		"examples": [
+			"Runs meetings with clear agendas and outcomes",
+			"Obtains wide feedback on technical proposals and takes ownership of seeing it through"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "7cf4de83-f8e0-4311-ba1b-a9233c659520",
+		"summary": "Contributes to hiring process",
+		"examples": [
+			"Participates in hiring panels or technical interviews",
+			"Attends recruitment events",
+			"Publicly shares links to open roles",
+			"Goes for coffee with potential hires to talk about what working at the Financial Times is like",
+			"Shares our work publicly, (through blogging, speaking, etc) to show the kinds of work we do here",
+			"Reviews CVs",
+			"Reviews tech tests"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "c6bcfbd3-550f-4902-8c9a-bd6e9c77d67b",
+		"summary": "Prioritises technical work for the team (usually with others)",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "0cba7c1c-23c8-4618-b286-d98125cd7f5c",
+		"summary": "Breaks down large complex technical proposals into discrete tasks",
+		"examples": [
+			"Creates the user stories for the ticket with a delivery lead"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "850dda3f-df42-4187-a72b-aed1023b7abd",
+		"summary": "Communicates team/work's status upwards to a Principal or Technical Director",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "9e1a0313-f602-4786-97c6-d4d49506f0bb",
+		"summary": "Where appropriate, builds on other teams' work to solve problems",
+		"examples": [
+			"Uses origami components to style a web page",
+			"Uses Biz Ops as a source of system data rather than creating a new system registry"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "7aeb8fec-9bd0-4929-981d-584654bc954f",
+		"summary": "Moves blockers to enable more junior engineers to work",
+		"examples": [
+			"Reviews pull requests",
+			"Suggests someone to talk to eg “[X] knows the most about [technology Y], you could ask them”"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "c0d81832-8fe9-485c-8847-25763255a1b3",
+		"summary": "Tackles simple cross team technical issues",
+		"examples": [
+			"Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "d8651fc0-059b-4c11-929f-e07803f9f8bf",
+		"summary": "Actively seeks the views of other teams to help guide work",
+		"examples": [
+			"Attends cross team meetings",
+			"Asks other teams for input and opinions on decisions that affect them"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "787be828-9a7f-4998-9bc6-a8b06f2d77de",
+		"summary": "Improves delivery process and encourages others to do the same",
+		"examples": [
+			"Updates the scrum process to fit the changing needs of the team",
+			"Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes",
+			"Encourages other engineers to participate in agile team rituals"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "7ccc5fac-5da2-451e-8043-af2fd880fcf9",
+		"summary": "Manages, prioritises and communicates own workload",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "f34273e2-3d81-4bde-8c23-0217e71b3536",
+		"summary": "Influences a community of practice",
+		"examples": [
+			"Is an active member of a Guild",
+			"Answers questions in the #engineering Slack channel",
+			"Gives a tech talk (internally or externally)",
+			"Writes a blog post",
+			"Shares industry relevant content/links with team members that may be interested"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "0777c050-8008-4e17-a437-f8de0be3bd55",
+		"summary": "Is an ambassador for their team across FT technology",
+		"examples": [
+			"Positively represents their team in interactions with other people by seeking to understand their perspectives, values and needs",
+			"Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "5e7b6a79-c553-4852-a5eb-97a6550f59da",
+		"summary": "Contributes to the personal development of more junior people",
+		"examples": [
+			"Is a line manager or mentor",
+			"Is a designated buddy to a new starter",
+			"Regularly meets up with more junior peers to provide guidance",
+			"Pairs with more junior team members",
+			"Writes blog posts to share knowledge",
+			"Gives talks at meet-ups or conferences to share knowledge"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "2c9171a0-8935-41fa-809e-08c311538eac",
+		"summary": "Shows technical leadership",
+		"examples": [
+			"Is a tech lead",
+			"Runs, or is on the organising team for a Guild",
+			"Leads on large features, stories or projects"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "37fa54f8-b81e-40d9-b35e-a3e139b872a3",
+		"summary": "Shares knowledge with others internally",
+		"examples": [
+			"Gives a workshop on Git",
+			"Runs a regular 101 session for the rest of the business",
+			"More informal knowledge sharing through mentorship"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "de580f8a-633d-43bb-b970-9b2987e07b86",
+		"summary": "Actively fosters an inclusive team culture",
+		"examples": [
+			"Celebrates good work publicly and encourages the team to do the same",
+			"Spots problems between team members and helps to resolve them or escalate them as appropriate",
+			"Models inclusive behaviour to the rest of the team"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior1",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "97ac147f-1b61-43c4-b677-dbb837ba092b",
+		"summary": "Makes pragmatic decisions about technical trade-offs beyond their project",
+		"examples": [
+			"Can articulate why the overhead of using a third party system is worth it for their project",
+			"Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team",
+			"Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "d6e3e7d1-1a53-444d-80ad-0240775a028d",
+		"summary": "Debugs and fixes complex bugs efficiently",
+		"examples": [
+			"Investigates a drop in organic traffic from google, makes educated investigations into various aspects of the end to end system, consulting other domain experts along the way and keeping stakeholders aware of progress.",
+			"Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements."
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "a8571c7f-296d-47ab-acad-d1b90b5a9391",
+		"summary": "Finds technical problems outside of immediate team and identifies ways to improve them",
+		"examples": [
+			"Notices a lot of requests coming in to Ops Cops from Customer Support for an admin task that could be automated. Automates the task and works with the Customer Support team on how to use the new tool",
+			"While debugging an issue, traces the bug back to a shared library. Creates a patch for the bug and makes sure it is released.",
+			"Spots another team could benefit from using a security feature and helps them implement it"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "7b2bacf1-ba46-464d-94e3-dc6f7c5edeb0",
+		"summary": "Translates difficult business requirements into technical designs",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0",
+		"summary": "Has a deep understanding of, and helps others understand, a particular technology or product",
+		"examples": [
+			"Responds to questions on Slack about a particular technology or product",
+			"Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "73ac4fe5-059b-4fd2-b2d6-52d6a79e11d9",
+		"summary": "Shapes the technical direction for the wider group or tech department.",
+		"examples": [
+			"Takes a proposal to the Technical Governance Group",
+			"Contributes to technical strategy work",
+			"Successfully leads the group-wide adoption of a particular technology"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "technical",
+		"domain": null
+	},
+	{
+		"id": "f7045590-960d-4a08-b2d6-db6dcff463d6",
+		"summary": "Communicates complex technical concepts clearly and adapts that communication to the audience",
+		"examples": [
+			"Articulates to a product owner how one third-party technical solution is better than another",
+			"Explains to a stakeholder how a technical incident in a system impacted the business"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "6942e402-72ff-43ee-ae16-b4c1b17ff92f",
+		"summary": "Leads hiring process for new Engineers. This could be all aspects or only part of the process.",
+		"examples": [
+			"Is the lead interviewer on an interview panel",
+			"Gathers feedback from the hiring panels and leads wash-up discussion on the candidate",
+			"Is accountable for making sure engineers review CV's and tech tests in a timely manner",
+			"Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9",
+		"summary": "Presents their team's work to others in the business",
+		"examples": [
+			"Speaks at the Technology All Hands",
+			"Writes one-pagers to explain technical decisions",
+			"Writes a blog post about an aspect of the team's work",
+			"Writes a monthly update newsletter for stakeholders about recent releases",
+			"Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "communication",
+		"domain": null
+	},
+	{
+		"id": "877d7313-d6de-44ae-80b4-5ed094ddf39a",
+		"summary": "Takes a stakeholder problem, investigates to understand it and proposes a solution",
+		"examples": [],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "83b06961-6462-4500-8ff5-9381f7de8dc5",
+		"summary": "Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them",
+		"examples": [
+			"Manages the roll out of a new shared tool to multiple code repositories, identifying what work needs to be done, and finding teams to do the work",
+			"Finds a bug in a library that affects multiple teams, fixes the bug and works with teams to make sure everybody is able to upgrade",
+			"Finds a manual process slowing down multiple teams and automates it"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "983dd8411-940d-4aa8-9ba6-add04510a7da",
+		"summary": "Is accountable for the delivery of the team (individually or jointly with other people)",
+		"examples": [
+			"Works with their delivery lead to plan upcoming work",
+			"Grooms backlog to make sure issues are ready to be picked up",
+			"Writes measurable team OKRs, aligned with the goals of their Group",
+			"Proactively unblocks others in their team"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "delivery",
+		"domain": null
+	},
+	{
+		"id": "3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab",
+		"summary": "Identifies knowledge gaps within the team and gives training to address gaps",
+		"examples": [
+			"Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.",
+			"Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area."
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "1ee4d2b9-8160-42e0-a763-f45703abc6d5",
+		"summary": "Helps resolve disagreements healthily",
+		"examples": [
+			"Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from engineers on a solution to a problem",
+			"Encourages team members to speak freely in retrospectives",
+			"Encourages team members to treat each other empathetically"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "45780158-375a-421b-a89a-97d32e61cdba",
+		"summary": "Shapes the medium to long term priorities of their team",
+		"examples": [
+			"Finds commonalities between small feature ideas in order to form them into larger, coherent technical challenges for the team",
+			"Champions turning things off into order to have capacity to work on new things",
+			"Argues for and forms a feature team to tackle a shared problem with other areas of the business",
+			"Writes a realistic roadmap in collaboration with a product owner and delivery lead"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "leadership",
+		"domain": null
+	},
+	{
+		"id": "f173b7e9-1c46-4afd-a659-d264aa173759",
+		"summary": "Contributes to inclusive organisational culture",
+		"examples": [
+			"Participates in internal groups that promote diversity and inclusion (such as FT Access, FT Embrace, FT Proud, Mental health first aiders)",
+			"Organises inclusive social events for groups of teams"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "leadership",
+		"domain": null
+	}
+]

@@ -1,0 +1,223 @@
+{
+	"id": "senior2",
+	"name": "Senior Engineer 2",
+	"summary": "The Senior 2 (S2) engineer exhibits leadership and influence well beyond themselves. This influence could be through tech leading, line managing, mentoring, or leading projects outside of their day-to-day work. Senior 2 engineers are good at seeing ill-defined or difficult projects through to completion. They are great at spotting issues and helping their team navigate them. Senior 2 engineers have a deep understanding and willingness to help others for a particular technology or product.\n",
+	"competencies": [
+		{
+			"id": "97ac147f-1b61-43c4-b677-dbb837ba092b",
+			"summary": "Makes pragmatic decisions about technical trade-offs beyond their project",
+			"examples": [
+				"Can articulate why the overhead of using a third party system is worth it for their project",
+				"Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team",
+				"Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "d6e3e7d1-1a53-444d-80ad-0240775a028d",
+			"summary": "Debugs and fixes complex bugs efficiently",
+			"examples": [
+				"Investigates a drop in organic traffic from google, makes educated investigations into various aspects of the end to end system, consulting other domain experts along the way and keeping stakeholders aware of progress.",
+				"Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements."
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "a8571c7f-296d-47ab-acad-d1b90b5a9391",
+			"summary": "Finds technical problems outside of immediate team and identifies ways to improve them",
+			"examples": [
+				"Notices a lot of requests coming in to Ops Cops from Customer Support for an admin task that could be automated. Automates the task and works with the Customer Support team on how to use the new tool",
+				"While debugging an issue, traces the bug back to a shared library. Creates a patch for the bug and makes sure it is released.",
+				"Spots another team could benefit from using a security feature and helps them implement it"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "7b2bacf1-ba46-464d-94e3-dc6f7c5edeb0",
+			"summary": "Translates difficult business requirements into technical designs",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0",
+			"summary": "Has a deep understanding of, and helps others understand, a particular technology or product",
+			"examples": [
+				"Responds to questions on Slack about a particular technology or product",
+				"Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "73ac4fe5-059b-4fd2-b2d6-52d6a79e11d9",
+			"summary": "Shapes the technical direction for the wider group or tech department.",
+			"examples": [
+				"Takes a proposal to the Technical Governance Group",
+				"Contributes to technical strategy work",
+				"Successfully leads the group-wide adoption of a particular technology"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "f7045590-960d-4a08-b2d6-db6dcff463d6",
+			"summary": "Communicates complex technical concepts clearly and adapts that communication to the audience",
+			"examples": [
+				"Articulates to a product owner how one third-party technical solution is better than another",
+				"Explains to a stakeholder how a technical incident in a system impacted the business"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "6942e402-72ff-43ee-ae16-b4c1b17ff92f",
+			"summary": "Leads hiring process for new Engineers. This could be all aspects or only part of the process.",
+			"examples": [
+				"Is the lead interviewer on an interview panel",
+				"Gathers feedback from the hiring panels and leads wash-up discussion on the candidate",
+				"Is accountable for making sure engineers review CV's and tech tests in a timely manner",
+				"Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9",
+			"summary": "Presents their team's work to others in the business",
+			"examples": [
+				"Speaks at the Technology All Hands",
+				"Writes one-pagers to explain technical decisions",
+				"Writes a blog post about an aspect of the team's work",
+				"Writes a monthly update newsletter for stakeholders about recent releases",
+				"Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "877d7313-d6de-44ae-80b4-5ed094ddf39a",
+			"summary": "Takes a stakeholder problem, investigates to understand it and proposes a solution",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "83b06961-6462-4500-8ff5-9381f7de8dc5",
+			"summary": "Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them",
+			"examples": [
+				"Manages the roll out of a new shared tool to multiple code repositories, identifying what work needs to be done, and finding teams to do the work",
+				"Finds a bug in a library that affects multiple teams, fixes the bug and works with teams to make sure everybody is able to upgrade",
+				"Finds a manual process slowing down multiple teams and automates it"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "983dd8411-940d-4aa8-9ba6-add04510a7da",
+			"summary": "Is accountable for the delivery of the team (individually or jointly with other people)",
+			"examples": [
+				"Works with their delivery lead to plan upcoming work",
+				"Grooms backlog to make sure issues are ready to be picked up",
+				"Writes measurable team OKRs, aligned with the goals of their Group",
+				"Proactively unblocks others in their team"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab",
+			"summary": "Identifies knowledge gaps within the team and gives training to address gaps",
+			"examples": [
+				"Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.",
+				"Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area."
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "1ee4d2b9-8160-42e0-a763-f45703abc6d5",
+			"summary": "Helps resolve disagreements healthily",
+			"examples": [
+				"Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from engineers on a solution to a problem",
+				"Encourages team members to speak freely in retrospectives",
+				"Encourages team members to treat each other empathetically"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "45780158-375a-421b-a89a-97d32e61cdba",
+			"summary": "Shapes the medium to long term priorities of their team",
+			"examples": [
+				"Finds commonalities between small feature ideas in order to form them into larger, coherent technical challenges for the team",
+				"Champions turning things off into order to have capacity to work on new things",
+				"Argues for and forms a feature team to tackle a shared problem with other areas of the business",
+				"Writes a realistic roadmap in collaboration with a product owner and delivery lead"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "f173b7e9-1c46-4afd-a659-d264aa173759",
+			"summary": "Contributes to inclusive organisational culture",
+			"examples": [
+				"Participates in internal groups that promote diversity and inclusion (such as FT Access, FT Embrace, FT Proud, Mental health first aiders)",
+				"Organises inclusive social events for groups of teams"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "senior2",
+			"area": "leadership",
+			"domain": null
+		}
+	]
+}
