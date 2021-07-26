@@ -1,6 +1,7 @@
 .bundle
 .env*
 dist
+Gemfile.lock
 node_modules
 vendor
 
