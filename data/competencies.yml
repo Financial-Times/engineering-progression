@@ -753,7 +753,7 @@
     - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -764,7 +764,7 @@
     - Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements.
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -776,7 +776,7 @@
     - Spots another team could benefit from using a security feature and helps them implement it
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -785,7 +785,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -796,7 +796,7 @@
     - Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -808,7 +808,7 @@
     - Successfully leads the group-wide adoption of a particular technology
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -821,7 +821,7 @@
     - Explains to a stakeholder how a technical incident in a system impacted the business
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: communication
   domain: null
 
@@ -834,7 +834,7 @@
     - Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: communication
   domain: null
 
@@ -848,7 +848,7 @@
     - Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: communication
   domain: null
 
@@ -859,7 +859,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: delivery
   domain: null
 
@@ -871,7 +871,7 @@
     - Finds a manual process slowing down multiple teams and automates it
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: delivery
   domain: null
 
@@ -884,7 +884,7 @@
     - Proactively unblocks others in their team
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: delivery
   domain: null
 
@@ -897,7 +897,7 @@
     - Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area.
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
 
@@ -909,7 +909,7 @@
     - Encourages team members to treat each other empathetically
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
 
@@ -922,7 +922,7 @@
     - Writes a realistic roadmap in collaboration with a product owner and delivery lead
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
 
@@ -934,6 +934,6 @@
     - Organises inclusive social events for groups of teams
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null

@@ -45,7 +45,7 @@ A Competency entity represents a single engineering competency, they look like t
 	"description": String,
 
 	// The level that the competency applies to. This will be one
-	// of "engineer", "senior1", "senior1-to-senior2",
+	// of "engineer", "senior1", "senior2",
 	// "senior2-to-principal"
 	"level": String,
 
@@ -67,7 +67,7 @@ A Level entity represents one of the engineering level boundaries at the FT, e.g
 <pre><code class="o-syntax-highlight--js">{
 
 	// The indenfier for the level. This will be one of "engineer",
-	// "senior1", "senior1-to-senior2", "senior2-to-principal"
+	// "senior1", "senior2", "senior2-to-principal"
 	"id": String,
 
 	// The human-readable name of the level
