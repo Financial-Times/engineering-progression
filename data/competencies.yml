@@ -7,7 +7,7 @@
     - Follows instructions to get software projects running locally
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -17,7 +17,7 @@
     - "Git specific example: clone, branch, add, commit, push, rebase"
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -29,7 +29,7 @@
     - Writes a CloudFormation template
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -38,7 +38,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -47,7 +47,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -60,7 +60,7 @@
     - Uses Origami
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -74,7 +74,7 @@
     - label: Open Web Application Security Project
       url: https://www.owasp.org/
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -85,7 +85,7 @@
     - Uses logging or a debugger to find the root cause when a new feature is not working as expected
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -97,7 +97,7 @@
     - Works as home teams' "ops cop", liaising with Operations and Reliability to restore a service
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -111,7 +111,7 @@
     - Promotes an app from staging to production in Heroku
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -121,7 +121,7 @@
     - Pingdom, grafana
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -132,7 +132,7 @@
     - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -149,7 +149,7 @@
     - Writes and updates runbooks for services they work on
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -161,7 +161,7 @@
     - Gives realtime feedback in mob programming sessions
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -173,7 +173,7 @@
     - Adds screenshots to a ticket to help explain a display bug
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -185,7 +185,7 @@
     - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -196,7 +196,7 @@
     - Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly.
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -208,7 +208,7 @@
     - Gives a live demo of a feature that they worked on to their team
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -221,7 +221,7 @@
     - Creates tickets to capture non-trivial tech debt, rather than getting side-tracked by things not needed to complete the current task
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -233,7 +233,7 @@
     - Finds a common pain point among teammates and proposes/builds a solution for it
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -244,7 +244,7 @@
     - Raises blockers in timely way
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -256,7 +256,7 @@
     - Helps to debug a cross-browser issue with a tester
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -265,7 +265,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -274,7 +274,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -283,7 +283,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -294,7 +294,7 @@
     - Goes to stand-ups and communicates progress
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -305,7 +305,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -314,7 +314,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -329,7 +329,7 @@
     - Checks in with team members who appear stressed
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -341,7 +341,7 @@
     - Comes back from a conference and shares their learnings with others
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -355,7 +355,7 @@
     - Works in Internal Products and collaborates with the Origami team on a new feature in a component
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -370,7 +370,7 @@
     - Attends meet-ups or conferences
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 

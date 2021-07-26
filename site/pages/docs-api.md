@@ -45,7 +45,7 @@ A Competency entity represents a single engineering competency, they look like t
 	"description": String,
 
 	// The level that the competency applies to. This will be one
-	// of "junior-to-mid", "mid-to-senior1", "senior1-to-senior2",
+	// of "engineer", "mid-to-senior1", "senior1-to-senior2",
 	// "senior2-to-principal"
 	"level": String,
 
@@ -66,7 +66,7 @@ A Level entity represents one of the engineering level boundaries at the FT, e.g
 
 <pre><code class="o-syntax-highlight--js">{
 
-	// The indenfier for the level. This will be one of "junior-to-mid",
+	// The indenfier for the level. This will be one of "engineer",
 	// "mid-to-senior1", "senior1-to-senior2", "senior2-to-principal"
 	"id": String,
 
@@ -301,4 +301,4 @@ Get all of the competencies for a single level, as well as the level information
 
 #### Example `curl` command
 
-<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/junior-to-mid.json</code></pre>
+<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/engineer.json</code></pre>
