@@ -13,7 +13,7 @@ We divide competencies into levels for different seniorities.
 
 ## Levels
 
-Each level represents the expectations and responsibilities that change from one level into another, so the name of each level contains two different job titles:
+Each level represents the expectations and responsibilities of an engineer at a particular stage of their career at the FT:
 
 <ul>
 {% for level in site.data.levels %}
@@ -21,7 +21,7 @@ Each level represents the expectations and responsibilities that change from one
 {% endfor %}
 </ul>
 
-So, for example, a Junior Engineer should be considering the competencies at the "Junior to Mid" level. We also expect engineers to be considering whether they're meeting competencies from the levels _before_ their current one, though we don't ask for evidence of this.
+At this time, we don't define competencies for Junior Engineers.
 
 ## Competencies
 
