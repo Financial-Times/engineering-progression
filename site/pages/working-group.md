@@ -17,7 +17,7 @@ You can check the [current Working Group members on GitHub](https://github.com/o
 Members of the working group are responsible for:
 
   * Answering questions about the competency framework
-  * Coordinating changes to the competencies, and making sure they meet the [language guidelines](https://github.com/Financial-Times/engineering-progression/blob/master/docs/language.md)
+  * Coordinating changes to the competencies, and making sure they meet the [language guidelines](https://github.com/Financial-Times/engineering-progression/blob/main/docs/language.md)
   * Communicating competency changes to all engineers who use the framework
   * Working with PTE and TLG if their input is needed on a task
   * Maintaining the competency framework [repo](https://github.com/orgs/Financial-Times/engineering-progression) and [website](https://engineering-progression.ft.com/), including reviewing pull requests and responding to issues
