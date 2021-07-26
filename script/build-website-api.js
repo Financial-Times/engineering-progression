@@ -7,6 +7,8 @@ const levels = require('../dist/levels.json');
 const path = require('path');
 const semver = require('semver');
 
+const circleTag = process.env.CIRCLE_TAG;
+
 process.on('unhandledRejection', error => {
 	console.error(error.stack);
 	process.exitCode = 1;
@@ -24,7 +26,8 @@ async function buildWebsiteApi({tag, apiPath, competencies}) {
 		return console.error('Error: the version key in data/api_version.yml must be a valid semver version');
 	} else {
 		const versionedApiPath = path.join(apiPath, `v${semver.major(tag)}`);
-		await createVersionEndpoint(semver.clean(tag), versionedApiPath);
+		await createVersionEndpoint(semver.clean(circleTag), versionedApiPath);
+		await createApiVersionEndpoint(semver.clean(tag), versionedApiPath);
 		await createCompetenciesEndpoint(competencies, versionedApiPath);
 		await createLevelsEndpoint(levels, versionedApiPath);
 		await createCompetenciesByLevelEndpoints(competencies, levels, versionedApiPath);
@@ -33,6 +36,11 @@ async function buildWebsiteApi({tag, apiPath, competencies}) {
 
 function createVersionEndpoint(version, versionedApiPath) {
 	const versionedEndpointPath = path.join(versionedApiPath, 'version.json');
+	return outputJSON(versionedEndpointPath, version);
+}
+
+function createApiVersionEndpoint(version, versionedApiPath) {
+	const versionedEndpointPath = path.join(versionedApiPath, 'api_version.json');
 	return outputJSON(versionedEndpointPath, version);
 }
 
