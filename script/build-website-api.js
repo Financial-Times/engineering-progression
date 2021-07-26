@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const competencies = require('../dist/competencies.json');
+const apiVersion = require('../dist/api_version.json');
 const {outputJSON} = require('fs-extra');
 const levels = require('../dist/levels.json');
 const path = require('path');
@@ -12,7 +13,7 @@ process.on('unhandledRejection', error => {
 });
 
 buildWebsiteApi({
-	tag: process.env.CIRCLE_TAG,
+	tag: apiVersion.version,
 	apiPath: path.resolve(__dirname, '..', 'site', 'api'),
 	competencies
 });
@@ -20,7 +21,7 @@ buildWebsiteApi({
 async function buildWebsiteApi({tag, apiPath, competencies}) {
 	if (!tag || !semver.valid(tag)) {
 		process.exitCode = 1;
-		return console.error('Error: CIRCLE_TAG environment variable must be set to a valid semver version');
+		return console.error('Error: the version key in data/api_version.yml must be a valid semver version');
 	} else {
 		const versionedApiPath = path.join(apiPath, `v${semver.major(tag)}`);
 		await createVersionEndpoint(semver.clean(tag), versionedApiPath);
