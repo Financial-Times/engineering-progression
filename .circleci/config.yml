@@ -119,7 +119,7 @@ workflows:
               only: /^v[0-9]+\.[0-9]+\.[0-9]+([-+].+)?/
 
       # Publish the Jekyll website only on commits to
-      # the master branch, or a tag which is a valid
+      # the main branch, or a tag which is a valid
       # semantic version
       - publish-website:
           requires:
@@ -127,7 +127,7 @@ workflows:
             - test-website
           filters:
             branches:
-              only: master
+              only: main
             tags:
               only: /^v[0-9]+\.[0-9]+\.[0-9]+([-+].+)?/
 

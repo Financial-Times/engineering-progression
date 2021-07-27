@@ -32,7 +32,7 @@ We create releases through the GitHub interface, they follow these rules:
 
   - The tagname must be a valid Semantic Version
   - The title must be the same Semantic Version repeated
-  - The description must contain a list of all the commits that have made it onto the `master` branch since the last release
+  - The description must contain a list of all the commits that have made it onto the `main` branch since the last release
   - If the tagname includes a prerelease, then the release must have the prerelease checkbox checked
 
 There are some things that need to happen immediately after a release, which unfortunately cannot be automated. The release process is as follows:
