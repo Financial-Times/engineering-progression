@@ -1,4 +1,4 @@
-# Junior to Mid, Technical
+# Engineer, Technical
 
 - id: 4029f7b4-0c42-4867-818b-c03049a07de1
   summary: Is responsible for and maintains their computer and local development environment
@@ -7,7 +7,7 @@
     - Follows instructions to get software projects running locally
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -17,7 +17,7 @@
     - "Git specific example: clone, branch, add, commit, push, rebase"
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -29,7 +29,7 @@
     - Writes a CloudFormation template
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -38,7 +38,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -47,7 +47,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -60,7 +60,7 @@
     - Uses Origami
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -74,7 +74,7 @@
     - label: Open Web Application Security Project
       url: https://www.owasp.org/
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -85,7 +85,7 @@
     - Uses logging or a debugger to find the root cause when a new feature is not working as expected
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -97,7 +97,7 @@
     - Works as home teams' "ops cop", liaising with Operations and Reliability to restore a service
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -111,7 +111,7 @@
     - Promotes an app from staging to production in Heroku
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -121,7 +121,7 @@
     - Pingdom, grafana
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
@@ -132,11 +132,11 @@
     - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: technical
   domain: null
 
-# Junior to Mid, Communication
+# Engineer, Communication
 
 - id: 6a019e95-20ab-4af5-a42a-727274eec0d8
   summary: Maintains documentation on the systems they work on, making it easy for future engineers to interact with systems and code
@@ -149,7 +149,7 @@
     - Writes and updates runbooks for services they work on
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -161,7 +161,7 @@
     - Gives realtime feedback in mob programming sessions
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -173,7 +173,7 @@
     - Adds screenshots to a ticket to help explain a display bug
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -185,7 +185,7 @@
     - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -196,7 +196,7 @@
     - Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly.
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
@@ -208,11 +208,11 @@
     - Gives a live demo of a feature that they worked on to their team
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: communication
   domain: null
 
-# Junior to Mid, Delivery
+# Engineer, Delivery
 
 - id: 6dd9f702-6ee8-46d1-9c4c-9c370d971cb1
   summary: Works on the most important task
@@ -221,7 +221,7 @@
     - Creates tickets to capture non-trivial tech debt, rather than getting side-tracked by things not needed to complete the current task
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -233,7 +233,7 @@
     - Finds a common pain point among teammates and proposes/builds a solution for it
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -244,7 +244,7 @@
     - Raises blockers in timely way
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -256,7 +256,7 @@
     - Helps to debug a cross-browser issue with a tester
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -265,7 +265,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -274,7 +274,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -283,7 +283,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
@@ -294,18 +294,18 @@
     - Goes to stand-ups and communicates progress
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: delivery
   domain: null
 
-# Junior to Mid, Leadership
+# Engineer, Leadership
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
   summary: Knows who their project's stakeholders are
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -314,7 +314,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -329,7 +329,7 @@
     - Checks in with team members who appear stressed
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -341,7 +341,7 @@
     - Comes back from a conference and shares their learnings with others
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -355,7 +355,7 @@
     - Works in Internal Products and collaborates with the Origami team on a new feature in a component
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
@@ -370,11 +370,11 @@
     - Attends meet-ups or conferences
   supportingUrls: []
   description: null
-  level: junior-to-mid
+  level: engineer
   area: leadership
   domain: null
 
-# Mid to Senior 1, Technical
+# Senior Engineer 1, Technical
 
 - id: 272be0d0-6b55-11e9-ae4e-0583f673f115
   summary: Builds products ensuring they take adequate steps to protect sensitive data
@@ -386,7 +386,7 @@
     - Suppliers don't get access to data unless they have gone through the Procurement Management Application process
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -398,7 +398,7 @@
     - Builds a Grafana dashboard that visualises normal and abnormal operation of a system
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -409,7 +409,7 @@
     - May be involved in evaluating paid-for third party supplier code
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -420,7 +420,7 @@
     - "Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -435,7 +435,7 @@
     - Uses Fastly WAF to protect from malicious requests
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -448,7 +448,7 @@
     - Can explain when something is worth refactoring even when it will impact the speed of delivery
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -458,7 +458,7 @@
     - Refactors solutions to improve clarity and maintainability
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -469,7 +469,7 @@
     - Reviews pull requests fairly & critically in such away that team members produce better code
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -479,7 +479,7 @@
     - Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -490,7 +490,7 @@
     - Adds healthchecks to a system that detect different ways in which it can fail
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -500,7 +500,7 @@
     - If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -513,7 +513,7 @@
     - Designs and implements a build pipeline
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
@@ -525,11 +525,11 @@
     - Follows their group's Engineering Principles when building technical solutions
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: technical
   domain: null
 
-# Mid to Senior 1, Communication
+# Senior Engineer 1, Communication
 
 - id: efc4ba84-9188-40cf-97c8-b61da4b163e3
   summary: Communicates technical concepts clearly and adapts that communication to the audience
@@ -540,7 +540,7 @@
     - Presents their own work clearly to stakeholders
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: communication
   domain: null
 
@@ -551,7 +551,7 @@
     - Obtains wide feedback on technical proposals and takes ownership of seeing it through
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: communication
   domain: null
 
@@ -567,18 +567,18 @@
     - Reviews tech tests
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: communication
   domain: null
 
-# Mid to Senior 1, Delivery
+# Senior Engineer 1, Delivery
 
 - id: c6bcfbd3-550f-4902-8c9a-bd6e9c77d67b
   summary: Prioritises technical work for the team (usually with others)
   examples: []
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -588,7 +588,7 @@
     - Creates the user stories for the ticket with a delivery lead
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -597,7 +597,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -608,7 +608,7 @@
     - Uses Biz Ops as a source of system data rather than creating a new system registry
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -619,7 +619,7 @@
     - Suggests someone to talk to eg “[X] knows the most about [technology Y], you could ask them”
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -629,7 +629,7 @@
     - Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -640,7 +640,7 @@
     - Asks other teams for input and opinions on decisions that affect them
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -652,7 +652,7 @@
     - Encourages other engineers to participate in agile team rituals
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
@@ -661,11 +661,11 @@
   examples: []
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: delivery
   domain: null
 
-# Mid to Senior 1, Leadership
+# Senior Engineer 1, Leadership
 
 - id: f34273e2-3d81-4bde-8c23-0217e71b3536
   summary: Influences a community of practice
@@ -677,7 +677,7 @@
     - Shares industry relevant content/links with team members that may be interested
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: leadership
   domain: null
 
@@ -688,7 +688,7 @@
     - Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: leadership
   domain: null
 
@@ -703,7 +703,7 @@
     - Gives talks at meet-ups or conferences to share knowledge
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: leadership
   domain: null
 
@@ -715,7 +715,7 @@
     - Leads on large features, stories or projects
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: leadership
   domain: null
 
@@ -727,7 +727,7 @@
     - More informal knowledge sharing through mentorship
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: leadership
   domain: null
 
@@ -739,11 +739,11 @@
     - Models inclusive behaviour to the rest of the team
   supportingUrls: []
   description: null
-  level: mid-to-senior1
+  level: senior1
   area: leadership
   domain: null
 
-# Senior 1 to Senior 2, Technical
+# Senior Engineer 2, Technical
 
 - id: 97ac147f-1b61-43c4-b677-dbb837ba092b
   summary: Makes pragmatic decisions about technical trade-offs beyond their project
@@ -753,7 +753,7 @@
     - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -764,7 +764,7 @@
     - Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements.
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -776,7 +776,7 @@
     - Spots another team could benefit from using a security feature and helps them implement it
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -785,7 +785,7 @@
   examples: []
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -796,7 +796,7 @@
     - Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
@@ -808,11 +808,11 @@
     - Successfully leads the group-wide adoption of a particular technology
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: technical
   domain: null
 
-# Senior 1 to Senior 2, Communication
+# Senior Engineer 2, Communication
 
 - id: f7045590-960d-4a08-b2d6-db6dcff463d6
   summary: Communicates complex technical concepts clearly and adapts that communication to the audience
@@ -821,7 +821,7 @@
     - Explains to a stakeholder how a technical incident in a system impacted the business
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: communication
   domain: null
 
@@ -834,7 +834,7 @@
     - Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: communication
   domain: null
 
@@ -848,18 +848,18 @@
     - Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: communication
   domain: null
 
-# Senior 1 to Senior 2, Delivery
+# Senior Engineer 2, Delivery
 
 - id: 877d7313-d6de-44ae-80b4-5ed094ddf39a
   summary: Takes a stakeholder problem, investigates to understand it and proposes a solution
   examples: []
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: delivery
   domain: null
 
@@ -871,7 +871,7 @@
     - Finds a manual process slowing down multiple teams and automates it
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: delivery
   domain: null
 
@@ -884,11 +884,11 @@
     - Proactively unblocks others in their team
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: delivery
   domain: null
 
-# Senior 1 to Senior 2, Leadership
+# Senior Engineer 2, Leadership
 
 - id: 3330bfcd-a2a5-4eb9-9108-14bcb5bf29ab
   summary: Identifies knowledge gaps within the team and gives training to address gaps
@@ -897,7 +897,7 @@
     - Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area.
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
 
@@ -909,7 +909,7 @@
     - Encourages team members to treat each other empathetically
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
 
@@ -922,7 +922,7 @@
     - Writes a realistic roadmap in collaboration with a product owner and delivery lead
   supportingUrls: []
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
 
@@ -938,6 +938,6 @@
     - label: Employee Network Working Hours
       url: https://docs.google.com/document/d/1W9GKyBEkSpj6iKztu2tzKIetbeeo0smZQrBez9SlVqM
   description: null
-  level: senior1-to-senior2
+  level: senior2
   area: leadership
   domain: null
