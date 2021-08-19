@@ -154,7 +154,7 @@
 			"summary": "Is accountable for the delivery of the team (individually or jointly with other people)",
 			"examples": [
 				"Works with their delivery lead to plan upcoming work",
-				"Grooms backlog to make sure issues are ready to be picked up",
+				"Refines backlog to make sure issues are ready to be picked up",
 				"Writes measurable team OKRs, aligned with the goals of their Group",
 				"Proactively unblocks others in their team"
 			],
@@ -213,7 +213,16 @@
 				"Participates in internal groups that promote diversity and inclusion (such as FT Access, FT Embrace, FT Proud, Mental health first aiders)",
 				"Organises inclusive social events for groups of teams"
 			],
-			"supportingUrls": [],
+			"supportingUrls": [
+				{
+					"label": "Inside FT - Employee Networks",
+					"url": "https://sites.google.com/ft.com/inside/hr-talent-learning/diversity-inclusion/employee-networks"
+				},
+				{
+					"label": "Employee Network Working Hours",
+					"url": "https://docs.google.com/document/d/1W9GKyBEkSpj6iKztu2tzKIetbeeo0smZQrBez9SlVqM"
+				}
+			],
 			"description": null,
 			"level": "senior2",
 			"area": "leadership",
