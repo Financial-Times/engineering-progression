@@ -102,3 +102,7 @@ No engineer is expected to work outside of their contracted hours to meet any of
 ## Who is in charge of maintaining the competencies?
 
 A group of engineers from across Product &amp; Technology. See [The Engineering Progression Working Group docs](/docs/working-group/), or check the [GitHub team](https://github.com/orgs/Financial-Times/teams/engineering-progression-working-group/members) for individual members.
+
+## What are the guidelines for writing feedback, or writing about competencies you have achieved?
+
+There is a helpful guide written by HR that contains a framework that you can use when planning and delivering feedback on yourself or a colleague. See [How do I give great feedback?](https://financialtimes.looop.co/#/topic/22629) for details about the AID model. 
