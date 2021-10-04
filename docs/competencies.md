@@ -1,7 +1,7 @@
 
 # Contributing: Engineering Competencies
 
-The Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. Every engineer in the CTO organisation of the Financial Times can help shape these competencies. While they are in alpha and beta we are especially interested in contributions.
+The Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. Every engineer in the CTO organisation of the Financial Times can help shape these competencies.
 
   - [Language Guidelines](#language-guidelines)
   - [Editing on GitHub](#editing-on-github)
@@ -18,11 +18,11 @@ The competencies all follow [tone and language guidelines](language.md), any edi
 
 Using the GitHub interface is the quickest way to get started with making suggestions to the engineering competencies. There are two files in the repository that you'll need to care about:
 
-  - [`data/competencies.yml`](../data/competencies.yml): this is the file which contains all of the competencies data for the different levels. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/master/data/competencies.yml)
+  - [`data/competencies.yml`](../data/competencies.yml): this is the file which contains all of the competencies data for the different levels. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/main/data/competencies.yml)
 
-  - [`data/levels.yml`](../data/levels.yml): this is the file which contains meta information about the competency levels. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/master/data/levels.yml)
+  - [`data/levels.yml`](../data/levels.yml): this is the file which contains meta information about the competency levels. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/main/data/levels.yml)
 
-  - [`data/domains.yml`](../data/domains.yml): this is the file which contains meta information about the competency domains. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/master/data/domains.yml)
+  - [`data/domains.yml`](../data/domains.yml): this is the file which contains meta information about the competency domains. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/main/data/domains.yml)
 
 Once you've committed your changes and opened a pull request, your changes will be automatically tested to make sure that the files are in the correct format. Pay attention to the status of your pull request and use the CircleCI interface to review any errors.
 

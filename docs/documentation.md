@@ -27,7 +27,7 @@ The Markdown documentation across this repo is designed to be viewed through the
 
 The website is built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). Due to the slight complexity of the build pipeline for this project, the structure of the site and the commands used to build it may not be familiar. Here are some differences:
 
-  1. The site source code lives in the `site` directory on the `master` branch, rather than the root of the project or a `gh-pages` branch
+  1. The site source code lives in the `site` directory on the `main` branch, rather than the root of the project or a `gh-pages` branch
   2. We generate some of the site files based on the competencies JSON, and these files are ignored by Git
   3. The generated site is output to the `dist/site` directory rather than `_site`
   4. While there _is_ a `gh-pages` branch on the repository, this should not be edited manually – these files are overwritten by CI

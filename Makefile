@@ -153,7 +153,7 @@ ifdef CIRCLE_TAG
 else
 	@if [ "$$(git status --porcelain)" != "" ]; then \
 		git add .; \
-		git commit -m "Apply updates from master branch"; \
+		git commit -m "Apply updates from main branch"; \
 		git push origin gh-pages; \
 	fi
 endif

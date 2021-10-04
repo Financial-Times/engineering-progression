@@ -15,7 +15,7 @@ Engineering competencies are available through a JSON API. This documentation is
 
 ### Entity: Competency
 
-A Competency entity represents a single engineering competency, they look like this:
+A `Competency` entity represents a single engineering competency, they look like this:
 
 <pre><code class="o-syntax-highlight--js">{
 
@@ -45,8 +45,7 @@ A Competency entity represents a single engineering competency, they look like t
 	"description": String,
 
 	// The level that the competency applies to. This will be one
-	// of "junior-to-mid", "mid-to-senior1", "senior1-to-senior2",
-	// "senior2-to-principal"
+	// of "engineer", "senior1", "senior2", or "principal"
 	"level": String,
 
 	// The area that the competency is in. This will be one of
@@ -62,12 +61,12 @@ A Competency entity represents a single engineering competency, they look like t
 
 ### Entity: Level
 
-A Level entity represents one of the engineering level boundaries at the FT, e.g. the set of competencies that must be met for a Junior Engineer to progress to a Mid Engineer.
+A `Level` entity represents one of the engineering levels at the FT, e.g. the set of competencies that are exhibited by a Mid Engineer.
 
 <pre><code class="o-syntax-highlight--js">{
 
-	// The indenfier for the level. This will be one of "junior-to-mid",
-	// "mid-to-senior1", "senior1-to-senior2", "senior2-to-principal"
+	// The indenfier for the level. This will be one of "engineer",
+	// "senior1", "senior2", or "principal"
 	"id": String,
 
 	// The human-readable name of the level
@@ -301,4 +300,4 @@ Get all of the competencies for a single level, as well as the level information
 
 #### Example `curl` command
 
-<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/junior-to-mid.json</code></pre>
+<pre><code class="o-syntax-highlight--bash">curl https://engineering-progression.ft.com/api/v1/levels/engineer.json</code></pre>

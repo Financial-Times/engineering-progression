@@ -1,7 +1,7 @@
 
-# Junior to Mid
-- id: junior-to-mid
-  name: Junior to Mid
+# Engineer
+- id: engineer
+  name: Engineer
   summary: >
     Mid level engineers should be proficient in the technical systems
     that they are working on. They should be aware and guided by the wider
@@ -9,9 +9,9 @@
     and own their personal development. They should be working as part of
     a team to achieve the shared goals of the team.
 
-# Mid to Senior 1
-- id: mid-to-senior1
-  name: Mid to Senior 1
+# Senior Engineer 1
+- id: senior1
+  name: Senior Engineer 1
   summary: >
     Senior 1 (S1) engineers are expected to improve the performance of those around
     them. This could be through additional official responsibilities such
@@ -23,9 +23,9 @@
     against their delivery team’s priorities. S1 engineers require very little
     oversight beyond high level direction.
 
-# Senior 1 to Senior 2
-- id: senior1-to-senior2
-  name: Senior 1 to Senior 2
+# Senior Engineer 2
+- id: senior2
+  name: Senior Engineer 2
   summary: >
     The Senior 2 (S2) engineer exhibits leadership and influence well beyond themselves.
     This influence could be through tech leading, line managing, mentoring, or leading
@@ -34,8 +34,8 @@
     spotting issues and helping their team navigate them. Senior 2 engineers have a deep
     understanding and willingness to help others for a particular technology or product.
 
-# Senior 2 to Principal
-- id: senior2-to-principal
-  name: Senior 2 to Principal
+# Principal Engineer
+- id: principal
+  name: Principal Engineer
   summary: >
     TODO

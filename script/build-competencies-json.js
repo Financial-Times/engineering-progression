@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const {outputJson, readFile} = require('fs-extra');
+const fs = require('fs')
 const path = require('path');
 const YAML = require('yaml');
 
@@ -9,23 +10,20 @@ process.on('unhandledRejection', error => {
 	process.exitCode = 1;
 });
 
-// Save the competencies JSON
-parseAndSaveYaml(
-	path.resolve(__dirname, '..', 'data', 'competencies.yml'),
-	path.resolve(__dirname, '..', 'dist', 'competencies.json')
-);
+const dataDir = path.resolve(__dirname, '..', 'data');
+const distDir = path.resolve(__dirname, '..', 'dist');
 
-// Save the competency levels JSON
-parseAndSaveYaml(
-	path.resolve(__dirname, '..', 'data', 'levels.yml'),
-	path.resolve(__dirname, '..', 'dist', 'levels.json')
-);
+const files = fs.readdirSync(dataDir);
 
-// Save the competency domains JSON
-parseAndSaveYaml(
-	path.resolve(__dirname, '..', 'data', 'domains.yml'),
-	path.resolve(__dirname, '..', 'dist', 'domains.json')
-);
+for(const file of files) {
+	const basename = path.basename(file, path.extname(file));
+	const jsonFile = basename + '.json'
+
+	parseAndSaveYaml(
+		path.resolve(__dirname, '..', 'data', file),
+		path.resolve(__dirname, '..', 'dist', jsonFile)
+	);
+}
 
 /**
  * Load and parse a YAML file, then save it as JSON.
