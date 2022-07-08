@@ -64,16 +64,16 @@ Build the website once, creating files in `dist/site` (mostly used by CI):
 make build-website
 ```
 
-Build the website when files change and serve on [localhost:4000](http://localhost:4000/):
+Alternatively, build the website when files change and serve on [localhost:4000](http://localhost:4000/):
 
 ```sh
 make website
 ```
 
-The local website will not have any API endpoints or competencies data unless you generate them manually. On CI and in production this is automated, but to build these parts of the site manually, run the following:
+The local website will not have any API endpoints or competencies data unless you generate them manually. On CI and in production this is automated, but to build these parts of the site manually run the following once and then each time you make a data change:
 
 ```sh
-CIRCLE_TAG=v1.0.0 make build-website-api build-competencies-data
+CIRCLE_TAG=v1.0.0 make build-website-api build-website-data
 ```
 
 This will generate all of the API endpoints based on competencies data (e.g. `/api/v1/competencies/all.json`). The `v1` in the URL corresponds to the Circle tag that you specify, so if you wanted to create a `v2` endpoint you should specify `CIRCLE_TAG=v2.0.0`. This will also generate Jekyll data files for the competencies and levels, which are used by pages in the site.
