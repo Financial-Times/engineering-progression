@@ -70,7 +70,7 @@ Alternatively, build the website when files change and serve on [localhost:4000]
 make website
 ```
 
-The local website will not have any API endpoints or competencies data unless you generate them manually. On CI and in production this is automated, but to build these parts of the site manually run the following once and then each time you make a data change:
+The local website will not have any API endpoints or competencies data unless you generate them manually. On CI and in production this is automated, but to build these parts of the site manually run the following once, and then each time you make a data change:
 
 ```sh
 CIRCLE_TAG=v1.0.0 make build-website-api build-website-data
