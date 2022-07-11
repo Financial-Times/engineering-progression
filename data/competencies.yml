@@ -288,17 +288,6 @@
 
 # Engineer, Technical
 
-- id: 4029f7b4-0c42-4867-818b-c03049a07de1
-  summary: Is responsible for and maintains their computer and local development environment
-  examples:
-    - Keeps local tools up to date
-    - Follows instructions to get software projects running locally
-  supportingUrls: []
-  description: null
-  level: engineer
-  area: technical
-  domain: null
-
 - id: 297576d0-c20c-4498-8d53-b00ef9bbe48b
   summary: Uses version control to manage development workflow
   examples:
@@ -465,35 +454,11 @@
   area: communication
   domain: null
 
-- id: d31a91de-ae96-457c-9ac1-3752acf148fa
-  summary: Receives feedback and acts upon it
-  examples:
-    - Implements requested changes on a pull request
-    - Responds to comments on a Google document
-    - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
-  supportingUrls: []
-  description: null
-  level: engineer
-  area: communication
-  domain: null
-
 - id: 79c4ecfd-7085-49c2-8a21-429b4a269c96
   summary: Regularly gives timely actionable feedback to colleagues
   examples:
     - Emails positive feedback to a colleague's line manager, after the colleague was especially helpful.
     - Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly.
-  supportingUrls: []
-  description: null
-  level: engineer
-  area: communication
-  domain: null
-
-- id: 88c876aa-fce5-414b-b0c0-b1b7602beea8
-  summary: Presents their own work clearly to a product owner or tech lead
-  examples:
-    - Talks about their progress in standup without going into deep technical detail
-    - Explains their approach to a technical problem to their tech lead
-    - Gives a live demo of a feature that they worked on to their team
   supportingUrls: []
   description: null
   level: engineer
@@ -575,36 +540,7 @@
   area: delivery
   domain: null
 
-- id: 76ec9be3-e63f-4374-9742-cbbc1728549a
-  summary: Participates in delivery process
-  examples:
-    - Moves tickets to done column when they are complete
-    - Goes to stand-ups and communicates progress
-  supportingUrls: []
-  description: null
-  level: engineer
-  area: delivery
-  domain: null
-
 # Engineer, Leadership
-
-- id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
-  summary: Knows who their project's stakeholders are
-  examples: []
-  supportingUrls: []
-  description: null
-  level: engineer
-  area: leadership
-  domain: null
-
-- id: ac489603-aa6f-48a7-b89b-25b97ffdb541
-  summary: Acts with integrity, honesty and accountability
-  examples: []
-  supportingUrls: []
-  description: null
-  level: engineer
-  area: leadership
-  domain: null
 
 - id: 4dc43122-71f1-4fb1-99c8-73aa3a666332
   summary: Positively contributes to an inclusive team culture
