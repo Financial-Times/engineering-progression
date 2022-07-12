@@ -55,8 +55,7 @@
 - id: 43f6e213-b51e-45bd-bb37-a23a3e7d5457
   summary: Checks whether code can be reused before writing new code, and generally identifies reuse when there is the opportunity
   examples:
-    - Checks to use a python package in project.
-    - Checks to use a node package in project.
+    - Checks to use a Python/Node/etc package in project.
     - Checks for the chance to integrate with proprietary software packages.
     - Checks Origami capabilities.
   supportingUrls: []
