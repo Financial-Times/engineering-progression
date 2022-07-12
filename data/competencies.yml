@@ -133,10 +133,10 @@
   domain: null
 
 - id: 5d637365-7e38-432d-bcec-8652f06d8109
-  summary: Remembers to write tickets and bug reports to track the work expected of them, and can do so with guidance
+  summary: Remembers to write more straightforward tickets and bug reports to track the work expected of them, perhaps with prompting and guidance
   examples:
     - Checks there is a corresponding ticket or bug report before starting any work, and flags it if not.
-    - Writes reasonable ""steps to reproduce"" in a bug report when prompted.
+    - Writes reasonable "steps to reproduce" in a reasonably straightforward bug report when prompted.
     - Adds relevant links and screenshots to pages affected by a bug when prompted.
   supportingUrls: []
   description: null
@@ -150,7 +150,7 @@
     - Implements requested changes on a pull request.
     - Responds to comments on a Google document.
     - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
-  supportingUrls: [].
+  supportingUrls: []
   description: null
   level: junior
   area: communication
