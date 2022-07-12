@@ -180,7 +180,7 @@
   domain: null
 
 - id: b8bd799d-6712-4882-b1a7-4f66166c3315
-  summary: Effectively communicates when they are unable to attended expected events
+  summary: Effectively communicates when they are unable to attend expected events
   examples:
     - Informs meeting organisers of meetings they cannot attend.
     - Puts out-of-office messages on emails when going on holiday.
