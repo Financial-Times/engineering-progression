@@ -3,7 +3,7 @@
 - id: 7ed8deae-2dbb-4830-bca0-9e6cee038bff
   summary: Is responsible for and maintains their computer and local development environment
   examples:
-    - Keeps local tools up to date
+    - Keeps their local tools up to date
     - Follows instructions to get software projects running locally
   supportingUrls: []
   description: null
@@ -69,8 +69,8 @@
   examples:
     - Ensures they have a timebox when debugging
     - Communicates their progress through a timebox
-    - Seeks help from other engineers before time runs
-    - Does not overshoot timebox without flagging it
+    - Seeks help from other engineers before time runs out
+    - Does not overshoot a timebox without flagging it
   supportingUrls: []
   description: null
   level: junior
@@ -89,7 +89,7 @@
 - id: 9098cc7f-a50a-48df-b84f-c4ee9fa47dbe
   summary: Is able to explain why using CI/CD pipelines for automation is beneficial, and uses them for basic functions
   examples:
-    - Restarts broken build
+    - Restarts a broken build
     - Is able to interpret CI output and articulate what is failing
     - Can fix simple problems or asks for help
   supportingUrls: []
@@ -112,10 +112,10 @@
 - id: 70ae7051-3aed-42a0-be39-6c8a381eeaaf
   summary: Writes pull requests that are helpful both to the reviewer and those debugging the the code later
   examples:
-    - PR descriptions that explain why the PR is needed
-    - Links relevant Jira ticket
+    - Writes PR descriptions that explain why the PR is needed
+    - Links to relevant Jira tickets in PRs
     - Adds screenshots to show changes if applicable
-    - Provides context that they learned when researching this PR
+    - Provides context that they learned when researching a PR
   supportingUrls: []
   description: null
   level: junior
@@ -148,7 +148,7 @@
   examples:
     - Implements requested changes on a pull request
     - Responds to comments on a Google document
-    - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
+    - If they receive feedback from the team that sometimes they don't seem well-prepared for morning stand-ups, takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
   supportingUrls: []
   description: null
   level: junior
@@ -185,7 +185,7 @@
     - Puts out-of-office messages on emails when going on holiday
     - Puts appropriate emoji on Slack when sick or on holiday
     - If they notice a meeting they've been invited to clashes with another meeting, they inform the organiser of the meeting they have to miss
-    - If a meeting is likely to overrun into another meeting they they communicate both to the first meeting's host that they have other meeting and need to drop off, and explain to the second meeting's organiser they may be late
+    - If a meeting is likely to overrun into another meeting they communicate both to the first meeting's host that they have other meeting and need to drop off, and explain to the second meeting's organiser they may be late
     - If one recurring meeting regularly overruns into another they additionally escalate to their line manager to help resolve the situation
   supportingUrls: []
   description: null
@@ -198,7 +198,7 @@
 - id: 05402e55-07c6-4755-9e93-240dfc656255
   summary: Recognises and communicates conflicting priorities and delivery expectations
   examples:
-    - Recognises when meetings clash with other responsibilities, and communicates to affected parties with the aim of resolving the conflct
+    - Recognises when meetings clash with other responsibilities, and communicates to affected parties with the aim of resolving the conflict
     - Communicates the difficulties they encounter with delivering a ticket rather than struggling on their own
   supportingUrls: []
   description: null
@@ -216,7 +216,7 @@
   domain: null
 
 - id: 1f5273b2-d9e1-459b-b0aa-6e9379b49bbc
-  summary: Regularly communicates the status of work
+  summary: Regularly communicates the status of their work
   examples: []
   supportingUrls: []
   description: null
@@ -225,7 +225,7 @@
   domain: null
 
 - id: 12125116-15de-47c6-81f5-449c3b07a304
-  summary: Participates in delivery process
+  summary: Participates in the delivery process
   examples:
     - Moves tickets to done column when they are complete
     - Goes to stand-ups and communicates progress
