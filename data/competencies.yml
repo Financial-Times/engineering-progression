@@ -44,7 +44,7 @@
   domain: null
 
 - id: cb1a4c9c-28dd-4d1d-938e-1f689fb91393
-  summary: Fixes or updates tests when prompted
+  summary: Fixes or updates tests when implementing changes to a preexisting feature
   examples: []
   supportingUrls: []
   description: null
