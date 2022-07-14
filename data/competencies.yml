@@ -27,7 +27,7 @@
   examples:
     - Works on a feature or improves an existing one
     - Adds a use case to an existing automation script
-    - Writes a CloudFormation template
+    - Adds a CloudFormation template
   supportingUrls: []
   description: null
   level: junior
@@ -35,7 +35,7 @@
   domain: null
 
 - id: 655e2933-b58e-488b-9683-a0b191a37788
-  summary: Writes automated unit or end to end tests with help from a more senior engineer
+  summary: Implements automated unit or end to end tests with help from a more senior engineer
   examples: []
   supportingUrls: []
   description: null
@@ -44,7 +44,7 @@
   domain: null
 
 - id: cb1a4c9c-28dd-4d1d-938e-1f689fb91393
-  summary: Fixes or updates tests when prompted
+  summary: Fixes or updates tests when implementing changes to a preexisting feature
   examples: []
   supportingUrls: []
   description: null
@@ -53,7 +53,7 @@
   domain: null
 
 - id: 43f6e213-b51e-45bd-bb37-a23a3e7d5457
-  summary: Checks whether code can be reused before writing new code, and generally identifies reuse when there is the opportunity
+  summary: Checks whether code from well-known sources can be reused before writing new code, and generally identifies that kind of reuse when there is the opportunity
   examples:
     - Checks to use a Python/Node/etc package in project
     - Checks for the chance to integrate with proprietary software packages
@@ -99,10 +99,10 @@
   domain: null
 
 - id: ae32dc05-3e53-47d2-a027-345eb42dffa3
-  summary: Occasionally uses monitoring tools to identify problems
+  summary: Occasionally uses monitoring tools to explain technical behaviour
   examples:
-    - Occasionally uses Pingdom to identify problems
-    - Occasionally uses Grafana to identify problems
+    - Occasionally uses Pingdom or Grafana to explain unusual behaviour
+    - Occasionally uses Pingdom or Grafana to understand the consequences of a change
   supportingUrls: []
   description: null
   level: junior
@@ -156,10 +156,11 @@
   domain: null
 
 - id: c8d62965-dd71-4a90-83df-a4c924a40fd8
-  summary: Is able to recognise when they are having difficulties, provides information so that other people can help
+  summary: Is able to recognise when they are having difficulties, and provides information so that other people can help
   examples:
-    - Recognises personal work-related problems such as falling behind, not feeling confident, or feeling overwhelmed
-    - Communicates these problems rapidly to their line manager, mentor or tech lead so that help and guidance can be provided
+    - Raises a concern to their line manager if they feel they are falling behind
+    - Asks a mentor for help if they feel overwhelmed or not feeling confident
+    - Asks a tech lead for help if they are struggling with a piece of work
   supportingUrls: []
   description: null
   level: junior
@@ -184,9 +185,9 @@
     - Informs meeting organisers of meetings they cannot attend
     - Puts out-of-office messages on emails when going on holiday
     - Puts appropriate emoji on Slack when sick or on holiday
-    - If they notice a meeting they've been invited to clashes with another meeting, they inform the organiser of the meeting they have to miss
-    - If a meeting is likely to overrun into another meeting they communicate both to the first meeting's host that they have other meeting and need to drop off, and explain to the second meeting's organiser they may be late
-    - If one recurring meeting regularly overruns into another they additionally escalate to their line manager to help resolve the situation
+    - If they've got a meeting clash they explain to the organiser of the meeting they have to miss
+    - When they're in a meeting that's overrunning into another they communicate with both meetings' organisers to set expectations
+    - If they have a meeting that reguarly overruns into another they ask for help from their line manager
   supportingUrls: []
   description: null
   level: junior
@@ -298,7 +299,7 @@
   domain: null
 
 - id: 574c234d-b52e-4765-b160-bac958e2d207
-  summary: Uses code to make something
+  summary: Uses code to make something with some degree of complexity
   examples:
     - Takes a feature from their team backlog and writes the code for that feature
     - Automates a regular task using Python
