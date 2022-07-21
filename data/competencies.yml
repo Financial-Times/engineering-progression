@@ -298,6 +298,18 @@
   area: delivery
   domain: null
 
+- id: 3992123b-ca9b-4d27-a48f-37334567c451
+  summary: Can articulate the business goal of a set of features
+  examples:
+    - In conversation, distinguishes between what a feature does and the benefit it should provide
+    - Proposes priority or feature changes to deliver business benefits sooner
+    - Explains the business benefits of work when demoing it
+  supportingUrls: []
+  description: null
+  level: engineer
+  area: delivery
+  domain: null
+
 # Engineer, Leadership
 
 - id: c9cf0d0e-2695-479c-97ef-4457ae36aeb6
