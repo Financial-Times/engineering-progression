@@ -34,6 +34,18 @@
     spotting issues and helping their team navigate them. Senior 2 engineers have a deep
     understanding and willingness to help others for a particular technology or product.
 
+# Tech Lead
+- id: tech-lead
+  name: Tech Lead
+  summary: >
+    The Tech Lead is a role assumed from time to time by a suitably experienced engineer
+    within a team.  It is not a distinct level of career progression, but the
+    competencies are described here to help anyone in the role or aspiring to it.
+    The Tech Lead guides the technical vision for the team, and provides them with
+    technical coaching and support. To help achieve the technical vision
+    they also need to analyse associated risk and cross-functional requirements,
+    and communicate effectively with stakeholders inside and outside the team.
+
 # Principal Engineer
 - id: principal
   name: Principal Engineer

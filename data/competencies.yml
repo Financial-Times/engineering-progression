@@ -953,3 +953,236 @@
   level: senior2
   area: leadership
   domain: null
+
+# Tech lead, Technical
+
+- id: b6787605-ffa6-4243-a29f-2de90eba481a
+  summary: Works with the relevant Principal to develop and maintain a technical vision for the product, project or team
+  examples:
+    - Has meetings with the relevant Principal to plan future milestones
+    - Has a high level technical roadmap (document, slide deck, diagram, etc)
+    - Speaks to the Principal and others outside the team to help develop the technical vision material
+    - Ensures the technical vision material is up to date
+    - Demonstrates that external needs (from internal stakeholders, users, technical trends, historical problems, etc) have influenced the technical vision
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: technical
+  domain: null
+
+- id: dfcb7dea-eac6-4aa7-8b8c-09420bfe7f70
+  summary: Breaks down work described in business/user terms into user stories that engineers can work on confidently
+  examples:
+    - Adds technical detail to tickets which are described in business/user terms so that engineers can work on them
+    - Spends time adding technical details/tasks to tickets or related background documents
+    - Engineers routinely pick up a variety of tickets
+    - Engineers can read a ticket and generally estimate consistently
+    - Can go on holiday and have the team continue delivering smoothly
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: technical
+  domain: null
+
+- id: 3f5ec39a-9d23-4f50-bd7d-99746a4b709b
+  summary: Ensures runbooks are up to date and correct
+  examples:
+    - Ensures runbooks are easily found
+    - Ensures runbooks are correct, practical, and make sense to the on-call engineers
+    - Updates runbooks and asks others to do the same
+    - Ensures that creating and maintaining runbooks is an integral part of the development process
+    - Ensures drills and rehearsals happen, referencing the runbooks
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: technical
+  domain: null
+
+- id: 66afef67-2802-4164-92ff-9b9b0ea50c19
+  summary: Ensures the CI/CD pipeline for the systems they’re responsible for runs smoothly and reliably
+  examples:
+    - Knowledge of their team’s CI/CD workflow is shared within the team
+    - There is a rapid feedback loop for engineering changes
+    - Little maintenance is needed for the CI/CD pipeline for the team’s systems
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: technical
+  domain: null
+
+- id: e1f4c82c-ac83-47eb-b1f4-ccfb1a9aeaea
+  summary: Ensures automated tests are written, running, reliable, sufficient and useful
+  examples:
+    - Maintains green CI and steers people to fix CI when it breaks
+    - Makes writing tests an integral part of the development process
+    - Ensures tests are reliable
+    - Ensures high test coverage
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: technical
+  domain: null
+
+- id: 390cc94f-59da-41e0-b6f2-4df30e502c2c
+  summary: Communicates technical vision clearly inside and outside the team
+  examples:
+    - Presents the technical vision clearly at all-hands events
+    - Regularly reminds the team of the technical vision and plan
+    - The Product Manager and Delivery Manager can provide good summaries of the Tech Lead’s vision
+    - The technical vision is written down and readily accessible to those outside the team
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: communication
+  domain: null
+
+- id: 421c1c46-59d9-42a5-9329-edae68240718
+  summary: Engages themselves and the team with the wider technical community in the organisation
+  examples:
+    - Attends dev huddles and encourages the team to do the same
+    - Encourages team members to demonstrate at showcases, snapshot meetings, etc
+    - Gives lightning talks and encourages others to do the same
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: communication
+  domain: null
+
+- id: 13bc3cd8-c67c-45a2-aba9-0beb9ab70923
+  summary: Ensures the technology’s documentation is at an appropriate level and is kept up to date
+  examples:
+    - The product and its design have appropriate documentation
+    - Maintaining the documentation is clearly part of the team’s culture
+    - Reviews dates on documentation and flags out of date documentation
+    - Ensures relevant documentation is easy to find
+    - Ensures new starters have good on-boarding guides
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: communication
+  domain: null
+
+- id: d7792288-96c8-4d3c-bf05-03a7ac67fa8f
+  summary: Keeps in touch with the team’s engineers, to understand their issues
+  examples:
+    - Meets the team’s engineers informally, for coffee, lunch, etc
+    - Listens carefully in retrospectives
+    - Takes, and follows up on, actions from retrospectives
+    - Creates a team environment of psychological safety
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: communication
+  domain: null
+
+- id: f3390a05-aa9d-4698-96f2-085390750797
+  summary: Continually ensures the technical plan is consistent with a realistic delivery schedule that meets the business’s needs
+  examples:
+    - Adjusts the technical plan according to changing circumstances (such as how long work is actually taking, deadline changes, etc)
+    - Can show that the technical plan has been created with business needs (including deadlines, launch dates, OKR milestones, etc) in mind
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: delivery
+  domain: null
+
+- id: c735e426-0e1d-4006-bb96-a73bfa679302
+  summary: Ensures the engineering work of the team is synchronised with other relevant teams, including any in other groups
+  examples:
+    - Knows who the primary technical contacts are in related other teams and groups
+    - Is familiar with technical plans and visions of related other teams and groups
+    - Maintains contact with Tech Leads and Principals in related other teams and groups
+    - Demonstrates the plan for the team aligns with the work in other teams and groups
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: delivery
+  domain: null
+
+- id: 14824042-9e34-4489-8e4c-8f3a71ae17b0
+  summary: Ensures risks (not just technical ones) are considered in planning and system design
+  examples:
+    - Makes it clear the technical vision or plan accounts for concerns such as security, loss of team members, unfamiliar technologies, sudden priority changes, etc
+    - Helps the Delivery Manager adjust the plan as external circumstances change
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: delivery
+  domain: null
+
+- id: 9220d20f-2fef-4831-aeda-3f02f9409e57
+  summary: Supports engineers in the team where they need help or may not make deadlines
+  examples:
+    - Identifies tickets and engineers which/who are not progressing sufficiently quickly
+    - Spends time with engineers who are struggling to meet deadlines
+    - Redirects other engineers on the team to help those struggling to meet deadlines
+    - Simplifies or splits work which is taking too much time
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: delivery
+  domain: null
+
+- id: cc80baa2-f9e2-4245-8cf9-9fcc0b67983d
+  summary: Acts as the primary point of contact for technical questions coming from outside the team
+  examples:
+    - Responds to questions from Principal Engineers and Tech Leads in other teams and groups
+    - Is a point of contact for third parties the team is integrating with
+    - Speaks to third parties to research potential services and products
+    - Is visible to people outside the team as a technical authority for the team’s work
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: leadership
+  domain: null
+
+- id: ce780bbb-4e39-4e45-8195-7bfad5afe213
+  summary: Ensures the Product Manager and Delivery Manager have a good understanding of non-functional issues (accessibility, tech debt, security, performance, etc)
+  examples:
+    - Helps the Product Manager and Delivery Manager articulate non-functional needs to their peers
+    - The Product Manager priorities non-functional requirements as appropriate
+    - The Delivery Manager supports the team in delivery non-functional requirements
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: leadership
+  domain: null
+
+- id: a1fa5e3b-25b7-4885-969c-94e1673feec1
+  summary: Links the technical work of the team to the organisation’s goals and wider business value
+  examples:
+    - Updates OKRs in Ally
+    - In planning meetings, demonstrates how OKRs align with technical work
+    - Ensures the Product Manager and Delivery Manager are also prioritising and promoting work according to the same OKRs
+    - In snapshot meetings, explains delivery of features in terms of what this means to the product’s overall success
+    - Encourages engineers to participate occasionally in wider product work (eg user research, explanatory presentations to other teams, contributing to business cases, etc) to help them better understand the product’s success factors
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: leadership
+  domain: null
+
+- id: 70d0a1b1-1b41-45fb-9088-729c3cb24772
+  summary: Ensures new team members can get up to speed quickly and efficiently
+  examples:
+    - Has an on-boarding plan for new team members
+    - Retains certain tasks in the backlog for new team members
+    - Has a plan for new team members to pair with others specifically for learning
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: leadership
+  domain: null
+
+- id: 8b7be8e6-175d-4d7a-ab0a-fcb60709935f
+  summary: Coaches and mentors more junior team members, so they can become better engineers
+  examples:
+    - Pairs with more junior engineers
+    - Lets more junior engineers plan the implementation of user stories, and guides them through this
+    - Takes time with more junior engineers to understand their challenges, and steers them towards solutions
+    - Plans iterations so that engineers can improve their experience of certain kinds of work
+  supportingUrls: []
+  description: null
+  level: tech-lead
+  area: leadership
+  domain: null
