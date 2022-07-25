@@ -540,6 +540,29 @@
   area: delivery
   domain: null
 
+- id: 76ec9be3-e63f-4374-9742-cbbc1728549a
+  summary: Participates in delivery process
+  examples:
+    - Moves tickets to done column when they are complete
+    - Goes to stand-ups and communicates progress
+  supportingUrls: []
+  description: null
+  level: engineer
+  area: delivery
+  domain: null
+
+- id: 3992123b-ca9b-4d27-a48f-37334567c451
+  summary: Can articulate the business goal of a set of features
+  examples:
+    - In conversation, distinguishes between what a feature does and the benefit it should provide
+    - Proposes priority or feature changes to deliver business benefits sooner
+    - Explains the business benefits of work when demoing it
+  supportingUrls: []
+  description: null
+  level: engineer
+  area: delivery
+  domain: null
+
 # Engineer, Leadership
 
 - id: 4dc43122-71f1-4fb1-99c8-73aa3a666332
