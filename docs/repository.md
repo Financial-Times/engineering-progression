@@ -35,6 +35,13 @@ We create releases through the GitHub interface, they follow these rules:
   - The description must contain a list of all the commits that have made it onto the `main` branch since the last release
   - If the tagname includes a prerelease, then the release must have the prerelease checkbox checked
 
+You can get most of the way here by:
+
+  - Navigating to the ["draft a new release" page](https://github.com/Financial-Times/engineering-progression/releases/new)
+  - Clicking "choose a tag" and inputting your new version (prefixed with a `v`)
+  - Clicking the "generate release notes" button to automatically list all of the PRs in this release and generate a title
+  - Clicking "publish release"
+
 There are some things that need to happen immediately after a release, which unfortunately cannot be automated. The release process is as follows:
 
   1. **Create release:**<br/>Create a release on the GitHub repo, following the rules outlined above
