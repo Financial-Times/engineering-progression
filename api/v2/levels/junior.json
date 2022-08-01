@@ -1,0 +1,332 @@
+{
+	"id": "junior",
+	"name": "Junior Engineer",
+	"summary": "Junior Engineers are expected to work mostly independently on areas of the system that are reasonably straightforward, and to be supported by members of the team on areas that are more challenging. They participate fully in team events, express opinions, learn new skills, and act with the same integrity and respectfulness as expected of everyone.\n",
+	"competencies": [
+		{
+			"id": "7ed8deae-2dbb-4830-bca0-9e6cee038bff",
+			"summary": "Is responsible for and maintains their computer and local development environment",
+			"examples": [
+				"Keeps their local tools up to date",
+				"Follows instructions to get software projects running locally"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "1ab2d281-1a60-4a49-a1d3-87f03bcf510e",
+			"summary": "Uses version control to manage routine development workflow, and can work with support on uncommon workflows",
+			"examples": [
+				"Git example: is able to clone a repo, check out a branch, add, commit, push",
+				"Git example: asks for help with more complex tasks like rebase and resolving conflicts"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "43cd4e9d-6462-4d4b-94e2-69dfeff246f6",
+			"summary": "Uses code to make something reasonably straightforward, mostly independently",
+			"examples": [
+				"Works on a feature or improves an existing one",
+				"Adds a use case to an existing automation script",
+				"Adds a CloudFormation template"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "655e2933-b58e-488b-9683-a0b191a37788",
+			"summary": "Implements automated unit or end to end tests with help from a more senior engineer",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "cb1a4c9c-28dd-4d1d-938e-1f689fb91393",
+			"summary": "Fixes or updates tests when implementing changes to a preexisting feature",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "43f6e213-b51e-45bd-bb37-a23a3e7d5457",
+			"summary": "Checks whether code from well-known sources can be reused before writing new code, and generally identifies that kind of reuse when there is the opportunity",
+			"examples": [
+				"Checks to use a Python/Node/etc package in project",
+				"Checks for the chance to integrate with proprietary software packages",
+				"Checks Origami capabilities"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "cad93c51-dee9-4b10-8ccb-d2936dd95380",
+			"summary": "Works to timeboxes when debugging",
+			"examples": [
+				"Ensures they have a timebox when debugging",
+				"Communicates their progress through a timebox",
+				"Seeks help from other engineers before time runs out",
+				"Does not overshoot a timebox without flagging it"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "0137fb68-807a-4971-8431-1b8bfd9a4bae",
+			"summary": "Shadows during live incidents or joins debugging mob sessions",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "9098cc7f-a50a-48df-b84f-c4ee9fa47dbe",
+			"summary": "Is able to explain why using CI/CD pipelines for automation is beneficial, and uses them for basic functions",
+			"examples": [
+				"Restarts a broken build",
+				"Is able to interpret CI output and articulate what is failing",
+				"Can fix simple problems or asks for help"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "ae32dc05-3e53-47d2-a027-345eb42dffa3",
+			"summary": "Occasionally uses monitoring tools to explain technical behaviour",
+			"examples": [
+				"Occasionally uses Pingdom or Grafana to explain unusual behaviour",
+				"Occasionally uses Pingdom or Grafana to understand the consequences of a change"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "technical",
+			"domain": null
+		},
+		{
+			"id": "70ae7051-3aed-42a0-be39-6c8a381eeaaf",
+			"summary": "Writes pull requests that are helpful both to the reviewer and those debugging the the code later",
+			"examples": [
+				"Writes PR descriptions that explain why the PR is needed",
+				"Links to relevant Jira tickets in PRs",
+				"Adds screenshots to show changes if applicable",
+				"Provides context that they learned when researching a PR"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "57c50830-f2ef-4c61-97fa-ec80b0624473",
+			"summary": "Regularly reads peers' PRs and asks questions in order to learn",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "5d637365-7e38-432d-bcec-8652f06d8109",
+			"summary": "Remembers to write more straightforward tickets and bug reports to track the work expected of them, perhaps with prompting and guidance",
+			"examples": [
+				"Checks there is a corresponding ticket or bug report before starting any work, and flags it if not",
+				"Writes reasonable \"steps to reproduce\" in a reasonably straightforward bug report when prompted",
+				"Adds relevant links and screenshots to pages affected by a bug when prompted"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "dcfbf24d-04e2-4029-88a0-93479e4d04a8",
+			"summary": "Receives feedback and acts upon it",
+			"examples": [
+				"Implements requested changes on a pull request",
+				"Responds to comments on a Google document",
+				"If they receive feedback from the team that sometimes they don't seem well-prepared for morning stand-ups, takes 5 minutes before stand-ups to gather thoughts about what the status of their work is"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "c8d62965-dd71-4a90-83df-a4c924a40fd8",
+			"summary": "Is able to recognise when they are having difficulties, and provides information so that other people can help",
+			"examples": [
+				"Raises a concern to their line manager if they feel they are falling behind",
+				"Asks a mentor for help if they feel overwhelmed or not feeling confident",
+				"Asks a tech lead for help if they are struggling with a piece of work"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "da526878-694a-4a73-b678-f3e46301e1b6",
+			"summary": "Presents their own work clearly to a product owner or tech lead",
+			"examples": [
+				"Talks about their progress in standup without going into deep technical detail",
+				"Explains their approach to a technical problem to their tech lead",
+				"Gives a live demo of a feature that they worked on to their team"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "b8bd799d-6712-4882-b1a7-4f66166c3315",
+			"summary": "Effectively communicates when they are unable to attend expected events",
+			"examples": [
+				"Informs meeting organisers of meetings they cannot attend",
+				"Puts out-of-office messages on emails when going on holiday",
+				"Puts appropriate emoji on Slack when sick or on holiday",
+				"If they've got a meeting clash they explain to the organiser of the meeting they have to miss",
+				"When they're in a meeting that's overrunning into another they communicate with both meetings' organisers to set expectations",
+				"If they have a meeting that reguarly overruns into another they ask for help from their line manager"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "communication",
+			"domain": null
+		},
+		{
+			"id": "05402e55-07c6-4755-9e93-240dfc656255",
+			"summary": "Recognises and communicates conflicting priorities and delivery expectations",
+			"examples": [
+				"Recognises when meetings clash with other responsibilities, and communicates to affected parties with the aim of resolving the conflict",
+				"Communicates the difficulties they encounter with delivering a ticket rather than struggling on their own"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "ed6d6a37-08f3-403c-a350-fef1652d7903",
+			"summary": "Attends their team's meetings, and shares their views and opinions",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "1f5273b2-d9e1-459b-b0aa-6e9379b49bbc",
+			"summary": "Regularly communicates the status of their work",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "12125116-15de-47c6-81f5-449c3b07a304",
+			"summary": "Participates in the delivery process",
+			"examples": [
+				"Moves tickets to done column when they are complete",
+				"Goes to stand-ups and communicates progress"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "70f624cf-d634-45f5-ac81-2b73768cd792",
+			"summary": "Knows who their project's stakeholders are and references them where appropriate",
+			"examples": [
+				"Explains a ticket in reference to a named stakeholder",
+				"Explains a ticket in reference to a specific kind of stakeholder",
+				"References named stakeholders in retrospectives"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "delivery",
+			"domain": null
+		},
+		{
+			"id": "6e9e0e5d-bff1-45d9-aafb-6b7c4ed41448",
+			"summary": "Acts with integrity, honesty and accountability",
+			"examples": [],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "ad03e3e5-b9df-43c4-9b9d-84de651c04cf",
+			"summary": "Is respectful to and inclusive of others",
+			"examples": [
+				"Listens to others regardless of role, social group, etc",
+				"Treats remote and in-person meeting participants with equal respect",
+				"Escalates to their line manager occasions when a colleague seems to be excluding or alienating others"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "leadership",
+			"domain": null
+		},
+		{
+			"id": "08e07d7d-37bf-44e0-8ac8-9535579e986b",
+			"summary": "Is engaged with their own personal development and follows through on agreed actions for this",
+			"examples": [
+				"Sees some code that they don't understand, and researches how it works",
+				"Learns how to use a new tool/language feature",
+				"Reads blog posts about technology",
+				"Studies for and attains a technical certification",
+				"Finds a training course and takes it",
+				"Attends meet-ups or conferences"
+			],
+			"supportingUrls": [],
+			"description": null,
+			"level": "junior",
+			"area": "leadership",
+			"domain": null
+		}
+	]
+}

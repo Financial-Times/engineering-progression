@@ -1,5 +1,10 @@
 [
 	{
+		"id": "junior",
+		"name": "Junior Engineer",
+		"summary": "Junior Engineers are expected to work mostly independently on areas of the system that are reasonably straightforward, and to be supported by members of the team on areas that are more challenging. They participate fully in team events, express opinions, learn new skills, and act with the same integrity and respectfulness as expected of everyone.\n"
+	},
+	{
 		"id": "engineer",
 		"name": "Engineer",
 		"summary": "Mid level engineers should be proficient in the technical systems that they are working on. They should be aware and guided by the wider context of their work. They should take responsibility for their work and own their personal development. They should be working as part of a team to achieve the shared goals of the team.\n"
