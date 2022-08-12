@@ -985,11 +985,11 @@
   domain: null
 
 - id: 3f5ec39a-9d23-4f50-bd7d-99746a4b709b
-  summary: Ensures runbooks are up to date and correct
+  summary: Ensures there is material, structure and capabilities for their systems to meet their operational expectations
   examples:
-    - Ensures runbooks are easily found
+    - Ensures operational documentation is easily found
     - Ensures runbooks are correct, practical, and make sense to the on-call engineers
-    - Updates runbooks and asks others to do the same
+    - Ensures on-call engineers are familiar with some failure scenarios, and know how to address them
     - Ensures that creating and maintaining runbooks is an integral part of the development process
     - Ensures drills and rehearsals happen, referencing the runbooks
   supportingUrls: []
