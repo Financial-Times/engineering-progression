@@ -1,4 +1,14 @@
 
+# Junior Engineer
+- id: junior
+  name: Junior Engineer
+  summary: >
+    Junior Engineers are expected to work mostly independently on areas of
+    the system that are reasonably straightforward, and to be supported by
+    members of the team on areas that are more challenging. They participate
+    fully in team events, express opinions, learn new skills, and act with
+    the same integrity and respectfulness as expected of everyone.
+
 # Engineer
 - id: engineer
   name: Engineer
@@ -46,9 +56,3 @@
     providing coaching and support. To help achieve the technical vision
     they also need to analyse associated risk and cross-functional requirements,
     and communicate effectively with stakeholders inside and outside the team.
-
-# Principal Engineer
-- id: principal
-  name: Principal Engineer
-  summary: >
-    TODO

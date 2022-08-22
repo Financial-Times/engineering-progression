@@ -35,11 +35,18 @@ We create releases through the GitHub interface, they follow these rules:
   - The description must contain a list of all the commits that have made it onto the `main` branch since the last release
   - If the tagname includes a prerelease, then the release must have the prerelease checkbox checked
 
+You can get most of the way here by:
+
+  - Navigating to the ["draft a new release" page](https://github.com/Financial-Times/engineering-progression/releases/new)
+  - Clicking "choose a tag" and inputting your new version (prefixed with a `v`)
+  - Clicking the "generate release notes" button to automatically list all of the PRs in this release and generate a title
+  - Clicking "publish release"
+
 There are some things that need to happen immediately after a release, which unfortunately cannot be automated. The release process is as follows:
 
   1. **Create release:**<br/>Create a release on the GitHub repo, following the rules outlined above
   2. **Wait for CI:**<br/>Wait for the CircleCI build to pass, and for all the integrations to deploy. If you have the [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit) open while deploying, the tabs will seem to have switched order. Refreshing the page will fix this.
-  3. **Update chart colours:**<br/>Update the chart colours in the newly-deployed [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit). There are four bar charts, one for each level, each on a separate sheet. The bar chart colours cannot be updated through the API and so this must be done manually after the deploy. The series "Bar 1" must be set to the colour `#3d9199`. The series "Bar 2" must have no colour (select "None").
+  3. **Update chart colours:**<br/>Update the chart colours in the newly-deployed [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit). There are charts on each sheet relating to a competency level. The bar chart colours cannot be updated through the API and so this must be done manually after the deploy. The series "Bar 1" for each chart must be set to the colour `#3d9199`. The series "Bar 2" must not be visible (set bar "Fill opacity" to "0%").
 
 
 ### Major Versions
