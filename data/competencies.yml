@@ -1188,3 +1188,17 @@
   level: senior2
   area: leadership
   domain: null
+
+# S2
+- id:
+  summary: Actively encourages and shapes the personal development of more junior people
+  examples:
+    - Helps other engineers to form or meet specific career goals
+    - Organises conference attendance for a group of engineers
+    - Considerately gives targeted feedback with examples of a behaviour and its impact
+    - TODO Something about sonponsorship
+  supportingUrls: []
+  description: null
+  level: senior2
+  area: leadership
+  domain: null
