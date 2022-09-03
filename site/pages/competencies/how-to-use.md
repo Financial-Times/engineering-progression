@@ -21,7 +21,6 @@ Each level represents the expectations and responsibilities of an engineer at a 
 {% endfor %}
 </ul>
 
-At this time, we don't define competencies for Junior Engineers.
 
 ## Competencies
 
