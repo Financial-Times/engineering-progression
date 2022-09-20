@@ -1349,5 +1349,19 @@
 		"level": "senior2",
 		"area": "leadership",
 		"domain": null
+	},
+	{
+		"id": "eb2b1d84-bf26-4289-a943-c085b853ca45",
+		"summary": "Actively encourages or shapes the personal development of others",
+		"examples": [
+			"Helps other engineers to form or meet specific career goals",
+			"Organises conference attendance for a group of engineers",
+			"Considerately gives targeted feedback with examples of a behaviour and its impact"
+		],
+		"supportingUrls": [],
+		"description": null,
+		"level": "senior2",
+		"area": "leadership",
+		"domain": null
 	}
 ]
