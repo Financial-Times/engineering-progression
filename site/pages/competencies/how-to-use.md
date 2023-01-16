@@ -21,8 +21,6 @@ Each level represents the expectations and responsibilities of an engineer at a 
 {% endfor %}
 </ul>
 
-At this time, we don't define competencies for Junior Engineers.
-
 ## Competencies
 
 Each competency has a summary which is designed to prompt a yes/no response. For each competency, an engineer should feel able to answer either _"yes, I'm meeting this competency"_, or _"no, I'm not meeting this competency, yet"_. An engineer and their line manager should keep a record of evidence for meeting each competency, for example:
