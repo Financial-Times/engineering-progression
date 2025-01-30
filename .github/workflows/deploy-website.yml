@@ -6,7 +6,9 @@ concurrency:
 
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -43,6 +45,8 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/site/
 
   # Deployment job
   deploy:
