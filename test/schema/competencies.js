@@ -1,11 +1,9 @@
 'use strict';
 
-// We need to get the data for levels and domains to build this schema
+// We need to get the data for levels to build this schema
 let validLevels = []
-let validDomains = [];
 try {
 	validLevels = require('../../dist/levels.json');
-	validDomains = require('../../dist/domains.json');
 } catch (error) {}
 
 module.exports = {
@@ -82,19 +80,6 @@ module.exports = {
 						'delivery',
 						'leadership'
 					]
-				},
-				domain: {
-					title: 'Domain',
-					description: 'The domain that this specific competency applies to',
-					oneOf: [
-						{
-							type: 'string',
-							enum: validDomains.map(domain => domain.id)
-						},
-						{
-							type: 'null'
-						}
-					]
 				}
 			},
 			required: [
@@ -104,8 +89,7 @@ module.exports = {
 				'examples',
 				'supportingUrls',
 				'level',
-				'area',
-				'domain'
+				'area'
 			],
 			additionalProperties: false
 		},

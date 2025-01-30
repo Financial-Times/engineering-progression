@@ -9,7 +9,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 1ab2d281-1a60-4a49-a1d3-87f03bcf510e
   summary: Uses version control to manage routine development workflow, and can work with support on uncommon workflows
@@ -20,7 +19,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 43cd4e9d-6462-4d4b-94e2-69dfeff246f6
   summary: Uses code to make something reasonably straightforward, mostly independently
@@ -32,7 +30,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 655e2933-b58e-488b-9683-a0b191a37788
   summary: Implements automated unit or end to end tests with help from a more senior engineer
@@ -41,7 +38,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: cb1a4c9c-28dd-4d1d-938e-1f689fb91393
   summary: Fixes or updates tests when implementing changes to a preexisting feature
@@ -50,7 +46,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 43f6e213-b51e-45bd-bb37-a23a3e7d5457
   summary: Checks whether code from well-known sources can be reused before writing new code, and generally identifies that kind of reuse when there is the opportunity
@@ -62,7 +57,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: cad93c51-dee9-4b10-8ccb-d2936dd95380
   summary: Works to timeboxes when debugging
@@ -75,7 +69,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 0137fb68-807a-4971-8431-1b8bfd9a4bae
   summary: Shadows during live incidents or joins debugging mob sessions
@@ -84,7 +77,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 9098cc7f-a50a-48df-b84f-c4ee9fa47dbe
   summary: Is able to explain why using CI/CD pipelines for automation is beneficial, and uses them for basic functions
@@ -96,7 +88,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: ae32dc05-3e53-47d2-a027-345eb42dffa3
   summary: Occasionally uses monitoring tools to explain technical behaviour
@@ -107,7 +98,6 @@
   description: null
   level: junior
   area: technical
-  domain: null
 
 - id: 70ae7051-3aed-42a0-be39-6c8a381eeaaf
   summary: Writes pull requests that are helpful both to the reviewer and those debugging the the code later
@@ -120,7 +110,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 - id: 57c50830-f2ef-4c61-97fa-ec80b0624473
   summary: Regularly reads peers' PRs and asks questions in order to learn
@@ -129,7 +118,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 - id: 5d637365-7e38-432d-bcec-8652f06d8109
   summary: Remembers to write more straightforward tickets and bug reports to track the work expected of them, perhaps with prompting and guidance
@@ -141,7 +129,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 - id: dcfbf24d-04e2-4029-88a0-93479e4d04a8
   summary: Receives feedback and acts upon it
@@ -153,7 +140,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 - id: c8d62965-dd71-4a90-83df-a4c924a40fd8
   summary: Is able to recognise when they are having difficulties, and provides information so that other people can help
@@ -165,7 +151,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 - id: da526878-694a-4a73-b678-f3e46301e1b6
   summary: Presents their own work clearly to a product owner or tech lead
@@ -177,7 +162,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 - id: b8bd799d-6712-4882-b1a7-4f66166c3315
   summary: Effectively communicates when they are unable to attend expected events
@@ -192,7 +176,6 @@
   description: null
   level: junior
   area: communication
-  domain: null
 
 # Junior Engineer, Delivery
 
@@ -205,7 +188,6 @@
   description: null
   level: junior
   area: delivery
-  domain: null
 
 - id: ed6d6a37-08f3-403c-a350-fef1652d7903
   summary: Attends their team's meetings, and shares their views and opinions
@@ -214,7 +196,6 @@
   description: null
   level: junior
   area: delivery
-  domain: null
 
 - id: 1f5273b2-d9e1-459b-b0aa-6e9379b49bbc
   summary: Regularly communicates the status of their work
@@ -223,7 +204,6 @@
   description: null
   level: junior
   area: delivery
-  domain: null
 
 - id: 12125116-15de-47c6-81f5-449c3b07a304
   summary: Participates in the delivery process
@@ -234,7 +214,6 @@
   description: null
   level: junior
   area: delivery
-  domain: null
 
 - id: 70f624cf-d634-45f5-ac81-2b73768cd792
   summary: Knows who their project's stakeholders are and references them where appropriate
@@ -246,7 +225,6 @@
   description: null
   level: junior
   area: delivery
-  domain: null
 
 # Junior Engineer, Leadership
 
@@ -257,7 +235,6 @@
   description: null
   level: junior
   area: leadership
-  domain: null
 
 - id: ad03e3e5-b9df-43c4-9b9d-84de651c04cf
   summary: Is respectful to and inclusive of others
@@ -269,7 +246,6 @@
   description: null
   level: junior
   area: leadership
-  domain: null
 
 - id: 08e07d7d-37bf-44e0-8ac8-9535579e986b
   summary: Is engaged with their own personal development and follows through on agreed actions for this
@@ -284,7 +260,6 @@
   description: null
   level: junior
   area: leadership
-  domain: null
 
 # Engineer, Technical
 
@@ -296,7 +271,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: 574c234d-b52e-4765-b160-bac958e2d207
   summary: Uses code to make something with some degree of complexity
@@ -308,7 +282,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: 4db41452-c2c7-40bf-87b1-a2d8ed6f902a
   summary: Writes automated unit and end to end tests for features
@@ -317,7 +290,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: 2385d7ee-64c1-45de-b1d9-18050fba9d44
   summary: Fixes or updates tests when changing existing code
@@ -326,7 +298,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: f66d122f-bd81-4b57-8b4a-78f00a11934c
   summary: Reuses existing code
@@ -339,7 +310,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: b0e285f2-08a3-47c2-a810-30d5258e1863
   summary: Maintains the security of the systems they work on
@@ -353,7 +323,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: e566bfce-9390-47ea-9e46-f1db25ae9cc0
   summary: Regularly and independently debugs and fixes bugs in their own code
@@ -364,7 +333,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: 9b30c5f3-7925-4514-9f31-251b32daf1d3
   summary: Gets involved in fixing live incidents in production
@@ -376,7 +344,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: e4cd2032-2974-42ba-ac74-565809069447
   summary: Uses continuous delivery or build pipelines for automation
@@ -390,7 +357,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: b24b7fe3-3c4f-4fb0-b2b4-ba8c43806701
   summary: Uses monitoring (but doesn't necessarily implement monitoring)
@@ -400,7 +366,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 - id: 09066401-3dab-499f-a91f-dbbf5e19bdd8
   summary: Makes pragmatic decisions about technical trade-offs within their own code
@@ -411,7 +376,6 @@
   description: null
   level: engineer
   area: technical
-  domain: null
 
 # Engineer, Communication
 
@@ -428,7 +392,6 @@
   description: null
   level: engineer
   area: communication
-  domain: null
 
 - id: a0429b57-40dd-4f65-87d5-924c8a2a1226
   summary: Provides feedback on peer’s work
@@ -440,7 +403,6 @@
   description: null
   level: engineer
   area: communication
-  domain: null
 
 - id: 458cfd7f-b621-462e-ad7f-90870e1d5cfc
   summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be picked up by other engineers
@@ -452,7 +414,6 @@
   description: null
   level: engineer
   area: communication
-  domain: null
 
 - id: 79c4ecfd-7085-49c2-8a21-429b4a269c96
   summary: Regularly gives timely actionable feedback to colleagues
@@ -463,7 +424,6 @@
   description: null
   level: engineer
   area: communication
-  domain: null
 
 # Engineer, Delivery
 
@@ -476,7 +436,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: e7f347c1-b478-4289-aa1a-c05da3f972ec
   summary: Uses user research or data to inform decisions
@@ -488,7 +447,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: a4832222-6d61-4cab-ba45-85eb61c20187
   summary: Leads on getting well defined tasks from backlog to production
@@ -499,7 +457,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: 0ff46645-7966-42f8-9144-23b6a88743cc
   summary: Regularly collaborates with team members from other disciplines to deliver features
@@ -511,7 +468,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: 385be187-5aaa-493b-a663-3b8ec7a04d7f
   summary: Regularly contributes openly to team meetings and encourages others to do so
@@ -520,7 +476,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: a0c27510-41d9-4a34-98d9-3b49b0ef8056
   summary: Regularly communicates the status of work
@@ -529,7 +484,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: 168c5839-8070-4bb1-a0fa-b26d1267e791
   summary: Asks for help or clarification on tasks when required
@@ -538,7 +492,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: 76ec9be3-e63f-4374-9742-cbbc1728549a
   summary: Participates in delivery process
@@ -549,7 +502,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 - id: 3992123b-ca9b-4d27-a48f-37334567c451
   summary: Can articulate the business goal of a set of features
@@ -561,7 +513,6 @@
   description: null
   level: engineer
   area: delivery
-  domain: null
 
 # Engineer, Leadership
 
@@ -578,7 +529,6 @@
   description: null
   level: engineer
   area: leadership
-  domain: null
 
 - id: 3d8a92de-b293-4300-b12f-a1902f0a22f0
   summary: Shares knowledge with peers informally
@@ -590,7 +540,6 @@
   description: null
   level: engineer
   area: leadership
-  domain: null
 
 - id: 82a8460f-8554-4837-9799-01174ea5be6f
   summary: Has worked with teams outside of their home group (where home group will be one of Customer Products, FT Core, Community, Cyber Security, Internal Products, Engineering Enablement, Staff Experience and FT Specialist)
@@ -604,7 +553,6 @@
   description: null
   level: engineer
   area: leadership
-  domain: null
 
 - id: 22c2a49e-4e2e-4a63-a09e-57a0efce7e38
   summary: Takes ownership of their personal development
@@ -619,7 +567,6 @@
   description: null
   level: engineer
   area: leadership
-  domain: null
 
 # Senior Engineer 1, Technical
 
@@ -635,7 +582,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 2c1289fe-3bf9-476b-981b-8af2d345d76a
   summary: Implements appropriate observability and monitoring when building a solution
@@ -647,7 +593,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 1391dba0-974b-4035-85fb-be3096658b59
   summary: Evaluates third-party software to use in projects
@@ -658,7 +603,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 07715459-0423-4507-bdf1-fc397507eec7
   summary: Leads on fixing live incidents in production
@@ -669,7 +613,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 1d096180-c331-459e-9dbf-4d8db12ac885
   summary: Understands the security attack vectors for their area of technology and mitigates against them
@@ -684,7 +627,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 0d01eb2a-eed0-499b-8510-a72fd656ada4
   summary: Makes pragmatic decisions about technical trade-offs within their project
@@ -697,7 +639,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbe
   summary: Delivers high quality code and solutions
@@ -707,7 +648,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 5e9295a7-753a-4530-9d25-8deac9118cbf
   summary: Encourages others to deliver high quality code and solutions
@@ -718,7 +658,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: a021bb76-9190-4059-b4c5-285f4f240169
   summary: Regularly and independently debugs and fixes bugs regardless of origin
@@ -728,7 +667,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 3a87302b-c85f-49f6-9e7a-a4989e717fba
   summary: Builds software or services considering resilience, performance and failure modes
@@ -739,7 +677,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 152af675-554a-4d0d-afb1-190fca3867b2
   summary: Chooses the appropriate tool, technology or software for a task
@@ -749,7 +686,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: fd3e5d38-add3-4394-bd53-666482e422f2
   summary: Builds and works with systems involving multiple, independent technical parts
@@ -762,7 +698,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 - id: 46c795d8-b684-4401-bf1e-45a31dd689cb
   summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
@@ -774,7 +709,6 @@
   description: null
   level: senior1
   area: technical
-  domain: null
 
 # Senior Engineer 1, Communication
 
@@ -789,7 +723,6 @@
   description: null
   level: senior1
   area: communication
-  domain: null
 
 - id: ef527eef-b3ed-4e54-9f7c-36b27c81f7f8
   summary: Facilitates productive discussions with clear outcomes
@@ -800,7 +733,6 @@
   description: null
   level: senior1
   area: communication
-  domain: null
 
 - id: 7cf4de83-f8e0-4311-ba1b-a9233c659520
   summary: Contributes to hiring process
@@ -816,7 +748,6 @@
   description: null
   level: senior1
   area: communication
-  domain: null
 
 # Senior Engineer 1, Delivery
 
@@ -827,7 +758,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: 0cba7c1c-23c8-4618-b286-d98125cd7f5c
   summary: Breaks down large complex technical proposals into discrete tasks
@@ -837,7 +767,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: 850dda3f-df42-4187-a72b-aed1023b7abd
   summary: Communicates team/work's status upwards to a Principal or Technical Director
@@ -846,7 +775,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: 9e1a0313-f602-4786-97c6-d4d49506f0bb
   summary: Where appropriate, builds on other teams' work to solve problems
@@ -857,7 +785,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: 7aeb8fec-9bd0-4929-981d-584654bc954f
   summary: Moves blockers to enable more junior engineers to work
@@ -868,7 +795,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: c0d81832-8fe9-485c-8847-25763255a1b3
   summary: Tackles simple cross team technical issues
@@ -878,7 +804,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: d8651fc0-059b-4c11-929f-e07803f9f8bf
   summary: Actively seeks the views of other teams to help guide work
@@ -889,7 +814,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: 787be828-9a7f-4998-9bc6-a8b06f2d77de
   summary: Improves delivery process and encourages others to do the same
@@ -901,7 +825,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 - id: 7ccc5fac-5da2-451e-8043-af2fd880fcf9
   summary: Manages, prioritises and communicates own workload
@@ -910,7 +833,6 @@
   description: null
   level: senior1
   area: delivery
-  domain: null
 
 # Senior Engineer 1, Leadership
 
@@ -926,7 +848,6 @@
   description: null
   level: senior1
   area: leadership
-  domain: null
 
 - id: 0777c050-8008-4e17-a437-f8de0be3bd55
   summary: Is an ambassador for their team across FT technology
@@ -937,7 +858,6 @@
   description: null
   level: senior1
   area: leadership
-  domain: null
 
 - id: 5e7b6a79-c553-4852-a5eb-97a6550f59da
   summary: Contributes to the personal development of more junior people
@@ -952,7 +872,6 @@
   description: null
   level: senior1
   area: leadership
-  domain: null
 
 - id: 2c9171a0-8935-41fa-809e-08c311538eac
   summary: Shows technical leadership
@@ -964,7 +883,6 @@
   description: null
   level: senior1
   area: leadership
-  domain: null
 
 - id: 37fa54f8-b81e-40d9-b35e-a3e139b872a3
   summary: Shares knowledge with others internally
@@ -976,7 +894,6 @@
   description: null
   level: senior1
   area: leadership
-  domain: null
 
 - id: de580f8a-633d-43bb-b970-9b2987e07b86
   summary: Actively fosters an inclusive team culture
@@ -988,7 +905,6 @@
   description: null
   level: senior1
   area: leadership
-  domain: null
 
 # Senior Engineer 2, Technical
 
@@ -1002,7 +918,6 @@
   description: null
   level: senior2
   area: technical
-  domain: null
 
 - id: d6e3e7d1-1a53-444d-80ad-0240775a028d
   summary: Debugs and fixes complex bugs efficiently
@@ -1013,7 +928,6 @@
   description: null
   level: senior2
   area: technical
-  domain: null
 
 - id: a8571c7f-296d-47ab-acad-d1b90b5a9391
   summary: Finds technical problems outside of immediate team and identifies ways to improve them
@@ -1025,7 +939,6 @@
   description: null
   level: senior2
   area: technical
-  domain: null
 
 - id: 7b2bacf1-ba46-464d-94e3-dc6f7c5edeb0
   summary: Translates difficult business requirements into technical designs
@@ -1034,7 +947,6 @@
   description: null
   level: senior2
   area: technical
-  domain: null
 
 - id: f3ac4fe5-c1ab-4fd2-b559-52d6a79e11d0
   summary: Has a deep understanding of, and helps others understand, a particular technology or product
@@ -1045,7 +957,6 @@
   description: null
   level: senior2
   area: technical
-  domain: null
 
 - id: 73ac4fe5-059b-4fd2-b2d6-52d6a79e11d9
   summary: Shapes the technical direction for the wider group or tech department.
@@ -1057,7 +968,6 @@
   description: null
   level: senior2
   area: technical
-  domain: null
 
 # Senior Engineer 2, Communication
 
@@ -1070,7 +980,6 @@
   description: null
   level: senior2
   area: communication
-  domain: null
 
 - id: 6942e402-72ff-43ee-ae16-b4c1b17ff92f
   summary: Leads hiring process for new Engineers. This could be all aspects or only part of the process.
@@ -1083,7 +992,6 @@
   description: null
   level: senior2
   area: communication
-  domain: null
 
 - id: 60fc5d33-a5ee-4c1b-a370-e0c8a6b8ada9
   summary: Presents their team's work to others in the business
@@ -1097,7 +1005,6 @@
   description: null
   level: senior2
   area: communication
-  domain: null
 
 # Senior Engineer 2, Delivery
 
@@ -1108,7 +1015,6 @@
   description: null
   level: senior2
   area: delivery
-  domain: null
 
 - id: 83b06961-6462-4500-8ff5-9381f7de8dc5
   summary: Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them
@@ -1120,7 +1026,6 @@
   description: null
   level: senior2
   area: delivery
-  domain: null
 
 - id: 983dd8411-940d-4aa8-9ba6-add04510a7da
   summary: Is accountable for the delivery of the team (individually or jointly with other people)
@@ -1133,7 +1038,6 @@
   description: null
   level: senior2
   area: delivery
-  domain: null
 
 # Senior Engineer 2, Leadership
 
@@ -1146,7 +1050,6 @@
   description: null
   level: senior2
   area: leadership
-  domain: null
 
 - id: 1ee4d2b9-8160-42e0-a763-f45703abc6d5
   summary: Helps resolve disagreements healthily
@@ -1158,7 +1061,6 @@
   description: null
   level: senior2
   area: leadership
-  domain: null
 
 - id: 45780158-375a-421b-a89a-97d32e61cdba
   summary: Shapes the medium to long term priorities of their team
@@ -1171,7 +1073,6 @@
   description: null
   level: senior2
   area: leadership
-  domain: null
 
 
 - id: f173b7e9-1c46-4afd-a659-d264aa173759
@@ -1187,7 +1088,6 @@
   description: null
   level: senior2
   area: leadership
-  domain: null
 
 # S2
 - id: eb2b1d84-bf26-4289-a943-c085b853ca45
@@ -1200,4 +1100,3 @@
   description: null
   level: senior2
   area: leadership
-  domain: null
