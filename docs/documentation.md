@@ -71,5 +71,5 @@ npm start
 The local website will not have any competencies data unless you generate the data manually. On CI and in production this is automated, but to build these parts of the site manually run the following once and then each time you make a data change:
 
 ```sh
-npm run build:competencies && npm run build:data
+npm run build
 ```
