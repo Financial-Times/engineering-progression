@@ -41,15 +41,8 @@ test: validate-competencies-json test-website
 # Installation tasks
 # ------------------
 
-# Install bundler
-install-bundler:
-ifeq ("$(shell which bundler)","")
-	@gem install bundler
-endif
-	@$(TASK_DONE)
-
 # Install ruby gems
-install-ruby-gems: install-bundler
+install-ruby-gems:
 ifdef CI
 	@bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
 	@bundle package

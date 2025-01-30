@@ -13,7 +13,7 @@ This guide is designed to get someone set up with a local development environmen
 You'll need a few things before you're ready to start running things locally. The things you need before you can do anything else are:
 
   - [Node.js](https://nodejs.org/en/) version 22 or higher (used to build and test competencies JSON)
-  - [Ruby](https://www.ruby-lang.org/en/) version 2.4 (used to build the website)
+  - [Ruby](https://www.ruby-lang.org/en/) version 3.4 (used to build the website)
 
 Once you have these, you can run the following to install all dependencies:
 
