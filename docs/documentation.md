@@ -48,7 +48,7 @@ This short guide covers some key files and directories which you'll need to know
 
 	- `site/_layouts/o-layout-landing.html`: use this layout to render a home page layout. This is only really useful with a page that's written as HTML rather than Markdown, as it requires a certain amount of markup. See the site home page for an example. This extends `site/_layouts/default.html`.
 
-  - The competencies and levels data is generated automatically, so that this data is always pinned at the latest released version on the website. Any changes to files in here will be overwritten. If you need to make changes to the way these files are generated, see `script/build-website-data.js`.
+  - The competencies and levels data is generated automatically, so that this data is always pinned at the latest released version on the website. Any changes to files in here will be overwritten. If you need to make changes to the way these files are generated, see `scripts/build-website-data.js`.
 
 ### Building the Site Locally
 
@@ -68,7 +68,7 @@ Alternatively, build the website when files change and serve on [localhost:4000]
 npm start
 ```
 
-The local website will not have any competencies data unless you generate the data manually. On CI and in production this is automated, but to build these parts of the site manually run the following once and then each time you make a data change:
+The local website will not have updated competencies data unless you generate the data manually. On CI and in production this is automated, but to build these parts of the site manually run the following once and then each time you make a data change:
 
 ```sh
 npm run build

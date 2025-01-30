@@ -1,5 +1,4 @@
 _site
 .ruby-version
 .sass-cache
-_data/competencies.json
-_data/levels.json
+_data/roles
