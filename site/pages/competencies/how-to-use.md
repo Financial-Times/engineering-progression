@@ -13,15 +13,7 @@ We divide competencies into levels for different seniorities.
 
 ## Levels
 
-Each level represents the expectations and responsibilities of an engineer at a particular stage of their career at the FT:
-
-<ul>
-{% for level in site.data.levels %}
-	<li>{{level.name}}</li>
-{% endfor %}
-</ul>
-
-At this time, we don't define competencies for Junior Engineers.
+Each level within a role represents the expectations and responsibilities of an engineer at a particular stage of their career at the FT.
 
 ## Competencies
 
@@ -47,7 +39,16 @@ Each competency has a summary which is designed to prompt a yes/no response. For
 
 In the second example the engineer is unable to meet the competency "Leads hiring process for new Engineers" because that opportunity hasn't come up in their current role. This is fine: it's not a requirement for the engineer to be meeting all of the competencies, however this may be an indication to that engineer's line manager that opportunities need to be found or created.
 
-A copy of the <a href="https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit" class="o-typography-link--external">Engineering Progression Tracker (Google Sheet)</a> is useful for keeping track of progress.
+A copy of the relevant spreadsheet is useful for keeping track of progress:
+
+<ul>
+	{% for roleHash in site.data.roles %}
+	{% assign role = roleHash[1] %}
+		<li>
+			<a href="https://docs.google.com/spreadsheets/d/{{role.googleSheetId}}/edit" class="o-typography-link--external">{{role.name}}</a>
+		</li>
+	{% endfor %}
+</ul>
 
 ### Examples
 

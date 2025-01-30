@@ -11,8 +11,8 @@ layout: o-layout-landing
 	<h1>{{page.title}}</h1>
 	<p>
 		{{page.description}}
-		This section of the site outlines the competencies for each level of engineer. Before reviewing competencies for your level,
-		<a href="/competencies/how-to-use/">read how to use them here</a>.
+		This section of the site outlines the competencies for each role and level in engineering at the Financial Times.
+		Before reviewing competencies for your level, <a href="/competencies/how-to-use/">read how to use them here</a>.
 	</p>
 
 </div>
@@ -21,16 +21,20 @@ layout: o-layout-landing
 
 	<div class="o-layout__overview">
 
-		{% for level in site.data.levels %}
+		{% for roleHash in site.data.roles %}
+			{% assign role = roleHash[1] %}
 			<div class="o-layout-item">
-				<h2><a href="/competencies/{{level.id}}/">{{level.name}}</a></h2>
-				<p>
-					<span class="level-overview-summary">{{level.summary}}</span>
-					<a href="/competencies/{{level.id}}/">Read all of the {{level.name}} competencies</a>
-				</p>
+				<h2 id="{{roleHash[0]}}">{{role.name}}</h2>
+				<p>{{role.summary}}</p>
+				<ul>
+					{% for level in role.levels %}
+						<li>
+							<a href="/competencies/{{roleHash[0]}}/{{level.id}}/">{{level.name}}</a>
+						</li>
+					{% endfor %}
+				</ul>
 			</div>
 		{% endfor %}
 
 	</div>
-
 </div>

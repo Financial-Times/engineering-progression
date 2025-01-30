@@ -45,8 +45,7 @@ You can get most of the way here by:
 There are some things that need to happen immediately after a release, which unfortunately cannot be automated. The release process is as follows:
 
   1. **Create release:**<br/>Create a release on the GitHub repo, following the rules outlined above
-  2. **Wait for CI:**<br/>Wait for the GitHub Actions build to pass, and for all the integrations to deploy. If you have the [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit) open while deploying, the tabs will seem to have switched order. Refreshing the page will fix this.
-  3. **Update chart colours:**<br/>Update the chart colours in the newly-deployed [Google spreadsheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit). There are charts on each sheet relating to a competency level. The bar chart colours cannot be updated through the API and so this must be done manually after the deploy. The series "Bar 1" for each chart must be set to the colour `#3d9199`. The series "Bar 2" must not be visible (set bar "Fill opacity" to "0%").
+  2. **Wait for CI:**<br/>Wait for the GitHub Actions build to pass, and for all the integrations to deploy. If you have any of the Google spreadsheets open while deploying, the tabs will seem to have switched order. Refreshing the page will fix this.
 
 
 ### Major Versions
@@ -72,5 +71,5 @@ A patch version bump must happen when typos are fixed, or obvious language error
 
 If you wish to make changes to the way the engineering competencies are built/tested, the website is generated, or the way the tooling works together, you'll need to pay attention to several files:
 
-  - [`script`](../script): this folder contains scripts that are run from tasks in `package.json`, for when it would be unmaintainable to store them as inline bash
+  - [`scripts`](../scripts): this folder contains scripts that are run from tasks in `package.json`, for when it would be unmaintainable to store them as inline bash
   - `package.json`, `package-lock.json`, `Gemfile`, `Gemfile.lock`: these files outline the libraries and tools that this repository relies on

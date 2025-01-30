@@ -1,0 +1,84 @@
+---
+layout: o-layout-docs
+---
+
+{% assign role = site.data.roles[page.roleId] %}
+{% assign level = role.levels | where: "id", page.levelId | first %}
+
+<h1>{{level.name}}</h1>
+
+<!--
+We repeat the paragraph here because one is not optimised for printing
+and the other is (e.g. labelling the engineering progression link as a URL).
+People viewing on a screen or using assistive tech will not see or hear the
+second paragraph
+-->
+<p class="screen-only">
+	<em>The competencies for {{level.name}} in {{role.name}} are outlined below. Before reviewing them, it is helpful to
+	<a href="/competencies/how-to-use/">review how to use these competencies</a>.</em>
+</p>
+<p class="print-only" aria-hidden="true">
+	<em>The competencies for {{level.name}} in {{role.name}} are outlined below. You can find more information on using these
+	competences on the Engineering Progression website: <a href="https://engineering-progression.ft.com/">https://engineering-progression.ft.com/</a>.</em>
+</p>
+
+<div class="o-layout__main__full-span">
+	{% for theme in role.themes %}
+		<h2 id="{{theme.id}}">{{theme.name}}</h2>
+		{% if theme.summary %}
+			<p>{{theme.summary}}</p>
+		{% endif %}
+		<table class="o-table o-table--horizontal-lines competency-table" data-o-component="o-table">
+			<thead>
+				<tr>
+					<th scope="col" role="columnheader">Competency</th>
+					<th scope="col" role="columnheader">Proficiency</th>
+					<th scope="col" role="columnheader" class="competency-table__evidence" aria-hidden="true">Evidence / Notes</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for competency in role.competencies %}
+					{% if competency.level == level.id and competency.theme == theme.id %}
+						<tr id="{{competency.id}}">
+							{% assign example-count = competency.examples | size %}
+							{% assign supporting-url-count = competency.supportingUrls | size %}
+							<td>
+								<p class="o-layout__unstyled-element competency-table__paragraph">
+									{{competency.summary}}{% if example-count > 0 %}, e.g.{% endif %}
+								</p>
+								{% if example-count > 0 %}
+									<ul class="o-layout__unstyled-element competency-table__examples">
+										{% for example in competency.examples %}
+											<li>{{example}}</li>
+										{% endfor %}
+									</ul>
+								{% endif %}
+								{% if supporting-url-count > 0 %}
+									<p class="o-layout__unstyled-element competency-table__paragraph">Supporting URLs:</p>
+									<ul class="o-layout__unstyled-element competency-table__supporting-urls">
+										{% for supportingUrl in competency.supportingUrls %}
+											<li>
+												<a href="{{supportingUrl.url}}">{{supportingUrl.label}}</a>
+											</li>
+										{% endfor %}
+									</ul>
+								{% endif %}
+
+							</td>
+							<td>{{competency.proficiency}}</td>
+							<!--
+							This additional column is hidden by default, but is visible when
+							the page is printed. The inner div is used to set a minimum height
+							for evidence columns because `min-height` does not work on table
+							rows or cells
+							-->
+							<td class="competency-table__evidence" aria-hidden="true">
+								<div class="competency-table__evidence-inner"></div>
+							</td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			</tbody>
+		</table>
+	{% endfor %}
+</div>
