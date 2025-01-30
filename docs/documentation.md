@@ -61,19 +61,19 @@ We've created some helper commands which build and run the site locally without 
 Build the website once, creating files in `dist/site` (mostly used by CI):
 
 ```sh
-make build-website
+npm run build
 ```
 
 Alternatively, build the website when files change and serve on [localhost:4000](http://localhost:4000/):
 
 ```sh
-make website
+npm start
 ```
 
 The local website will not have any API endpoints or competencies data unless you generate them manually. On CI and in production this is automated, but to build these parts of the site manually run the following once and then each time you make a data change:
 
 ```sh
-CIRCLE_TAG=v1.0.0 make build-website-api build-website-data
+npm run build:api build:data
 ```
 
-This will generate all of the API endpoints based on competencies data (e.g. `/api/v1/competencies/all.json`). The `v1` in the URL corresponds to the Circle tag that you specify, so if you wanted to create a `v2` endpoint you should specify `CIRCLE_TAG=v2.0.0`. This will also generate Jekyll data files for the competencies and levels, which are used by pages in the site.
+This will generate all of the API endpoints based on competencies data (e.g. `/api/v1/competencies/all.json`).
