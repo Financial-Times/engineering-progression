@@ -26,7 +26,7 @@ Using the GitHub interface is the quickest way to get started with making sugges
 
 If you want to add a new level, you'll also have to create the relevant `levelname.html` file in [`site/pages/competencies`](../site/pages/competencies).
 
-Once you've committed your changes and opened a pull request, your changes will be automatically tested to make sure that the files are in the correct format. Pay attention to the status of your pull request and use the CircleCI interface to review any errors.
+Once you've committed your changes and opened a pull request, your changes will be automatically tested to make sure that the files are in the correct format. Pay attention to the status of your pull request and use the GitHub Actions interface to review any errors.
 
 
 ## Editing Locally
@@ -45,10 +45,10 @@ If you want to add a new level, you'll also have to create the relevant `levelna
 
 ### Running Tests
 
-We use [JSON Schema](https://json-schema.org/) to test that the competencies YAML is valid, and that no changes to the structure can be made accidentally. These tests are run automatically on CircleCI, but it may be useful for you to test changes locally before pushing. You can do this with:
+We use [JSON Schema](https://json-schema.org/) to test that the competencies YAML is valid, and that no changes to the structure can be made accidentally. These tests are run automatically on GitHub Actions, but it may be useful for you to test changes locally before pushing. You can do this with:
 
 ```sh
-make validate-competencies-json
+npm test
 ```
 
-This will first run `make build` for you behind the scenes, and then run the tests against the built JSON. If there are any validation issues, errors are output to the command line and the command will exit with a code of `1`.
+If there are any validation issues, errors are output to the command line and the command will exit with a code of `1`.
