@@ -33,28 +33,8 @@ TASK_DONE = echo "✓ $@ done"
 # -----------
 
 all: install build test
-install: install-ruby-gems install-node-modules
 build: build-competencies-json build-website
 test: validate-competencies-json test-website
-
-
-# Installation tasks
-# ------------------
-
-# Install ruby gems
-install-ruby-gems:
-ifdef CI
-	@bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
-	@bundle package
-else
-	@bundle check || bundle install
-endif
-	@$(TASK_DONE)
-
-# Install node modules
-install-node-modules:
-	@npm install
-	@$(TASK_DONE)
 
 
 # Build tasks

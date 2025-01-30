@@ -1,4 +1,3 @@
-.bundle
 .env*
 dist
 Gemfile.lock

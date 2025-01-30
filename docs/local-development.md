@@ -15,8 +15,8 @@ You'll need a few things before you're ready to start running things locally. Th
   - [Node.js](https://nodejs.org/en/) version 22 or higher (used to build and test competencies JSON)
   - [Ruby](https://www.ruby-lang.org/en/) version 3.4 (used to build the website)
 
-Once you have these, you can run the following to install all dependencies:
+Once you have these, you can run the following to install all dependencies (both Node.js and Ruby):
 
 ```sh
-make install
+npm install && bundle install
 ```
