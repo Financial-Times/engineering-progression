@@ -20,8 +20,5 @@ There are many different ways you can contribute and help make this resource bet
   - **Contribute to the documentation and website**<br/>
     It's important that the documentation in this repo and the Engineering Progression website are clear and easy to understand. [Get started maintaining the documentation](docs/documentation.md)
 
-  - **Build your own integration**<br/>
-    The competencies data is available through a JSON API, which means that engineers at the Financial Times can build their own integrations on top of it. [Get started writing your own integrations](docs/integrations.md)
-
   - **Contribute to the running of this repository**<br/>
     This repository is the one source of truth for engineering careers and progression, and as such it's important that the code is maintained. It's also important that issues and pull requests are responded to quickly. [Get started contributing to the running of this repo](docs/repository.md)

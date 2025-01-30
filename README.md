@@ -26,8 +26,6 @@ Engineering competencies are used to inform conversations about career progressi
 
   - [View all competencies on the website](https://engineering-progression.ft.com/competencies/)
 
-  - [Access competencies data via the JSON API](https://engineering-progression.ft.com/docs/api/)
-
   - [Read the engineering competencies as YAML in this repository](data/competencies.yml)
 
 ## Contributing
@@ -39,9 +37,6 @@ Anybody working for the Financial Times is welcome to suggest changes via a GitH
 
   - **Contribute to the documentation and website**<br/>
     It's important that the documentation in this repo and the Engineering Progression website is clear and easy to understand. [Get started maintaining the documentation](docs/documentation.md)
-
-  - **Build your own integration**<br/>
-    The competencies data is available through a JSON API, which means that engineers at the Financial Times can build their own integrations on top of it. [Get started writing your own integrations](docs/integrations.md)
 
   - **Contribute to the running of this repository**<br/>
     This repository is the one source of truth for engineering careers and progression, and as such it's important that the code is maintained. It's also important that issues and pull requests are responded to quickly. [Get started contributing to the running of this repo](docs/repository.md)
