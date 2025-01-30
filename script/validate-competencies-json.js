@@ -16,10 +16,6 @@ validateJsonFiles([
 		schema: path.resolve(__dirname, '..', 'test', 'schema', 'levels')
 	},
 	{
-		path: path.resolve(__dirname, '..', 'dist', 'domains.json'),
-		schema: path.resolve(__dirname, '..', 'test', 'schema', 'domains')
-	},
-	{
 		path: path.resolve(__dirname, '..', 'dist', 'competencies.json'),
 		schema: path.resolve(__dirname, '..', 'test', 'schema', 'competencies')
 	}

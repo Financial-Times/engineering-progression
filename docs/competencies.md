@@ -22,8 +22,6 @@ Using the GitHub interface is the quickest way to get started with making sugges
 
   - [`data/levels.yml`](../data/levels.yml): this is the file which contains meta information about the competency levels. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/main/data/levels.yml)
 
-  - [`data/domains.yml`](../data/domains.yml): this is the file which contains meta information about the competency domains. [Suggest edits to this file here](https://github.com/Financial-Times/engineering-progression/edit/main/data/domains.yml)
-
 If you want to add a new level, you'll also have to create the relevant `levelname.html` file in [`site/pages/competencies`](../site/pages/competencies).
 
 Once you've committed your changes and opened a pull request, your changes will be automatically tested to make sure that the files are in the correct format. Pay attention to the status of your pull request and use the GitHub Actions interface to review any errors.
@@ -38,8 +36,6 @@ Once you have everything set up locally, you can start to edit the following fil
   - [`data/competencies.yml`](../data/competencies.yml): this is the file which contains all of the competencies data for the different levels. This adheres to a [strict schema](../test/schema/competencies.js), see [Running Tests](#running-tests) below
 
   - [`data/levels.yml`](../data/levels.yml): this is the file which contains meta information about the competency levels. This adheres to a [strict schema](../test/schema/levels.js), see [Running Tests](#running-tests) below
-
-  - [`data/domains.yml`](../data/domains.yml): this is the file which contains meta information about the competency domains. This adheres to a [strict schema](../test/schema/domains.js), see [Running Tests](#running-tests) below
 
 If you want to add a new level, you'll also have to create the relevant `levelname.html` file in [`site/pages/competencies`](../site/pages/competencies).
 
