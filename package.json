@@ -19,8 +19,7 @@
   "scripts": {
     "build": "npm run build:competencies && npm run build:site",
     "build:competencies": "node ./script/build-competencies-json.js",
-    "build:site": "npm run build:api && npm run build:data && npm run build:jekyll",
-    "build:api": "node ./script/build-website-api.js",
+    "build:site": "npm run build:data && npm run build:jekyll",
     "build:data": "node ./script/build-website-data.js",
     "build:jekyll": "bundle exec jekyll build --source ./site --destination ./dist/site",
     "test": "npm run test:competencies",
