@@ -73,5 +73,4 @@ A patch version bump must happen when typos are fixed, or obvious language error
 If you wish to make changes to the way the engineering competencies are built/tested, the website is generated, or the way the tooling works together, you'll need to pay attention to several files:
 
   - [`script`](../script): this folder contains scripts that are run from tasks in `package.json`, for when it would be unmaintainable to store them as inline bash
-  - [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml): this is the GitHub Actions config, which ensures that tests are run automatically when a new commit is pushed to the repo
   - `package.json`, `package-lock.json`, `Gemfile`, `Gemfile.lock`: these files outline the libraries and tools that this repository relies on
