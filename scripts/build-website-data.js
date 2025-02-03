@@ -27,7 +27,7 @@ buildCompetencies({ input: dataPath, output: distPath })
 					---
 					title: ${role.name} Competencies
 					permalink: /competencies/${roleId}/
-					redirect_to: /competencies/
+					redirect_to: https://engineering-progression.ft.com/competencies/
 					---
 				`
 				.replace(/\t/g, '')
