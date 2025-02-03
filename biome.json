@@ -1,7 +1,7 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignore": ["**/package.json", "**/package-lock.json", "dist", "vendor"]
+		"ignore": ["**/package.json", "**/package-lock.json", "dist", "site/_data", "vendor"]
 	},
 	"formatter": {
 		"indentStyle": "tab",
