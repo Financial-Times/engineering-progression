@@ -30,827 +30,459 @@ themes:
 
 competencies:
 
-  - id: 5a5b4d9d-f71e-476e-9c06-11b1619a8c0e
-    summary: Is responsible for and maintains their computer and local development environment
+  - id: 06e32fac-1368-47fb-b6ef-261d58662ba8
+    summary: Support systems and performs technical processes
     examples:
-      - Keeps local tools up to date
-      - Follows instructions to get software projects running locally
+      - Supports the FT's systems consistently and follows processes without help or guidance
+      - Has a good understanding of business critical systems
     supportingUrls: []
     level: engineer
     theme: technical
     proficiency: Working knowledge
 
-  - id: e0426df8-9a6b-44ad-bd68-9e442c58d0dc
-    summary: Uses version control to manage development workflow
+  - id: 2c14508f-6dd0-4556-93d7-6c5e44b2513a
+    summary: Perform the technical processes for operations
     examples:
-      - "Git specific example: clone, branch, add, commit, push, rebase"
+      - Performs technical processes consistently without help or guidance
     supportingUrls: []
     level: engineer
     theme: technical
     proficiency: Working knowledge
 
-  - id: cec964fa-27d0-4130-8a45-6bab9f7caaf4
-    summary: Uses code to make something
+  - id: e740662d-c450-43c9-b45b-a92aabb4b0db
+    summary: Problem solving, troubleshooting, and escalation
     examples:
-      - Takes a feature from their team backlog and writes the code for that feature
-      - Automates a regular task using Python
-      - Writes a CloudFormation template
+      - Can troubleshoot and resolve routine issues consistently without help and guidance
     supportingUrls: []
     level: engineer
     theme: technical
     proficiency: Working knowledge
 
-  - id: 571b2345-88c1-4358-a40d-5256d3944145
-    summary: Writes automated unit and end to end tests for features
-    examples: []
+  - id: f667f9bd-ad29-4316-bbe9-b410f3325ec7
+    summary: Technical skill sets, how we operate systems
+    examples:
+      - Familiar with usage of e.g., Heroku, Splunk, Grafana, Heimdall; Also, comfortable with command line tools and how they fit in with the troubleshooting process
+      - Aware of existence of e.g., browser developers tools
     supportingUrls: []
     level: engineer
     theme: technical
     proficiency: Working knowledge
 
-  - id: 2f97b234-8627-401a-af7b-e12dcfaa14b0
-    summary: Fixes or updates tests when changing existing code
-    examples: []
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 5063dfff-1467-43ed-8225-b7b1068e7c56
-    summary: Reuses existing code
+  - id: ece20f61-3d7e-4405-8929-f1684255de25
+    summary: Handling request from users
     examples:
-      - Uses a python package in project
-      - Uses a node package in project
-      - Integrates with proprietary software packages
-      - Uses Origami
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 3606d6dd-7812-4f92-98ca-d4a52104ad80
-    summary: Maintains the security of the systems they work on
-    examples:
-      - Fixes vulnerabilities in dependencies raised by Snyk
-      - Fixes vulnerabilities raised by the cyber security team
-      - Doesn't introduce vulnerabilities outlined in the Open Web Application Security Project (OWASP) top 10
-    supportingUrls:
-      - label: Open Web Application Security Project
-        url: https://www.owasp.org/
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 75a3fb8f-c19a-4162-80af-4f8766b321fe
-    summary: Regularly and independently debugs and fixes bugs in their own code
-    examples:
-      - Fixes broken tests caused by changes in their code
-      - Uses logging or a debugger to find the root cause when a new feature is not working as expected
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 37e02086-d3d6-4989-8dcc-fc25fc57fb97
-    summary: Gets involved in fixing live incidents in production
-    examples:
-      - Notices that an AWS region is down so fails over to another region
-      - Responds to alerts for services in production by investigating errors and beginning remedial action
-      - Works as home teams' "ops cop", liaising with Operations and Reliability to restore a service
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 0d29ac5f-a660-4a0e-a908-4ccc2cad8d2a
-    summary: Uses continuous delivery or build pipelines for automation
-    examples:
-      - Sees their build is failing and finds out why using the CircleCI or Jenkins interface
-      - Restarts broken builds
-      - Makes config changes in CircleCI
-      - Adds a build status badge to their project
-      - Promotes an app from staging to production in Heroku
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 4ea61427-b5d5-4431-ae9f-85764e25b8a8
-    summary: Uses monitoring (but doesn't necessarily implement monitoring)
-    examples:
-      - Pingdom, grafana
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 25bb5256-3e53-4e0b-8b68-7368a49b859f
-    summary: Makes pragmatic decisions about technical trade-offs within their own code
-    examples:
-      - Weighs up the benefits of making code more abstract vs specific
-      - Reasons about making an API call from the client or from the server - it's easier from the client but core experience will be worse
-    supportingUrls: []
-    level: engineer
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 57b72d8d-0639-4818-8ab8-481daee330ac
-    summary: Maintains documentation on the systems they work on, making it easy for future engineers to interact with systems and code
-    examples:
-      - Writes READMEs with the appropriate level of detail for getting the project set up
-      - Documents common issues with the codebase in a troubleshooting section in the README
-      - Finds some documentation they are reading is out of date so opens a Pull Request to improve it
-      - Writes good commit messages that explain why a change was made
-      - Puts line comments around any 'magic' bits of code
-      - Writes and updates runbooks for services they work on
+      - Consistently follows predefined processes to handle common user requests
+      - Can generally solve most requests without assistance, but still requests help when required
     supportingUrls: []
     level: engineer
     theme: communication
     proficiency: Working knowledge
 
-  - id: aa89c040-a4d6-426b-b682-2c31412b6135
-    summary: Provides feedback on peer’s work
+  - id: 92e7efde-d7f9-41e9-9779-ebd3fbc81123
+    summary: Incident Management
     examples:
-      - Reviews pull requests and gives actionable empathetic feedback
-      - Recognises when a more senior colleague has not given enough detail in an explanation, and asks for clarification
-      - Gives realtime feedback in mob programming sessions
+      - Recognises and performs the key tasks that need to happen during an incident, and manages the incident to completion
     supportingUrls: []
     level: engineer
     theme: communication
     proficiency: Working knowledge
 
-  - id: c381356b-0698-42d3-a14f-4d7aab865972
-    summary: Writes clear tickets, issues and bug reports that contain the necessary amount of detail to be picked up by other engineers
+  - id: d1322c9c-8dba-4626-80e2-553e2595885d
+    summary: Documenting Information
     examples:
-      - Adds links to the pages that are affected by a bug
-      - Writes steps to reproduce an issue that they've found
-      - Adds screenshots to a ticket to help explain a display bug
+      - Creates short guides for common tasks when requested
+      - Explains processes in a clear and understandable way
+      - Sends docs for review and incorporates team feedback
     supportingUrls: []
     level: engineer
     theme: communication
     proficiency: Working knowledge
 
-  - id: cf01a4b3-7035-4b76-a00b-dde8411edb2a
-    summary: Receives feedback and acts upon it
+  - id: d6338b59-b06d-4d5b-98d7-430a11ff063a
+    summary: Communication
     examples:
-      - Implements requested changes on a pull request
-      - Responds to comments on a Google document
-      - Receives feedback from the team that sometimes they don't seem well prepared for morning stand-ups, so takes 5 minutes before stand-ups to gather thoughts about what the status of their work is
+      - Updates status page and able to send ITSM with clear business-friendly information
+      - Comfortable running internal team meetings
     supportingUrls: []
     level: engineer
     theme: communication
     proficiency: Working knowledge
 
-  - id: fdeae1d2-b0e6-4ebd-b842-b4320e7a8e5c
-    summary: Regularly gives timely actionable feedback to colleagues
+  - id: fa122daf-2fd7-47ec-a552-df2ee825c159
+    summary: Ownership of tasks & prioritisation
     examples:
-      - Emails positive feedback to a colleague's line manager, after the colleague was especially helpful.
-      - Notices that someone in the team has invited everyone to a meeting without an agenda. Asks them to add one so people know what the meeting is for and can prepare properly.
+      - Takes tasks through to completion, speaking to other teams or doing work or getting assistance where needed
+      - Owns onboarding of junior members for standard team tasks
+      - Occasionally collaborates  with other technical teams across the business
     supportingUrls: []
     level: engineer
-    theme: communication
+    theme: delivery
     proficiency: Working knowledge
 
-  - id: 3ae3dda8-db92-404c-848e-3adfd6b95754
-    summary: Presents their own work clearly to a product owner or tech lead
+  - id: 1c39845d-3c3f-4a2e-8306-64996455b0b8
+    summary: Helps other teams onboard new services with Ops
     examples:
-      - Talks about their progress in standup without going into deep technical detail
-      - Explains their approach to a technical problem to their tech lead
-      - Gives a live demo of a feature that they worked on to their team
+      - Helps onboard new services and reviews documentation, suggests improvements
     supportingUrls: []
     level: engineer
-    theme: communication
+    theme: delivery
     proficiency: Working knowledge
 
-  - id: 4c4095ee-3918-44fe-a28f-3126d412826b
-    summary: Works on the most important task
+  - id: 04c95df6-2275-4099-86a7-81cd0627279f
+    summary: Helps the team learn and grow
     examples:
-      - Picks the story from the top of a prioritised backlog rather than picking the one that most interests them
-      - Creates tickets to capture non-trivial tech debt, rather than getting side-tracked by things not needed to complete the current task
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 66387149-3933-478e-a13c-13e76fa5a7b8
-    summary: Uses user research or data to inform decisions
-    examples:
-      - Attends customer based user research for a feature being worked on
-      - Sets up a testing session with peers for a new bit of tooling
-      - Finds a common pain point among teammates and proposes/builds a solution for it
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: c1ff041d-a57e-43b4-b125-4d1ce4e05e3e
-    summary: Leads on getting well defined tasks from backlog to production
-    examples:
-      - Turns a user story into a technical implementation in production
-      - Raises blockers in timely way
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 30fef90c-7d58-49a3-a411-0bdf6e39eafc
-    summary: Regularly collaborates with team members from other disciplines to deliver features
-    examples:
-      - Pairs with the designer who worked on visuals or wire-frames for a feature
-      - Sits with their product owner to discuss some edge-cases in a feature
-      - Helps to debug a cross-browser issue with a tester
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: a869e956-26bd-4d25-9a5c-a5251eb19108
-    summary: Regularly contributes openly to team meetings and encourages others to do so
-    examples: []
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 94c369dd-2306-45ff-9608-0feaf452d8ed
-    summary: Regularly communicates the status of work
-    examples: []
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 8c1f70fd-b831-44ea-ab31-e56e0268e18e
-    summary: Asks for help or clarification on tasks when required
-    examples: []
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: eca32fc8-953d-4373-9865-8c51b4acd0ed
-    summary: Participates in delivery process
-    examples:
-      - Moves tickets to done column when they are complete
-      - Goes to stand-ups and communicates progress
-    supportingUrls: []
-    level: engineer
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: e53f1adb-48f4-40c2-8088-9a6a20185c55
-    summary: Knows who their project's stakeholders are
-    examples: []
+      - Starting to share knowledge and learnings with team by running sessions on specific topics
     supportingUrls: []
     level: engineer
     theme: leadership
     proficiency: Working knowledge
 
-  - id: f410ae7f-044d-4bd5-a3a6-5d13fe5ab87b
-    summary: Acts with integrity, honesty and accountability
-    examples: []
+  - id: 2bb80087-2a3d-4d93-a937-14e014fddf80
+    summary: Ownership of personal development
+    examples:
+    - Beginning to build a depth of knowledge in at least one specific area within job role
+    - Comfortable in indientify new things they want to learn, and getting support to do so
     supportingUrls: []
     level: engineer
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 6f4e536e-dde3-4156-9042-225162de4102
-    summary: Positively contributes to an inclusive team culture
+  - id: 3c6e7498-89a9-4909-abc7-1cbde4478604
+    summary: Ownership of personal development
     examples:
-      - Reminds others that team members may have child care duties
-      - Draws people working remotely into planning conversations
-      - Tactfully calls out exclusive or alienating behaviours from others
-      - Organises a leaving collection for a colleague
-      - Documents team norms to help new starters
-      - Checks in with team members who appear stressed
+      - Beginning to build a depth of knowledge in at least one specific area within job role,
+      - Comfortable in indientify new things they want to learn, and getting support to do so
     supportingUrls: []
     level: engineer
     theme: leadership
     proficiency: Working knowledge
 
-  - id: f2b5f5db-75fa-410c-90fb-25119113896d
-    summary: Shares knowledge with peers informally
+  - id: 5413c4f2-7d2a-43f9-81b7-a5372fc28471
+    summary: Responds to change
     examples:
-      - Pairs on a feature with a more junior colleague
-      - Helps onboard a new hire, acting as their go-to person for questions
-      - Comes back from a conference and shares their learnings with others
+      - Learns new ways of working as technology and the business change over time
+      - Someone who is comfortable adapting and updating existing processes
     supportingUrls: []
     level: engineer
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 56b4d378-58d6-4404-ba39-b776c9b5c29c
-    summary: Has worked with teams outside of their home group (where home group will be one of Customer Products, FT Core, Internal Products, Operations and Reliability, Enterprise Services and Security, FT Group Products or FT Labs)
+  - id: d9877131-5167-4efb-9a50-1abf2f2ae6be
+    summary: Improves and promotes team visibility between departments
     examples:
-      - Based in Customer Products but collaborated with developers from FT Core to build a new API endpoint for content
-      - Has done a bootcamp with another group
-      - Had done a secondment to Operations and Reliability
-      - Works in the Interactive Graphics team and collaborates with someone from Editorial on a project
-      - Works in Internal Products and collaborates with the Origami team on a new feature in a component
+      - Collaborates with other P&T teams professionally
     supportingUrls: []
     level: engineer
     theme: leadership
     proficiency: Working knowledge
 
-  - id: d984e76c-2696-490b-83e7-eb66c6b38e8b
-    summary: Takes ownership of their personal development
+  - id: 036333ca-7b3a-4482-b96b-71931952227c
+    summary: Improves and promotes team visibility between departments
     examples:
-      - Sees some code that they don't understand, and researches how it works
-      - Proactively learns how to use a new tool/language feature
-      - Reads blog posts about technology
-      - Studies for and attains a technical certification
-      - Finds a training course and takes it
-      - Attends meet-ups or conferences
+      - Collaborates with other P&T teams professionally
     supportingUrls: []
     level: engineer
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 526e886d-8118-4029-a230-001dfe85dab9
-    summary: Builds products ensuring they take adequate steps to protect sensitive data
+  - id: 07a86514-ce93-4002-8935-a56e1f2f7a08
+    summary: Team values
     examples:
-      - Databases have encryption at rest
-      - Sensitive data is masked or in restricted indexes in Splunk
-      - Data is retained only for as long as it is needed
-      - Dummy/fictional data is used in staging environments and in tests
-      - Suppliers don't get access to data unless they have gone through the Procurement Management Application process
+      - Helps encourage team to follow team values, uses their standing in the team to make a positive difference
+    supportingUrls: []
+    level: engineer
+    theme: leadership
+    proficiency: Working knowledge
+
+  - id: c35fc68c-31ce-4ce2-ab6d-ad5293b91466
+    summary: Improves the team's processes (aka Service improvement)
+    examples:
+      - Picks up and suggests large scale initiatives and service improvement tasks for the team
+    supportingUrls: []
+    level: engineer
+    theme: leadership
+    proficiency: Working knowledge
+
+  - id: 49bc4b28-8622-415f-94cf-56005034f35b
+    summary: Deputising for manager (think of a better phrase for this)
+    examples:
+      - Takes ownership of delegated leadership tasks without being requested
+    supportingUrls: []
+    level: engineer
+    theme: leadership
+    proficiency: Working knowledge
+
+  - id: 90008ea2-646b-429f-a2e1-db9bb063c2cd
+    summary: Support systems and performs technical processes
+    examples:
+      - Has advanced knowledge and at least one area of expertise across business critical systems
+      - Defines and updates specific support processes for use by the rest of the team
     supportingUrls: []
     level: senior-1
     theme: technical
     proficiency: Working knowledge
 
-  - id: 92574bff-d3d4-42a7-ae21-ff65ef59907d
-    summary: Implements appropriate observability and monitoring when building a solution
+  - id: d41bcc1c-1660-4403-9bec-57c59af0f37d
+    summary: Perform the technical processes for Ops
     examples:
-      - When adding a new dependency to a system, adds a healthcheck to monitor the dependency's state
-      - Adds logging that is well-structured and captures useful information about the state of a system
-      - Builds a Grafana dashboard that visualises normal and abnormal operation of a system
+      - Viewed as having deep knowledge and expertise in performing technical processes
+      - Develop processes for others to follow
     supportingUrls: []
     level: senior-1
     theme: technical
     proficiency: Working knowledge
 
-  - id: 8c7216b5-322b-4e48-9f01-b320a8472e36
-    summary: Evaluates third-party software to use in projects
+  - id: a2ae1bc2-31cd-4737-a9d7-1a996d2d8c22
+    summary: Handling requests from users
     examples:
-      - Can choose between similar Node libraries evaluating code quality, ease of integration, future maintenance, and security concerns
-      - May be involved in evaluating paid-for third party supplier code
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 87d732f4-e0c0-4ca8-a14a-227430af3337
-    summary: Leads on fixing live incidents in production
-    examples:
-      - Takes proactive action when an incident is reported on a system they support and resolves it satisfactorily
-      - "Responds to critical issues raised in #ft-tech-incidents taking the initiative to fix them and reports back"
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: e0fe9513-91a8-48b5-b2c1-8e793df6edef
-    summary: Understands the security attack vectors for their area of technology and mitigates against them
-    examples:
-      - Uses Snyk.io on projects
-      - Sanitises user input to mitigate against XSS attacks
-      - Applies security patches to an operating system
-      - Protecting public API endpoints
-      - Articulates security risks/benefits when evaluating third party software
-      - Uses Fastly WAF to protect from malicious requests
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 6f85efb0-e0f5-49b2-9284-0942e3ae942c
-    summary: Makes pragmatic decisions about technical trade-offs within their project
-    examples:
-      - Knows when to stop work on a feature that has fulfilled the requirements vs. spending an extra week on making it perfect but delivering little additional value
-      - When pressed for time, focuses on ensuring test coverage of the most critical system functionality
-      - Manages technical debt, understands consequences of technical debt vs the cost of fixing it and acts accordingly
-      - Can explain when something is worth refactoring even when it will impact the speed of delivery
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: e1bb076e-2f75-4f8f-ac5d-e1c26b95a8ca
-    summary: Delivers high quality code and solutions
-    examples:
-      - Refactors solutions to improve clarity and maintainability
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: fc9f2ee9-6a51-4c79-88eb-52fceb352f23
-    summary: Encourages others to deliver high quality code and solutions
-    examples:
-      - Implements tooling to enforce high standards
-      - Reviews pull requests fairly & critically in such away that team members produce better code
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: f677386b-c821-4322-baf6-783a1197dfec
-    summary: Regularly and independently debugs and fixes bugs regardless of origin
-    examples:
-      - Picks up and debugs an urgent issue that comes in to the team, despite having not written the code originally
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: a6fbd08f-5176-4a5e-b914-6ada536b51bc
-    summary: Builds software or services considering resilience, performance and failure modes
-    examples:
-      - Combines multiple data sources in a feature, caching, polling etc as appropriate to cope with problems in downstream services
-      - Adds healthchecks to a system that detect different ways in which it can fail
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 4f5aaeaa-01fa-419e-991d-580650fc0913
-    summary: Chooses the appropriate tool, technology or software for a task
-    examples:
-      - If starting a new project, uses tools already understood by the team unless there is an agreed good reason to change
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 63adc845-f359-4678-a2a5-8cbad800ce92
-    summary: Builds and works with systems involving multiple, independent technical parts
-    examples:
-      - Adds data sources to or optimises performance of a data pipeline
-      - Publishes a new origami component that uses other components
-      - Implements a CDN / gateway that routes to a suite of underlying microservices
-      - Designs and implements a build pipeline
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 7b9809fb-0b19-442e-94ce-4bec52374574
-    summary: Considers the technical direction of their group or the wider department when coming up with technical solutions
-    examples:
-      - Understands how their work feeds into their group's tech strategy
-      - Can articulate and justify the total cost of ownership of their technical solutions
-      - Follows their group's Engineering Principles when building technical solutions
-    supportingUrls: []
-    level: senior-1
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 071a9077-10f0-4aa1-ac91-9405078fe16f
-    summary: Communicates technical concepts clearly and adapts that communication to the audience
-    examples:
-      - Explains their work in standups knowing which technical details to leave out to make the message meaningful to everyone in the room
-      - Teaches more junior engineers
-      - Creates diagrams to document how the different parts of systems interact
-      - Presents their own work clearly to stakeholders
+    - Regularly picks up user requests that are unfamiliar or have no clear process, and does the work needed to help the user (or escalates to the people who can)
     supportingUrls: []
     level: senior-1
     theme: communication
     proficiency: Working knowledge
 
-  - id: 56e84e15-892d-413c-aa01-4b30a615be28
-    summary: Facilitates productive discussions with clear outcomes
+  - id: f8900ec7-c1fa-4f7e-8751-a4852532a3ff
+    summary: Incident Management
     examples:
-      - Runs meetings with clear agendas and outcomes
-      - Obtains wide feedback on technical proposals and takes ownership of seeing it through
+      - Recognises and performs the key tasks that need to happen during an incident, comfortable organising reviews and writing reports, and seeks and suggests improvements
     supportingUrls: []
     level: senior-1
     theme: communication
     proficiency: Working knowledge
 
-  - id: 93c925cd-0a60-434c-96e4-43b3c6f9d2ed
-    summary: Contributes to hiring process
+  - id: 13b31592-447b-4611-b845-3f3008210815
+    summary: Documenting new information
     examples:
-      - Participates in hiring panels or technical interviews
-      - Attends recruitment events
-      - Publicly shares links to open roles
-      - Goes for coffee with potential hires to talk about what working at the Financial Times is like
-      - Shares our work publicly, (through blogging, speaking, etc) to show the kinds of work we do here
-      - Reviews CVs
-      - Reviews tech tests
+      - clearly laid out, step by step, gets feedback before releasing it
+      - Clear communication
     supportingUrls: []
     level: senior-1
     theme: communication
     proficiency: Working knowledge
 
-  - id: d628628c-8276-4ff0-a350-811880009f94
-    summary: Prioritises technical work for the team (usually with others)
-    examples: []
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 7b835470-a245-4853-b491-0bed42c05264
-    summary: Breaks down large complex technical proposals into discrete tasks
+  - id: 387a8e2a-8d8f-45cb-9505-6cc74440452c
+    summary: Ownership of tasks & prioritisation
     examples:
-      - Creates the user stories for the ticket with a delivery lead
+    - Identifies and owns more complicated tasks and processes, is able to take them through to completion, seeking all necessary guidance, without heavy involvement from leadership and is responsible for training the team in them
+    - Regularly collaborates with technical and business stakeholders
     supportingUrls: []
     level: senior-1
     theme: delivery
     proficiency: Working knowledge
 
-  - id: 62a960d6-2bc8-4d65-b944-b97be45b76c7
-    summary: Communicates team/work's status upwards to a Principal or Technical Director
-    examples: []
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: f14d09eb-8208-446b-8c52-dcd5a3cc4889
-    summary: Where appropriate, builds on other teams' work to solve problems
+  - id: 1a71f4a8-2d94-4d20-9d80-e0ef2a3811ff
+    summary: Helps other teams onboard new services with Operations
     examples:
-      - Uses origami components to style a web page
-      - Uses Biz Ops as a source of system data rather than creating a new system registry
+      - Helps onboard new services and reviews documentation, suggests improvements and works with teams to define better processes and procedures for the team
     supportingUrls: []
     level: senior-1
     theme: delivery
     proficiency: Working knowledge
 
-  - id: 640ed0ca-b4cd-448c-93a5-4bf8ff53fd4e
-    summary: Moves blockers to enable more junior engineers to work
+  - id: 55148773-cefe-4069-a4e1-8c656a455109
+    summary: Helps the team learn and grow
     examples:
-      - Reviews pull requests
-      - Suggests someone to talk to eg “[X] knows the most about [technology Y], you could ask them”
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 035ee5e2-e314-4c15-9c1b-9a4c7956d85d
-    summary: Tackles simple cross team technical issues
-    examples:
-      - Notices a tool used by lots of teams has broken, identifies the problem and fixes (or reports it to the owner of the tool)
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: ca1596cc-f763-4728-a2b9-29c48db9eb54
-    summary: Actively seeks the views of other teams to help guide work
-    examples:
-      - Attends cross team meetings
-      - Asks other teams for input and opinions on decisions that affect them
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 267c5b15-f063-45db-9a54-92d20e8d8a68
-    summary: Improves delivery process and encourages others to do the same
-    examples:
-      - Updates the scrum process to fit the changing needs of the team
-      - Champions technical issues that affect delivery such as release cycles, dealing with tech debt and bug fixes
-      - Encourages other engineers to participate in agile team rituals
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 789efb0f-843b-42a1-bfd3-9828951c9234
-    summary: Manages, prioritises and communicates own workload
-    examples: []
-    supportingUrls: []
-    level: senior-1
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 26423a84-60af-4221-92ab-a7a8a01229a4
-    summary: Influences a community of practice
-    examples:
-      - Is an active member of a Guild
-      - "Answers questions in the #engineering Slack channel"
-      - Gives a tech talk (internally or externally)
-      - Writes a blog post
-      - Shares industry relevant content/links with team members that may be interested
+    - Regularly goes out of their way to learn new skills and processes, and encourages team to learn and participate in their own knowledge sharing
     supportingUrls: []
     level: senior-1
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 1d341f37-05b9-4a03-a96a-17117eae3078
-    summary: Is an ambassador for their team across FT technology
+  - id: 4fa1e3d3-5da0-467c-9bf2-5bdb9af9197a
+    summary: Ownership of personal development
     examples:
-      - Positively represents their team in interactions with other people by seeking to understand their perspectives, values and needs
-      - Consistently contributes to their team being positively perceived by stakeholders (or by other engineering teams to which they provide support)
+    - Push their own learning into areas they are not necessarily familiar with, considered within team to be a subject matter expert in one or more areas within their job role
     supportingUrls: []
     level: senior-1
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 7117a505-554e-45fc-904b-1d0279713543
-    summary: Contributes to the personal development of more junior people
+  - id: 68fd1262-6c39-428d-a241-88f4fa063cd4
+    summary: Responds to change
     examples:
-      - Is a line manager or mentor
-      - Is a designated buddy to a new starter
-      - Regularly meets up with more junior peers to provide guidance
-      - Pairs with more junior team members
-      - Writes blog posts to share knowledge
-      - Gives talks at meet-ups or conferences to share knowledge
+      - Actively promotes and has input into change
+      - Supports the team in adapting to changes as they happen
     supportingUrls: []
     level: senior-1
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 6c2bb5e1-e249-4a5e-925b-2fde025d4272
-    summary: Shows technical leadership
+  - id: 92e9ae48-4ca5-4c55-8b67-13842f6cc3e7
+    summary: Improves and promotes team visibility between departments
     examples:
-      - Is a tech lead
-      - Runs, or is on the organising team for a Guild
-      - Leads on large features, stories or projects
+      - Promoting Operations at internal tech events
     supportingUrls: []
     level: senior-1
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 8ec42132-8fee-4b3d-af6c-97c3ef7f9afb
-    summary: Shares knowledge with others internally
+  - id: 8053c138-4d05-4b8b-9a7e-e5de836cc42a
+    summary: Team values
     examples:
-      - Gives a workshop on Git
-      - Runs a regular 101 session for the rest of the business
-      - More informal knowledge sharing through mentorship
+      - Helps encourage team to follow team values, uses their standing in the team to make a positive difference
     supportingUrls: []
     level: senior-1
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 0e604d48-b8c2-4434-a60a-032cc8a2d268
-    summary: Makes pragmatic decisions about technical trade-offs beyond their project
+  - id: ec1befbf-bfa5-452f-a881-11ebbc9fd5ee
+    summary: Support systems and performs technical processes
     examples:
-      - Can articulate why the overhead of using a third party system is worth it for their project
-      - Decides to invest time in building a dashboard for stakeholders to reduce the number of queries they make to the team
-      - Gathers relevant data to inform buy vs. build vs. blend discussions impacting their project
+      - Has a deep knowledge and multiple areas of expertise across business critical systems
+      - Defines and updates wide-ranging processes that affect multiple teams across P&T
     supportingUrls: []
     level: senior-2
     theme: technical
     proficiency: Working knowledge
 
-  - id: 1f9e4666-28db-4926-b617-59f5369086e7
-    summary: Debugs and fixes complex bugs efficiently
+  - id: 57653fee-f462-42e8-a8df-5fe3629e4c35
+    summary: Perform the technical processes for Operations
     examples:
-      - Investigates a drop in organic traffic from google, makes educated investigations into various aspects of the end to end system, consulting other domain experts along the way and keeping stakeholders aware of progress.
-      - Investigates a discrepancy in reported ad traffic. Works with the ad ops team to narrow down scope of problem. Uses technical knowledge to consult logs for various systems. Identifies a fix and implements.
+      - Viewed as having deep knowledge and expertise in supporting in technical processes, regularly training others in the team
+      - Will look for new things for the team to learn and will develop, train people as a result
     supportingUrls: []
     level: senior-2
     theme: technical
     proficiency: Working knowledge
 
-  - id: 8966aa83-4d76-4e10-8372-84819fcb5962
-    summary: Finds technical problems outside of immediate team and identifies ways to improve them
+  - id: a2830b7c-86d6-4f09-a9dd-1ebf684b8b76
+    summary: Problem solving / troubleshooting, and escalation
     examples:
-      - Notices a lot of requests coming in to Ops Cops from Customer Support for an admin task that could be automated. Automates the task and works with the Customer Support team on how to use the new tool
-      - While debugging an issue, traces the bug back to a shared library. Creates a patch for the bug and makes sure it is released.
-      - Spots another team could benefit from using a security feature and helps them implement it
+      - Can work at a deeper level with delivery teams troubleshoot and resolve more complex issues and capture activities for others
     supportingUrls: []
     level: senior-2
     theme: technical
     proficiency: Working knowledge
 
-  - id: cfc69a21-4e92-4cd1-8a1c-7129104a3ecf
-    summary: Translates difficult business requirements into technical designs
-    examples: []
+  - id: 9afad154-6c53-4ab2-9b10-284d86e9e9fe
+    summary: Technical skill sets, how we operate systems
+    examples:
+      - Uses their technical skill set to do advanced configuration, monitoring and troubleshooting across a broad range of technologies
+      - Able to quickly work at a basic level in technologies and systems they are not familiar with
     supportingUrls: []
     level: senior-2
     theme: technical
     proficiency: Working knowledge
 
-  - id: a40c5361-bd8f-4046-b735-065f985e9d6b
-    summary: Has a deep understanding of, and helps others understand, a particular technology or product
+  - id: 1aeb7d0f-18f1-4142-97ed-9e0cdb604500
+    summary: Handling requests from users
     examples:
-      - Responds to questions on Slack about a particular technology or product
-      - Provides thoughtful and in-depth feedback on Pull Requests that fall into their area of expertise
-    supportingUrls: []
-    level: senior-2
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: 2928d583-5b22-41c2-a656-77521b76a157
-    summary: Shapes the technical direction for the wider group or tech department.
-    examples:
-      - Takes a proposal to the Technical Governance Group
-      - Contributes to technical strategy work
-      - Successfully leads the group-wide adoption of a particular technology
-    supportingUrls: []
-    level: senior-2
-    theme: technical
-    proficiency: Working knowledge
-
-  - id: d1b47913-0e58-4a1c-8220-3e172998d5c0
-    summary: Communicates complex technical concepts clearly and adapts that communication to the audience
-    examples:
-      - Articulates to a product owner how one third-party technical solution is better than another
-      - Explains to a stakeholder how a technical incident in a system impacted the business
+      - Able to understand the context behind customer requests, identify when a request isn't as simple as it looks, or could cause a problem, and investigates the correct solution
+      - Looking at requests from a higher level business point of view
     supportingUrls: []
     level: senior-2
     theme: communication
     proficiency: Working knowledge
 
-  - id: f33b00af-3667-4ee6-a4bb-75158fa680cd
-    summary: Leads hiring process for new Engineers. This could be all aspects or only part of the process.
+  - id: 2fa6d6fb-faf1-452e-94a2-13558b90451f
+    summary: Incident Management (in a incident lead role)
     examples:
-      - Is the lead interviewer on an interview panel
-      - Gathers feedback from the hiring panels and leads wash-up discussion on the candidate
-      - Is accountable for making sure engineers review CV's and tech tests in a timely manner
-      - Works to improve the quality of the interviews we conduct and the consistency of the code and CV reviews we do
+      - Comfortable running a major incident with widespread business impact, sending senior stakeholder updates and comms, coordinating complex incident reviews across multiple teams, and ensuring that improvements are picked by teams
     supportingUrls: []
     level: senior-2
     theme: communication
     proficiency: Working knowledge
 
-  - id: 23815dae-1a48-4699-9d44-bf8c44919c35
-    summary: Presents their team's work to others in the business
+  - id: 88cec904-7547-4175-8ea9-f283d3975be5
+    summary: Documenting new information
     examples:
-      - Speaks at the Technology All Hands
-      - Writes one-pagers to explain technical decisions
-      - Writes a blog post about an aspect of the team's work
-      - Writes a monthly update newsletter for stakeholders about recent releases
-      - Makes sure new features are announced to interested parties (e.g. publishing on the appropriate slack channel, sending a release email)
+      - Identifies gaps in existing documentation and works to improve them without being requested
+      - Defines the processes and guidelines in terms of how documentation is used and consumed by the team
     supportingUrls: []
     level: senior-2
     theme: communication
     proficiency: Working knowledge
 
-  - id: 01cc38af-5a19-48b8-a4e9-4ed8a6b3125a
-    summary: Takes a stakeholder problem, investigates to understand it and proposes a solution
-    examples: []
+  - id: ebad3e04-7d1d-4174-9dd9-98579785dbfb
+    summary: Clear communication
+    examples:
+      - Able to write and send business level comms widely, communicate with senior stakeholders
+      - Comfortable in senior meetings, TLG, TGG
+    supportingUrls: []
+    level: senior-2
+    theme: communication
+    proficiency: Working knowledge
+
+  - id: 07007fb8-0e16-468e-b216-bb02a0838a03
+    summary: Ownership of tasks & prioritisation
+    examples:
+      - Identifies projects or big changes that aren't requested by a user but still important to the business
+      - Drives project through to completion, delegating and requesting assistance from technical, business and senior leadership
+      - Can identify urgent or high priority tasks without clear guidance from the requestor, even when they are not an incident or raised as high priority
     supportingUrls: []
     level: senior-2
     theme: delivery
     proficiency: Working knowledge
 
-  - id: e2eb73d2-c6fd-4183-b3a7-d613d9795727
-    summary: Tackles complex cross-team technical issues breaking them down into smaller bits and addressing them
+  - id: 36dfdd58-470d-4222-a36f-d87c737c79fa
+    summary: Helps other teams onboard new services with Ops
     examples:
-      - Manages the roll out of a new shared tool to multiple code repositories, identifying what work needs to be done, and finding teams to do the work
-      - Finds a bug in a library that affects multiple teams, fixes the bug and works with teams to make sure everybody is able to upgrade
-      - Finds a manual process slowing down multiple teams and automates it
+      - Helps onboard new services and reviews documentation, suggests improvements and works with teams to define better processes and procedures for the team.  Occasionally redefining how we work (i.e. Usage of Github)
     supportingUrls: []
     level: senior-2
     theme: delivery
     proficiency: Working knowledge
 
-  - id: 4a7e4434-8097-4c60-8dc1-40f173e58572
-    summary: Is accountable for the delivery of the team (individually or jointly with other people)
+  - id: 24d74d56-c9a6-4f8f-b2fe-938c37310803
+    summary: Helps the team learn and grow
     examples:
-      - Works with their delivery lead to plan upcoming work
-      - Grooms backlog to make sure issues are ready to be picked up
-      - Writes measurable team OKRs, aligned with the goals of their Group
-      - Proactively unblocks others in their team
-    supportingUrls: []
-    level: senior-2
-    theme: delivery
-    proficiency: Working knowledge
-
-  - id: 66b8e30f-c1d5-4658-9cd6-ee5088c0648a
-    summary: Identifies knowledge gaps within the team and gives training to address gaps
-    examples:
-      - Notices that people are not using Git as powerfully as they could so delivers a workshop for engineers on how to use Git's more advanced features.
-      - Notices they are the only person that understands a particular area of the codebase, so writes and delivers a talk at a team meeting about that area.
+      - Regularly schedules team learning sessions to share knowledge, pairs with team, identifies areas for the team to improve in
+      - Looks at industry best practices and how to expand team knowledge and processes in line with this
     supportingUrls: []
     level: senior-2
     theme: leadership
     proficiency: Working knowledge
 
-  - id: b90daf0e-27bf-49fb-9e02-d1ca8bb5134e
-    summary: Actively fosters an inclusive team culture
+  - id: ca3a174d-6608-4878-8f62-48eed01b446c
+    summary: Ownership of personal development
     examples:
-      - Celebrates good work publicly and encourages the team to do the same
-      - Spots problems between team members and helps to resolve them
-      - Models inclusive behaviour to the rest of the team
+      - Has a wide breadth and depth of knowledge across the wider business, seeks opportunities to learn and pick up new things for the benefit of team.  Will independently learn about new areas both from a technical and business standpoint
     supportingUrls: []
     level: senior-2
     theme: leadership
     proficiency: Working knowledge
 
-  - id: fd064566-d72f-4ea0-9b45-98543e5777f4
-    summary: Helps resolve disagreements healthily
+  - id: 452f0e39-79f8-41d7-8864-792ab30536e8
+    summary: Responds to change
     examples:
-      - Helps the team navigate disagreements over the best way to do things. Gets agreement and buy-in from engineers on a solution to a problem
-      - Encourages team members to speak freely in retrospectives
-      - Encourages team members to treat each other empathetically
+      - Able to see opportunities to improve the team or business
+      - Takes initiative to makes change happen, and influences team to see benefits of new ways of working
     supportingUrls: []
     level: senior-2
     theme: leadership
     proficiency: Working knowledge
 
-  - id: 50a4579c-b318-4041-8256-e73bbf4c2f36
-    summary: Shapes the medium to long term priorities of their team
+  - id: bda32a94-54c1-4b49-b04d-83b996ec5c56
+    summary: Improves and promotes team visibility between departments
     examples:
-      - Finds commonalities between small feature ideas in order to form them into larger, coherent technical challenges for the team
-      - Champions turning things off into order to have capacity to work on new things
-      - Argues for and forms a feature team to tackle a shared problem with other areas of the business
-      - Writes a realistic roadmap in collaboration with a product owner and delivery lead
+      - Actively creates opportunities for cross-departmental collaboration and training, including senior stakeholders
+    supportingUrls: []
+    level: senior-2
+    theme: leadership
+    proficiency: Working knowledge
+
+  - id: c0622ad3-9ba6-4e27-b147-d8856f78d657
+    summary: Team values
+    examples:
+      - Drives ownership of team values, helping team to refresh and review as necessary in line with wider FT and P&T values
+    supportingUrls: []
+    level: senior-2
+    theme: leadership
+    proficiency: Working knowledge
+
+  - id: 44408b32-9185-4798-85ba-c05940c610c5
+    summary: Improves the team's processes (aka Service improvement)
+    examples:
+      - Defines and implements service improvements for the team and the department as a whole
+    supportingUrls: []
+    level: senior-2
+    theme: leadership
+    proficiency: Working knowledge
+
+  - id: 7eabe33b-86eb-4b43-8e1b-70cf6efea87a
+    summary: Deputising for manager
+    examples:
+      - Able to lead the team and support them when other leadership are unavailable, comfortable with doing so in a senior stakeholder environment
     supportingUrls: []
     level: senior-2
     theme: leadership
