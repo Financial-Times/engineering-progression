@@ -27,34 +27,23 @@
 	}
 }
 
-// Competency table styles (including for print CSS)
-.competency-table__paragraph {
-	margin: 0;
-
-	&:not(:first-child) {
-		margin-top: .5em;
-	}
-}
-.competency-table__evidence {
-	display: none;
-	@media print {
-		display: table-cell;
-		width: 40%;
-	}
-}
-.competency-table__evidence-inner {
-	@media print {
-		min-height: 5em;
-	}
-}
-.competency-table__examples,
-.competency-table__supporting-urls {
-	margin-bottom: 0;
-	margin-top: .5em;
-	list-style: disc;
-}
-.competency-table__examples {
+// Competency styles
+.theme-summary {
 	font-style: italic;
+}
+
+.competency {
+	padding: 1em;
+	margin-bottom: 1em;
+	border: solid 1px #ccc;
+	background-color: #f4f4f5;
+	break-inside: avoid;
+	> * {
+		margin: 0 !important;
+		&:not(:first-child) {
+			margin-top: .5em !important;
+		}
+	}
 }
 
 // Overview styles (for competencies overview)
