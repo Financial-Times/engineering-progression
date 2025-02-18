@@ -1,7 +1,8 @@
-name: Engineering
+name: Engineering (Legacy)
 summary: >
-  Competencies for engineers within the CTO organisation at the Financial Times.
+  Legacy competencies for engineers within the CTO organisation at the Financial Times, used from Q4-2020 to Q1-2025.
 googleSheetId: 1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00
+isLegacy: true
 
 levels:
 
