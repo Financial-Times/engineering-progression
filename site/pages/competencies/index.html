@@ -23,17 +23,36 @@ layout: o-layout-landing
 
 		{% for jobFamilyHash in site.data.job-families %}
 			{% assign jobFamily = jobFamilyHash[1] %}
-			<div class="o-layout-item">
-				<h2 id="{{jobFamilyHash[0]}}">{{jobFamily.name}}</h2>
-				<p>{{jobFamily.summary}}</p>
-				<ul>
-					{% for level in jobFamily.levels %}
-						<li>
-							<a href="/competencies/{{jobFamilyHash[0]}}/{{level.id}}/">{{level.name}}</a>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
+			{% if jobFamily.isLegacy != true %}
+				<div class="o-layout-item">
+					<h2 id="{{jobFamilyHash[0]}}">{{jobFamily.name}}</h2>
+					<p>{{jobFamily.summary}}</p>
+					<ul>
+						{% for level in jobFamily.levels %}
+							<li>
+								<a href="/competencies/{{jobFamilyHash[0]}}/{{level.id}}/">{{level.name}}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
+		{% endfor %}
+
+		{% for jobFamilyHash in site.data.job-families %}
+			{% assign jobFamily = jobFamilyHash[1] %}
+			{% if jobFamily.isLegacy == true %}
+				<div class="o-layout-item">
+					<h2 id="{{jobFamilyHash[0]}}">{{jobFamily.name}}</h2>
+					<p>{{jobFamily.summary}}</p>
+					<ul>
+						{% for level in jobFamily.levels %}
+							<li>
+								<a href="/competencies/{{jobFamilyHash[0]}}/{{level.id}}/">{{level.name}}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
 		{% endfor %}
 
 	</div>

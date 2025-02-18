@@ -22,6 +22,18 @@ second paragraph
 	competences on the Engineering Progression website: <a href="https://engineering-progression.ft.com/">https://engineering-progression.ft.com/</a>.</em>
 </p>
 
+{% if jobFamily.isLegacy == true %}
+	<div class="o-message o-message--alert o-message--error o-message-in-body" data-o-message-close="false" data-o-component="o-message">
+		<div class="o-message__container">
+			<div class="o-message__content">
+				<p class="o-message__content-main o-layout__unstyled-element">
+					These are legacy competencies, please check the <a href="/competencies/">competencies overview page</a> for more information
+				</p>
+			</div>
+		</div>
+	</div>
+{% endif %}
+
 <div class="o-layout__main__full-span">
 	{% for theme in jobFamily.themes %}
 		<h2 id="{{theme.id}}">{{theme.name}}</h2>

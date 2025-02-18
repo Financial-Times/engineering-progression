@@ -16,6 +16,10 @@
 			"title": "ID of the Google Sheet to push competencies data to",
 			"type": "string"
 		},
+		"isLegacy": {
+			"title": "Whether the job family is considered legacy",
+			"type": "boolean"
+		},
 		"summary": {
 			"title": "Summary of the job family",
 			"type": "string"
@@ -40,7 +44,7 @@
 			}
 		}
 	},
-	"required": ["competencies", "summary", "levels", "name", "themes"],
+	"required": ["competencies", "googleSheetId", "summary", "levels", "name", "themes"],
 	"additionalProperties": false,
 	"$defs": {
 		"competency": {

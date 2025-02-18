@@ -23,13 +23,17 @@ buildCompetencies({ input: dataPath, output: distPath })
 		for (const path of Object.values(buildInfo)) {
 			const pathRelative = path.replace(`${rootPath}/`, '');
 			const jobFamily = JSON.parse(await readFile(path, 'utf-8'));
-			console.log('Deploying Google Sheet for competencies at', pathRelative);
-			await deployGoogleSheet({
-				client: googleClient,
-				jobFamily,
-				spreadsheetId: jobFamily.googleSheetId,
-				version
-			});
+			if (!jobFamily.isLegacy) {
+				console.log('Deploying Google Sheet for competencies at', pathRelative);
+				await deployGoogleSheet({
+					client: googleClient,
+					jobFamily,
+					spreadsheetId: jobFamily.googleSheetId,
+					version
+				});
+			} else {
+				console.log('Not deploying Google Sheet for legacy competencies at', pathRelative);
+			}
 		}
 	})
 	.catch((error) => {

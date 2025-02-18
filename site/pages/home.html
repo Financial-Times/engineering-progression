@@ -42,10 +42,20 @@ layout: o-layout-landing
 					Track progress with your manager or report via Google Sheets:
 					<ul>
 						{% for jobFamilyHash in site.data.job-families %}
-						{% assign jobFamily = jobFamilyHash[1] %}
-							<li>
-								<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">{{jobFamily.name}}</a>
-							</li>
+							{% assign jobFamily = jobFamilyHash[1] %}
+							{% if jobFamily.isLegacy != true %}
+								<li>
+									<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">{{jobFamily.name}}</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+						{% for jobFamilyHash in site.data.job-families %}
+							{% assign jobFamily = jobFamilyHash[1] %}
+							{% if jobFamily.isLegacy == true %}
+								<li>
+									<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">{{jobFamily.name}}</a>
+								</li>
+							{% endif %}
 						{% endfor %}
 					</ul>
 				</li>
