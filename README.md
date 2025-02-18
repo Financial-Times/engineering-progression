@@ -26,7 +26,7 @@ Engineering competencies are used to inform conversations about career progressi
 
   - [View all competencies on the website](https://engineering-progression.ft.com/competencies/)
 
-  - [Read the engineering competencies as YAML in this repository](data/competencies.yml)
+  - [Read the engineering competencies as YAML in this repository](data/roles)
 
 ## Contributing
 
