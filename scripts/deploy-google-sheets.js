@@ -22,12 +22,12 @@ buildCompetencies({ input: dataPath, output: distPath })
 		}
 		for (const path of Object.values(buildInfo)) {
 			const pathRelative = path.replace(`${rootPath}/`, '');
-			const role = JSON.parse(await readFile(path, 'utf-8'));
+			const jobFamily = JSON.parse(await readFile(path, 'utf-8'));
 			console.log('Deploying Google Sheet for competencies at', pathRelative);
 			await deployGoogleSheet({
 				client: googleClient,
-				role,
-				spreadsheetId: role.googleSheetId,
+				jobFamily,
+				spreadsheetId: jobFamily.googleSheetId,
 				version
 			});
 		}
@@ -58,14 +58,14 @@ async function authWithGoogle() {
 /**
  * @param {object} options
  * @param {import('@googleapis/sheets').sheets_v4.Sheets} options.client
- * @param {object<string, any>} options.role
+ * @param {object<string, any>} options.jobFamily
  * @param {string} options.spreadsheetId
  * @param {string} options.version
  */
-async function deployGoogleSheet({ client, role, spreadsheetId, version }) {
+async function deployGoogleSheet({ client, jobFamily, spreadsheetId, version }) {
 	console.log('version:', version, '/ Spreadsheet ID:', spreadsheetId);
 	const spreadsheet = (await client.spreadsheets.get({ spreadsheetId })).data;
-	const sheetIds = await createSheets({ client, role, spreadsheet });
+	const sheetIds = await createSheets({ client, jobFamily, spreadsheet });
 
 	// Start batching updates to the actual sheet data and format
 	const batchedUpdates = [];
@@ -86,9 +86,9 @@ async function deployGoogleSheet({ client, role, spreadsheetId, version }) {
 	// warnings about editing the sheet manually, and links to useful resources
 	batchedUpdates.push(
 		createBatchCellUpdate(sheetIds.overview, [
-			[`Progression Tracker:\n${role.name}`],
+			[`Progression Tracker:\n${jobFamily.name}`],
 			[
-				`This is an example spreadsheet for tracking engineering progression. This sheet is generated automatically. Any edits you make here will be overwritten (including comments).\n\nThis spreadsheet contains sheets for the different levels within ${role.name}. You can use these to inform conversations about career progression. Please make a copy of this spreadsheet to do this.`
+				`This is an example spreadsheet for tracking engineering progression. This sheet is generated automatically. Any edits you make here will be overwritten (including comments).\n\nThis spreadsheet contains sheets for the different levels within ${jobFamily.name}. You can use these to inform conversations about career progression. Please make a copy of this spreadsheet to do this.`
 			],
 			[''],
 			[
@@ -207,9 +207,9 @@ async function deployGoogleSheet({ client, role, spreadsheetId, version }) {
 	});
 
 	// Set the data that appears in each of the competency level sheets
-	for (const level of role.levels) {
+	for (const level of jobFamily.levels) {
 		const sheetId = sheetIds[level.id];
-		const competenciesForLevel = role.competencies.filter(
+		const competenciesForLevel = jobFamily.competencies.filter(
 			(competency) => competency.level === level.id
 		);
 
@@ -223,7 +223,7 @@ async function deployGoogleSheet({ client, role, spreadsheetId, version }) {
 						content += `, e.g.\n${competency.examples.map((example) => `• ${example}`).join('\n')}`;
 					}
 					return [
-						role.themes.find((theme) => theme.id === competency.theme).name,
+						jobFamily.themes.find((theme) => theme.id === competency.theme).name,
 						content,
 						competency.proficiency
 					];
@@ -315,11 +315,11 @@ async function deployGoogleSheet({ client, role, spreadsheetId, version }) {
 /**
  * @param {object} options
  * @param {import('@googleapis/sheets').sheets_v4.Sheets} options.client
- * @param {object<string, any>} options.role
+ * @param {object<string, any>} options.jobFamily
  * @param {object<string, any>} options.spreadsheet
  * @returns {object<string, number>}
  */
-async function createSheets({ client, role, spreadsheet }) {
+async function createSheets({ client, jobFamily, spreadsheet }) {
 	const overviewTitle = 'Overview';
 	const batchedUpdates = [];
 
@@ -345,8 +345,8 @@ async function createSheets({ client, role, spreadsheet }) {
 		}
 	});
 
-	// Add each of the levels in the role as new sheets
-	for (const level of role.levels) {
+	// Add each of the levels in the job family as new sheets
+	for (const level of jobFamily.levels) {
 		batchedUpdates.push({
 			addSheet: {
 				properties: { title: level.name }
@@ -376,7 +376,7 @@ async function createSheets({ client, role, spreadsheet }) {
 	return Object.fromEntries(
 		response.data.updatedSpreadsheet.sheets.map((sheet) => {
 			const sheetId = sheet.properties.sheetId;
-			const level = role.levels.find((level) => level.name === sheet.properties.title);
+			const level = jobFamily.levels.find((level) => level.name === sheet.properties.title);
 			const id = level ? level.id : 'overview';
 			return [id, sheetId];
 		})

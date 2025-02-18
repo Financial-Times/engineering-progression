@@ -22,7 +22,7 @@ layout: o-layout-landing
 			<h2>Overview</h2>
 			<p>
 				This site and the accompanying repository is the single source of truth for the
-				competencies and level definitions for Engineering roles in the CTO organisation at
+				competencies and level definitions for Engineering job families in the CTO organisation at
 				the FT.
 			</p>
 			<p>
@@ -33,18 +33,18 @@ layout: o-layout-landing
 		<div class="o-layout-item">
 			<h2>Competencies</h2>
 			<p>
-				Engineering competencies are used to inform conversations about career progression between an engineer and their line manager:
+				Competencies are used to inform conversations about career progression between an engineer and their line manager:
 			</p>
 			<ul>
 				<li><a href="/competencies/">View all competencies</a></li>
-				<li><a href="{{site.github.repository_url}}/tree/main/data/roles" class="o-typography-link--external">View competencies as YAML in the repository</a></li>
+				<li><a href="{{site.github.repository_url}}/tree/main/data/job-families" class="o-typography-link--external">View competencies as YAML in the repository</a></li>
 				<li>
 					Track progress with your manager or report via Google Sheets:
 					<ul>
-						{% for roleHash in site.data.roles %}
-						{% assign role = roleHash[1] %}
+						{% for jobFamilyHash in site.data.job-families %}
+						{% assign jobFamily = jobFamilyHash[1] %}
 							<li>
-								<a href="https://docs.google.com/spreadsheets/d/{{role.googleSheetId}}/edit" class="o-typography-link--external">{{role.name}}</a>
+								<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">{{jobFamily.name}}</a>
 							</li>
 						{% endfor %}
 					</ul>

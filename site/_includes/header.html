@@ -33,7 +33,7 @@
 		</ul>
 	</nav>
 
-	{% if page.roleId %}
+	{% if page.jobFamilyId %}
 		<nav class="o-header-services__secondary-nav" aria-label="secondary" data-o-header-services-nav="">
 			<div class="o-header-services__secondary-nav-content" data-o-header-services-nav-list="">
 				<ol class="o-header-services__secondary-nav-list o-header-services__secondary-nav-list--ancestors" aria-label="Ancestor sections">
@@ -43,15 +43,15 @@
 						</a>
 					</li>
 					<li>
-						<a href="/competencies/#{{page.roleId}}">
-							{{site.data.roles[page.roleId].name}}
+						<a href="/competencies/#{{page.jobFamilyId}}">
+							{{site.data.job-families[page.jobFamilyId].name}}
 						</a>
 					</li>
 				</ol>
 				<ul class="o-header-services__secondary-nav-list o-header-services__secondary-nav-list--children" aria-label="Child sections">
-					{% for level in site.data.roles[page.roleId].levels %}
+					{% for level in site.data.job-families[page.jobFamilyId].levels %}
 						<li>
-							{% capture levelUrl %}/competencies/{{page.roleId}}/{{level.id}}/{% endcapture %}
+							{% capture levelUrl %}/competencies/{{page.jobFamilyId}}/{{level.id}}/{% endcapture %}
 							<a href="{{levelUrl}}" {% if page.url == levelUrl %}aria-current="true"{% endif %}>
 								{{level.name}}
 							</a>

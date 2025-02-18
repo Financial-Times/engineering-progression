@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve as resolvePath } from 'node:path';
 import Ajv from 'ajv/dist/2020.js';
-import roleSchema from '../test/schema/role.json' with { type: 'json' };
+import jobFamilySchema from '../test/schema/job-family.json' with { type: 'json' };
 import { buildCompetencies } from './lib/build-competencies.js';
 
 const rootPath = resolvePath(import.meta.dirname, '..');
@@ -9,33 +9,37 @@ const dataPath = resolvePath(rootPath, 'data');
 const distPath = resolvePath(rootPath, 'dist');
 
 const ajv = new Ajv({ allErrors: true });
-const validateSchema = ajv.compile(roleSchema);
+const validateSchema = ajv.compile(jobFamilySchema);
 
 buildCompetencies({ input: dataPath, output: distPath })
 	.then(async (buildInfo) => {
 		for (const path of Object.values(buildInfo)) {
 			const pathRelative = path.replace(`${rootPath}/`, '');
 			console.log('Testing competencies at', pathRelative);
-			const role = JSON.parse(await readFile(path, 'utf-8'));
+			const jobFamily = JSON.parse(await readFile(path, 'utf-8'));
 
 			// Validate against the schema
-			const isValid = validateSchema(role);
+			const isValid = validateSchema(jobFamily);
 			if (!isValid) {
 				throw new AggregateError(validateSchema.errors);
 			}
 			console.log('Competencies pass schema validation');
 
 			// Test that IDs are unique
-			assertUniqueIds('competencies', role);
-			assertUniqueIds('levels', role);
-			assertUniqueIds('themes', role);
+			assertUniqueIds('competencies', jobFamily);
+			assertUniqueIds('levels', jobFamily);
+			assertUniqueIds('themes', jobFamily);
 			console.log('All IDs are unique');
 
 			// Test that competency referenced IDs are valid
-			const levelsById = Object.fromEntries(role.levels.map((level) => [level.id, level]));
-			const themesById = Object.fromEntries(role.themes.map((theme) => [theme.id, theme]));
+			const levelsById = Object.fromEntries(
+				jobFamily.levels.map((level) => [level.id, level])
+			);
+			const themesById = Object.fromEntries(
+				jobFamily.themes.map((theme) => [theme.id, theme])
+			);
 			const errors = [];
-			for (const [index, competency] of Object.entries(role.competencies)) {
+			for (const [index, competency] of Object.entries(jobFamily.competencies)) {
 				if (!levelsById[competency.level]) {
 					errors.push(
 						Object.assign(

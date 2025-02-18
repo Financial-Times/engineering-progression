@@ -19,31 +19,34 @@ buildCompetencies({ input: dataPath, output: distPath })
 			await copyFile(path, outPath);
 
 			console.log('Building pages for each level in', pathRelative);
-			const role = JSON.parse(await readFile(path, 'utf-8'));
-			const roleId = basename(path, extname(path));
-			await mkdir(resolvePath(siteCompetencyPagePath, roleId), { recursive: true });
+			const jobFamily = JSON.parse(await readFile(path, 'utf-8'));
+			const jobFamilyId = basename(path, extname(path));
+			await mkdir(resolvePath(siteCompetencyPagePath, jobFamilyId), { recursive: true });
 
 			const indexPage = `
 					---
-					title: ${role.name} Competencies
-					permalink: /competencies/${roleId}/
+					title: ${jobFamily.name} Competencies
+					permalink: /competencies/${jobFamilyId}/
 					redirect_to: https://engineering-progression.ft.com/competencies/
 					---
 				`
 				.replace(/\t/g, '')
 				.trim();
-			await writeFile(resolvePath(siteCompetencyPagePath, roleId, 'index.md'), indexPage);
+			await writeFile(
+				resolvePath(siteCompetencyPagePath, jobFamilyId, 'index.md'),
+				indexPage
+			);
 
-			for (const level of role.levels) {
-				console.log(`Building page for ${role.name} / ${level.name}`);
-				const pagePath = resolvePath(siteCompetencyPagePath, roleId, `${level.id}.md`);
+			for (const level of jobFamily.levels) {
+				console.log(`Building page for ${jobFamily.name} / ${level.name}`);
+				const pagePath = resolvePath(siteCompetencyPagePath, jobFamilyId, `${level.id}.md`);
 				const page = `
 					---
-					title: ${level.name} Competencies (${role.name})
-					description: Competencies for ${level.name} within ${role.name} at the Financial Times.
-					permalink: /competencies/${roleId}/${level.id}/
+					title: ${level.name} Competencies (${jobFamily.name})
+					description: Competencies for ${level.name} within ${jobFamily.name} at the Financial Times.
+					permalink: /competencies/${jobFamilyId}/${level.id}/
 					layout: competencies
-					roleId: ${roleId}
+					jobFamilyId: ${jobFamilyId}
 					levelId: ${level.id}
 					---
 				`

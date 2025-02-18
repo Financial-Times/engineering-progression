@@ -1,12 +1,12 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://github.com/Financial-Times/engineering-progression/blob/main/test/schema/role.json",
+	"$id": "https://github.com/Financial-Times/engineering-progression/blob/main/test/schema/job-family.json",
 	"title": "Product",
-	"description": "A description of levels, themes, and competencies for a particular role at the Financial Times",
+	"description": "A description of levels, themes, and competencies for a particular job family at the Financial Times",
 	"type": "object",
 	"properties": {
 		"competencies": {
-			"title": "Competencies that apply to this role",
+			"title": "Competencies that apply to this job family",
 			"type": "array",
 			"items": {
 				"$ref": "#/$defs/competency"
@@ -17,23 +17,23 @@
 			"type": "string"
 		},
 		"summary": {
-			"title": "Summary of the role",
+			"title": "Summary of the job family",
 			"type": "string"
 		},
 		"levels": {
-			"title": "Levels for this role",
+			"title": "Levels for this job family",
 			"type": "array",
 			"items": {
 				"$ref": "#/$defs/level"
 			}
 		},
 		"name": {
-			"title": "Role name",
+			"title": "Job family name",
 			"type": "string",
 			"minLength": 2
 		},
 		"themes": {
-			"title": "Themes that apply to competencies in this role",
+			"title": "Themes that apply to competencies in this job family",
 			"type": "array",
 			"items": {
 				"$ref": "#/$defs/theme"
@@ -60,7 +60,7 @@
 					}
 				},
 				"level": {
-					"title": "The ID of a level defined by the role",
+					"title": "The ID of a level defined by the job family",
 					"type": "string",
 					"minLength": 2
 				},
@@ -103,7 +103,7 @@
 					}
 				},
 				"theme": {
-					"title": "The ID of a theme defined by the role",
+					"title": "The ID of a theme defined by the job family",
 					"type": "string",
 					"minLength": 2
 				}

@@ -11,7 +11,7 @@ layout: o-layout-landing
 	<h1>{{page.title}}</h1>
 	<p>
 		{{page.description}}
-		This section of the site outlines the competencies for each role and level in engineering at the Financial Times.
+		This section of the site outlines the competencies for each job family and  in engineering at the Financial Times.
 		Before reviewing competencies for your level, <a href="/competencies/how-to-use/">read how to use them here</a>.
 	</p>
 
@@ -21,15 +21,15 @@ layout: o-layout-landing
 
 	<div class="o-layout__overview">
 
-		{% for roleHash in site.data.roles %}
-			{% assign role = roleHash[1] %}
+		{% for jobFamilyHash in site.data.job-families %}
+			{% assign jobFamily = jobFamilyHash[1] %}
 			<div class="o-layout-item">
-				<h2 id="{{roleHash[0]}}">{{role.name}}</h2>
-				<p>{{role.summary}}</p>
+				<h2 id="{{jobFamilyHash[0]}}">{{jobFamily.name}}</h2>
+				<p>{{jobFamily.summary}}</p>
 				<ul>
-					{% for level in role.levels %}
+					{% for level in jobFamily.levels %}
 						<li>
-							<a href="/competencies/{{roleHash[0]}}/{{level.id}}/">{{level.name}}</a>
+							<a href="/competencies/{{jobFamilyHash[0]}}/{{level.id}}/">{{level.name}}</a>
 						</li>
 					{% endfor %}
 				</ul>

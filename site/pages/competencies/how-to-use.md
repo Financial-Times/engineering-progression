@@ -13,7 +13,7 @@ We divide competencies into levels for different seniorities.
 
 ## Levels
 
-Each level within a role represents the expectations and responsibilities of an engineer at a particular stage of their career at the FT.
+Each level within a job family represents the expectations and responsibilities of an engineer at a particular stage of their career at the FT.
 
 ## Competencies
 
@@ -42,10 +42,10 @@ In the second example the engineer is unable to meet the competency "Leads hirin
 A copy of the relevant spreadsheet is useful for keeping track of progress:
 
 <ul>
-	{% for roleHash in site.data.roles %}
-	{% assign role = roleHash[1] %}
+	{% for jobFamilyHash in site.data.job-families %}
+	{% assign jobFamily = jobFamilyHash[1] %}
 		<li>
-			<a href="https://docs.google.com/spreadsheets/d/{{role.googleSheetId}}/edit" class="o-typography-link--external">{{role.name}}</a>
+			<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">{{jobFamily.name}}</a>
 		</li>
 	{% endfor %}
 </ul>

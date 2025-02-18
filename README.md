@@ -12,9 +12,9 @@ Careers and progression for engineers in the CTO organisation.
 
 ## Overview
 
-This repository is the single source of truth for the competencies and level definitions for Engineering roles in the CTO organisation at the FT.
+This repository is the single source of truth for the competencies and level definitions for Engineering job families in the CTO organisation at the FT.
 
-Keeping this framework in GitHub means we can use issues and pull requests to track and discuss changes to the competencies and role descriptions. Storing it in this way also allows us to version it and release any changes.
+Keeping this framework in GitHub means we can use issues and pull requests to track and discuss changes to the competencies and job family descriptions. Storing it in this way also allows us to version it and release any changes.
 
 This framework can be used in its raw form (YAML files), but it is also available via JSON endpoint, which means other things can be built off it (eg a Google Sheet)
 
@@ -26,7 +26,7 @@ Engineering competencies are used to inform conversations about career progressi
 
   - [View all competencies on the website](https://engineering-progression.ft.com/competencies/)
 
-  - [Read the engineering competencies as YAML in this repository](data/roles)
+  - [Read the engineering competencies as YAML in this repository](data/job-families)
 
 ## Contributing
 
