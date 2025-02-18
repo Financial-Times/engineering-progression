@@ -45,6 +45,14 @@
 		}
 	}
 }
+.competency__meta {
+	display: flex;
+	max-width: 100% !important;
+	justify-content: space-between;
+}
+.competency__feedback {
+	font-size: 14px;
+}
 
 // Overview styles (for competencies overview)
 .level-overview-summary {

@@ -52,7 +52,10 @@ second paragraph
 							{% endfor %}
 						</ul>
 					{% endif %}
-					<p>Proficiency: <span class="o-labels o-labels--big">{{competency.proficiency}}</span></p>
+					<p class="competency__meta">
+						<span>Proficiency: <span class="o-labels o-labels--big">{{competency.proficiency}}</span></span>
+						<span><a class="competency__feedback" href="https://github.com/Financial-Times/engineering-progression/issues/new?body=Question/feedback%20here%0A%0A---%0A%0A**Job%20family:**%20{{page.jobFamilyId}}%0A**Competency%20id:**%20{{competency.id}}" target="_blank" title="Request help or provide feedback on this competency">Help/feedback</a></span>
+					</p>
 				</div>
 			{% endif %}
 		{% endfor %}
