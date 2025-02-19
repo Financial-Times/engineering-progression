@@ -128,7 +128,7 @@ The framework is designed by the Leadership team and HR colleagues, with signifi
 
 ### How can I provide feedback about the competency framework?
 
-Please speak with your own manager, any Tech Director or Rebecca if you have questions - or suggestions to improve - the competencies or any materials we’re using to communicate them.
+Please speak with your own manager, any Tech Director or Rebecca if you have questions - or suggestions to improve - the competencies or any materials we’re using to communicate them. You can also use [GitHub issues](https://github.com/Financial-Times/engineering-progression/issues) (remember these are public) or the <a href="{{site.data.contact.slack.url}}" class="o-typography-link--external">#{{site.data.contact.slack.name}}</a> slack channel.
 
 ### What happens with the existing Progression Frameworks, the API and the website?
 
