@@ -9,7 +9,7 @@ The documentation, website, and competencies all follow the guidelines outlined 
 
 ## General Guidelines
 
-These guidelines apply to communications by the Engineering Progression Working Group, documentation in this repository and website, and the written levels and competencies.
+These guidelines apply to broad communications, documentation in this repository and website, and the written levels and competencies.
 
 ### Be conversational
 
