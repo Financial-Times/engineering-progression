@@ -1,28 +1,38 @@
 
 # Engineering Progression
 
-Careers and progression for engineers in the CTO organisation.
+Job family and competencies for all roles in the Technology organisation at the FT.
 
 ---
 
   - [Overview](#overview)
-  - [Engineering Competencies](#engineering-competencies)
+  - [Competencies](#competencies)
   - [Contributing](#contributing)
   - [Licence](#licence)
 
 ## Overview
 
-This repository is the single source of truth for the competencies and level definitions for Engineering job families in the CTO organisation at the FT.
+This repository holds the job family and competencies for all roles in the Technology organisation at the FT.
 
 Keeping this framework in GitHub means we can use issues and pull requests to track and discuss changes to the competencies and job family descriptions. Storing it in this way also allows us to version it and release any changes.
 
 This framework can be used in its raw form (YAML files), but it is also available via JSON endpoint, which means other things can be built off it (eg a Google Sheet)
 
-## Engineering Competencies
+## Competencies
 
-Engineering competencies are used to inform conversations about career progression between an engineer and their line manager. There are several ways that you can read through these competencies and track progress:
+Competencies are used to inform conversations about career progression between staff members and their manager. They are used for:
 
-  - [Track progress with your manager or report via Google Sheets](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit)
+  1. Defining a vacant or new role, writing a job description, evaluating candidates for a job
+
+  2. Setting and agreeing objectives designed to develop a staff member in their role
+
+  3. Tracking progress, managing performance and giving feedback, making expectations clear for each staff member
+
+  4. Evaluating readiness for a staff member to step up to the next level (e.g. through promotion)
+
+There are several ways that you can read through these competencies and track progress:
+
+  - [Track and document progress using a Google Sheet](https://docs.google.com/spreadsheets/d/1V0LIbCQtJsi2iowfJnRTDr4Na4LhNAlJ_UHl9dDQs00/edit)
 
   - [View all competencies on the website](https://engineering-progression.ft.com/competencies/)
 
