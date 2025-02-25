@@ -2,6 +2,7 @@ name: Operations
 summary: >
   Competencies for System Engineers within Operations at the Financial Times.
 googleSheetId: 1y4wuBHe4p9NBAlg4lHeTjdGp88Z8N45yhZWavQK562k
+isLegacy: true
 
 levels:
 
