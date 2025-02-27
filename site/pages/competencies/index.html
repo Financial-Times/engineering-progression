@@ -25,7 +25,10 @@ layout: o-layout-landing
 			{% if jobFamily.isLegacy != true %}
 				<div class="o-layout-item">
 					<h2 id="{{jobFamilyHash[0]}}">{{jobFamily.name}}</h2>
-					<p>{{jobFamily.summary}}</p>
+					<p>
+						{{jobFamily.summary}}
+						<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">Track progress via a Google Sheet</a>.
+					</p>
 					<ul>
 						{% for level in jobFamily.levels %}
 							<li>
@@ -42,7 +45,10 @@ layout: o-layout-landing
 			{% if jobFamily.isLegacy == true %}
 				<div class="o-layout-item">
 					<h2 id="{{jobFamilyHash[0]}}">{{jobFamily.name}}</h2>
-					<p>{{jobFamily.summary}}</p>
+					<p>
+						{{jobFamily.summary}}
+						<a href="https://docs.google.com/spreadsheets/d/{{jobFamily.googleSheetId}}/edit" class="o-typography-link--external">Track progress via a Google Sheet</a>.
+					</p>
 					<ul>
 						{% for level in jobFamily.levels %}
 							<li>
