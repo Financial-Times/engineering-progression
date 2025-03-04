@@ -134,3 +134,19 @@ Please speak with your own manager, any Tech Director or Rebecca if you have que
 
 We will be replacing the old frameworks with this new one. The progression site (<https://engineering-progression.ft.com/>) will include the old and new frameworks for a few months while everyone is learning about the new competencies and translating their existing objectives and plans. After a few months the old framework will be removed. The Operations Progression framework will also be updated and incorporated into the same website.
 The site will continue to be public-facing, in order to promote transparency, and to demonstrate to prospective employees that progression and career development matters at the FT. We’ll be decommissioning the API, but the site will remain.
+
+### The competencies mention delivery a lot. Do engineer roles overlap with Delivery Managers?
+
+Yes, there is an overlap - but it is a reasonable one. All of us have a responsibility for delivery, whatever our role is: making sure that as individuals and teams we are making progress in delivering software and solutions which meet the FT’s objectives. Delivery Managers have an important and distinct role in supporting our teams in the discipline of delivery, following best practice, and contributing to larger initiatives and programmes which span teams, groups and companies. We operate in a complex ecosystem, so there is plenty of work for everyone.
+
+### How many new roles will be created as a result of this?
+
+Not many, not right away. This expansion of the job family makes it possible for new roles to be created in the future, as the shape of our teams, or the “business need” arises.
+
+### Will this make it easier to get a promotion?
+
+No. This change creates more choice for career planning, and makes it clearer what is required to progress. Promotions remain constrained by the shape of our teams (business need) and available budget.
+
+### What happens to Principal and Senior 2 Engineers now? Do they have a choice about whether to be a People Manager or Individual Contributor?
+
+There is no change to anyone’s role (unless they are already speaking to their manager about this). If they are already a People Manager (which is true of most engineers at these levels, and there are a few cases with People Managers at Senior 1 level), they will remain People Managers. There are some people working in an Individual Contributor role at Principal and S2 level, and they will remain in their role as it’s currently defined.
