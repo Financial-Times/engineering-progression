@@ -95,7 +95,7 @@ Those S2s who have been Principal Engineers in the past, and stepped down to an 
 
 ### Is there a difference in salary between an Individual Contributor and People Manager?
 
-Salary benchmarking reveals that the salary bands for Principal Engineer and Senior 2 Engineer are relevant for both Individual Contributor and People Manager roles. Remuneration decisions remain subject to the skills & experience of the individual, and the impact of the role, but impact can be made as either an individual contributor or a people management role, or a mix of both.
+Salary benchmarking reveals that the salary bands for Principal Engineer and Senior 2 Engineer are relevant for both Individual Contributor and People Manager roles. Remuneration decisions remain subject to the skills & experience of the individual, and the impact of the role, but impact can be made as either an individual contributor or a people management role, or a mix of both. AIP (or bonus) % is the same for Individual Contributors and People Managers at the same job role level.
 
 ### When does this change take effect, and what happens now as a result?
 
