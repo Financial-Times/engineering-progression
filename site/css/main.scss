@@ -76,3 +76,8 @@
 	margin-bottom: 28px;
 	float: none;
 }
+
+// Layout overrides for the competencies page to force three columns max
+.o-layout__overview {
+	grid-template-columns: repeat(var(--_o-layout-overview-columns, auto-fit), minmax(300px, 1fr));
+}
