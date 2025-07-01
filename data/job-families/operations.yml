@@ -1,0 +1,495 @@
+name: Operations
+summary: |
+  Competencies for System Engineers within Operations at the Financial Times.
+googleSheetId: 16IMDS3bbdEBRhwV1AQlGa6tjRvKScwOrI_o-cQTAhb4
+
+levels:
+
+  - id: junior
+    name: Operations Support Associate (Manila) / Junior Systems Engineer (UK)
+
+  - id: engineer
+    name: Operations Support Analyst (Manila) / Systems Engineer (UK)
+
+  - id: senior-1
+    name: Senior Operations Support Analyst (Manila) / Senior Systems Engineer 1 (UK)
+
+  - id: senior-2
+    name: Senior Operations Support Analyst 2 (Manila) / Senior Systems Engineer 2 (UK)
+
+  - id: team-leader
+    name: Operations Support Manager (Manila) / Operations Support Team Leader (UK)
+
+  - id: head
+    name: Head of Operations Support
+
+themes:
+
+  - id: planning-organising
+    name: Planning and Organising
+    summary: |
+      Effectively manages activities within the available people, resources and keeps to expected or
+      communicated timelines. Includes contributing to task break-down and estimating.
+
+  - id: independent-working
+    name: Independent Working
+    summary: |
+      Works independently as an individual at each level, showing self-reliance and initiative, and
+      takes responsibility for completing tasks and seeing them through to completion.
+
+  - id: problem-solving-decision-making
+    name: Problem Solving & Decision Making
+    summary: |
+      Makes well-judged and timely decisions, identifies problems, and creates effective solutions.
+
+  - id: business-impact
+    name: Business Impact
+    summary: |
+      Recognises the broader business context and strategically aligns actions to support
+      organisational goals.
+
+  - id: communication
+    name: Communication
+    summary: |
+      Effectively listens, understands, and conveys messages in a way that is appropriate to the
+      audience - including verbal, written, use of diagrammes. Uses a range of techniques to
+      influence and make persuasive arguments. Adopts a patient, empathic style, avoids jargon, and
+      checks for understanding in others.
+
+  - id: team-work
+    name: Team Work
+    summary: |
+      Collaborates effectively across the organisation.
+
+  - id: curiosity-learning
+    name: Curiosity & Learning
+    summary: |
+      Continuously seeks and creates opportunities for learning and growth.
+
+  - id: leadership
+    name: Leadership of Self and Others
+    summary: |
+      Guides oneself and inspires & develops others to achieve common goals. Reflects on their
+      personal growth to identify areas to enhance their performance and for further development.
+
+  - id: technical
+    name: Technical
+    summary: |
+      Demonstrates and shares technical and domain expertise, and develops high-quality, secure and
+      reliable software solutions following industry standards.
+
+competencies:
+
+  - id: 51053f12-6223-4dc5-992d-461e3422750e
+    level: junior
+    theme: planning-organising
+    summary: |
+      Understands team operations and best practices, effectively planning and delivering tasks while prioritising work independently with minimal supervision. With occasional support, identifies and performs key tasks required during an incident.
+    proficiency: Awareness
+
+  - id: 5ec253a7-8976-4415-b7f7-edf6bc0ac245
+    level: junior
+    theme: independent-working
+    summary: |
+      Independently completes tasks and responds to issues with support from their team. Takes ownership for tasks and asks for help when required.
+    proficiency: Awareness
+
+  - id: 637ad7ab-5fb4-4c59-bf85-060a4d8b9fec
+    level: junior
+    theme: problem-solving-decision-making
+    summary: |
+      Actively troubleshoots issues using appropriate tools, leveraging logs and metrics that help investigate them. Investigates routine alerts and recurring issues efficiently.
+    proficiency: Awareness
+
+  - id: 5a9bcbd5-3eb4-4384-910a-2b8b47ceb6e8
+    level: junior
+    theme: business-impact
+    summary: |
+      Is aware of FT business areas, their systems and the impact that incidents have on them. Supports team goals, assisting in project delivery.
+    proficiency: Awareness
+
+  - id: b2919785-aca7-4e74-9e7a-7a4ca1ecb220
+    level: junior
+    theme: communication
+    summary: |
+      Presents their work clearly and talks about progress concisely in meetings, explaining their approach. During incidents will provide basic communications.
+    proficiency: Awareness
+
+  - id: e16cc1d1-eb6c-4462-aad1-d9a5fcd9c2bd
+    level: junior
+    theme: team-work
+    summary: |
+      Seeks guidance and input from peers, actively participates in discussions, and is eager to assist teammates. Understands how to work effectively with team members in different regions and timezones.
+    proficiency: Awareness
+
+  - id: 65433f11-bd9b-49da-8310-9187d0031cbf
+    level: junior
+    theme: curiosity-learning
+    summary: |
+      Builds self-awareness about their strengths and areas for development.
+    proficiency: Awareness
+
+  - id: 66441570-1ef7-48b5-92d5-b9a01c1b700e
+    level: junior
+    theme: leadership
+    summary: |
+      Demonstrates self-motivation, takes initiative, and uses feedback for continuous improvement.
+    proficiency: Awareness
+
+  - id: 22e7c2d8-0f89-4b51-be2f-42e2346c8dd3
+    level: junior
+    theme: technical
+    summary: |
+      1. Writes clear instructions and basic documentation.
+      2. Carries out occasional changes to code repos in order to deliver requests and updates.
+      3. Uses tooling and systems at a basic level, ensuring they have all the access and permissions to provide operational support.
+      4. Supports FT's systems to a basic level and has familiarity with business critical systems.
+      5. Performs technical processes with occasional help or guidance.
+    proficiency: Awareness
+
+  - id: 01b425a3-f4f1-448d-a131-da4aa2e26da5
+    level: engineer
+    theme: planning-organising
+    summary: |
+      Accurately plans and estimates tasks, ensuring consistent delivery of high-quality work. Can prioritise work without supervision. Identifies and performs key tasks required during an incident.
+    proficiency: Foundational
+
+  - id: ca7e0c51-2ab0-4ae0-8821-57a9acb20920
+    level: engineer
+    theme: independent-working
+    summary: |
+      Balances independent work and shiftwork with team collaboration and commitments, setting realistic expectations and proactively communicating any obstacles. Resolves alerts and issues proactively, ensuring solutions are shared with the team.
+    proficiency: Foundational
+
+  - id: 339d17a2-c5d1-4e69-a885-e2161be2edb4
+    level: engineer
+    theme: problem-solving-decision-making
+    summary: |
+      Handles incidents following established processes and making pragmatic decisions. Resolves routine and common issues independently, using a variety of troubleshooting techniques.
+    proficiency: Foundational
+
+  - id: f7ae10b6-b99c-4b07-a5a6-ef853353e8c5
+    level: engineer
+    theme: business-impact
+    summary: |
+      Has good knowledge of FT business areas, their systems and the impact that incidents have on them. Recognises and suggests opportunities for improvements through technology, proactively identifying inefficiencies.
+    proficiency: Foundational
+
+  - id: 2fe5d1da-985d-43ff-b838-e200cd09d23c
+    level: engineer
+    theme: communication
+    summary: |
+      Leads technical discussions and meetings while providing clear documentation of processes and decisions.
+
+      During incidents will provide business communications and updates.
+    proficiency: Awareness
+
+  - id: 9ca16640-b75a-4716-9d8d-9d236e8bc1cf
+    level: engineer
+    theme: team-work
+    summary: |
+      Supports team members in achieving their goals, helps overcome obstacles, and shares knowledge to contribute to a positive team environment​. Provides clear, actionable, timely feedback on teammate’s work.
+    proficiency: Foundational
+
+  - id: 55a37808-5c1d-4412-9255-478547e64326
+    level: engineer
+    theme: curiosity-learning
+    summary: |
+      Takes responsibility for their own development, actively seeks feedback from others to develop learning goals.
+    proficiency: Foundational
+
+  - id: 21f1e326-9548-4d51-a10d-a079126674d5
+    level: engineer
+    theme: leadership
+    summary: |
+      Known for their initiative and reliability. Begins to influence peers through positive behavior and collaborative support, contributing to team success.
+    proficiency: Awareness
+
+  - id: 0a43bafc-83cd-4da9-8332-bf28f2907388
+    level: engineer
+    theme: technical
+    summary: |
+      1. Writes clear, easy to follow instructions and documentation
+      2. Regularly performs changes in code repos and technical processes consistently and according to guidelines.
+      3. Uses a variety of tooling and systems, ensuring they have all the access and permissions to provide operational support.
+      4. Recommends improvements to processes, alerting etc., and gets them implemented.
+      5. Uses troubleshooting to a high standard and resolves critical alerts and production incidents.
+    proficiency: Foundational
+
+  - id: dea5ad37-b064-4384-a529-3b6ae638f155
+    level: senior-1
+    theme: planning-organising
+    summary: |
+      Breaks down complex technical requests / issues into manageable tasks. Contributes accurate estimation, planning and progress tracking.
+    proficiency: Foundational
+
+  - id: d06905da-f3a4-4fe0-8e1a-114b76564345
+    level: senior-1
+    theme: independent-working
+    summary: |
+      Takes ownership of activities, initiatives, and projects, identifying and solving problems while ensuring alignment with team goals. Prioritises all work without supervision and ensure all incident management processes are followed consistently. Without supervision deals with incidents and alerts, recommends improvements, writes reports and organises incident reviews.
+    proficiency: Working knowledge
+
+  - id: 701c4a71-bbed-49cb-8cd5-acc64b19f615
+    level: senior-1
+    theme: problem-solving-decision-making
+    summary: |
+      Identifies inefficiencies in existing systems and processes and proposes solutions to improve efficiency, performance, and reliability. Troubleshoots complex issues and works with engineers to improve the capabilities of the Ops Team.
+    proficiency: Working knowledge
+
+  - id: dd5c32e9-50fd-4754-a7c8-03dedb53c909
+    level: senior-1
+    theme: business-impact
+    summary: |
+      Has a very good knowledge of FT business areas and a deep understanding of the critical systems used, the impact of incidents and possible mitigations
+    proficiency: Foundational
+
+  - id: d9977b1a-8819-456c-bfa7-3cbac72ddd82
+    level: senior-1
+    theme: communication
+    summary: |
+      Communicates clearly with larger internal groups, facilitating productive discussions and ensures understanding and alignment.
+
+      During incidents, adapts their communication style and language for different audiences across the business.
+    proficiency: Foundational
+
+  - id: 9d84a961-c8e8-4671-b8d0-be8222c60b42
+    level: senior-1
+    theme: team-work
+    summary: |
+      Facilitates team collaboration and engages in cross-functional initiatives and projects. Promotes mutual respect and values diverse perspectives to foster an inclusive working environment.
+    proficiency: Foundational
+
+  - id: 808328b5-81c0-4354-80fb-33ad0ea7facd
+    level: senior-1
+    theme: curiosity-learning
+    summary: |
+      Experiments with new tools, technologies and techniques as part of their professional development activities.
+    proficiency: Foundational
+
+  - id: efcfab04-0997-436c-83ce-c9affb5966cd
+    level: senior-1
+    theme: leadership
+    summary: |
+      Leads by example, taking ownership of complex tasks and empowering team members to deliver high quality solutions through feedback, peer reviews, and pairing sessions. Develops documentation and processes to support ongoing team improvement initiatives.
+    proficiency: Foundational
+
+  - id: 7a18db19-d8b5-4b8d-ad74-f12d15825dee
+    level: senior-1
+    theme: technical
+    summary: |
+      1. Highly proficient in all aspects of operational support and has a good understanding of a number of business critical systems.
+      2. Writes clear, high-quality documentation and can deliver complex changes/requests.
+      3. Recommends improvements to processes, alerting etc... and can assist with getting them implemented.
+      4. Leads team activities and the resolution of incidents. Follows up on actions from incident retrospectives.
+      5. Picks up unfamiliar requests and troubleshoot/reviews.
+      6. Makes changes/updates to tools/systems owned by the team.
+    proficiency: Working knowledge
+
+  - id: fefee8dc-6760-4811-b1c1-b7470aa1baba
+    level: senior-2
+    theme: planning-organising
+    summary: |
+      Translates complex business requirements into detailed technical plans. Makes pragmatic trade-offs that balance technical priorities with speed of delivery and resolution of incidents
+    proficiency: Working knowledge
+
+  - id: 9159cc4e-83fe-474e-a6e6-3ee98fbab05c
+    level: senior-2
+    theme: independent-working
+    summary: |
+      Independently manages activities, initiatives, and projects, demonstrating autonomy by proactively addressing risks and ensuring stakeholder and team alignment​. Writes reports and organises reviews for complex incidents with a wide audience.
+    proficiency: Working knowledge
+
+  - id: c8f980af-3ef0-4805-b9c0-dc4ccf52ee17
+    level: senior-2
+    theme: problem-solving-decision-making
+    summary: |
+      Resolves complex technical issues and requests using a range of tools and techniques.
+
+      Assesses and implements new tools and methods to enhance problem-solving capabilities.
+
+      During an incident demonstrates strong technical competency and troubleshooting skills, proactively collaborating with other teams to improve future operational response and resolution.
+    proficiency: Working knowledge
+
+  - id: 42f2da5c-5def-468a-bd7b-d6349c85e382
+    level: senior-2
+    theme: business-impact
+    summary: |
+      Has an excellent understanding of the FT's business areas and a very good technological insight into the critical systems used. Suggest opportunities to optimise the use of people, processes, resources, and tools (e.g., funds, technology) and improve efficiency
+    proficiency: Foundational
+
+  - id: f9e58449-83df-441b-b3ea-51b39b1277d9
+    level: senior-2
+    theme: communication
+    summary: |
+      Effectively presents technical decisions and updates to the wider business, listens actively, manages crucial conversations, and provides quality feedback.
+
+      During major incidents, assesses and communicates broader business impact in a clear and timely manner.
+    proficiency: Working knowledge
+
+  - id: b3e615a8-4697-47d2-ae62-6c11aa43ce17
+    level: senior-2
+    theme: team-work
+    summary: |
+      Leads by example in fostering a collaborative culture across teams. Coordinates efforts and builds consensus to drive project success. Contributes to wider FT initiatives aimed at improving the Technology team.
+    proficiency: Working knowledge
+
+  - id: 2240fe3a-16d0-4ec3-a368-bbeb187e173c
+    level: senior-2
+    theme: curiosity-learning
+    summary: |
+      Demonstrates continuous learning and continuous improvement in their own work, and encourages the same as part of the team's work.
+    proficiency: Working knowledge
+
+  - id: bdca30df-4ba5-4b14-b427-12116044c00e
+    level: senior-2
+    theme: leadership
+    summary: |
+      Guides and influences the team through expertise, and balances mentorship with project leadership. Oversees multiple activities and initiatives, ensuring progress and intervening when necessary to keep work on track.
+    proficiency: Foundational
+
+  - id: 6aff7ec2-0b9a-4937-a6a6-4e85afef9a9b
+    level: senior-2
+    theme: technical
+    summary: |
+      1. Makes highly impactful technical contributions of the highest quality and has in-depth knowledge of business critical systems.
+      2. Provides guidance on activities, initiatives and projects to team members.  Ensures team members have what they need to be successful in delivering them.
+      3. Has good comprehension of technologies used and is able to share details of how the team can utilise them for ongoing improvement activities.
+      4. Has ownership of tools and systems owned by the team, ensures they are up to date and secure.
+    proficiency: Expert
+
+  - id: 9de06895-a6c8-4eca-b917-d471240ad2fd
+    level: team-leader
+    theme: planning-organising
+    summary: |
+      Oversees the team's time management and coordination, ensuring the success of initiatives, projects, and ongoing work.
+    proficiency: Working knowledge
+
+  - id: e0f59be7-f4f8-4ca7-ab93-2e99a6cf2abb
+    level: team-leader
+    theme: independent-working
+    summary: |
+      Leads a team independently, takes responsibility for the completion of team activities, initiatives and goals, and focuses on outcomes. Sets clear objectives for team members to drive success.
+    proficiency: Practitioner
+
+  - id: 0b47181f-62c4-45d8-bfab-083963ea8ee1
+    level: team-leader
+    theme: problem-solving-decision-making
+    summary: |
+      Ensures a consistent approach to incident management and troubleshooting. Guides the team in implementing solutions and fixes, reviewing team decisions to ensure alignment with technology standards and strategic goals while helping solve complex issues
+    proficiency: Practitioner
+
+  - id: 04a75b60-2324-4f80-9bb6-2100efe3f2ae
+    level: team-leader
+    theme: business-impact
+    summary: |
+      Leads activities, initiatives and projects to enhance efficiency and drive innovation, impacting team performance. Starts aligning strategies with clear objectives and understanding the organisational vision.
+    proficiency: Working knowledge
+
+  - id: 14d344f0-62ce-45f3-9883-004d0c8ce70f
+    level: team-leader
+    theme: communication
+    summary: |
+      Leads meetings focused on driving results and clarity, listens actively, and adjusts communication styles to engage diverse team members, enhancing motivation through clear messaging.
+
+      Leads significant, high-impact incidents, ensuring timely communication with relevant stakeholders and senior executives.
+    proficiency: Working knowledge
+
+  - id: 2cbc77b5-d9ca-4eeb-9309-be0ba5ce1a6a
+    level: team-leader
+    theme: team-work
+    summary: |
+      Facilitates collaboration and supports team members in achieving their goals, leads communication across divisions, resolving blockers, and ensuring shared credit across teams.
+    proficiency: Working knowledge
+
+  - id: 3d699deb-9e00-4dbe-9443-9fac89f06eef
+    level: team-leader
+    theme: curiosity-learning
+    summary: |
+      Encourages continuous learning and development within the team, staying up to date with industry trends and departmental advancements.
+
+      Proactively seeks opportunities for personal and team growth while fostering a feedback-rich environment. Identifies and organises training as needed.
+    proficiency: Working knowledge
+
+  - id: 0f3d5e29-39fa-4dc6-a7f6-d3a9f85a5b04
+    level: team-leader
+    theme: leadership
+    summary: |
+      Effectively manages individuals and the team, delegating tasks and ensuring alignment with organisational goals. Fosters a supportive environment that encourages risk-taking and boosts motivation. Leads with empathy, promoting diversity and inclusion.
+    proficiency: Working knowledge
+
+  - id: a7754f12-4583-4cda-ba8f-8e9a1d05dcaf
+    level: team-leader
+    theme: technical
+    summary: |
+      1. Leads their team consistently to good technical outcomes, ensures appropriate engineering and operational decisions are made to account for technical debt, systems design, stability, reliability, monitoring, observability, and business needs.
+      2. Continues to contribute to solution delivery in hands-on manner, while investing in design and quality reviews of team members contributions.
+      3. Works to improve quality of solutions, operational excellence, use of tooling and delivery practices within the team.
+    proficiency: Working knowledge
+
+  - id: bffaf216-7c91-4db7-8fe4-45419ce304ca
+    level: head
+    theme: planning-organising
+    summary: |
+      Ensures team activities, initiatives, and projects are well scoped and planned, and estimates are accurately made where applicable. Works with team leadership to set long-term goals, ensuring that work required to achieve business outcomes is delivered efficiently, within available budget and to a high standard.
+    proficiency: Practitioner
+
+  - id: 1b44715b-b85d-44b0-90ba-4f16409f7a89
+    level: head
+    theme: independent-working
+    summary: |
+      Leads team activities, initiatives, and projects autonomously, ensuring team members operate at peak efficiency while driving key initiatives to successful completion.
+    proficiency: Expert
+
+  - id: a782e3b8-4f78-4d49-a418-a5a5f2ecb40a
+    level: head
+    theme: problem-solving-decision-making
+    summary: |
+      Oversees incident management and problem-solving, ensuring actions and decisions align with strategy and available budget. Mentors teams in incident reviews to drive learning and improvement.
+    proficiency: Practitioner
+
+  - id: 7277426b-19af-4782-b990-229fe4d29058
+    level: head
+    theme: business-impact
+    summary: |
+      Leverages their teams' strengths in activities, initiatives and projects that drive significant business outcomes within available budget. Spots opportunities to meet business and technology goals in new or more effective ways, including vendor-supplied products & services. Shares knowledge on business processes to ensure the team understand the impact of incidents on operations.
+    proficiency: Practitioner
+
+  - id: 1b501400-9720-4c09-a01a-56be8cf289c2
+    level: head
+    theme: communication
+    summary: |
+      Role models effective communication, presents teamwork to the business, communicates difficult messages, and uses feedback to drive improvements. Skillfully adapts communication to engage diverse audiences, including stakeholders and vendors.
+
+      Leads major incidents, ensuring clear and timely communication with relevant stakeholders and senior executives.
+    proficiency: Practitioner
+
+  - id: a05c60bb-239f-4286-9dc4-ea2fa218c95a
+    level: head
+    theme: team-work
+    summary: |
+      Inspires teams to collaborate towards common goals, fosters knowledge sharing, and promotes an inclusive culture. Able to troubleshoot conflicts and problems in teams and help to find solutions.
+    proficiency: Expert
+
+  - id: 544e2575-3447-4aa1-a9b0-5ea23696f601
+    level: head
+    theme: curiosity-learning
+    summary: |
+      Role models continuous learning and curiosity by researching, using and sharing learning materials, experimenting with new approaches and solutions to meet team development needs.
+    proficiency: Practitioner
+
+  - id: 15044474-9691-4971-9768-6d21f6c80415
+    level: head
+    theme: leadership
+    summary: |
+      Leads change to shape the technical vision, builds trust and motivation, and mentors team members. Fosters a safe, inclusive environment. Strengthens leadership through mentoring and coaching.
+    proficiency: Expert
+
+  - id: 0a889e2b-4704-4854-903d-fab7cb3abac8
+    level: head
+    theme: technical
+    summary: |
+      1. Oversees the full lifecycle of team activities, ensuring operational excellence and high availability through robust monitoring, incident response processes, and procedures.
+      2. Identifies high-impact areas for improvement, ensuring technical issues are addressed promptly by engaging relevant teams and stakeholders to drive progress.
+      3. Defines the direction and scope of technical initiatives, collaborating with engineers and vendors to ensure successful implementation.
+    proficiency: Practitioner

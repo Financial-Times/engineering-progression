@@ -1,0 +1,407 @@
+name: Global Service Desk
+summary: |
+  Competencies for Global Service Desk at the Financial Times.
+googleSheetId: 1y64dRdUN35rKMqPA8z5b_h0Wy5Dk2lhn3t7bV1gwECU
+
+levels:
+
+  - id: analyst
+    name: Service Desk Analyst
+
+  - id: technician
+    name: Service Desk Technician
+
+  - id: senior-technician
+    name: Senior Service Desk Technician
+
+  - id: manager
+    name: Service Desk Manager
+
+  - id: head
+    name: Head of Global Service Desk
+
+themes:
+
+  - id: planning-organising
+    name: Planning and Organising
+    summary: |
+      Effectively manages activities within the available people, resources and keeps to expected or
+      communicated timelines. Includes contributing to task break-down and estimating.
+
+  - id: independent-working
+    name: Independent Working
+    summary: |
+      Works independently as an individual at each level, showing self-reliance and initiative, and
+      takes responsibility for completing tasks and seeing them through to completion.
+
+  - id: problem-solving-decision-making
+    name: Problem Solving & Decision Making
+    summary: |
+      Makes well-judged and timely decisions, identifies problems, and creates effective solutions.
+
+  - id: business-impact
+    name: Business Impact
+    summary: |
+      Recognises the broader business context and strategically aligns actions to support
+      organisational goals.
+
+  - id: communication
+    name: Communication
+    summary: |
+      Effectively listens, understands, and conveys messages in a way that is appropriate to the
+      audience - including verbal, written, use of diagrammes. Uses a range of techniques to
+      influence and make persuasive arguments. Adopts a patient, empathic style, avoids jargon, and
+      checks for understanding in others.
+
+  - id: team-work
+    name: Team Work
+    summary: |
+      Collaborates effectively across the organisation.
+
+  - id: curiosity-learning
+    name: Curiosity & Learning
+    summary: |
+      Continuously seeks and creates opportunities for learning and growth.
+
+  - id: leadership
+    name: Leadership of Self and Others
+    summary: |
+      Guides oneself and inspires & develops others to achieve common goals. Reflects on their
+      personal growth to identify areas to enhance their performance and for further development.
+
+  - id: technical
+    name: Technical
+    summary: |
+      Demonstrates and shares technical and domain expertise, and develops high-quality, secure and
+      reliable software solutions following industry standards.
+
+competencies:
+
+  - id: 73fd0ead-da49-417c-a538-ea6f6decc8fc
+    level: analyst
+    theme: planning-organising
+    summary: |
+      Aware of how the GSD team works together to resolve customer issues and the best practices they use. Picks up standard issues and resolves them effectively.
+    proficiency: Awareness
+
+  - id: 81730b14-41f4-4ea7-8309-cb7db98e1322
+    level: analyst
+    theme: independent-working
+    summary: |
+      Resolves well defined issues with support from their team. Takes ownership of incidents and asks for assistance when needed.
+    proficiency: Awareness
+
+  - id: 6b9f64a7-3efc-46a3-934f-cdcc6c3afae6
+    level: analyst
+    theme: problem-solving-decision-making
+    summary: |
+      Identifies issues within the team's processes, learning about our use of data to help investigate and resolve them.
+    proficiency: Awareness
+
+  - id: 122159b6-61e4-478c-93e0-9f302dbcd0b8
+    level: analyst
+    theme: business-impact
+    summary: |
+      Understands basic business principles and prioritises tasks to deliver solutions
+    proficiency: Awareness
+
+  - id: 4bf50b8c-67f6-419c-a0c6-2ca71ff48655
+    level: analyst
+    theme: communication
+    summary: |
+      Presents their work clearly and talks about progress concisely in meetings, explaining their approach.
+      Interprets issues from end users and confirms understanding. Breaks down complex technology fixes into clear steps for the end user without relying on technical jargon.
+    proficiency: Awareness
+
+  - id: 051fe2c3-b43b-4b29-aa78-a1f53af46952
+    level: analyst
+    theme: team-work
+    summary: |
+      Seeks guidance and input from peers, actively participates in discussions, and is eager to assist teammates.
+    proficiency: Awareness
+
+  - id: 2fd8ddad-b8c2-4ef7-a797-9208eb463cdc
+    level: analyst
+    theme: curiosity-learning
+    summary: |
+      Builds self-awareness about their strengths and areas for development.
+    proficiency: Awareness
+
+  - id: bea4bb52-253d-4dae-a335-f51051bafba2
+    level: analyst
+    theme: leadership
+    summary: |
+      Demonstrates self-motivation, takes initiative, and uses feedback for continuous improvement.
+    proficiency: Awareness
+
+  - id: 0d86a68f-027e-4588-8d99-875e75c1da37
+    level: analyst
+    theme: technical
+    summary: |
+      1. Writes clear and concise documentation in keeping with our guidelines and conventions. Applies changes and configuration and takes care to test solutions.
+      2. Uses tooling and systems at a basic level, including managing their environment, monitoring, etc
+    proficiency: Foundational
+
+  - id: 18a41d7f-5f64-4f8a-8fe6-6a24f5058ab9
+    level: technician
+    theme: planning-organising
+    summary: |
+      Accurately plans and estimates tasks and ensures they are appropriately sized to deliver services consistently, meeting the expectations of the end user where possible
+    proficiency: Foundational
+
+  - id: 4ab2b99f-b5be-43f9-ad79-9e11fd2195e0
+    level: technician
+    theme: independent-working
+    summary: |
+      Balances independent work with team collaboration and commitments, setting realistic expectations and proactively communicating any obstacles. Proactively fixes recurring issues  and recommends continual service improvements
+    proficiency: Foundational
+
+  - id: fce3f2c3-2a8e-4616-bc3a-ae6d6739aaf8
+    level: technician
+    theme: problem-solving-decision-making
+    summary: |
+      Makes pragmatic decisions and independently resolves complex incidents, ensuring that necessary knowledge and process documentation is updated appropriately.
+    proficiency: Foundational
+
+  - id: fe3b78ce-b87b-4355-b7e0-3c2c05bdf841
+    level: technician
+    theme: business-impact
+    summary: |
+      Recognises and suggests opportunities for process improvements through technology, proactively identifying inefficiencies.
+    proficiency: Awareness
+
+  - id: a1cf4ddb-3e46-4225-8a23-ec0e8bec28d4
+    level: technician
+    theme: communication
+    summary: |
+      Leads technical discussions and meetings while providing clear documentation of processes and decisions.
+    proficiency: Awareness
+
+  - id: 3d9b402a-d6f5-4aa6-ba3a-50bc90a747a3
+    level: technician
+    theme: team-work
+    summary: |
+      Supports team members in achieving their goals, helps overcome obstacles, and shares knowledge to contribute to a positive team environment​. Provides clear, actionable, timely feedback on teammate’s work.
+    proficiency: Foundational
+
+  - id: 5fa759a5-abaa-4a5c-8af4-fa913b4cef6a
+    level: technician
+    theme: curiosity-learning
+    summary: |
+      Takes responsibility for their own development, actively seeks feedback from others to develop learning goals.
+    proficiency: Foundational
+
+  - id: 0d62845d-4f57-44e0-a236-ed48280a8b2e
+    level: technician
+    theme: leadership
+    summary: |
+      Known for their initiative and reliability. Begins to influence peers through positive behavior and collaborative support, contributing to team success.
+    proficiency: Awareness
+
+  - id: dc7b8776-1b1f-432b-8929-d0eabb70b575
+    level: technician
+    theme: technical
+    summary: |
+      1. Writes clear, easy to follow User guides as well as Internal support knowledgebase articles.
+      2. Considers user knowledge and understanding when dealing with customers
+      3. Contributes to troubleshooting and resolving production incidents in their area.
+      4. Knows how to use different diagnostic approaches to resolve basic issues.
+    proficiency: Foundational
+
+  - id: f3e3fed1-9dac-44f6-8d41-bf1a7e63845a
+    level: senior-technician
+    theme: planning-organising
+    summary: |
+      Breaks down large, complex technical problems into manageable tasks. Contributes to accurate estimation of tasks.
+    proficiency: Foundational
+
+  - id: 1e5b3187-81e9-4fea-87d1-5cb24fafbdf2
+    level: senior-technician
+    theme: independent-working
+    summary: |
+      Takes responsibility for initiatives, identifying and solving problems, while ensuring alignment with team goals.
+    proficiency: Working knowledge
+
+  - id: d7505dae-b919-433f-880d-244b86255abc
+    level: senior-technician
+    theme: problem-solving-decision-making
+    summary: |
+      Identifies inefficiencies in existing processes and proposes solutions to improve performance and effectiveness.
+    proficiency: Foundational
+
+  - id: d1a8ecdf-0446-40ce-9410-1b980582e51a
+    level: senior-technician
+    theme: business-impact
+    summary: |
+      Articulates the business value of technical initiatives to stakeholders, bridging the gap between technical teams and business requirements.
+    proficiency: Foundational
+
+  - id: 11e7e17b-abdb-4350-8b32-e12977c25531
+    level: senior-technician
+    theme: communication
+    summary: |
+      Presents clearly to larger internal groups, facilitates productive discussions, and ensures understanding and alignment.
+    proficiency: Foundational
+
+  - id: 9c0e2a41-80f8-4995-918e-b20b4cade625
+    level: senior-technician
+    theme: team-work
+    summary: |
+      Facilitates team collaboration, and engages in cross-functional initiatives. Promotes mutual respect and values diverse perspectives.
+    proficiency: Foundational
+
+  - id: 47eb8ae4-dd2f-4a00-b5d4-ba4b81392402
+    level: senior-technician
+    theme: curiosity-learning
+    summary: |
+      Experiments with new tools, technologies and techniques as part of their professional development activities.
+    proficiency: Foundational
+
+  - id: 2b0d7e9c-df06-4729-9b5c-1f0f25adefc0
+    level: senior-technician
+    theme: leadership
+    summary: |
+      Leads by example, takes ownership of complex tasks, and encourages team members to deliver high quality solutions through feedback.
+    proficiency: Foundational
+
+  - id: 974a55ff-c155-4f41-beb7-6d0545ff1e3d
+    level: senior-technician
+    theme: technical
+    summary: |
+      1. Highly proficient in their technical domain. Writes documentation that peers consider high quality.
+      2. Communicates clearly and effectively with the business and senior members of the P&T teams
+      3. Leads the resolution of incidents. Follows up on actions from incident retrospectives.
+      4. Able to pick up unfamiliar processes, or issues to troubleshoot or review.
+    proficiency: Working knowledge
+
+  - id: b3b7762a-b3f3-40db-875a-8b8f34017843
+    level: manager
+    theme: planning-organising
+    summary: |
+      Oversees the team's time management, priorities and coordination, setting clear objectives. Ensures effective cover across the Global Service Desk and delivery of key service desk outcomes (eg CSI) as well as ongoing work
+    proficiency: Practitioner
+
+  - id: 30052762-6c2d-4191-bf1b-920d5bd144ba
+    level: manager
+    theme: independent-working
+    summary: |
+      Leads the team independently, takes responsibility for the completion of activities, initiatives, and goals, and focuses on outcomes
+    proficiency: Practitioner
+
+  - id: afe140eb-0920-4c82-9ab6-238dacc2a4e7
+    level: manager
+    theme: problem-solving-decision-making
+    summary: |
+      Guides the team in resolving incidents and requests reported to the Service Desk within committed timescales, implementing solutions to improve service levels. Reviews team decisions to ensure alignment with technology standards and team goals while helping solve complex issues.
+    proficiency: Practitioner
+
+  - id: 984248fa-7e1e-487d-b1bf-6051befb837d
+    level: manager
+    theme: business-impact
+    summary: |
+      Identifies opportunities and leads initiatives to enhance efficiency and drive innovation, impacting team performance. Starts aligning strategies with clear objectives and understanding the organisational vision.
+    proficiency: Practitioner
+
+  - id: d37e6378-ee1e-4dc2-aa6e-808c968d0d35
+    level: manager
+    theme: communication
+    summary: |
+      Leads meetings focused on driving results and clarity, listens actively, and adjusts communication styles to engage diverse team members, enhancing motivation through clear messaging.
+
+      Ensures process documentation and knowledge is up to date, optimises processes, monitors and improves performance, and ensures prioritisation of activities
+    proficiency: Working knowledge
+
+  - id: 07a5b102-1e73-4c7d-86eb-175565ac7075
+    level: manager
+    theme: team-work
+    summary: |
+      Facilitates collaboration and supports team members in achieving their goals, leads communication across divisions, resolving blockers, and ensuring shared credit across teams.
+    proficiency: Working knowledge
+
+  - id: 36059041-d837-4d3d-a319-6a8e0130199f
+    level: manager
+    theme: curiosity-learning
+    summary: |
+      Encourages continuous learning and development within the team, staying up-to-date with industry trends, and actively seeking opportunities for personal and team growth, and fosters a feedback-rich environment.
+    proficiency: Working knowledge
+
+  - id: ae51faa4-6a4c-41a9-a448-ca583e40bd7e
+    level: manager
+    theme: leadership
+    summary: |
+      Effectively manages individuals and the team, delegates tasks, and aligns with organisational goals. Fosters a safe space for risk-taking, boosting motivation. Leads with empathy, supporting diversity and inclusion.
+    proficiency: Practitioner
+
+  - id: 86428301-e061-4c64-9d97-e35c583767ac
+    level: manager
+    theme: technical
+    summary: |
+      1. Leads their team consistently to good outcomes, ensures appropriate decisions are made to account for technical debt, service improvement, stability, reliability, monitoring, observability, and business needs.
+      2. Continues to contribute to solution delivery in hands-on manner, while investing in design and quality reviews of team members contributions.
+      3. Works to improve quality of services, operational excellence, use of tooling and delivery practices within the team.
+    proficiency: Practitioner
+
+  - id: 30249dc9-58a4-413b-8aee-edcbad2f1484
+    level: head
+    theme: planning-organising
+    summary: |
+      Ensures their team's activities are well scoped and planned, and estimates are accurately made. Works with team leadership to set long-term goals, ensuring that technical work required to achieve business outcomes is delivered efficiently, within available budget and to a high standard.
+    proficiency: Practitioner
+
+  - id: afca86f4-f911-4400-bd82-3960f5f014da
+    level: head
+    theme: independent-working
+    summary: |
+      Leads teams autonomously, ensuring that team members operate at peak efficiency while driving key initiatives to successful completion.
+    proficiency: Expert
+
+  - id: dcc27bd7-50cd-4fca-9d1d-32be224af69e
+    level: head
+    theme: problem-solving-decision-making
+    summary: |
+      Overseas Service Desk incident & request management and problem-solving across all Service Desk activities to drive greater maturity and effectiveness. Ensures decisions align with strategy and available budget, and mentors teams in decision-making.
+    proficiency: Practitioner
+
+  - id: 718ca6ec-39cd-470d-b325-e25779a15d7e
+    level: head
+    theme: business-impact
+    summary: |
+      Leverages their teams' strengths in all Service Desk deliverables that drive significant business outcomes within available budget. Spots opportunities to meet business and technology goals in new or more effective ways, drives and owns continual service improvement efforts, including vendor-supplied products & services.
+    proficiency: Practitioner
+
+  - id: c7cafcff-42a4-4c91-8b7a-684bf94716af
+    level: head
+    theme: communication
+    summary: |
+      Role models effective communication, presents teamwork to the business, communicates difficult messages, and uses feedback to drive improvements. Skillfully adapts communication to engage diverse audiences, including stakeholders and vendors.
+    proficiency: Practitioner
+
+  - id: 2fc8674f-85f3-448d-9780-de72089df017
+    level: head
+    theme: team-work
+    summary: |
+      Inspires teams to collaborate towards common goals, fosters knowledge sharing, and promotes an inclusive culture. Able to troubleshoot conflicts and problems in teams and help to find solutions.
+    proficiency: Expert
+
+  - id: d15a0704-d6d0-4362-8374-ed2ef05b2aa8
+    level: head
+    theme: curiosity-learning
+    summary: |
+      Role models continuous learning and curiosity by researching, using and sharing learning materials, experimenting with new approaches and solutions to meet team development needs.
+    proficiency: Practitioner
+
+  - id: 21bd4f31-8cee-4889-923c-677f8b9e6da6
+    level: head
+    theme: leadership
+    summary: |
+      Leads change to shape the technical vision, builds trust and motivation, and mentors team members. Fosters a safe, inclusive environment. Strengthens leadership through mentoring and coaching.
+    proficiency: Expert
+
+  - id: 4216030e-a803-4344-855e-46962412aa23
+    level: head
+    theme: technical
+    summary: |
+      1. Provides operational oversight of the full lifecycle of the team's products and services, ensuring operational excellence and high availability through robust monitoring and incident response.
+      2. Identifies high-impact areas for improvement and ensures technical issues are addressed promptly, engaging with relevant teams and stakeholders to drive progress.
+      3. Sets the direction and scope of technical initiatives, collaborating with peers and vendors on their implementation.
+    proficiency: Practitioner
