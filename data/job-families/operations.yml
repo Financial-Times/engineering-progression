@@ -6,22 +6,22 @@ googleSheetId: 16IMDS3bbdEBRhwV1AQlGa6tjRvKScwOrI_o-cQTAhb4
 levels:
 
   - id: junior
-    name: Operations Support Associate (Manila) / Junior Systems Engineer (UK)
+    name: Junior Engineer
 
   - id: engineer
-    name: Operations Support Analyst (Manila) / Systems Engineer (UK)
+    name: Engineer
 
   - id: senior-1
-    name: Senior Operations Support Analyst (Manila) / Senior Systems Engineer 1 (UK)
+    name: Senior Engineer 1
 
   - id: senior-2
-    name: Senior Operations Support Analyst 2 (Manila) / Senior Systems Engineer 2 (UK)
+    name: Senior Engineer 2 (Individual Contributor)
 
   - id: team-leader
-    name: Operations Support Manager (Manila) / Operations Support Team Leader (UK)
+    name: Team Leader (People Manager)
 
   - id: head
-    name: Head of Operations Support
+    name: Head of Operations
 
 themes:
 
