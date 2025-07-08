@@ -17,8 +17,16 @@ Engineers at early stages are Individual Contributors (hands-on), and later have
 
 ## Global Service Desk
 
-TODO.
+In the Global Service Desk - interviews are required to progress from individual contributor roles, into people manager / roles, however - progression from Analyst to Technician can be completed through promotion board or by interview.
+
+![A diagram showing the different progression paths in Global Service Desk](/media/service-desk-roles.png)
 
 ## Operations
 
-TODO.
+In Operations Interviews are required to progress to all People Manager roles. Roles are created through business need, and have a specific place in team structure.
+
+Progression to all other roles can be through promotions process or interview, as we do today.
+
+![A diagram showing the different progression paths in Operations](/media/operations-roles.png)
+
+_Note: in Workday, positions are used rather than job titles, with regional differences between the UK and Philippines_.
