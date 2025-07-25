@@ -221,7 +221,7 @@ competencies:
     theme: planning-organising
     summary: |
       Breaks down complex technical requests / issues into manageable tasks. Contributes accurate estimation, planning and progress tracking.
-    proficiency: Foundational
+    proficiency: Working knowledge
 
   - id: d06905da-f3a4-4fe0-8e1a-114b76564345
     level: senior-1
@@ -242,7 +242,7 @@ competencies:
     theme: business-impact
     summary: |
       Has a very good knowledge of FT business areas and a deep understanding of the critical systems used, the impact of incidents and possible mitigations
-    proficiency: Foundational
+    proficiency: Working knowledge
 
   - id: d9977b1a-8819-456c-bfa7-3cbac72ddd82
     level: senior-1
@@ -316,7 +316,7 @@ competencies:
     theme: business-impact
     summary: |
       Has an excellent understanding of the FT's business areas and a very good technological insight into the critical systems used. Suggest opportunities to optimise the use of people, processes, resources, and tools (e.g., funds, technology) and improve efficiency
-    proficiency: Foundational
+    proficiency: Working knowledge
 
   - id: f9e58449-83df-441b-b3ea-51b39b1277d9
     level: senior-2
@@ -356,7 +356,7 @@ competencies:
       2. Provides guidance on activities, initiatives and projects to team members.  Ensures team members have what they need to be successful in delivering them.
       3. Has good comprehension of technologies used and is able to share details of how the team can utilise them for ongoing improvement activities.
       4. Has ownership of tools and systems owned by the team, ensures they are up to date and secure.
-    proficiency: Expert
+    proficiency: Practitioner
 
   - id: 9de06895-a6c8-4eca-b917-d471240ad2fd
     level: team-manager
@@ -425,7 +425,7 @@ competencies:
       1. Leads their team consistently to good technical outcomes, ensures appropriate engineering and operational decisions are made to account for technical debt, systems design, stability, reliability, monitoring, observability, and business needs.
       2. Continues to contribute to solution delivery in hands-on manner, while investing in design and quality reviews of team members contributions.
       3. Works to improve quality of solutions, operational excellence, use of tooling and delivery practices within the team.
-    proficiency: Working knowledge
+    proficiency: Practitioner
 
   - id: bffaf216-7c91-4db7-8fe4-45419ce304ca
     level: head
