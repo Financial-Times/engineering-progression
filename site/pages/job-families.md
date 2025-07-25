@@ -29,4 +29,4 @@ Progression to all other roles can be through promotions process or interview, a
 
 ![A diagram showing the different progression paths in Operations](/media/operations-roles.png)
 
-_Note: in Workday, positions are used rather than job titles, with regional differences between the UK and Philippines_.
+_Note: Workday positions are used rather than job titles with regional differences in the name of roles between the UK and Philippines. As an example, In the UK an Engineer is called a Systems Engineer whereas in the Philippines its an Ops Support Analyst._
