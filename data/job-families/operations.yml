@@ -17,8 +17,8 @@ levels:
   - id: senior-2
     name: Senior Engineer 2 (Individual Contributor)
 
-  - id: team-leader
-    name: Team Leader (People Manager)
+  - id: team-manager
+    name: Team Manager (People Manager)
 
   - id: head
     name: Head of Operations
@@ -359,35 +359,35 @@ competencies:
     proficiency: Expert
 
   - id: 9de06895-a6c8-4eca-b917-d471240ad2fd
-    level: team-leader
+    level: team-manager
     theme: planning-organising
     summary: |
       Oversees the team's time management and coordination, ensuring the success of initiatives, projects, and ongoing work.
     proficiency: Working knowledge
 
   - id: e0f59be7-f4f8-4ca7-ab93-2e99a6cf2abb
-    level: team-leader
+    level: team-manager
     theme: independent-working
     summary: |
       Leads a team independently, takes responsibility for the completion of team activities, initiatives and goals, and focuses on outcomes. Sets clear objectives for team members to drive success.
     proficiency: Practitioner
 
   - id: 0b47181f-62c4-45d8-bfab-083963ea8ee1
-    level: team-leader
+    level: team-manager
     theme: problem-solving-decision-making
     summary: |
       Ensures a consistent approach to incident management and troubleshooting. Guides the team in implementing solutions and fixes, reviewing team decisions to ensure alignment with technology standards and strategic goals while helping solve complex issues
     proficiency: Practitioner
 
   - id: 04a75b60-2324-4f80-9bb6-2100efe3f2ae
-    level: team-leader
+    level: team-manager
     theme: business-impact
     summary: |
       Leads activities, initiatives and projects to enhance efficiency and drive innovation, impacting team performance. Starts aligning strategies with clear objectives and understanding the organisational vision.
     proficiency: Working knowledge
 
   - id: 14d344f0-62ce-45f3-9883-004d0c8ce70f
-    level: team-leader
+    level: team-manager
     theme: communication
     summary: |
       Leads meetings focused on driving results and clarity, listens actively, and adjusts communication styles to engage diverse team members, enhancing motivation through clear messaging.
@@ -396,14 +396,14 @@ competencies:
     proficiency: Working knowledge
 
   - id: 2cbc77b5-d9ca-4eeb-9309-be0ba5ce1a6a
-    level: team-leader
+    level: team-manager
     theme: team-work
     summary: |
       Facilitates collaboration and supports team members in achieving their goals, leads communication across divisions, resolving blockers, and ensuring shared credit across teams.
     proficiency: Working knowledge
 
   - id: 3d699deb-9e00-4dbe-9443-9fac89f06eef
-    level: team-leader
+    level: team-manager
     theme: curiosity-learning
     summary: |
       Encourages continuous learning and development within the team, staying up to date with industry trends and departmental advancements.
@@ -412,14 +412,14 @@ competencies:
     proficiency: Working knowledge
 
   - id: 0f3d5e29-39fa-4dc6-a7f6-d3a9f85a5b04
-    level: team-leader
+    level: team-manager
     theme: leadership
     summary: |
       Effectively manages individuals and the team, delegating tasks and ensuring alignment with organisational goals. Fosters a supportive environment that encourages risk-taking and boosts motivation. Leads with empathy, promoting diversity and inclusion.
     proficiency: Working knowledge
 
   - id: a7754f12-4583-4cda-ba8f-8e9a1d05dcaf
-    level: team-leader
+    level: team-manager
     theme: technical
     summary: |
       1. Leads their team consistently to good technical outcomes, ensures appropriate engineering and operational decisions are made to account for technical debt, systems design, stability, reliability, monitoring, observability, and business needs.
