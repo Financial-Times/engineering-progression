@@ -41,7 +41,7 @@ Proficiency levels we use are: 
 
 Each competency has a description or definition. 
 
-**Planning & organising:** Effectively manages activities within the available people, resources and keeps to expected or communicated timelines. Includes contributing to task break-down and estimating.
+**Planning & organising:** Manages activities effectively with the available people and resources, keeping to expected or communicated timelines. Participates in breaking down tasks and estimating effort.
 
 **Independent working:** Works independently as an individual at each level, showing self-reliance and initiative, and takes responsibility for completing tasks and seeing them through to completion.
 
