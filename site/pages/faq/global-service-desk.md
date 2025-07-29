@@ -11,11 +11,7 @@ Progression within Individual contributor roles can be achieved through the prom
 
 ## What does the progression look like beyond the GSD team?
 
-There are many examples where GSD employees have successfully moved to other departments in P&T such as Internal Products and Collaboration Tooling. Therefore, depending on your career aspirations, support can be provided with development, and are dependent upon a successful interview process.
-
-## Why is there no senior 2 role within the GSD team?
-
-The senior 2 role in the GSD was removed a number of years ago, opting to move responsibility to the senior role in the GSD. Progression to Senior 2 is through pathways in other groups within the I&O family and the broader P&T teams.
+There are many examples where GSD employees have successfully moved to other departments or teams in P&T such as Internal Products and Collaboration Tooling. Therefore, depending on your career aspirations, support can be provided with development, and are dependent upon a successful interview process.
 
 ## What happens when I have reached the top of my individual contributor pathway?
 
