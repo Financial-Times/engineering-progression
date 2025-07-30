@@ -9,6 +9,14 @@ layout: o-layout-docs
 
 Progression within Individual contributor roles can be achieved through the promotion process. Those choosing to pursue a People Manager role must demonstrate the competences and experience necessary, and complete a successful interview when a specific business need/role is available.
 
+## What does _Individual Contributor_ mean?
+
+In FT Technology, an Individual Contributor is someone who doesn’t manage any other staff, and contributes as an engineer to teams, projects, and other initiatives. The distinction being made is the difference between someone who is a contributor to a team vs. someone who is a manager of a team, a People Manager.
+
+## What does _People manager_ mean?
+
+In FT Technology, People Manager is someone who manages and develops staff and has the responsibility of managing how the team operates.
+
 ## What does the progression look like beyond the GSD team?
 
 There are many examples where GSD employees have successfully moved to other departments or teams in P&T such as Internal Products and Collaboration Tooling. Therefore, depending on your career aspirations, support can be provided with development, and are dependent upon a successful interview process.
@@ -27,17 +35,9 @@ It’s important that you continue to have conversations with your manager about
 
 When roles come up, you are free to apply, and actively encouraged to - as this brings experience of the types of things that an interviewer is looking for and valuable experience in interview technique as well as feedback on how you performed.
 
-## What does the Individual contributor role mean?
-
-In FT Technology, an Individual Contributor is someone who doesn’t manage any other staff, and contributes as an engineer to teams, projects, and other initiatives. The distinction being made is the difference between someone who is a contributor to a team vs. someone who is a manager of a team, a People Manager.
-
 ## Does this change what I do day to day?
 
 No, the changes to the competencies do not change your day to day work. They are designed to improve clarity for people and to define the pathway within the GSD.
-
-## What does People manager mean?
-
-In FT Technology, People Manager is someone who manages and develops staff and has the responsibility of managing how the team operates.
 
 ## I think I have all the competencies for the next level - can I be promoted now?
 
