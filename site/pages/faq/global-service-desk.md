@@ -55,10 +55,10 @@ The new competencies are live now - feel free to review and feedback any questio
 
 We expect People Managers to use the updated competencies to give feedback to employees, set new development objectives and manage performance. Employees should refer to the progression framework when evaluating their own progress, and we hope the language used is helpful for everyone to better describe performance, behaviours and the impact on business outcomes and teams.
 
-## How can I provide feedback about the competency framework?
-
-Please speak with your own manager, any Tech Director or Rebecca if you have questions - or suggestions to improve - the competencies or any materials we’re using to communicate them. You can also use [GitHub issues](https://github.com/Financial-Times/engineering-progression/issues) (remember these are public) or the <a href="{{site.data.contact.slack.url}}" class="o-typography-link--external">#{{site.data.contact.slack.name}}</a> slack channel.
-
 ## Will this make it easier to get a promotion?
 
 No. This change creates more choice for career planning, and makes it clearer what is required to progress. Promotions remain constrained by the shape of our teams (business need) and available budget.
+
+## How can I provide feedback about the competency framework?
+
+Please speak with your own manager, any Tech Director or Rebecca if you have questions - or suggestions to improve - the competencies or any materials we’re using to communicate them. You can also use [GitHub issues](https://github.com/Financial-Times/engineering-progression/issues) (remember these are public) or the <a href="{{site.data.contact.slack.url}}" class="o-typography-link--external">#{{site.data.contact.slack.name}}</a> slack channel.
