@@ -21,6 +21,10 @@ In FT Technology, People Manager is someone who manages and develops staff and h
 
 These changes just clarify what is expected of you in your role. The new competencies are designed to help you form objectives and a professional development plan, together with your manager. There are no changes to terms and conditions, or your assignments, _unless your manager has already discussed this with you_.
 
+## I work as part of a shift rota - does that change as a result of being an Individual Contributor?
+
+Your responsibilities to the rota and the team remain unchanged, being an an Individual Contributor just means that you do not line manage people. As stated above, all other aspects to your role are the same as before.
+
 ## When does this change take effect, and what happens now as a result?
 
 The new competencies are live now - feel free to review and feedback any questions or comments with your People Manager.
