@@ -49,7 +49,7 @@ Each competency has a description or definition. 
 
 **Business impact:** Recognises the broader business context and strategically aligns actions to support organisational goals.
 
-**Communication:** Effectively listens, understands, and conveys messages in a way that is appropriate to the audience - including verbal, written, use of diagrammes. Uses a range of techniques to influence and make persuasive arguments. Adopts a patient, empathic style, avoids jargon, and checks for understanding in others. 
+**Communication:** Effectively listens, understands, and conveys messages in a way that is appropriate to the audience - including verbal, written, use of diagrams. Uses a range of techniques to influence and make persuasive arguments. Adopts a patient, empathic style, avoids jargon, and checks for understanding in others. 
 
 **Team work:** Collaborates effectively across the organisation.
 
